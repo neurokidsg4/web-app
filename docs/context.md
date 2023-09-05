@@ -11,11 +11,23 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Um estudo realizado pelo Instituto de Psiquiatria (IPq) da Faculdade de Medicina da USP (FMUSP), pela Universidade Federal de São Paulo (Unifesp) e pela Universidade Federal do Rio Grande do Sul (UFRGS) constatou que, de um total de 2.511 crianças, 80% daquelas que possuem algum transtorno mental (ansiedade, fobias, déficit de atenção, hiperatividade, esquizofrenia, etc.) não recebem nenhum tipo de tratamento médico ou psicológico. Isso é algo preocupante pelo fato de que a falta de tratamento na infância comete no agravamento dos sintomas na vida adulta, como cita o estudo. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A falta de informação sobre o assunto por parte da família, a falta de preparo dos professores ou da instituição de ensino muitas vezes dificulta na identificação de algum transtorno ainda na infância. As crianças, por si só não possuem qualquer tipo de autonomia, o que implica na necessidade dos pais terem acesso a informações e recursos para auxilia-los, tanto na identificação  como no tratamento.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Além disso, o uso de palavras consideradas capacitistas é um desafio que persiste no século 21, promovendo o preconceito, exclusão e falta de informação sobre pessoas neurodivergentes nos mais variados ambientes, minando os seus direitos e dignidade. O termo "idiotismo", categoria criada por Pinel, um médico reconhecido no campo da psiquiatria, surgiu no século XIX a partir da nosologia aplicada nas instituições psiquiátricas no século XVIII, onde médicos buscavam classificar em "quadros de doenças" crianças que estavam internadas em hospitais e instituições psiquiátricas de longa permanência.
+
+Essa descrição enquadrada para o termo "idiotismo" pelo autor Esquirol, sucessor de Pinel, considerava que os "idiotas" eram pessoas com incapacidade de adquirir novos conhecimentos por meio da educação formal. No entanto, à medida que avançamos no conhecimento sobre neurodiversidade e inclusão, torna-se evidente que essas definições antigas são inadequadas e prejudiciais. A evolução dos estudos sobre neurodiversidade e a conscientização crescente estão revelando a necessidade de abandonar esses termos capacitistas e adotar uma linguagem mais respeitosa e inclusiva, que valorize a diversidade de habilidades e experiências das pessoas.
+
+Com o avanço da tecnologia, dos estudos e pesquisas voltados ao conhecimento de transtornos mentais, bem como na área da educação tem se tornado cada vez mais claro, que não só é possível, mas um dever, proporcionar formas diferentes de ensino para pessoas que encontram dificuldades de aprendizagem por algum fator neuro-diverso.
+
+ Além disso, temos visto a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: 
+
+“Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” (referência)
+
+https://www.editorarealize.com.br/editora/ebooks/conedu/2021/ebook2/TRABALHO_EV150_MD7_SA100_ID4942_14102021072507.pdf 
+
+O TEA (transtorno do espectro autista) é um exemplo de como a pesquisa e a informação sobre o assunto ajudam a transformar o processo de aprendizagem. Apesar de ainda não ser suficiente, o conhecimento sobre o autismo está mais avançado do que muitos outros transtornos mentais e por consequência disso vemos uma melhora na inserção de crianças com autismo nos mais variados espaços do que muitos outros transtornos. Esse avanço deve continuar e ser ampliado para os mais diversos transtornos mentais e para isto as pesquisas e estudos sobre o assunto devem ser estimuladas, assim como meios de propagar informações para que cheguem a aqueles que lidam diariamente com essas crianças.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
