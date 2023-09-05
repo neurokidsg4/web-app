@@ -11,11 +11,13 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento(https://exame.com/esg/preconceito-e-falta-de-reconhecimento-sao-os-maiores-desafios-da-neurodiversidade-diz-pesquisa/), o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Em função disso, em Brasília, 17 de julho de 2023, foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato (https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14624.htm).
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Porém, mais do que identificar é preciso se fazer entender as particularidades de cada pessoa, afim de diminuir os ruidos de comunicação e socialização entre os indivíduos que compõe nossa sociedade.
+
+Muitas crianças neurodiversas possuem certas dificuldades para se comunicarem, relatar problemas e se desenvolverem no que tange a sociabilidade.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
