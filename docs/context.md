@@ -41,6 +41,12 @@ Porém, mais do que identificar é preciso se fazer entender as particularidades
 
 Muitas crianças neurodiversas possuem certas dificuldades para se comunicarem, relatar problemas e se desenvolverem no que tange a sociabilidade.
 
+É pretendido oportunizar o desenvolvimento de indivíduos neurodivergentes, de forma que o seu modo “ser” seja valorizado e as suas potencialidades sejam contempladas. Ressaltando a importância de os profissionais da educação conhecerem sobre os princípios e os alicerces que sustentam a neurodiversidade, tendo em vista que a ausência dessas informações poderá acarretar na continuidade de práticas excludentes.
+
+Esta aplicação web tem o propósito de auxiliar crianças com transtorno do espectro autista (TEA), transtorno de déficit de atenção com hiperatividade (TDAH) e altas habilidades e superdotação (AH/SD) dos 7 aos 13 anos de idade em seu desenvolvimento de habilidades sociais; proporcionando atividades e informações para estimular seu aprendizado e desenvolvimento. Isso, além de concientizar a sociedade, e, principalmente, profissionais que trabalham na educação e famílias de pessoas neurodivergentes.
+
+Esta solução é, também, para quem suspeita de possuir algum dos transtornos citados, e oferecer uma base para a procura de um especialista na área para determinar tal diagnóstico.
+
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
