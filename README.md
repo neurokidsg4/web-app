@@ -11,7 +11,7 @@
 * Martha Beatriz Siqueira da Silva
 * Amanda da Silva Prates
 * Gustavo da Silva Novaes
-* Nome completo do aluno 4
+* Pedro Lopes Rodrigues
 * Nome completo do aluno 5
 
 ## Orientador
