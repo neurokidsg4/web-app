@@ -4,15 +4,13 @@
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
-`SEMESTRE: 1º`
-
-sxcsafdsafadfasdfas
+`SEMESTRE: 2º`
 
 ## Integrantes
 
 * Martha Beatriz Siqueira da Silva
 * Amanda da Silva Prates
-* Nome completo do aluno 3
+* Gustavo da Silva Novaes
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
