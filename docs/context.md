@@ -33,9 +33,17 @@ O TEA (transtorno do espectro autista) é um exemplo de como a pesquisa e a info
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+# Objetivo Geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo geral deste projeto é desenvolver uma aplicação web educacional que promova a conscientização e ofereça atividades interativas para crianças com idades entre 7 e 13 anos afetadas por Transtorno de Déficit de Atenção e Hiperatividade (TDAH), Transtorno do Espectro Autista (TEA) e Altas Habilidades e Superdotação (AH/SD). Esta aplicação visa fornecer recursos inclusivos e adaptáveis para atender às necessidades únicas dessas crianças, facilitando a aprendizagem, o desenvolvimento de habilidades sociais e emocionais, e oferecendo suporte em seu cotidiano.
+
+# Objetivos Específicos
+
+- Desenvolver atividades interativas que estimulem a concentração e o foco das crianças com TDAH, fornecendo feedback positivo para reforçar comportamentos desejados.
+- Criar conteúdo educacional personalizado que se adapte ao nível de desenvolvimento e preferencias de aprendizagem das crianças com TEA, promovendo a aquisição de habilidades cognitivas, sociais e emocionais.
+- Oferecer desafios e atividades que estimulem o pensamento criativo e o desenvolvimento de talentos específicos das crianças com AH/SD, incentivando a exploração de áreas de interesse.
+- Integrar recursos de acessibilidade, como interface amigável, para garantir que a aplicação seja acessível a crianças com diferentes necessidades.
+- Obter feedback de pais e crianças para aprimorar continuamente a aplicação e garantir sua eficácia na promoção do desenvolvimento e bem-estar das crianças neurodivergentes.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
