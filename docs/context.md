@@ -20,11 +20,25 @@ Com o avanço da tecnologia, dos estudos e pesquisas voltados ao conhecimento de
 
  Além disso, temos visto a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: 
 
-“Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” (referência)
-
-https://www.editorarealize.com.br/editora/ebooks/conedu/2021/ebook2/TRABALHO_EV150_MD7_SA100_ID4942_14102021072507.pdf 
+“Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” (ALENCAR; BARBOSA; GOMES, 2021, p. 2128)
 
 O TEA (transtorno do espectro autista) é um exemplo de como a pesquisa e a informação sobre o assunto ajudam a transformar o processo de aprendizagem. Apesar de ainda não ser suficiente, o conhecimento sobre o autismo está mais avançado do que muitos outros transtornos mentais e por consequência disso vemos uma melhora na inserção de crianças com autismo nos mais variados espaços do que muitos outros transtornos. Esse avanço deve continuar e ser ampliado para os mais diversos transtornos mentais e para isto as pesquisas e estudos sobre o assunto devem ser estimuladas, assim como meios de propagar informações para que cheguem a aqueles que lidam diariamente com essas crianças.
+
+O transtorno do déficit de atenção e/ou hiperatividade (TDAH) é "uma doença de alta prevalência em crianças em idade escolar. Erroneamente entendido anteriormente como um diagnóstico de baixa morbidade, o TDAH é reconhecido atualmente como uma condição importante, não só pelo forte impacto funcional e social como também pela alta prevalência de comorbidades psiquiátricas. Diversos estudos comprovam que mais de 50% dos pacientes mantêm sintomas na vida adulta, com significativo comprometimento na vida social, acadêmica, laborativa e familiar". (SOUZA; SERRA-PINHEIRO; PINNA, 2007, P. 10)
+
+Já as Altas Habilidades/Superdotação (AH/SD) caracteriza-se pela elevada potencialidade de aptidões, talentos e habilidades, evidenciada no alto desempenho nas diversas áreas das atividades humanas incluindo as acadêmicas, demonstradas desde a infância. Tais áreas incluem, entre outras, as áreas intelectual, acadêmica, liderança, psicomotricidade e artes (Política Nacional de Educação Especial na Perspectiva da Educação Inclusiva [PNEEPEI], 2008; Lei nº 12.796, de 4 de abril de 2013).
+
+No entanto, Oliveira, Capellini e Rodrigues (2021, p. 125) apontam que, especialmente aqueles com habilidades extremas, apresentam maior vulnerabilidade a problemas emocionais e sociais e maiores riscos para a depressão, ansiedade e suicídio. O desenvolvimento de suas habilidades, a qualidade de vida, o seu sucesso ou sua autorrealização dependem, portanto, de um conjunto complexo de variáveis individuais e ambientais. Por isso, uma intervenção focada nessa área pode ajudar a prevenir ou diminuir esses déficits e desajustamentos e o ideal é que isso seja feito o mais cedo possível.
+
+Diante desses desafios expostos, o desenvolvimento de uma aplicação web voltada para informação e conscientização sobre transtornos neurodivergentes, bem como para oferecer atividades de estimulação cognitiva personalizadas, surge como uma opção oportuna para abordar esses problemas. Essa aplicação pode servir como uma ferramenta abrangente para educadores, pais, cuidadores e crianças, promovendo a inclusão, o conhecimento e o desenvolvimento saudável de as crianças que estejam no espectro dessas neurodivergências.
+
+Referências
+
+ALENCAR, Helenira Fonseca de; BARBOSA, Heloisa Fonseca; GOMES, Robéria Vieira Barreto Gomes. Neurodiversidade: aspectos históricos, conceituais e impactos na educação escolar. 2021. Disponível em: https://www.editorarealize.com.br/editora/ebooks/conedu/2021/ebook2/TRABALHO_EV150_MD7_SA100_ID4942_14102021072507.pdf. Acesso em 06 de set de 2023.
+
+SOUZA, Isabella G. S. de; SERRA-PINHEIRO, Maria Antônia; PINNA, Camila. Dificuldades no diagnóstico de TDAH em crianças. 2007. Disponível em: https://www.scielo.br/j/jbpsiq/a/gZfTLG7hch4wThFw556Kz8s/?format=pdf&lang=pt. Acesso em 06 de set de 2023.
+
+OLIVEIRA, Ana Paula de; CAPELLINI, Vera Lucia Messias Fialho; RODRIGUES, Olga Maria Piazentin Rolim. Altas Habilidades/Superdotação: Intervenção em Habilidades Sociais com Estudantes, Pais/Responsáveis e Professoras. 2020. Disponível em: https://www.scielo.br/j/rbee/a/LX78WqRVjrHLNfPfMJ6fKCS/?lang=pt#. Acesso em 06 de set de 2023.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
