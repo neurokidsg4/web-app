@@ -1,13 +1,10 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+No contexto atual, onde a tecnologia desempenha um papel cada vez mais significativo em nossa sociedade, é importante reconhecer a necessidade de promover a inclusão e o bem-estar de crianças, que estejam em algum espectro neurodivergente. Os transtornos do espectro do autismo (TEA), o transtorno de déficit de atenção e hiperatividade (TDAH) e as altas habilidades/superdotação são realidades que afetam muitas crianças em todo o mundo. No entanto, a conscientização e os recursos adequados para lidar com essas condições ainda estão muito aquém do necessário.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Neste cenário, apresentamos o projeto de uma aplicação web, cujo propósito é abordar essa lacuna crítica. Esta aplicação busca fornecer informações precisas e confiáveis sobre os transtornos neurodivergentes, bem como oferecer atividades de estimulação cognitiva personalizadas para o desenvolvimento cognitivo de crianças que enfrentam esses desafios. Mais do que uma simples ferramenta, este projeto representa um compromisso com a inclusão e o apoio às famílias e comunidades que lidam diariamente com esses transtornos.
 
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Nossa iniciativa se baseia na compreensão de que a falta de conscientização, recursos adequados e uma abordagem personalizada são obstáculos significativos para o desenvolvimento e o bem estar dessas crianças. Além disso, enxergamos a necessidade de um ambiente digital que não apenas informe, mas também promova a compreensão e a aceitação em nossa sociedade. O potencial impacto positivo dessa aplicação é vasto, afetando não apenas as vidas das crianças neurodivergentes, mas também suas famílias, educadores e a sociedade como um todo. Portanto, a seguir, apresentaremos em detalhes o problema, os objetivos gerais e específicos desse projeto, a justificativa e seu público alvo, destacando sua importância dentro deste contexto amplo e relevante.
 
 ## Problema
 
