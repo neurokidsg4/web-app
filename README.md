@@ -11,14 +11,14 @@ sxcsafdsafadfasdfas
 ## Integrantes
 
 * Martha Beatriz Siqueira da Silva
-* Nome completo do aluno 2
+* Amanda da Silva Prates
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 # Planejamento
 
