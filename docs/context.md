@@ -74,9 +74,9 @@ O objetivo geral deste projeto é desenvolver uma aplicação web educacional qu
 
 ## Justificativa
 
-Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento(https://exame.com/esg/preconceito-e-falta-de-reconhecimento-sao-os-maiores-desafios-da-neurodiversidade-diz-pesquisa/), o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
+Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento [1], o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
 
-Em função disso, em Brasília, 17 de julho de 2023, foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato (https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14624.htm).
+Em função disso, em Brasília, 17 de julho de 2023, foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato [2].
 
 Porém, mais do que identificar é preciso se fazer entender as particularidades de cada pessoa, afim de diminuir os ruidos de comunicação e socialização entre os indivíduos que compõe nossa sociedade.
 
@@ -84,7 +84,7 @@ Muitas crianças neurodiversas possuem certas dificuldades para se comunicarem, 
 
 Com o avanço da tecnologia, dos estudos e pesquisas voltados ao conhecimento de transtornos mentais, bem como na área da educação, tem se tornado cada vez mais claro que não só é possível, mas um dever, proporcionar formas diferentes de ensino para pessoas que encontram dificuldades de aprendizagem por algum fator neurodiverso. É pretendido oportunizar o desenvolvimento de indivíduos neurodivergentes, de forma que o seu modo “ser” seja valorizado e as suas potencialidades sejam contempladas. Ressaltando a importância de os profissionais da educação conhecerem sobre os princípios e os alicerces que sustentam a neurodiversidade, tendo em vista que a ausência dessas informações poderá acarretar na continuidade de práticas excludentes.
 
-Além disso, temos visto a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: “Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” (ALENCAR; BARBOSA; GOMES, 2021, p. 2128).
+Além disso, temos visto a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: “Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” [3].
 
 Esta aplicação web tem o propósito de auxiliar crianças com transtornos mentais dos 7 aos 13 anos de idade em seu desenvolvimento de habilidades sociais; proporcionando atividades e informações para estimular seu aprendizado e desenvolvimento. Isso, além de concientizar a sociedade, e, principalmente, profissionais que trabalham na educação e famílias de pessoas neurodivergentes.
 
