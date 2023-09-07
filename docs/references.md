@@ -5,15 +5,11 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvo
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/referencias/)
 
-Exemplos de referências bibliográficas:
+Referências:
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1]** - (https://exame.com/esg/preconceito-e-falta-de-reconhecimento-sao-os-maiores-desafios-da-neurodiversidade-diz-pesquisa/).
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+**[2]** - (https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14624.htm).
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+**[3]** - (ALENCAR; BARBOSA; GOMES, 2021, p. 2128).
 
