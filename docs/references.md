@@ -13,3 +13,9 @@ Referências:
 
 **[3]** - ALENCAR, Helenira Fonseca de; BARBOSA, Heloisa Fonseca; GOMES, Robéria Vieira Barreto Gomes. Neurodiversidade: aspectos históricos, conceituais e impactos na educação escolar. 2021. Disponível em: https://www.editorarealize.com.br/editora/ebooks/conedu/2021/ebook2/TRABALHO_EV150_MD7_SA100_ID4942_14102021072507.pdf.
 
+> **[4]**:
+> - [Da concepção de deficiência ao enfoque da neurodiversidade](https://seer.facmais.edu.br/rc/index.php/RCE/article/view/8/7)
+
+> **[5]**:
+> - [O sujeito cerebral e o movimento da neurodiversidade](https://doi.org/10.1590/S0104-93132008000200008)
+
