@@ -74,18 +74,18 @@ O objetivo geral deste projeto é desenvolver uma aplicação web educacional qu
 
 ## Justificativa
 
-O termo neurodiversidade, com surgimento de seus primeiros relatos em 1990, foi cunhado pela socióloga australiana e portadora da síndrome de Asperger Judy Singer, em 1999, em um texto com o sugestivo título de Por que você não pode ser normal uma vez na sua vida? De um "problema sem nome" para a emergência de uma nova categoria de diferença (Singer 1999).
+O termo neurodiversidade, com surgimento de seus primeiros relatos em 1990, foi cunhado pela socióloga australiana e portadora da síndrome de Asperger Judy Singer, em 1999, em um texto com o sugestivo título de Por que você não pode ser normal uma vez na sua vida? De um "problema sem nome" para a emergência de uma nova categoria de diferença (Singer 1999).[4]
 
  Este movimento (afirmativo de identidade) que ganhou forças após a pesquisa elaborada por Judy, nos traz um novo entendimento a respeito de pessoas neuroatipicas. Uma das questões fortemente defendidas pelo movimento é que pessoas neurodivergentes fazem parte da variação humana.
 
- Atualmente,  acadêmicos   e   movimentos/organizações   sociais   referentes   às pessoas em situação de deficiência, no Brasil e em outros países, vêm discutindo questões  de  direitos  (políticos,  sociais,  educacionais) e  também  referentes  à identidade.
+ Atualmente,  acadêmicos   e   movimentos/organizações   sociais   referentes   às pessoas em situação de deficiência, no Brasil e em outros países, vêm discutindo questões  de  direitos  (políticos,  sociais,  educacionais) e  também  referentes  à identidade.[5]
 
  O resultado disso, no Brasil, têm desenvolvido pesquisas,   principalmente   na perspectiva histórico-cultural do desenvolvimento humano, que destacam quão fundamental é   a   contextualização   das   intervenções pedagógicas e   do conhecimento das condições socioculturais do educando, da família e da escola, inclusive  na  imbricação  com  a  efetividade  das  políticas  públicas  e  com  a formação/qualificação de profissionais, no propósito e desafio de consolidação da educação inclusiva.
 
 Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento [1], o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
 Em função disso, uma das conquistas mais recentes no Brasil aconteceu em Brasília, 17 de julho de 2023, onde foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato [2].
 
-Jim Sinclair, psicólogo autista, relata que presencia  o  acentuamento  de  ansiedade,  angústia,  raiva,  ressentimentos  e depressão em autistas submetidos a intervenções que procuram ajustá-los e/ou socializá-los    conforme    padrões    que    não    respeitam    suas    identidades “neuroatípicas”, como afirma, e seus interesses (SINCLAIR, [entre 2000 e 2013], p. 2, tradução nossa). Um dos métodos mais criticados pelo movimento é a análise do comportamento aplicada (ABA).
+Jim Sinclair, psicólogo autista, relata que presencia  o  acentuamento  de  ansiedade,  angústia,  raiva,  ressentimentos  e depressão em autistas submetidos a intervenções que procuram ajustá-los e/ou socializá-los    conforme    padrões    que    não    respeitam    suas    identidades “neuroatípicas”, como afirma, e seus interesses (SINCLAIR, [entre 2000 e 2013], p. 2, tradução nossa). Um dos métodos mais criticados pelo movimento é a análise do comportamento aplicada (ABA). [5]
 
 Em vista disso, na aplicação web visamos buscar uma conscientização em massa a respeito deste assunto tão importante, afim de eliminar (ou pelo menos mitigar) o preconceito e tornar impraticável o uso de expressões capacitistas, que chega a ser antiético. Também é observado uma abordagem nada invasiva e desconfortável, no âmbito de prestar auxílio na comunicação alternativa e desenvolvimento cognitivo (que por sinal, é uma das críticas levantadas pelo movimento e relatada pelo psicólogo autista SINCLAIR).
 
