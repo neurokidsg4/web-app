@@ -8,9 +8,9 @@ Nossa iniciativa se baseia na compreensão de que a falta de conscientização, 
 
 ## Problema
 
-Os desafios enfrentados por crianças neurodivergentes com a faixa de idade entre 7 e 13 anos estão diretamente relacionados com a carência de informações e recursos precisos sobre os transtornos mentais, somada à falta de preparo dos profissionais da educação, gerando um ambiente desfavorável para o aprendizado e o bem-estar do grupo em questão.
+Os desafios enfrentados por crianças neurodivergentes com a faixa de idade entre 7 e 13 anos estão diretamente relacionados com a carência de informações e recursos precisos sobre os transtornos mentais, somada à falta de preparo dos profissionais da educação, gerando um ambiente desfavorável para o aprendizado e o bem-estar do grupo em questão [6].
 
-Portanto, é indispensável reconhecer que o acesso a informações precisas sobre os neurodiversos e a prática deliberada de atividades interativas que facilitem o aprendizado e o desenvolvimento contínuo devem ser levados em consideração, a fim de atingir os objetivos propostos para a construção da aplicação web.
+Portanto, é indispensável reconhecer que o acesso a informações precisas sobre os neurodiversos e a prática deliberada de atividades interativas que facilitem o aprendizado e o desenvolvimento contínuo devem ser levados em consideração [7], a fim de atingir os objetivos propostos para a construção da aplicação web.
 
 ## Objetivos
 
