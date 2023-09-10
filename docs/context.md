@@ -12,20 +12,6 @@ Os desafios enfrentados por crianças neurodivergentes com a faixa de idade entr
 
 Portanto, é indispensável reconhecer que o acesso a informações precisas sobre os neurodiversos e a prática deliberada de atividades interativas que facilitem o aprendizado e o desenvolvimento contínuo devem ser levados em consideração, a fim de atingir os objetivos propostos para a construção da aplicação web.
 
-Referências
-
-ALENCAR, Helenira Fonseca de; BARBOSA, Heloisa Fonseca; GOMES, Robéria Vieira Barreto Gomes. Neurodiversidade: aspectos históricos, conceituais e impactos na educação escolar. 2021. Disponível em: https://www.editorarealize.com.br/editora/ebooks/conedu/2021/ebook2/TRABALHO_EV150_MD7_SA100_ID4942_14102021072507.pdf. Acesso em 06 de set de 2023.
-
-SOUZA, Isabella G. S. de; SERRA-PINHEIRO, Maria Antônia; PINNA, Camila. Dificuldades no diagnóstico de TDAH em crianças. 2007. Disponível em: https://www.scielo.br/j/jbpsiq/a/gZfTLG7hch4wThFw556Kz8s/?format=pdf&lang=pt. Acesso em 06 de set de 2023.
-
-OLIVEIRA, Ana Paula de; CAPELLINI, Vera Lucia Messias Fialho; RODRIGUES, Olga Maria Piazentin Rolim. Altas Habilidades/Superdotação: Intervenção em Habilidades Sociais com Estudantes, Pais/Responsáveis e Professoras. 2020. Disponível em: https://www.scielo.br/j/rbee/a/LX78WqRVjrHLNfPfMJ6fKCS/?lang=pt#. Acesso em 06 de set de 2023.
-
-FERREIRA, Ivanir. Falta tratamento para criança de escola pública com transtorno mental. Disponível em: (https://jornal.usp.br/ciencias/ciencias-da-saude/falta-tratamento-para-crianca-de-escola-publica-com-transtorno-mental/). Acesso em 06 de set de 2023.
-
-OLIVEIRA, Francisco Lindoval de. Autismo e inclusão escolar: os desafios da inclusão do aluno autista. Disponível em: (https://educacaopublica.cecierj.edu.br/artigos/20/34/autismo-e-inclusao-escolar-os-desafios-da-inclusao-do-aluno-autista). Acessado em 06 de set de 2023.
-
-INSTITUTO UNIBANCO. Educação inclusiva: um direito inegociável. Disponível em: (https://observatoriodeeducacao.institutounibanco.org.br/em-debate/conteudo-multimidia/detalhe/educacao-inclusiva-um-direito-inegociavel?utm_source=google&utm_medium=cpc&utm_campaign=GH-TRAFEGO-TOPO-DE-FUNIL&utm_content=group_ad2_Educacao_inclusiva&utm_term=educaçao). Acessado em 06 de set de 2023.
-
 <!--
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
