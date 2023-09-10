@@ -22,9 +22,9 @@ Referências:
 > **[5]**:
 > - [O sujeito cerebral e o movimento da neurodiversidade](https://doi.org/10.1590/S0104-93132008000200008)
 
->> **[6]**:
->> - [INSTITUTO UNIBANCO. Educação inclusiva: um direito inegociável.](https://observatoriodeeducacao.institutounibanco.org.br/em-debate/conteudo-multimidia/detalhe/educacao-inclusiva-um-direito-inegociavel?).Acessado em: 10 de set de 2023.
+> **[6]**:
+> - [INSTITUTO UNIBANCO. Educação inclusiva: um direito inegociável.](https://observatoriodeeducacao.institutounibanco.org.br/em-debate/conteudo-multimidia/detalhe/educacao-inclusiva-um-direito-inegociavel?).Acessado em: 10 de set de 2023.
 
->> **[7]**:
->> - [FERREIRA, Ivanir. Falta tratamento para criança de escola pública com transtorno mental.](https://jornal.usp.br/ciencias/ciencias-da-saude/falta-tratamento-para-crianca-de-escola-publica-com-transtorno-mental/). Acessado em: 10 de set de 2023.
+> **[7]**:
+> - [FERREIRA, Ivanir. Falta tratamento para criança de escola pública com transtorno mental.](https://jornal.usp.br/ciencias/ciencias-da-saude/falta-tratamento-para-crianca-de-escola-publica-com-transtorno-mental/). Acessado em: 10 de set de 2023.
 
