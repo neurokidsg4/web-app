@@ -12,13 +12,6 @@ Os desafios enfrentados por crianças neurodivergentes com a faixa de idade entr
 
 Portanto, é indispensável reconhecer que o acesso a informações precisas sobre os neurodiversos e a prática deliberada de atividades interativas que facilitem o aprendizado e o desenvolvimento contínuo devem ser levados em consideração, a fim de atingir os objetivos propostos para a construção da aplicação web.
 
-<!--
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
--->
-
 ## Objetivos
 
 # Objetivo Geral
