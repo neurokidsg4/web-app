@@ -1,8 +1,6 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Após uma ampla pesquisa sobre as necessidades de pessoas envolvidas com crianças neurodiversas, assim como elas próprias, consta neste documento, de forma detalhada, as funcionalidades da aplicação que visam atender as demandas pertinentes a esse grupo da sociedade.
 
 ## Personas
 
