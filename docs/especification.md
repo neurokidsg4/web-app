@@ -24,22 +24,11 @@ Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvime
 
 **PERSONA 7**
 
-**Nome:** Denise
-
-A Denise possui um filho chamado Thiago, que apresenta comportamentos e reações diferentes das crianças de sua idade.
-
-**Principais informações sobre a Denise:**
-
+Denise possui um filho chamado Thiago, que apresenta comportamentos e reações diferentes das crianças de sua idade.
 Denise mora em Campinas (SP), tem 32 anos, trabalha como caixa em supermercado e freelancer em um espetinho aos finais de semana.
-
-Denise é uma pessoa com personalidade forte, que não se dá por vencida facilmente.
-
 Ela tem uma esposa de 34 anos, que também trabalha, porém, em um único emprego, para dar mais atenção ao seu filho de 6 anos chamado Thiago, que acabou de finalizar a pré-escola. Ambas estão trabalhando muito para pagar uma escola particular para ele, que já na pré-escola apresentou muita dificuldade com o aprendizado e alguns comportamentos, muito fora do esperado para uma criança de sua idade.
-
 Ela desconfia de que seu filho possa ter algo mais que apanes dificuldades com aprendizado e comportamentos. Já buscou no browser diversas vezes pra tentar descobrir por si mesma o que pode estar havendo com seu filho, em qual profissional levar (pediatra, psicólogo, psiquiatra, entre outros), pois é leiga no assunto, mas tudo o que encontra são informações pela metade, indicações vagas e meias verdades.
-
 Ela tenta se dedicar muito ao serviço e sua família, não dispõe de tempo pra ficar pendurada no celular buscando informações incertas. Precisa de algo certeiro e direto. Suspeita que possa ser algum transtorno mas não tem certeza.
-
 Não tem muita facilidade em navegar em páginas e é minimalista.
 
 <!--
