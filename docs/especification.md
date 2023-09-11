@@ -6,8 +6,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Persona 1**
 
+Júlia tem 35 anos e é formada em pedagogia, atua na área de ensino infantil a mais de 10 anos em uma escola municipal em Belo horizonte. Nesses anos de experiência se deparou com algumas crianças que apresentavam muita dificuldade de aprendizagem no modelo padrão de ensino. Uma colega de trabalho lhe disse que essa dificuldade pode acontecer em crianças que apresentam algum transtorno mental. Interessada em saber mais sobre o assunto Júlia começou a buscar mais informações para entender melhor como elas se comportam e como ajuda-las no processo de aprendizagem.
+
+
+
+<!--
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -19,6 +24,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+-->
 
 ## Histórias de Usuários
 
