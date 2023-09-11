@@ -1,6 +1,6 @@
 ## Introdução
 
-No contexto atual, onde a tecnologia desempenha um papel cada vez mais significativo em nossa sociedade, é importante reconhecer a necessidade de promover a inclusão e o bem-estar de crianças, que estejam em algum espectro neurodivergente. Os transtornos do espectro do autismo (TEA), o transtorno de déficit de atenção e hiperatividade (TDAH) e as altas habilidades/superdotação são realidades que afetam muitas crianças em todo o mundo. No entanto, a conscientização e os recursos adequados para lidar com essas condições ainda estão muito aquém do necessário.
+No contexto atual, onde a tecnologia desempenha um papel cada vez mais significativo em nossa sociedade, é importante reconhecer a necessidade de promover a inclusão e o bem-estar de crianças, que estejam em algum espectro neurodivergente. Os transtornos neurodivergentes são realidades que afetam muitas crianças em todo o mundo. No entanto, a conscientização e os recursos adequados para lidar com essas condições ainda estão muito aquém do necessário.
 
 Neste cenário, apresentamos o projeto de uma aplicação web, cujo propósito é abordar essa lacuna crítica. Esta aplicação busca fornecer informações precisas e confiáveis sobre os transtornos neurodivergentes, bem como oferecer atividades de estimulação cognitiva personalizadas para o desenvolvimento cognitivo de crianças que enfrentam esses desafios. Mais do que uma simples ferramenta, este projeto representa um compromisso com a inclusão e o apoio às famílias e comunidades que lidam diariamente com esses transtornos.
 
@@ -64,7 +64,7 @@ Esta aplicação web tem o propósito de auxiliar crianças com transtornos ment
 
 ## Público-Alvo
 
-O público-alvo são pessoas interessadas em ampliar seu conhecimento sobre transtornos neurodivergentes, com ênfase em pais, professores, acompanhantes terapêuticos e terapeutas. Além disso, a aplicação visa atender especificamente crianças em idade escolar (de 7 a 13 anos) que foram diagnosticadas com transtorno do espectro autista (TEA), transtorno de déficit de atenção e hiperatividade (TDAH) e altas habilidades/superdotação (AH/SD) para fins de habilitação, reabilitação e desenvolvimento. 
+O público-alvo são pessoas interessadas em ampliar seu conhecimento sobre transtornos neurodivergentes, com ênfase em pais, professores, acompanhantes terapêuticos e terapeutas. Além disso, a aplicação visa atender especificamente crianças em idade escolar (de 7 a 13 anos) que foram diagnosticadas com algum transtorno neurodivergente, para fins de habilitação, reabilitação e desenvolvimento.
 
 Pais: Este grupo busca compreender melhor as necessidades e desafios de seus filhos neurodivergentes. Eles estão interessados em informações atualizadas sobre os transtornos, estratégias de apoio, e desejam encontrar recursos para auxiliar na educação e na convivência com seus filhos.
 
@@ -72,197 +72,8 @@ Professores: Educadores buscam orientações e ferramentas para criar ambientes 
 
 Acompanhantes Terapêuticos e Terapeutas: Este grupo inclui profissionais de saúde mental, terapeutas ocupacionais, fonoaudiólogos, entre outros. Eles desejam informações e técnicas terapêuticas atualizadas para proporcionar o melhor suporte possível às crianças neurodivergentes em suas sessões terapêuticas.
 
-Crianças TEA, TDAH e AH/SD (de 7 a 13 anos): O foco central é atender às necessidades das crianças neurodivergentes. A aplicação deve oferecer atividades e recursos que sejam apropriados para cada perfil, auxiliando em sua habilitação, reabilitação e desenvolvimento cognitivo e emocional.
+Crianças (de 7 a 13 anos): O foco central é atender às necessidades das crianças neurodivergentes. A aplicação deve oferecer atividades e recursos que sejam apropriados para cada perfil, auxiliando em sua habilitação, reabilitação e desenvolvimento cognitivo e emocional.
 
-O público-alvo geral da aplicação web é diversificado, abrangendo uma variedade de pessoas envolvidas no cuidado e educação de crianças neurodivergentes. A aplicação deve fornecer informações atualizadas, recursos práticos, orientações específicas e ferramentas interativas que atendam às necessidades únicas de cada grupo de interesse, contribuindo para uma compreensão mais profunda e um melhor suporte às crianças neurodivergentes.
-
-**Diagrama de Persona**
-
-**Persona 1:**
-**Nome: João Henrique**
-
-Informações Demográficas:
-Idade: 12 anos
-Gênero: Masculino
-Localização: Belo Horizonte, Brasil
-Situação Escolar: Estudante do 7º ano do ensino fundamental.
-
-Informações Pessoais:
-Diagnóstico: TDAH (Transtorno do Déficit de Atenção com Hiperatividade).
-Personalidade: Energético, criativo e entusiasmado.
-Interesses: Jogos de vídeo, ciência, esportes e música.
-
-Comportamento e Necessidades:
-Dificuldade em manter o foco em tarefas escolares.
-Tendência a se distrair facilmente.
-Luta com a organização de tarefas e horários.
-Pode se sentir desmotivado nas atividades que não são do seu interesse.
-
-Objetivos com o Sistema Web:
-Aprimorar suas habilidades de concentração.
-Desenvolver habilidades de organização e gerenciamento de tempo.
-Aprender de forma divertida e interativa.
-
-Requisitos para o Sistema Web:
-Atividades lúdicas e envolventes.
-Recompensas visuais para o progresso.
-Interface intuitiva e fácil de usar.
-Feedback positivo e encorajador.
-
-Cenário de Uso:
-João usará o sistema web como uma ferramenta de apoio à sua educação e desenvolvimento. Sua mãe, Carla, estará envolvida, monitorando seu progresso e incentivando seu uso.
-
-Objetivos da Persona:
-Melhorar seu desempenho acadêmico.
-Aprender habilidades de autogerenciamento.
-Aumentar sua autoestima e autoconfiança.
-
-**Persona 2:**
-**Nome: Isabela**
-
-Informações Demográficas:
-Idade: 13 anos
-Gênero: Feminino
-Localização: Rio de Janeiro, Brasil
-Escolaridade: Estudante do 8º ano em uma escola comum.
-
-Informações Pessoais:
-Diagnóstico: Altas Habilidades/Superdotação (AH/SD).
-Personalidade: Curiosa, criativa e intensa.
-Interesses: Ciências, matemática, leitura e jogos lógicos.
-
-Comportamento e Necessidades:
-Rapidamente se entedia com tarefas escolares convencionais.
-Dificuldade em se relacionar com colegas devido a diferenças de interesses.
-Busca desafios intelectuais e atividades estimulantes.
-
-Objetivos com o Sistema Web:
-Encontrar atividades que correspondam ao seu nível de habilidade.
-Desenvolver habilidades sociais e aprender a se relacionar melhor com os colegas.
-Explorar áreas de interesse de forma mais aprofundada.
-
-Requisitos para o Sistema Web:
-Atividades desafiadoras e estimulantes.
-Conteúdo adaptado ao seu nível cognitivo avançado.
-Recursos para promover a interação com outros alunos com interesses similares.
-Ferramentas de monitoramento do progresso.
-
-Cenário de Uso:
-Isabela usará o sistema web na escola e em casa, com o suporte de seus pais e professores. Seu professor de enriquecimento curricular, estará envolvido para garantir que ela receba desafios adequados.
-
-Objetivos da Persona:
-Estimular seu intelecto com atividades desafiadoras.
-Melhorar suas habilidades sociais para se relacionar com colegas.
-Fomentar sua paixão por áreas de interesse específicas.
-
-**Persona 3:**
-**Nome: Miguel**
-
-Informações Demográficas:
-Idade: 8 anos
-Gênero: Masculino
-Localização: São Paulo, Brasil
-
-Informações Pessoais:
-Diagnóstico: Autismo, nível de suporte 2.
-Personalidade: Calmo, observador e gosta de rotinas.
-Habilidades Comunicativas: Não verbal, mas pode usar comunicação alternativa como pictogramas.
-
-Comportamento e Necessidades:
-Dificuldade em interagir verbalmente e expressar suas necessidades.
-Desafios na compreensão de conceitos abstratos e em tarefas de raciocínio.
-Reage positivamente a estímulos visuais e atividades estruturadas.
-
-Objetivos com o Sistema Web:
-Desenvolver habilidades cognitivas, como correspondência, padrões e categorização.
-Facilitar a comunicação através de recursos visuais.
-Oferecer atividades que o mantenham engajado e estimulado.
-
-Requisitos para o Sistema Web:
-Atividades altamente visuais e interativas.
-Uso de pictogramas e recursos de comunicação alternativa.
-Progressão gradual de dificuldade nas atividades.
-Feedback positivo e recompensas visuais.
-
-Cenário de Uso:
-Miguel usará o sistema web em casa e com o apoio de seus pais e terapeutas. Sua terapeuta de reabilitação cognitiva, Laura, estará envolvida para fornecer orientação e avaliar o progresso.
-
-Objetivos da Persona:
-Melhorar as habilidades cognitivas, incluindo a capacidade de associação e classificação.
-Facilitar a comunicação e a expressão de necessidades.
-Promover um ambiente de aprendizado agradável e estimulante.
-
-**Persona 4**
-**Nome: Ana**
-
-Informações Demográficas:
-Idade: 30 anos
-Gênero: Feminino
-Localização: Recife, Pernambuco
-Profissão: Professora de Ensino Fundamental
-
-Informações Pessoais:
-Interesse: Conhecer mais sobre transtornos neurodivergentes.
-Não possui um diagnóstico específico, mas suspeita que possa ser neurodivergente.
-Aberta à aprendizagem e busca compreender melhor as necessidades de seus alunos e colegas.
-
-Comportamento e Necessidades:
-Quer se educar e se informar sobre transtornos como autismo, TDAH e altas habilidades/superdotação;
-Deseja compreender como esses transtornos afetam pessoas em diferentes idades e contextos;
-Procura recursos confiáveis para melhorar sua prática de ensino.
-
-Objetivos com o Sistema Web:
-Acessar informações atualizadas e baseadas em evidências sobre transtornos neurodivergentes.
-Aprender estratégias e técnicas para apoiar alunos neurodivergentes em sala de aula.
-Conectar-se com uma comunidade online para compartilhar experiências e conhecimento.
-
-Requisitos para o Sistema Web:
-Conteúdo informativo e educativo sobre diferentes transtornos neurodivergentes.
-Artigos, vídeos e recursos práticos para professores e educadores.
-Fóruns de discussão e grupos de apoio online.
-Atualizações regulares e fontes confiáveis de informação.
-
-Cenário de Uso:
-Ana utilizará o sistema web em seu tempo livre e como parte de sua formação contínua como professora. Ela pretende aplicar o que aprendeu em seu trabalho e estabelecer conexões com outros educadores e especialistas.
-
-Objetivos da Persona:
-Ampliar seu conhecimento sobre transtornos neurodivergentes.
-Aprimorar suas habilidades como professora para melhor atender às necessidades de seus alunos.
-Encontrar apoio e orientação na comunidade online.
-
-**Mapa de Stakeholders:**
-**Projeto: Educação sobre Transtornos Neurodivergentes**
-
-**Stakeholders Principais:**
-
-**Pais de Crianças Neurodivergentes:**
-
-Responsabilidades: Apoiar e cuidar das crianças neurodivergentes.
-Interesses: Acesso a informações relevantes e recursos para melhor compreender e apoiar seus filhos.
-
-**Professores:**
-
-Responsabilidades: Educar e apoiar crianças neurodivergentes em sala de aula.
-Interesses: Treinamento e recursos educacionais adequados, estratégias de ensino inclusivas.
-
-**Acompanhantes Terapêuticos e Terapeutas:**
-
-Responsabilidades: Fornecer apoio terapêutico às crianças neurodivergentes.
-Interesses: Ferramentas e técnicas terapêuticas eficazes, colaboração com professores e pais.
-
-**Crianças Neurodivergentes (TEA, TDAH, AH/SD):**
-
-Responsabilidades: Participar de sessões terapêuticas e educacionais.
-Interesses: Atividades e abordagens adaptadas às suas necessidades, ambiente inclusivo.
-
-Stakeholders Secundários:
-
-**Comunidade Escolar:**
-Responsabilidades: Criar um ambiente de aprendizado inclusivo.
-Interesses: Consciência sobre as necessidades das crianças neurodivergentes, apoio às iniciativas educacionais.
-
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/95f27e91-50aa-4c29-86cc-d3eec88ce5f2)
-
+O público-alvo geral da aplicação web é diversificado, abrangendo uma variedade de pessoas envolvidas no cuidado e educação de crianças neurodivergentes. A aplicação deve fornecer informações atualizadas, recursos práticos, orientações específicas e ferramentas interativas que atendam às necessidades únicas de cada grupo de interesse, contribuindo para uma compreensão mais profunda e um melhor suporte às crianças neurodivergentes
 
 
