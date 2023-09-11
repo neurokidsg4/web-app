@@ -10,6 +10,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Júlia tem 35 anos e é formada em pedagogia, atua na área de ensino infantil a mais de 10 anos em uma escola municipal em Belo horizonte. Nesses anos de experiência se deparou com algumas crianças que apresentavam muita dificuldade de aprendizagem no modelo padrão de ensino. Uma colega de trabalho lhe disse que essa dificuldade pode acontecer em crianças que apresentam algum transtorno mental. Interessada em saber mais sobre o assunto Júlia começou a buscar mais informações para entender melhor como elas se comportam e como ajuda-las no processo de aprendizagem.
 
+**Persona 6**
+
+Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvimento infantil, onde ela se compromete com o progresso das crianças que atende. Thalita desenvolve planos de tratamento personalizados, para cada paciente. Recentemente, ela notou o crescente interesse das crianças por recursos tecnológicos e está determinada a integrar essas ferramentas inovadoras em suas intervenções terapêuticas. Sua necessidade atual é encontrar recursos educacionais atualizados que possam ser adaptados para crianças com transtornos neurodivergentes e atrasos de fala. 
+
 **PERSONA 7**
 
 **Nome:** Denise
