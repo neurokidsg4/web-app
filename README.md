@@ -12,7 +12,7 @@
 * Amanda da Silva Prates
 * Gustavo da Silva Novaes
 * Pedro Lopes Rodrigues
-* Nome completo do aluno 5
+* Wesley Bruno de Souza
 
 ## Orientador
 
