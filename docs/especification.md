@@ -54,6 +54,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Professora do ensino infantil| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos|
 |Professora do ensino infantil|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
 |Fonoaudióloga em uma clínica de desenvolvimento infantil|Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia|
+|Mãe de uma criança neurodivergente|Compreender melhor a neurodiversidade e aprender a apoiar meu filho.|Garantir o bem-estar e o desenvolvimento saudável do meu filho neurodivergente. Preciso de uma aplicação com recursos educacionais claros sobre neurodiversidade, orientações práticas para pais, e uma interface intuitiva para acessar informações e dicas.|
+|Lucas, um garoto de 7 anos com TEA (Transtorno do Espectro Autista).|Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes. Preciso de um aplicativo com atividades que sejam estimulantes e envolventes, com uma interface amigável para crianças.|
 
 
 <!--
