@@ -57,6 +57,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Mãe de uma criança neurodivergente|Compreender melhor a neurodiversidade e aprender a apoiar meu filho.|Garantir o bem-estar e o desenvolvimento saudável do meu filho neurodivergente. Preciso de uma aplicação com recursos educacionais claros sobre neurodiversidade, orientações práticas para pais, e uma interface intuitiva para acessar informações e dicas.|
 |Lucas, um garoto de 7 anos com TEA (Transtorno do Espectro Autista).|Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes. Preciso de um aplicativo com atividades que sejam estimulantes e envolventes, com uma interface amigável para crianças.|
 |Denise|Saber o que talvez pode estar havendo com meu filho|Cuidar melhor dele, de maneira adequada, tomando as decisões corretas|
+|Denise|Receber recomendação da área profissional mais adequada para o assunto|Ter orientações mais objetivas|
 
 
 <!--
