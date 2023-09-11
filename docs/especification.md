@@ -32,8 +32,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Professora do ensino infantil| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos|
+|Professora do ensino infantil|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
