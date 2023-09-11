@@ -53,6 +53,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Professora do ensino infantil| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos|
 |Professora do ensino infantil|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
+|Fonoaudióloga em uma clínica de desenvolvimento infantil|Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia|
 
 
 <!--
