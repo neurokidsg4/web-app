@@ -6,6 +6,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+**Persona 1**
+
+Meu nome é Ana e sou a mãe de uma criança neurodivergente. Quero entender melhor a neurodiversidade e descobrir maneiras de apoiar meu filho. Quando acesso um aplicativo, espero encontrar recursos educacionais claros sobre neurodiversidade, informações práticas para pais e uma interface intuitiva que me permita acessar informações facilmente. Preciso de dicas sobre como apoiar o bem-estar do meu filho e entender suas necessidades. O aplicativo deve fornecer orientações que me ajudem a navegar nessa jornada e a criar um ambiente de apoio para meu filho.
+
+**Persona 2**
+
+Eu sou o Lucas, um garoto curioso de 7 anos com Transtorno do Espectro Autista (TEA). Adoro ciência, experimentos e cores vibrantes. Quando estou online, quero explorar um mundo de descobertas científicas empolgantes e atividades envolventes com as cores mais incríveis. A interface do aplicativo deve ser fácil de usar e visualmente atraente. Quero que ele me ajude a aprender mais sobre ciência e a me expressar através das cores. Preciso de desafios que me motivem e estimulem minha paixão pela ciência e pelas cores.
+
 **Persona 3**
 
 Júlia tem 35 anos e é formada em pedagogia, atua na área de ensino infantil a mais de 10 anos em uma escola municipal em Belo horizonte. Nesses anos de experiência se deparou com algumas crianças que apresentavam muita dificuldade de aprendizagem no modelo padrão de ensino. Uma colega de trabalho lhe disse que essa dificuldade pode acontecer em crianças que apresentam algum transtorno mental. Interessada em saber mais sobre o assunto Júlia começou a buscar mais informações para entender melhor como elas se comportam e como ajuda-las no processo de aprendizagem.
