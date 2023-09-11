@@ -22,7 +22,7 @@ Meu nome é Júlia tenho 35 anos e sou formada em pedagogia, atuo professora do 
 
 Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvimento infantil, onde ela se compromete com o progresso das crianças que atende. Thalita desenvolve planos de tratamento personalizados, para cada paciente. Recentemente, ela notou o crescente interesse das crianças por recursos tecnológicos e está determinada a integrar essas ferramentas inovadoras em suas intervenções terapêuticas. Sua necessidade atual é encontrar recursos educacionais atualizados que possam ser adaptados para crianças com transtornos neurodivergentes e atrasos de fala. 
 
-**PERSONA 7**
+**Persona 7**
 
 Denise possui um filho chamado Thiago, que apresenta comportamentos e reações diferentes das crianças de sua idade.
 Denise mora em Campinas (SP), tem 32 anos, trabalha como caixa em supermercado e freelancer em um espetinho aos finais de semana.
