@@ -80,9 +80,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001|A aplicação deve fornecer informações sobre como lidar com crianças neurodiversas no ambiente escolar| ALTA |  |
-|RF-002|A aplicação deve fornecer informações sobre como lidar com crianças neurodiversas no ambiente escolar| ALTA | |
+|RF-002|A aplicação deve fornecer informações que ajudem a identificar possíveis crianças neurodiversas| ALTA | |
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
-|RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar.|ALTA| |
+|RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar|ALTA| |
 
 
 ### Requisitos não Funcionais
