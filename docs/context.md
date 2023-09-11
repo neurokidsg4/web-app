@@ -16,15 +16,16 @@ Portanto, é indispensável reconhecer que o acesso a informações precisas sob
 
 # Objetivo Geral
 
-O objetivo geral deste projeto é desenvolver uma aplicação web educacional que promova a conscientização e ofereça atividades interativas para crianças com idades entre 7 e 13 anos afetadas por Transtorno de Déficit de Atenção e Hiperatividade (TDAH), Transtorno do Espectro Autista (TEA) e Altas Habilidades e Superdotação (AH/SD). Esta aplicação visa fornecer recursos inclusivos e adaptáveis para atender às necessidades únicas dessas crianças, facilitando a aprendizagem, o desenvolvimento de habilidades sociais e emocionais, e oferecendo suporte em seu cotidiano.
+O objetivo geral deste projeto é desenvolver uma aplicação web educacional que promova a conscientização e ofereça atividades interativas para crianças com idades entre 7 e 13 anos afetadas por transtornos mentais. Esta aplicação visa fornecer recursos inclusivos e adaptáveis para atender às necessidades únicas dessas crianças, facilitando a aprendizagem, o desenvolvimento de habilidades sociais e emocionais, e oferecendo suporte em seu cotidiano.
 
 # Objetivos Específicos
 
-- Desenvolver atividades interativas que estimulem a concentração e o foco das crianças com TDAH, fornecendo feedback positivo para reforçar comportamentos desejados.
-- Criar conteúdo educacional personalizado que se adapte ao nível de desenvolvimento e preferencias de aprendizagem das crianças com TEA, promovendo a aquisição de habilidades cognitivas, sociais e emocionais.
-- Oferecer desafios e atividades que estimulem o pensamento criativo e o desenvolvimento de talentos específicos das crianças com AH/SD, incentivando a exploração de áreas de interesse.
+- Criar atividades que estimulem a concentração e o foco, proporcionando feedback positivo para reforçar comportamentos desejados.
+- Personalizar o conteúdo educacional para se adaptar ao nível de desenvolvimento e preferências de cada criança.
+- Oferecer desafios e atividades que estimulem o pensamento criativo e explorem áreas de interesse das crianças.
 - Integrar recursos de acessibilidade, como interface amigável, para garantir que a aplicação seja acessível a crianças com diferentes necessidades.
-- Obter feedback de pais e crianças para aprimorar continuamente a aplicação e garantir sua eficácia na promoção do desenvolvimento e bem-estar das crianças neurodivergentes.
+- Coletar feedback de pais e crianças para aprimorar continuamente a aplicação e garantir sua eficácia na promoção do desenvolvimento e bem-estar das crianças neurodivergentes.
+- Fornecer informações que auxiliem profissionais da educação e familiares no ensino e na interação com crianças neurodiversas.
  
 <!--
 > **Links Úteis**:
