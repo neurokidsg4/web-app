@@ -76,8 +76,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
 |RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar|ALTA| |
 |RF-005|Deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico|
-|RF-006|Deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete a criança|
-|RF-007|A depender do resultado do RF-012, deve ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão (RF-012)|
+|RF-006|Deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete a criança|Média|Wesley Bruno|
+|RF-007|A depender do resultado do RF-012, deve ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão (RF-012)|Média|Wesley Bruno|
 
 ### Requisitos não Funcionais
 
