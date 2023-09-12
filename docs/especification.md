@@ -16,6 +16,10 @@ Eu sou o Lucas, um garoto curioso de 7 anos com Transtorno do Espectro Autista (
 
 Meu nome é Júlia tenho 35 anos e sou formada em pedagogia, atuo professora do ensino infantil a mais de 10 anos em uma escola municipal em Belo horizonte. Nesses anos de experiência me deparei com algumas crianças que apresentavam muita dificuldade de aprendizagem no modelo padrão de ensino. Uma colega de trabalho me disse que essa dificuldade pode acontecer em crianças que apresentam algum transtorno mental. Interessada em saber mais sobre o assunto comecei a buscar mais informações para entender melhor como elas se comportam e como ajuda-las no processo de aprendizagem.
 
+**Persona 5**
+
+Marcello, um pai de 49 anos de Minas Gerais, Brasil, busca conhecimento sobre neurodiversidade para apoiar seu filho com TDAH e promover um ambiente de aceitação e inclusão em sua família. Ele se dedicou a compreender profundamente o TDAH e adaptar sua comunicação para melhor atender às necessidades de seu filho. Além disso, Marcello planeja usar uma plataforma online com recursos educacionais e informativos sobre vários tipos de neurodiversidade.
+
 **Persona 6**
 
 Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvimento infantil, onde ela se compromete com o progresso das crianças que atende. Thalita desenvolve planos de tratamento personalizados, para cada paciente. Recentemente, ela notou o crescente interesse das crianças por recursos tecnológicos e está determinada a integrar essas ferramentas inovadoras em suas intervenções terapêuticas. Sua necessidade atual é encontrar recursos educacionais atualizados que possam ser adaptados para crianças com transtornos neurodivergentes e atrasos de fala. 
@@ -50,6 +54,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Lucas, um garoto de 7 anos com TEA (Transtorno do Espectro Autista).|Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes. Preciso de um aplicativo com atividades que sejam estimulantes e envolventes, com uma interface amigável para crianças.|
 |Daniel|Saber o que talvez possa estar havendo comigo|Me cuidar e tomar decisões melhores para mim mesmo, no que diz respeito à minha saúde|
 |Daniel|Receber recomendação da área profissional mais adequada para o assunto|Ter orientações mais objetivas|
+|Pai de uma criança com TDAH (Transtorno do déficit de atenção com hiperatividade).| Estudar e obter o máximo de informações sobre neurodiversidade, focando principalmente em entender o TDAH.| Dar o melhor suporte possível a meu filho e família, gerando um ambiente de melhor comunicação, inclusão e conforto.|
 
 
 <!--
@@ -78,6 +83,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005|Deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico|
 |RF-006|Deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete a criança|Média|Wesley Bruno|
 |RF-007|A depender do resultado do RF-012, deve ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão (RF-012)|Média|Wesley Bruno|
+|RF-008|Oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|Média|
 
 ### Requisitos não Funcionais
 
@@ -89,6 +95,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| Ao invés de SQLs (banco de dados) deverá ser usado Local Storage para gerenciamento de cadastro de conta e acesso com login (afim de diminuir a complexidade)|
 |RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendo para diagnóstico|
 |RNF-007|Os dados devem ser armazenados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
+|RNF-008|Fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -116,6 +123,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03|O usuário deve ser informado caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
+|04|A aplicação deve ser compatível com vários navegadores e dispositivos.|
 
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
