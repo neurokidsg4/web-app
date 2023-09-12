@@ -22,13 +22,7 @@ Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvime
 
 **Persona 7**
 
-Denise possui um filho chamado Thiago, que apresenta comportamentos e reações diferentes das crianças de sua idade.
-Denise mora em Campinas (SP), tem 32 anos, trabalha como caixa em supermercado e freelancer em um espetinho aos finais de semana.
-Ela tem uma esposa de 34 anos, que também trabalha, porém, em um único emprego, para dar mais atenção ao seu filho de 6 anos chamado Thiago, que acabou de finalizar a pré-escola. Ambas estão trabalhando muito para pagar uma escola particular para ele, que já na pré-escola apresentou muita dificuldade com o aprendizado e alguns comportamentos, muito fora do esperado para uma criança de sua idade.
-Ela desconfia de que seu filho possa ter algo mais que apanes dificuldades com aprendizado e comportamentos. Já buscou no browser diversas vezes pra tentar descobrir por si mesma o que pode estar havendo com seu filho, em qual profissional levar (pediatra, psicólogo, psiquiatra, entre outros), pois é leiga no assunto, mas tudo o que encontra são informações pela metade, indicações vagas e meias verdades.
-Ela tenta se dedicar muito ao serviço e sua família, não dispõe de tempo pra ficar pendurada no celular buscando informações incertas. Precisa de algo certeiro e direto. Suspeita que possa ser algum transtorno mas não tem certeza.
-Não tem muita facilidade em navegar em páginas e é minimalista.
-
+Daniel é um rapaz de 33 anos, mora em Contagem (MG), é solteiro e trabalha com operação de máquina em um supermercado atacarejo. Seus gostos se resumem em cantar para diminuir o estresse e cargas emocionais do trabalho, juntamente com práticas esportivas para aliviar a tesão. Ele é minimalista e prático. Recentemente começou a se questionar se seus comportamentos mediante algumas situações era completamente normal. Ele deseja descobrir se há algo além do que já sabe sobre si mesmo, através de seu comportamento padrão, mas não sabe por onde começar. Ele acha que vai ser mais fácil se tiver uma mera noção do que se trata.
 <!--
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
