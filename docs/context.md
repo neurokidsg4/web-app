@@ -14,11 +14,11 @@ Portanto, é indispensável reconhecer que o acesso a informações precisas sob
 
 ## Objetivos
 
-# Objetivo Geral
+## Objetivo Geral
 
 O objetivo geral deste projeto é desenvolver uma aplicação web educacional que promova a conscientização e ofereça atividades interativas para crianças com idades entre 7 e 13 anos afetadas por transtornos mentais. Esta aplicação visa fornecer recursos inclusivos e adaptáveis para atender às necessidades únicas dessas crianças, facilitando a aprendizagem, o desenvolvimento de habilidades sociais e emocionais, e oferecendo suporte em seu cotidiano.
 
-# Objetivos Específicos
+## Objetivos Específicos
 
 - Criar atividades que estimulem a concentração e o foco, proporcionando feedback positivo para reforçar comportamentos desejados.
 - Personalizar o conteúdo educacional para se adaptar ao nível de desenvolvimento e preferências de cada criança.
@@ -76,5 +76,31 @@ Acompanhantes Terapêuticos e Terapeutas: Este grupo inclui profissionais de sa�
 Crianças (de 7 a 13 anos): O foco central é atender às necessidades das crianças neurodivergentes. A aplicação deve oferecer atividades e recursos que sejam apropriados para cada perfil, auxiliando em sua habilitação, reabilitação e desenvolvimento cognitivo e emocional.
 
 O público-alvo geral da aplicação web é diversificado, abrangendo uma variedade de pessoas envolvidas no cuidado e educação de crianças neurodivergentes. A aplicação deve fornecer informações atualizadas, recursos práticos, orientações específicas e ferramentas interativas que atendam às necessidades únicas de cada grupo de interesse, contribuindo para uma compreensão mais profunda e um melhor suporte às crianças neurodivergentes
+
+## Mapa de Stakeholders - Projeto: NeuroKids
+
+**Stakeholders Principais:**
+
+- Pais de Crianças Neurodivergentes:
+Responsabilidades: Apoiar e cuidar das crianças neurodivergentes.
+Interesses: Acesso a informações relevantes e recursos para melhor compreender e apoiar seus filhos.
+
+- Professores:
+Responsabilidades: Educar e apoiar crianças neurodivergentes em sala de aula.
+Interesses: Treinamento e recursos educacionais adequados, estratégias de ensino inclusivas.
+
+- Acompanhantes Terapêuticos e Terapeutas:
+Responsabilidades: Fornecer apoio terapêutico às crianças neurodivergentes.
+Interesses: Ferramentas e técnicas terapêuticas eficazes, colaboração com professores e pais.
+
+- Crianças Neurodivergentes:
+Responsabilidades: Participar de sessões terapêuticas e educacionais.
+Interesses: Atividades e abordagens adaptadas às suas necessidades, ambiente inclusivo.
+
+- Comunidade Escolar:
+Responsabilidades: Criar um ambiente de aprendizado inclusivo.
+Interesses: Consciência sobre as necessidades das crianças neurodivergentes, apoio às iniciativas educacionais.
+
+![diagrama drawio](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/09a0734a-b921-4980-8016-689972e49a01)
 
 
