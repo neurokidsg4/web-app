@@ -94,7 +94,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003|A aplicação deve ser desenvolvida em HTML, CSS e Java Script|Alta|
 |RNF-005| Ao invés de SQLs (banco de dados) deverá ser usado Local Storage para gerenciamento de cadastro de conta e acesso com login (afim de diminuir a complexidade)|
 |RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendo para diagnóstico|
-|RNF-007|Os dados devem ser armazenados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).
+|RNF-007|Os dados devem ser armazenados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
