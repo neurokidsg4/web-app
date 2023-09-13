@@ -80,10 +80,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002|A aplicação deve fornecer informações que ajudem a identificar possíveis crianças neurodiversas| ALTA | |
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
 |RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar|ALTA| |
-|RF-005|Deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico|ALTA|
-|RF-006|Deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete o avaliado|MÉDIA|Wesley Bruno|
+|RF-005|A aplicação deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico|ALTA|
+|RF-006|A aplicação deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete o avaliado|MÉDIA|Wesley Bruno|
 |RF-007|A depender do resultado do RF-006, deve ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão.|MÉDIA|Wesley Bruno|
-|RF-008|Oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
+|RF-008|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
 |RF-009|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
 |RF-010|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
 |RF-011|A aplicação web deve permitir que os usuários efetuem o login em contas previamente criadas ou criem novas durante a etapa de acesso ao site. |ALTA|Martha Beatriz|
