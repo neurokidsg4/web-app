@@ -1,4 +1,4 @@
-# NEURODIVERSIDADE
+# NEUROKIDS
 
 `CURSO: Sistemas de Informação`
 
