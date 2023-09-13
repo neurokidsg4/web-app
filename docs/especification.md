@@ -86,23 +86,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
 |RF-009|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
 |RF-010|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
-|RF-011|A aplicação web deve permitir que os usuários efetuem o login em contas previamente criadas ou criem novas durante a etapa de acesso ao site. |ALTA|Martha Beatriz|
-|RF-012|A aplicação web deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA|Martha Beatriz|
-|RF-013|A aplicação web deve fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
+|RF-011|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas ou criem novas durante a etapa de acesso ao site. |ALTA|Martha Beatriz|
+|RF-012|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA|Martha Beatriz|
+|RF-013|A aplicação deve fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|A aplicação web deve ser responsiva para rodar em um dispositivos móvel. | ALTA | 
+|RNF-001|A aplicação deve ser responsiva para rodar em um dispositivos móvel. | ALTA | 
 |RNF-002|A aplicação deve aderir a padrões de acessibilidade web, garantindo que seja facilmente utilizável por pessoas com diferentes níveis de habilidades e necessidades especiais. |  ALTA |
 |RNF-003|A aplicação deve ser desenvolvida em HTML, CSS e Java Script.|ALTA|
-|RNF-005| A aplicação web deve utilizar ao invés de SQLs (banco de dados), Local Storage ou JSON para gerenciamento de cadastro de conta e acesso com login.|ALTA|
+|RNF-005| A aplicação deve utilizar ao invés de SQLs (banco de dados), Local Storage ou JSON para gerenciamento de cadastro de conta e acesso com login.|ALTA|
 |RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|MÉDIA|
 |RNF-007|A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
-|RNF-008|A aplicação web deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
-|RNF-009|A aplicação web deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
-|RNF-010|A aplicação web deve utilizar o Google Material Design como layout.|Média|
+|RNF-008|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
+|RNF-009|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
+|RNF-010|A aplicação deve utilizar o Google Material Design como layout.|Média|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
