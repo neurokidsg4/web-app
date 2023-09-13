@@ -98,6 +98,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendo para diagnóstico|
 |RNF-007|Os dados devem ser armazenados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-008|Fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
+|RF-009|A aplicação web deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura.
+|RF-010| A aplicação web deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças.
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
