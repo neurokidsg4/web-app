@@ -88,6 +88,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
 |RF-011|A aplicação web deve permitir que os usuários efetuem o login em contas previamente criadas ou criem novas durante a etapa de acesso ao site. |ALTA|Martha Beatriz|
 |RF-012|A aplicação web deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA|Martha Beatriz|
+|RF-013|Fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
 
 ### Requisitos não Funcionais
 
@@ -99,10 +100,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005|Ao invés de SQLs (banco de dados) deverá ser usado Local Storage para gerenciamento de cadastro de conta e acesso com login (afim de diminuir a complexidade)|ALTA|
 |RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|MÉDIA|
 |RNF-007|Os dados devem ser armazenados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
-|RNF-008|Fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
-|RNF-009|A aplicação web deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
-|RNF-010|A aplicação web deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
-|RNF-011|O layout utilizado para o projeto deverá ser o Google Material Design|Média|
+|RNF-008|A aplicação web deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
+|RNF-009|A aplicação web deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
+|RNF-010|O layout utilizado para o projeto deverá ser o Google Material Design|Média|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -130,9 +130,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O usuário deve ser informado caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
-|04| A aplicação deve ser compatível com vários navegadores e dispositivos|
-|05| A aplicação não deve permitir que o acesso a informações pessoais dos usuários|
-|06| Todas as intruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
+|04| A aplicação não deve permitir que o acesso a informações pessoais dos usuários|
+|05| Todas as intruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
