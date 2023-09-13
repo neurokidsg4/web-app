@@ -129,7 +129,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| O usuário deve ser informado caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
 |04| A aplicação deve ser compatível com vários navegadores e dispositivos|
 |05| A aplicação não deve permitir que o acesso a informações pessoais dos usuários|
-
+|06| Todas as intruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
