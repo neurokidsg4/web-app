@@ -81,7 +81,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
 |RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar|ALTA| |
 |RF-005|Deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico|
-|RF-006|Deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete a criança|MÉDIA|Wesley Bruno|
+|RF-006|Deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete o avaliado|MÉDIA|Wesley Bruno|
 |RF-007|A depender do resultado do RF-006, deve ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão.|MÉDIA|Wesley Bruno|
 |RF-008|Oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
 |RF-009|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
@@ -93,15 +93,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
-|RNF-002| A aplicação deve aderir a padrões de acessibilidade web, garantindo que seja facilmente utilizável por pessoas com diferentes níveis de habilidades e necessidades especiais |  ALTA |
+|RNF-001|O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
+|RNF-002|A aplicação deve aderir a padrões de acessibilidade web, garantindo que seja facilmente utilizável por pessoas com diferentes níveis de habilidades e necessidades especiais |  ALTA |
 |RNF-003|A aplicação deve ser desenvolvida em HTML, CSS e Java Script|ALTA|
-|RNF-005| Ao invés de SQLs (banco de dados) deverá ser usado Local Storage para gerenciamento de cadastro de conta e acesso com login (afim de diminuir a complexidade)|
-|RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendo para diagnóstico|
+|RNF-005|Ao invés de SQLs (banco de dados) deverá ser usado Local Storage para gerenciamento de cadastro de conta e acesso com login (afim de diminuir a complexidade)|
+|RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|
 |RNF-007|Os dados devem ser armazenados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-008|Fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
-|RF-009|A aplicação web deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
-|RF-010| A aplicação web deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
+|RNF-009|A aplicação web deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
+|RNF-010|A aplicação web deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
+|RNF-011|O layout utilizado para o projeto deverá ser o Google Material Design|Média|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
