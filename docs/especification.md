@@ -86,6 +86,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008|Oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
 |RF-009|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
 |RF-010|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
+|RF-011|A aplicação web deve permitir que os usuários efetuem o login em contas previamente criadas ou criem novas durante a etapa de acesso ao site. |ALTA|Martha Beatriz|
 
 ### Requisitos não Funcionais
 
