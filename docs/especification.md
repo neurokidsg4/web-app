@@ -8,6 +8,9 @@ Após uma ampla pesquisa sobre as necessidades de pessoas envolvidas com crianç
 
 Meu nome é Ana e sou a mãe de uma criança neurodivergente. Quero entender melhor a neurodiversidade e descobrir maneiras de apoiar meu filho. Quando acesso um aplicativo, espero encontrar recursos educacionais claros sobre neurodiversidade, informações práticas para pais e uma interface intuitiva que me permita acessar informações facilmente. Preciso de dicas sobre como apoiar o bem-estar do meu filho e entender suas necessidades. O aplicativo deve fornecer orientações que me ajudem a navegar nessa jornada e a criar um ambiente de apoio para meu filho.
 
+![Mãe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/4d1a7b88-c1d9-4fda-bef9-58804eb7c5c1)
+
+
 **Persona 2**
 
 Eu sou o Lucas, um garoto curioso de 7 anos com Transtorno do Espectro Autista (TEA). Adoro ciência, experimentos e cores vibrantes. Quando estou online, quero explorar um mundo de descobertas científicas empolgantes e atividades envolventes com as cores mais incríveis. A interface do aplicativo deve ser fácil de usar e visualmente atraente. Quero que ele me ajude a aprender mais sobre ciência e a me expressar através das cores. Preciso de desafios que me motivem e estimulem minha paixão pela ciência e pelas cores.
