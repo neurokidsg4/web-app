@@ -8,9 +8,10 @@
 
 ## Integrantes
 
-* Martha Beatriz Siqueira da Silva
 * Amanda da Silva Prates
+* Bernardo Henrique Freitas da Silva
 * Gustavo da Silva Novaes
+* Martha Beatriz Siqueira da Silva
 * Pedro Lopes Rodrigues
 * Wesley Bruno de Souza
 
