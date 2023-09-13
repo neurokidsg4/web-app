@@ -130,8 +130,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 |03| O usuário deve ser informado caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
-|04| A aplicação não deve permitir que o acesso a informações pessoais dos usuários|
-|05| Todas as intruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
+|04| Todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
