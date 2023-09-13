@@ -8,9 +8,9 @@ Nossa iniciativa se baseia na compreensão de que a falta de conscientização, 
 
 ## Problema
 
-Os desafios enfrentados por crianças neurodivergentes com a faixa de idade entre 7 e 13 anos estão diretamente relacionados com a carência de informações e recursos precisos sobre os transtornos mentais, somada à falta de preparo dos profissionais da educação, gerando um ambiente desfavorável para o aprendizado e o bem-estar do grupo em questão [6].
+Os desafios enfrentados por crianças neurodivergentes com a faixa de idade entre 7 e 13 anos estão diretamente relacionados com a carência de informações e recursos precisos sobre os transtornos mentais, somada à falta de preparo dos profissionais da educação, gerando um ambiente desfavorável para o aprendizado e o bem-estar do grupo em questão [1].
 
-Portanto, é indispensável reconhecer que o acesso a informações precisas sobre os neurodiversos e a prática deliberada de atividades interativas que facilitem o aprendizado e o desenvolvimento contínuo devem ser levados em consideração [7], a fim de atingir os objetivos propostos para a construção da aplicação web.
+Portanto, é indispensável reconhecer que o acesso a informações precisas sobre os neurodiversos e a prática deliberada de atividades interativas que facilitem o aprendizado e o desenvolvimento contínuo devem ser levados em consideração [2], a fim de atingir os objetivos propostos para a construção da aplicação web.
 
 ## Objetivos
 
@@ -34,18 +34,18 @@ O objetivo geral deste projeto é desenvolver uma aplicação web educacional qu
 
 ## Justificativa
 
-O termo neurodiversidade, com surgimento de seus primeiros relatos em 1990, foi cunhado pela socióloga australiana e portadora da síndrome de Asperger Judy Singer, em 1999, em um texto com o sugestivo título de Por que você não pode ser normal uma vez na sua vida? De um "problema sem nome" para a emergência de uma nova categoria de diferença (Singer 1999).[4]
+O termo neurodiversidade, com surgimento de seus primeiros relatos em 1990, foi cunhado pela socióloga australiana e portadora da síndrome de Asperger Judy Singer, em 1999, em um texto com o sugestivo título de Por que você não pode ser normal uma vez na sua vida? De um "problema sem nome" para a emergência de uma nova categoria de diferença (Singer 1999).[3]
 
  Este movimento (afirmativo de identidade) que ganhou forças após a pesquisa elaborada por Judy, nos traz um novo entendimento a respeito de pessoas neuroatipicas. Uma das questões fortemente defendidas pelo movimento é que pessoas neurodivergentes fazem parte da variação humana.
 
- Atualmente,  acadêmicos   e   movimentos/organizações   sociais   referentes   às pessoas em situação de deficiência, no Brasil e em outros países, vêm discutindo questões  de  direitos  (políticos,  sociais,  educacionais) e  também  referentes  à identidade.[5]
+ Atualmente,  acadêmicos   e   movimentos/organizações   sociais   referentes   às pessoas em situação de deficiência, no Brasil e em outros países, vêm discutindo questões  de  direitos  (políticos,  sociais,  educacionais) e  também  referentes  à identidade.[4]
 
  O resultado disso, no Brasil, têm desenvolvido pesquisas,   principalmente   na perspectiva histórico-cultural do desenvolvimento humano, que destacam quão fundamental é   a   contextualização   das   intervenções pedagógicas e   do conhecimento das condições socioculturais do educando, da família e da escola, inclusive  na  imbricação  com  a  efetividade  das  políticas  públicas  e  com  a formação/qualificação de profissionais, no propósito e desafio de consolidação da educação inclusiva.
 
-Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento [1], o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
-Em função disso, uma das conquistas mais recentes no Brasil aconteceu em Brasília, 17 de julho de 2023, onde foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato [2].
+Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento [5], o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
+Em função disso, uma das conquistas mais recentes no Brasil aconteceu em Brasília, 17 de julho de 2023, onde foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato [6].
 
-Jim Sinclair, psicólogo autista, relata que presencia  o  acentuamento  de  ansiedade,  angústia,  raiva,  ressentimentos  e depressão em autistas submetidos a intervenções que procuram ajustá-los e/ou socializá-los    conforme    padrões    que    não    respeitam    suas    identidades “neuroatípicas”, como afirma, e seus interesses (SINCLAIR, [entre 2000 e 2013], p. 2, tradução nossa). Um dos métodos mais criticados pelo movimento é a análise do comportamento aplicada (ABA). [5]
+Jim Sinclair, psicólogo autista, relata que presencia  o  acentuamento  de  ansiedade,  angústia,  raiva,  ressentimentos  e depressão em autistas submetidos a intervenções que procuram ajustá-los e/ou socializá-los    conforme    padrões    que    não    respeitam    suas    identidades “neuroatípicas”, como afirma, e seus interesses (SINCLAIR, [entre 2000 e 2013], p. 2, tradução nossa). Um dos métodos mais criticados pelo movimento é a análise do comportamento aplicada (ABA). [4]
 
 Em vista disso, na aplicação web visamos buscar uma conscientização em massa a respeito deste assunto tão importante, afim de eliminar (ou pelo menos mitigar) o preconceito e tornar impraticável o uso de expressões capacitistas, que chega a ser antiético. Também é observado uma abordagem nada invasiva e desconfortável, no âmbito de prestar auxílio na comunicação alternativa e desenvolvimento cognitivo (que por sinal, é uma das críticas levantadas pelo movimento e relatada pelo psicólogo autista SINCLAIR).
 
@@ -53,7 +53,7 @@ Com o avanço da tecnologia, dos estudos e pesquisas voltados ao conhecimento de
 
 Temos o objetivo de oportunizar o desenvolvimento de indivíduos neurodivergentes, de forma que o seu modo “ser” seja valorizado e as suas potencialidades sejam contempladas. Ressaltando a importância de os profissionais da educação conhecerem sobre os princípios e os alicerces que sustentam a neurodiversidade, tendo em vista que a ausência dessas informações poderá acarretar na continuidade de práticas excludentes.
 
-Além disso, temos visto a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: “Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” [3].
+Além disso, temos visto a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: “Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” [7].
 
 Esta aplicação web tem o propósito de auxiliar crianças com transtornos mentais dos 7 aos 13 anos de idade, atendendo as suas nessecidades de comunicação e desenvolvimento. Fazemos isso através de atividades de interação com cartões, com dinâmicas voltadas para o público infantil. Dispomos de páginas de conteúdo informativo, de fácil entendimento e de qualidade para crianças, pais, educadores e qualquer outra pessoa que busque se informar; Contendo, também, ferramentas acessíveis.
 
