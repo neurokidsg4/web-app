@@ -100,7 +100,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001|A aplicação deve ser responsiva para rodar em um dispositivos móvel. | ALTA | 
 |RNF-002|A aplicação deve aderir a padrões de acessibilidade web, garantindo que seja facilmente utilizável por pessoas com diferentes níveis de habilidades e necessidades especiais. |  ALTA |
 |RNF-003|A aplicação deve ser desenvolvida em HTML, CSS e Java Script.|ALTA|
-|RNF-005| A aplicação deve utilizar ao invés de SQLs (banco de dados), Local Storage ou JSON para gerenciamento de cadastro de conta e acesso com login.|ALTA|
+|RNF-005|A aplicação deve persistir os dados em JSON Server ou LocalStorage|ALTA|
 |RNF-006|O requisito RF-0012 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|MÉDIA|
 |RNF-007|A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-008|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
