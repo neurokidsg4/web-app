@@ -105,6 +105,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
 |RNF-007|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
 |RNF-008|A aplicação deve utilizar o Google Material Design como layout.|Média|
+|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -131,9 +132,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01|O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03|O usuário deve ser informado caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
-|04|Todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
-|05|O requisito RF-006 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|
+|03|Todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
+|04|O requisito RF-006 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|
 
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
