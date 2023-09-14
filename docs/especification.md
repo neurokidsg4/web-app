@@ -15,7 +15,8 @@ Meu nome é Ana e sou a mãe de uma criança neurodivergente. Quero entender mel
 
 Eu sou o Lucas, um garoto curioso de 7 anos com Transtorno do Espectro Autista (TEA). Adoro ciência, experimentos e cores vibrantes. Quando estou online, quero explorar um mundo de descobertas científicas empolgantes e atividades envolventes com as cores mais incríveis. A interface do aplicativo deve ser fácil de usar e visualmente atraente. Quero que ele me ajude a aprender mais sobre ciência e a me expressar através das cores. Preciso de desafios que me motivem e estimulem minha paixão pela ciência e pelas cores.
 
-![Lucas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/a67facd9-84c1-4f5d-83fb-08fa71fcbf22)
+![Lucas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/ce88cb76-75f9-4889-aa00-4cd22e240c55)
+
 
 
 **Persona 3**
