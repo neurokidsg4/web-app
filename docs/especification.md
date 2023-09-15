@@ -24,17 +24,29 @@ Eu sou o Lucas, um garoto curioso de 7 anos com Transtorno do Espectro Autista (
 
 Meu nome é Júlia tenho 35 anos e sou formada em pedagogia, atuo professora do ensino infantil a mais de 10 anos em uma escola municipal em Belo horizonte. Nesses anos de experiência me deparei com algumas crianças que apresentavam muita dificuldade de aprendizagem no modelo padrão de ensino. Uma colega de trabalho me disse que essa dificuldade pode acontecer em crianças que apresentam algum transtorno mental. Interessada em saber mais sobre o assunto comecei a buscar mais informações para entender melhor como elas se comportam e como ajuda-las no processo de aprendizagem.
 
+![Julia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/0a82742e-5960-443c-8b34-43a516335732)
+
+
 **Persona 5**
 
 Marcello, um pai de 49 anos de Minas Gerais, Brasil, busca conhecimento sobre neurodiversidade para apoiar seu filho com TDAH e promover um ambiente de aceitação e inclusão em sua família. Ele se dedicou a compreender profundamente o TDAH e adaptar sua comunicação para melhor atender às necessidades de seu filho. Além disso, Marcello planeja usar uma plataforma online com recursos educacionais e informativos sobre vários tipos de neurodiversidade.
+
+![Marcello](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/d602ecfd-0868-4535-9549-6a4c9d77856a)
+
 
 **Persona 6**
 
 Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvimento infantil, onde ela se compromete com o progresso das crianças que atende. Thalita desenvolve planos de tratamento personalizados, para cada paciente. Recentemente, ela notou o crescente interesse das crianças por recursos tecnológicos e está determinada a integrar essas ferramentas inovadoras em suas intervenções terapêuticas. Sua necessidade atual é encontrar recursos educacionais atualizados que possam ser adaptados para crianças com transtornos neurodivergentes e atrasos de fala. 
 
+![Thalita](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/88a5b3be-bb0d-4ca3-93f8-20ae83f65da5)
+
+
 **Persona 7**
 
 Daniel é um rapaz de 33 anos, mora em Contagem (MG), é solteiro e trabalha com operação de máquina em um supermercado atacarejo. Seus gostos se resumem em cantar para diminuir o estresse e cargas emocionais do trabalho, juntamente com práticas esportivas para aliviar a tesão. Ele é minimalista e prático. Recentemente começou a se questionar se seus comportamentos mediante algumas situações era completamente normal. Ele deseja descobrir se há algo além do que já sabe sobre si mesmo, através de seu comportamento padrão, mas não sabe por onde começar. Ele acha que vai ser mais fácil se tiver uma mera noção do que se trata.
+
+![Daniel](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/9ff106a2-60b6-4399-af2b-e1eba66d9281)
+
 <!--
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
