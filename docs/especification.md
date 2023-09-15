@@ -124,6 +124,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
 |RNF-008|A aplicação deve utilizar o Google Material Design como layout.|Média|
 |RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
+|RNF-010|A aplicação deve usar como referência o site Expressia.com|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
