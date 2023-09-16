@@ -29,21 +29,21 @@ Meu nome é Júlia tenho 35 anos e sou formada em pedagogia, atuo professora do 
 
 **Persona 5**
 
-Marcello, um pai de 49 anos de Minas Gerais, Brasil, busca conhecimento sobre neurodiversidade para apoiar seu filho com TDAH e promover um ambiente de aceitação e inclusão em sua família. Ele se dedicou a compreender profundamente o TDAH e adaptar sua comunicação para melhor atender às necessidades de seu filho. Além disso, Marcello planeja usar uma plataforma online com recursos educacionais e informativos sobre vários tipos de neurodiversidade.
+Meu nome é Marcello, sou pai e tenho 49 anos. Atualmente mora em Minas Gerais, Brasil. Busco conhecimento sobre neurodiversidade para apoiar meu filho com TDAH e promover um ambiente de aceitação e inclusão em nossa família. Me dedico a compreender profundamente o TDAH e adaptar minha comunicação para melhor atender às necessidades de seu filho. Além disso, planeja usar uma plataforma online com recursos educacionais e informativos sobre vários tipos de neurodiversidade.
 
 ![Marcello](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/d602ecfd-0868-4535-9549-6a4c9d77856a)
 
 
 **Persona 6**
 
-Thalita tem 38 anos é uma fonoaudióloga clínica que trabalha com desenvolvimento infantil, onde ela se compromete com o progresso das crianças que atende. Thalita desenvolve planos de tratamento personalizados, para cada paciente. Recentemente, ela notou o crescente interesse das crianças por recursos tecnológicos e está determinada a integrar essas ferramentas inovadoras em suas intervenções terapêuticas. Sua necessidade atual é encontrar recursos educacionais atualizados que possam ser adaptados para crianças com transtornos neurodivergentes e atrasos de fala. 
+Meu nome é Thalita tenho 38 anos e sou fonoaudióloga clínica, atualmente trabalho com desenvolvimento infantil, onde me comprometo com o progresso das crianças que atendo. Desenvolvo planos de tratamento personalizados, para cada paciente. Recentemente, percebi o crescente interesse das crianças por recursos tecnológicos e está planejando integrar essas ferramentas inovadoras em minhas intervenções terapêuticas. Estou em busca de recursos educacionais atualizados que possam ser adaptados para crianças com transtornos neurodivergentes e atrasos de fala. 
 
 ![Thalita](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/88a5b3be-bb0d-4ca3-93f8-20ae83f65da5)
 
 
 **Persona 7**
 
-Daniel é um rapaz de 33 anos, mora em Contagem (MG), é solteiro e trabalha com operação de máquina em um supermercado atacarejo. Seus gostos se resumem em cantar para diminuir o estresse e cargas emocionais do trabalho, juntamente com práticas esportivas para aliviar a tesão. Ele é minimalista e prático. Recentemente começou a se questionar se seus comportamentos mediante algumas situações era completamente normal. Ele deseja descobrir se há algo além do que já sabe sobre si mesmo, através de seu comportamento padrão, mas não sabe por onde começar. Ele acha que vai ser mais fácil se tiver uma mera noção do que se trata.
+Eu sou o Daniel, tenho 33 anos, moro em Contagem (MG), sou solteiro e trabalho com operação de máquina em um supermercado atacarejo. Meus gostos se resumem a cantar para diminuir o estresse e cargas emocionais do trabalho, juntamente com práticas esportivas para aliviar a tesão. Sou minimalista e prático. Recentemente comecei a questionar meus comportamentos mediante algumas situações sociais e demandas laborais. Desejo descobrir mais sobre mim e entender melhor meus comportamentos peculiares, e para começar pretendo buscar informações na internet.
 
 ![Daniel](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/9ff106a2-60b6-4399-af2b-e1eba66d9281)
 
@@ -67,14 +67,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Professora do ensino infantil| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos|
-|Professora do ensino infantil|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
-|Fonoaudióloga em uma clínica de desenvolvimento infantil|Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia|
-|Mãe de uma criança neurodivergente|Compreender melhor a neurodiversidade e aprender a apoiar meu filho.|Garantir o bem-estar e o desenvolvimento saudável do meu filho neurodivergente.|
-|Lucas, um garoto de 7 anos com TEA (Transtorno do Espectro Autista).|Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes.|
-|Daniel|Saber o que talvez possa estar havendo comigo|Me cuidar e tomar decisões melhores para mim mesmo, no que diz respeito à minha saúde|
-|Daniel|Receber recomendação da área profissional mais adequada para o assunto|Ter orientações mais objetivas|
-|Pai de uma criança com TDAH (Transtorno do déficit de atenção com hiperatividade).| Estudar e obter o máximo de informações sobre neurodiversidade, focando principalmente em entender o TDAH.| Dar o melhor suporte possível a meu filho e família, gerando um ambiente de melhor comunicação, inclusão e conforto.|
+|Ana| Compreender melhor a neurodiversidade e aprender a apoiar meu filho.|Garantir o bem-estar e o desenvolvimento saudável do meu filho neurodivergente.|
+|Lucas| Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes.|
+|Júlia| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos|
+|Júlia|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
+|Marcelo| Estudar e obter o máximo de informações sobre neurodiversidade, focando principalmente em entender o TDAH.| Dar o melhor suporte possível a meu filho e família, gerando um ambiente de melhor comunicação, inclusão e conforto.|
+|Thalita| Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia|
+|Daniel| Saber o que talvez possa estar havendo comigo|Me cuidar e tomar decisões melhores para mim mesmo, no que diz respeito à minha saúde|
+|Daniel| Receber recomendação da área profissional mais adequada para o assunto|Ter orientações mais objetivas|
 
 
 <!--
@@ -122,7 +122,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005|A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-006|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
 |RNF-007|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
-|RNF-008|A aplicação deve utilizar o Google Material Design como layout.|Média|
+|RNF-008|A aplicação deve utilizar o Google Material Design como layout.|MÉDIA|
 |RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|
 |RNF-010|A aplicação deve usar como referência o site Expressia.com|
 <!--
@@ -150,9 +150,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01|O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03|Todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
-|04|O requisito RF-006 deve deixar claro que o resultado não é um diagnóstico, e sim uma probabilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|
+|02|O projeto não poderá ser desenvolvido um módulo de backend        |
+|03|O projeto deverá fornecer todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
+|04|O projeto deverá sinalizar que o requisito RF-006 não é um diagnóstico, e sim uma possibilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|
 
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
