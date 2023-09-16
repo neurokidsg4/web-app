@@ -2,9 +2,9 @@
 
 No contexto atual, onde a tecnologia desempenha um papel cada vez mais significativo em nossa sociedade, é importante reconhecer a necessidade de promover a inclusão e o bem-estar de crianças, que estejam em algum espectro neurodivergente. Os transtornos neurodivergentes são realidades que afetam muitas crianças em todo o mundo. No entanto, a conscientização e os recursos adequados para lidar com essas condições ainda estão muito aquém do necessário.
 
-Neste cenário, apresentamos o projeto de uma aplicação web, cujo propósito é abordar essa lacuna crítica. Esta aplicação busca fornecer informações precisas e confiáveis sobre os transtornos neurodivergentes, bem como oferecer atividades de estimulação cognitiva personalizadas para o desenvolvimento cognitivo de crianças que enfrentam esses desafios. Mais do que uma simples ferramenta, este projeto representa um compromisso com a inclusão e o apoio às famílias e comunidades que lidam diariamente com esses transtornos.
+Neste cenário, apresenta-se o projeto de uma aplicação web, cujo propósito é abordar essa lacuna crítica. Esta aplicação busca fornecer informações precisas e confiáveis sobre os transtornos neurodivergentes, bem como oferecer atividades de estimulação cognitiva personalizadas para o desenvolvimento cognitivo de crianças que enfrentam esses desafios. Mais do que uma simples ferramenta, o projeto representa um compromisso com a inclusão e o apoio às famílias e comunidades que lidam diariamente com esses transtornos.
 
-Nossa iniciativa se baseia na compreensão de que a falta de conscientização, recursos adequados e uma abordagem personalizada são obstáculos significativos para o desenvolvimento e o bem estar dessas crianças. Além disso, enxergamos a necessidade de um ambiente digital que não apenas informe, mas também promova a compreensão e a aceitação em nossa sociedade. O potencial impacto positivo dessa aplicação é vasto, afetando não apenas as vidas das crianças neurodivergentes, mas também suas famílias, educadores e a sociedade como um todo. Portanto, a seguir, apresentaremos em detalhes o problema, os objetivos gerais e específicos desse projeto, a justificativa e seu público alvo, destacando sua importância dentro deste contexto amplo e relevante.
+A iniciativa do projeto baseia-se na compreensão de que a falta de conscientização, recursos adequados e uma abordagem personalizada são obstáculos significativos para o desenvolvimento e o bem estar dessas crianças. Além disso, é notório a necessidade de um ambiente digital que não apenas informe, mas também promova a compreensão e a aceitação em nossa sociedade. O potencial impacto positivo dessa aplicação é vasto, afetando não apenas as vidas das crianças neurodivergentes, mas também suas famílias, educadores e a sociedade como um todo. Portanto, a seguir, será detalhado o problema, os objetivos gerais e específicos deste projeto, a justificativa e seu público alvo, destacando sua importância dentro deste contexto amplo e relevante.
 
 ## Problema
 
@@ -36,11 +36,11 @@ O objetivo geral deste projeto é desenvolver uma aplicação web educacional qu
 
 O termo neurodiversidade, com surgimento de seus primeiros relatos em 1990, foi cunhado pela socióloga australiana e portadora da síndrome de Asperger Judy Singer, em 1999, em um texto com o sugestivo título de Por que você não pode ser normal uma vez na sua vida? De um "problema sem nome" para a emergência de uma nova categoria de diferença (Singer 1999).[3]
 
- Este movimento (afirmativo de identidade) que ganhou forças após a pesquisa elaborada por Judy, nos traz um novo entendimento a respeito de pessoas neuroatipicas. Uma das questões fortemente defendidas pelo movimento é que pessoas neurodivergentes fazem parte da variação humana.
+Este movimento (afirmativo de identidade) que ganhou forças após a pesquisa elaborada por Judy, nos traz um novo entendimento a respeito de pessoas neuroatipicas. Uma das questões fortemente defendidas pelo movimento é que pessoas neurodivergentes fazem parte da variação humana.
 
- Atualmente,  acadêmicos   e   movimentos/organizações   sociais   referentes   às pessoas em situação de deficiência, no Brasil e em outros países, vêm discutindo questões  de  direitos  (políticos,  sociais,  educacionais) e  também  referentes  à identidade.[4]
+Atualmente,  acadêmicos   e   movimentos/organizações   sociais   referentes   às pessoas em situação de deficiência, no Brasil e em outros países, vêm discutindo questões  de  direitos  (políticos,  sociais,  educacionais) e  também  referentes  à identidade.[4]
 
- O resultado disso, no Brasil, têm desenvolvido pesquisas,   principalmente   na perspectiva histórico-cultural do desenvolvimento humano, que destacam quão fundamental é   a   contextualização   das   intervenções pedagógicas e   do conhecimento das condições socioculturais do educando, da família e da escola, inclusive  na  imbricação  com  a  efetividade  das  políticas  públicas  e  com  a formação/qualificação de profissionais, no propósito e desafio de consolidação da educação inclusiva.
+O resultado disso, no Brasil, têm desenvolvido pesquisas,   principalmente   na perspectiva histórico-cultural do desenvolvimento humano, que destacam quão fundamental é   a   contextualização   das   intervenções pedagógicas e   do conhecimento das condições socioculturais do educando, da família e da escola, inclusive  na  imbricação  com  a  efetividade  das  políticas  públicas  e  com  a formação/qualificação de profissionais, no propósito e desafio de consolidação da educação inclusiva.
 
 Segundo a pesquisa sobre neurodiversidade, realizada pela Play Pesquisa e Conhecimento [5], o desejo de famílias neuroatipicas é um olhar empático da sociedade, que favoreça a inclusão.
 Em função disso, uma das conquistas mais recentes no Brasil aconteceu em Brasília, 17 de julho de 2023, onde foi aprovada a lei 14.624 que trata do uso do cordão ou colar de girassóis para identificar pessoas com alguma deficiência oculta não vista de imediato [6].
@@ -55,7 +55,7 @@ O objetivo da aplicação é oportunizar o desenvolvimento de indivíduos neurod
 
 Além disso, é evidenciado a necessidade de informar e qualificar aqueles que atuam diretamente com as crianças para que possam identificar possíveis casos. Atualmente, pode-se entender como pessoas neurodivergentes: “Autistas (TEA), pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), pessoas com altas habilidades/superdotação (AH/SD), dentre outras. Os demais indivíduos, ou seja, aqueles com o funcionamento cerebral considerado ‘típico’ são denominados ‘neurotípicos’” [7].
 
-Esta aplicação web tem o propósito de auxiliar crianças com transtornos mentais dos 7 aos 13 anos de idade, atendendo as suas nessecidades de comunicação e desenvolvimento. Fazemos isso através de atividades de interação com cartões, com dinâmicas voltadas para o público infantil. Dispõe-se de páginas de conteúdo informativo, de fácil entendimento e de qualidade para crianças, pais, educadores e qualquer outra pessoa que busque se informar; Contendo, também, ferramentas acessíveis.
+Esta aplicação web tem o propósito de auxiliar crianças com transtornos mentais dos 7 aos 13 anos de idade, atendendo as suas necessidades de comunicação e desenvolvimento. Fazemos isso através de atividades de interação com cartões, com dinâmicas voltadas para o público infantil. Dispõe-se de páginas de conteúdo informativo, de fácil entendimento e de qualidade para crianças, pais, educadores e qualquer outra pessoa que busque se informar; Contendo, também, ferramentas acessíveis.
 
 
 <!--
@@ -65,7 +65,7 @@ Esta aplicação web tem o propósito de auxiliar crianças com transtornos ment
 
 ## Público-Alvo
 
-O público-alvo são pessoas interessadas em ampliar seu conhecimento sobre transtornos neurodivergentes, com ênfase em pais, professores, acompanhantes terapêuticos e terapeutas. Além disso, a aplicação visa atender especificamente crianças em idade escolar (de 7 a 13 anos) que foram diagnosticadas com algum transtorno neurodivergente, para fins de habilitação, reabilitação e desenvolvimento.
+O público-alvo do projeto são pessoas interessadas em ampliar seu conhecimento sobre transtornos neurodivergentes, com ênfase em pais, professores, acompanhantes terapêuticos e terapeutas. Além disso, a aplicação visa atender especificamente crianças em idade escolar (de 7 a 13 anos) que foram diagnosticadas com algum transtorno neurodivergente, para fins de habilitação, reabilitação e desenvolvimento.
 
 Pais: Este grupo busca compreender melhor as necessidades e desafios de seus filhos neurodivergentes. Eles estão interessados em informações atualizadas sobre os transtornos, estratégias de apoio, e desejam encontrar recursos para auxiliar na educação e na convivência com seus filhos.
 
