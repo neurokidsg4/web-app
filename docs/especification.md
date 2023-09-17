@@ -108,7 +108,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
 |RF-011|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas. |ALTA|
 |RF-012|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA|
-|RF-013|A aplicação deve fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
+|RF-013|A aplicação deve fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|MÉDIA|
 |RF-014|A aplicação deve permitir que os usuários criem novas contas durante a etapa de acesso ao site. |ALTA|
 
 ### Requisitos não Funcionais
