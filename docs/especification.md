@@ -69,12 +69,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Ana| Compreender melhor a neurodiversidade e aprender a apoiar meu filho.|Garantir o bem-estar e o desenvolvimento saudável do meu filho neurodivergente.|
 |Lucas| Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes.|
-|Júlia| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos|
-|Júlia|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
+|Júlia| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos.|
+|Júlia|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem.|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
 |Marcelo| Estudar e obter o máximo de informações sobre neurodiversidade, focando principalmente em entender o TDAH.| Dar o melhor suporte possível a meu filho e família, gerando um ambiente de melhor comunicação, inclusão e conforto.|
-|Thalita| Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia|
-|Daniel| Saber o que talvez possa estar havendo comigo|Me cuidar e tomar decisões melhores para mim mesmo, no que diz respeito à minha saúde|
-|Daniel| Receber recomendação da área profissional mais adequada para o assunto|Ter orientações mais objetivas|
+|Thalita| Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia.|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia.|
+|Daniel| Saber o que talvez possa estar havendo comigo.|Me cuidar e tomar decisões melhores para mim mesmo, no que diz respeito à minha saúde.|
+|Daniel| Receber recomendação da área profissional mais adequada para o assunto.|Ter orientações mais objetivas.|
 
 
 <!--
@@ -96,12 +96,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001|A aplicação deve fornecer informações sobre como lidar com crianças neurodiversas no ambiente escolar| ALTA |  |
-|RF-002|A aplicação deve fornecer informações que ajudem a identificar possíveis crianças neurodiversas| ALTA | |
+|RF-001|A aplicação deve fornecer informações sobre como lidar com crianças neurodiversas no ambiente escolar.| ALTA |  |
+|RF-002|A aplicação deve fornecer informações que ajudem a identificar possíveis crianças neurodiversas.| ALTA | |
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
-|RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar|ALTA| |
-|RF-005|A aplicação deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico|ALTA|
-|RF-006|A aplicação deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete o avaliado|MÉDIA|
+|RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar.|ALTA| |
+|RF-005|A aplicação deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico.|ALTA|
+|RF-006|A aplicação deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete o avaliado.|MÉDIA|
 |RF-007|A aplicação deve, a depender do resultado do RF-006, ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão.|MÉDIA|
 |RF-008|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
 |RF-009|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
@@ -118,13 +118,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001|A aplicação deve ser responsiva para rodar em um dispositivos móvel. | ALTA | 
 |RNF-002|A aplicação deve aderir a padrões de acessibilidade web, garantindo que seja facilmente utilizável por pessoas com diferentes níveis de habilidades e necessidades especiais. |  ALTA |
 |RNF-003|A aplicação deve ser desenvolvida em HTML, CSS e Java Script.|ALTA|
-|RNF-004|A aplicação deve persistir os dados em JSON Server ou LocalStorage|ALTA|
+|RNF-004|A aplicação deve persistir os dados em JSON Server ou LocalStorage.|ALTA|
 |RNF-005|A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-006|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
 |RNF-007|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
 |RNF-008|A aplicação deve utilizar o Google Material Design como layout.|MÉDIA|
-|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela|MÉDIA|
-|RNF-010|A aplicação deve usar como referência o site Expressia.com |BAIXA|
+|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA|
+|RNF-010|A aplicação deve usar como referência o site Expressia.com. |BAIXA|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -149,10 +149,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01|O projeto deverá ser entregue até o final do semestre |
-|02|O projeto não poderá ser desenvolvido um módulo de backend        |
+|01|O projeto deverá ser entregue até o final do semestre. |
+|02|O projeto não poderá ser desenvolvido um módulo de backend.       |
 |03|O projeto deverá fornecer todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
-|04|O projeto deverá sinalizar que o requisito RF-006 não é um diagnóstico, e sim uma possibilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico|
+|04|O projeto deverá sinalizar que o requisito RF-006 não é um diagnóstico, e sim uma possibilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico.|
 
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
