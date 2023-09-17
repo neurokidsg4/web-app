@@ -69,7 +69,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Ana| Compreender melhor a neurodiversidade e aprender a apoiar meu filho.|Garantir o bem-estar e o desenvolvimento saudável do meu filho neurodivergente.|
 |Lucas| Atividades educacionais e divertidas que estimulem meu interesse pela ciência e pelas cores.|Alimentar minha curiosidade científica e minha paixão por cores vibrantes.|
-|Júlia| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças| Facilitar a identificação de possíveis alunos neurodiversos.|
+|Júlia| Encontrar recursos e informações sobre transtornos mentais que afetam o aprendizado das crianças.| Facilitar a identificação de possíveis alunos neurodiversos.|
 |Júlia|Encontrar informações sobre diferentes atividades que possam ser realizadas no ambiente escolar com alunos infantis que possuem dificuldade de aprendizagem.|Oferecer uma abordagem diferente do conteúdo para aqueles alunos que apresentem dificuldade no aprendizado.|
 |Marcelo| Estudar e obter o máximo de informações sobre neurodiversidade, focando principalmente em entender o TDAH.| Dar o melhor suporte possível a meu filho e família, gerando um ambiente de melhor comunicação, inclusão e conforto.|
 |Thalita| Obter recursos tecnológicos que possam ser utilizados como ferramentas de intervenção em terapia.|Oferecer melhores recursos de intervenção para possibilitar melhor desenvolvimento da criança em terapia.|
