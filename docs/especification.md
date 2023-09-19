@@ -43,7 +43,7 @@ Meu nome é Thalita tenho 38 anos e sou fonoaudióloga clínica, atualmente trab
 
 **Persona 7**
 
-Eu sou o Daniel, tenho 33 anos, moro em Contagem (MG), sou solteiro e trabalho com operação de máquina em um supermercado atacarejo. Meus gostos se resumem a cantar para diminuir o estresse e cargas emocionais do trabalho, juntamente com práticas esportivas para aliviar a tesão. Sou minimalista e prático. Recentemente comecei a questionar meus comportamentos mediante algumas situações sociais e demandas laborais. Desejo descobrir mais sobre mim e entender melhor meus comportamentos peculiares, e para começar pretendo buscar informações na internet.
+Eu sou o Daniel, tenho 33 anos, moro em Contagem (MG), sou solteiro e trabalho com operação de máquina em um supermercado atacarejo. Meus gostos se resumem a cantar para diminuir o estresse e cargas emocionais do trabalho, juntamente com práticas esportivas para aliviar a tensão. Sou minimalista e prático. Recentemente comecei a questionar meus comportamentos mediante algumas situações sociais e demandas laborais. Desejo descobrir mais sobre mim e entender melhor meus comportamentos peculiares, e para começar pretendo buscar informações na internet.
 
 ![Daniel](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/9ff106a2-60b6-4399-af2b-e1eba66d9281)
 
