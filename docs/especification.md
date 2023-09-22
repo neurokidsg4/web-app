@@ -125,6 +125,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-008|A aplicação deve utilizar o Google Material Design como layout.|MÉDIA|
 |RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA|
 |RNF-010|A aplicação deve usar como referência o site Expressia.com. |BAIXA|
+|RNF-011|A aplicação deve ser desenvolvida usando a metodologia Scrum|ALTA|
+|RNF-011|A aplicação deve ser desenvolvida usando a ferramenta Notion|MEDIA|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
