@@ -40,10 +40,11 @@ branco
 ![branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/43bcc540-a73c-48ba-ad16-39d9d5ba1798)
 
 Site referência para tomada de desição na escolha das cores: 
-[A importancia das cores para o autista](https://blog.rhemaeducacao.com.br/a-importancia-das-cores-para-o-autista/)
+- [A importancia das cores para o autista](https://blog.rhemaeducacao.com.br/a-importancia-das-cores-para-o-autista/)
+- [Cores frias e quentes](https://www.todamateria.com.br/cores-frias/)
 
-*Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
-
+Link para auxiliar na construção de paletas de cores: 
+- [Adobe Color](https://color.adobe.com/pt/create/color-wheel).
 
 ## Tipografia!
 
