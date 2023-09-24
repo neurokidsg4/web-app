@@ -11,10 +11,34 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+verde
+![verde](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/44214777-57d0-4edd-a26a-169edf89f109)
+
+azul
+![azul](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/811e2b6e-b3a3-478b-998b-8797aa6e8e2a)
+
+vermelho
+![vermelho](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/96f52660-3e52-43ef-9a85-ba047283551f)
+
+cinza escuro
+[cinza escuro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/6c9a73ff-8516-4dea-9150-fa075f63bdfb)
+
+cinza
+![cinza](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/7d641bc9-43a6-4d4c-a459-0c2eceff55ad)
+
+cinza claro
+![cinza claro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/0cf985bf-92be-45f0-be17-fc405357f7f6)
+
+branco
+![branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/43bcc540-a73c-48ba-ad16-39d9d5ba1798)
+
+Site referência para tomada de desição na escolha das cores: 
+> - [A importancia das cores para o autista](https://blog.rhemaeducacao.com.br/a-importancia-das-cores-para-o-autista/)
+
+*Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
 
-## Tipografia
+## Tipografia!
 
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
