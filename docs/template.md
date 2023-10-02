@@ -11,33 +11,39 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-verde
+azul escuro
 
-![verde](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/44214777-57d0-4edd-a26a-169edf89f109)
+![azul escuro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/83b69072-f0f8-485b-bf74-3b2be3bd203d)
 
-azul
 
-![azul](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/811e2b6e-b3a3-478b-998b-8797aa6e8e2a)
+azul claro
 
-vermelho
+![azul claro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0dae6f27-76b9-48c8-b7db-63bea9f80fce)
 
-![vermelho](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/96f52660-3e52-43ef-9a85-ba047283551f)
 
-cinza escuro
+verde 
 
-![cinza escuro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/6c9a73ff-8516-4dea-9150-fa075f63bdfb)
+![verde](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/f8d04a9a-5a24-4f27-9efb-78a1a9f3df99)
 
-cinza
 
-![cinza](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/7d641bc9-43a6-4d4c-a459-0c2eceff55ad)
+amarelo
+
+![amarelo](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/ae183cbe-f96e-4593-a694-cbfbf287d412)
+
+
+laranja
+
+![laranja](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/488ec3ce-4d49-41ce-b218-02a7dadc9b50)
+
 
 cinza claro
 
-![cinza claro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/0cf985bf-92be-45f0-be17-fc405357f7f6)
+![cinza claro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/061ccea6-d5a2-4a79-bcc8-0fc145b5ca77)
 
 branco
 
-![branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/43bcc540-a73c-48ba-ad16-39d9d5ba1798)
+![branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/ab84cabd-93cd-40aa-b5ea-2de88f40d987)
+
 
 Site referência para tomada de desição na escolha das cores: 
 - [A importancia das cores para o autista](https://blog.rhemaeducacao.com.br/a-importancia-das-cores-para-o-autista/)
