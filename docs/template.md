@@ -54,7 +54,7 @@ Link para auxiliar na construção de paletas de cores:
 
 ## Tipografia!
 
-Título da página:
+*Título da página:*
 
 Roboto
 
