@@ -1,9 +1,9 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+O Projeto de Interface foi estruturado em oito páginas, cada uma com um propósito específico: Login, Cadastro, Página Inicial, Feedback, Sobre Nós, Infantil, Perfil e Ajuda. O objetivo central é assegurar a conformidade com os padrões de acessibilidade web, garantindo que os layouts sejam intuitivos e que as fontes de texto sejam facilmente legíveis, de forma a atender a um público diversificado, abrangendo indivíduos com diferentes habilidades, necessidades especiais e faixas etárias.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Além disso, foram criadas seções dedicadas a atender tanto a profissionais e pais de crianças neurodivergentes quanto às próprias crianças com neurodiversidade. Cada seção é identificada por meio de cards que apresentam os tópicos abordados, proporcionando uma organização do conteúdo. Adicionalmente, na parte superior da tela, foi inserida uma seção denominada "Infantil" com o intuito de promover o desenvolvimento de habilidades essenciais por meio de atividades educacionais e lúdicas, estimulando o interesse das crianças neurodivergentes.
 
 ## User Flow
 
