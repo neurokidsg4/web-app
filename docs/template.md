@@ -145,11 +145,11 @@ Acessar área infantil versão mobile:
 
 Acessar perfil versão mobile:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/fae8ff7c-66b9-4ea4-9171-3e514879a46b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/80f40da0-4ca8-4d5a-a173-af27d144b871)
 
 Acessar área ajuda versão mobile:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/7f108ba6-4daa-4887-ae9b-db8f9c7d7c88)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/84e82a8a-24eb-4ccb-9fd5-820dda634d87)
 
 Acessar notificações do site:
 
