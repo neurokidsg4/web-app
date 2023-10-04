@@ -54,6 +54,18 @@ Link para auxiliar na construção de paletas de cores:
 
 ## Tipografia!
 
+Título da página:
+Roboto
+
+Título de Seção:
+Roboto
+
+Rótulo de componentes:
+Roboto
+
+Corpo do Texto:
+Roboto
+
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 
@@ -69,7 +81,7 @@ Visualizar a senha escolhida:
 
 Inserir e-mail de cadastro:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/b43ed155-e171-4045-8905-7459108d77ae)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/22c2363f-bc0d-486f-963e-d557faa3d7b7)
 
 Inserir data de nascimento:
 
@@ -154,6 +166,18 @@ Acessar área ajuda versão mobile:
 Acessar notificações do site:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/dea8f14a-a0c6-430a-9bd6-bad77caf0b8b)
+
+Seta de navegação - Indica mais opções abaixo:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/45cf9e2f-dd8a-4077-aaf5-5045715b392d)
+
+Seta de navegação - indica mais conteúdo ao avançar:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/6e410f9a-b06e-4e97-80ab-6d465db63167)
+
+Fechar a página pop-up:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/142346815/a7739eff-7883-436d-84f1-61da25d4171f)
 
 Acessar página inicial versão mobile:
 
