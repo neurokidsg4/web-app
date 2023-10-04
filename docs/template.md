@@ -55,15 +55,19 @@ Link para auxiliar na construção de paletas de cores:
 ## Tipografia!
 
 Título da página:
+
 Roboto
 
 Título de Seção:
+
 Roboto
 
 Rótulo de componentes:
+
 Roboto
 
 Corpo do Texto:
+
 Roboto
 
 Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
