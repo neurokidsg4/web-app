@@ -13,8 +13,8 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ### Página inicial
 
-Na página inicial, os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. Além disso, há outra seção projetada para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-005]. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-007], bem como ícones para compartilhamento do conteúdo nas redes sociais.
-[RF-010]
+A partir da página inicial, os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais que correspondem aos requisitos [RF-001, RF-002, RF-003 e RF-004]. Além disso, há outra seção projetada para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-005]. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-007], bem como ícones para compartilhamento do conteúdo nas redes sociais
+[RF-010].
 
 ![PáginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
@@ -26,6 +26,6 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na página 
 
 ### Cadastro
 
-Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados. [RF-012]
+Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados [RF-012].
 
 ![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/8827f4d7-f9a1-47c5-abc3-e8629435949e)
