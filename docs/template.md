@@ -66,19 +66,19 @@ Link para auxiliar na construção de paletas de cores:
 
 ### Título da página:
 
->**Roboto**
+>Roboto
 
 ### Título de Seção:
 
->**Roboto**
+>Roboto
 
 ### Rótulo de componentes:
 
->**Roboto**
+>Roboto
 
 ### Corpo do Texto:
 
->**Roboto**
+>Roboto
 
 ## Iconografia
 
