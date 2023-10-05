@@ -23,6 +23,14 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
+As cores da aplicação foi pensada para proporcionar um ambiente agradavél, principalmente às crianças. Além disso, foi pensado mais especificamente em crianças neurodiversas, como o autismo, onde as cores azul, laranja e amarelo auxiliam no desenvolvimento social e pode trazer um sensação de tranquilidade. As cores também passam um sensação de alegria a ajuda na interatividade com os recursos disponíveis.
+
+
+<div>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/7978f89b-2dec-4f61-a181-35740e5eee08" width=500>
+</div>
+
+<!--
 ### **Azul escuro**
 
 ![azul escuro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/83b69072-f0f8-485b-bf74-3b2be3bd203d)
@@ -55,12 +63,15 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 ![branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/ab84cabd-93cd-40aa-b5ea-2de88f40d987)
 
 
+
+
 Site referência para tomada de desição na escolha das cores: 
 - [A importancia das cores para o autista](https://blog.rhemaeducacao.com.br/a-importancia-das-cores-para-o-autista/)
 - [Cores frias e quentes](https://www.todamateria.com.br/cores-frias/)
 
 Link para auxiliar na construção de paletas de cores: 
 - [Adobe Color](https://color.adobe.com/pt/create/color-wheel).
+-->
 
 ## Tipografia!
 
