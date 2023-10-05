@@ -8,6 +8,11 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+
+Este é o modelo de caixa de dialog.
+
+![dialog%20exclus%C3%A3o_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/ce56f9a7-e4d8-4659-8b6d-41b07aa95b66)
+
 O menu quando o usuário está logado apresenta um ícone de logout acompanhado da palavra sair
 
 ![Frame%20menu%20logado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/54e05034-af89-4f79-9bdd-55444d1e282f)
