@@ -53,7 +53,8 @@ O quarto card da sessão destinada a pais e profissionais oferece sugestões de 
 
 Para que o usuário acesse os conteúdos da aplicação disponíveis na página inicial, como a sessão infantil e o perfil, deve ser feito o login em uma conta previamente criada [RF-009], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
 
-![Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/155ab20a-8ab4-4bc5-a4e4-80f59dd1db81)
+![Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0dc998ff-6a04-40e4-9219-09c2f06508bd)
+
 
 ### Cadastro
 
