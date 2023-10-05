@@ -202,7 +202,6 @@ Link para auxiliar na construção de paletas de cores:
 
 ![sobre_nós_icon](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/67cd0b3b-9488-41ee-9f2c-d53b6913572b)
 
-Defina os ícones que serão utilizados e suas respectivas funções.
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
