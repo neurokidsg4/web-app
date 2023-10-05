@@ -18,6 +18,13 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 
 ![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
+###Página de perfil
+
+A página de perfil consta as informações pessoais dos usuários [RF-012]. Nessa página é possivel editar suas informações bem como excluir sua conta.
+
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/94662bf8-b021-46ff-b49c-b0b95d2d9a58)
+
+
 ### Página sobre como lidar com crianças neurodiversas no ambiente escolar
 
 Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar [RF-001].
