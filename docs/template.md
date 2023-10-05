@@ -8,6 +8,13 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+O menu quando o usuário está logado apresenta um ícone de logout acompanhado da palavra sair
+
+![Frame%20menu%20logado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/54e05034-af89-4f79-9bdd-55444d1e282f)
+
+O menu quando o usuário está deslogado apresenta um ícone de login acompanhado da palavra entrar
+
+![Frame%20menu%20deslogado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/fd691959-77f2-4c96-98e8-730d76b73fd4)
 
 ## Cores
 
