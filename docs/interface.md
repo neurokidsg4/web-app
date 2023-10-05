@@ -24,7 +24,7 @@ A página de perfil apresenta as informações fornecidas na criação da conta 
 Se segue juntamente a este wireframe as telas de exclusão de conta e alteração de senha, onde são acessados através desta página de perfil.
 
 <div>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/94662bf8-b021-46ff-b49c-b0b95d2d9a58" width="700px" />
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/99a01d8a-a96c-42e5-988d-3b348cb9ed23" width="700px" />
 </div>
 
 
