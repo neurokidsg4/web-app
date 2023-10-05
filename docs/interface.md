@@ -17,10 +17,17 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 
 ![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
-### Página de perfil
+### Tela de Perfil
 
-A página de perfil apresenta as informações fornecidas na criação da conta do usuário, botões para editar suas informações bem como excluir a conta e alterar a senha [RF-014].
-Se segue juntamente a este wireframe as telas de exclusão de conta e alteração de senha, onde são acessados através desta página de perfil.
+A página de perfil apresenta todas as informações informadas pelo usuário no processo de cadastramento e botões para visualizar as informações pessoais e para editar perfil.[RF-014].
+
+![Desktop%20Perfil%20(1)_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/5c514437-a118-4c6a-a7a0-d060776b2fb8)
+
+
+
+### Subtela do Perfil
+
+A subtela do Perfil apresenta um formulário para a alteração das informações do usuário, um botão para alterar senha e outro para excluir a conta [RF-015]. Se segue juntamente a este wireframe as telas de exclusão de conta e alteração de senha, onde são acessados através desta subtela do perfil.
 
 ![Perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
