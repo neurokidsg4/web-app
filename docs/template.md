@@ -23,36 +23,34 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-azul escuro
+### **Azul escuro**
 
 ![azul escuro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/83b69072-f0f8-485b-bf74-3b2be3bd203d)
 
 
-azul claro
+### **Azul claro**
 
 ![azul claro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0dae6f27-76b9-48c8-b7db-63bea9f80fce)
 
 
-verde 
+### **Verde** 
 
 ![verde](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/f8d04a9a-5a24-4f27-9efb-78a1a9f3df99)
 
-
-amarelo
+### **Amarelo**
 
 ![amarelo](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/ae183cbe-f96e-4593-a694-cbfbf287d412)
 
-
-laranja
+### **Laranja**
 
 ![laranja](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/488ec3ce-4d49-41ce-b218-02a7dadc9b50)
 
 
-cinza claro
+### **Cinza claro**
 
 ![cinza claro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/061ccea6-d5a2-4a79-bcc8-0fc145b5ca77)
 
-branco
+### **Branco**
 
 ![branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/ab84cabd-93cd-40aa-b5ea-2de88f40d987)
 
