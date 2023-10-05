@@ -9,22 +9,8 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
-### **Modelo de campo com erro**
+![Wireframe%20-%201_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/c77b1f94-65cc-41c0-a458-10e075508883)
 
-![Input com erro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/2ed7e051-f497-42f6-ac2e-cd05fb4bd478)
-
-
-### **Modelo da caixa de dialog**
-
-![dialog%20exclus%C3%A3o_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/ce56f9a7-e4d8-4659-8b6d-41b07aa95b66)
-
-### **No menu, quando o usuário está logado, é exibido um ícone de logout acompanhado da opção "Sair"**
-
-![Frame%20menu%20logado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/54e05034-af89-4f79-9bdd-55444d1e282f)
-
-### **No menu, quando o usuário está deslogado, é exibido um ícone de login acompanhado da opção "Entrar"**
-
-![Frame%20menu%20deslogado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/fd691959-77f2-4c96-98e8-730d76b73fd4)
 
 ## Cores
 
