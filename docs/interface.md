@@ -24,3 +24,15 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 Na página inicial, os usuários encontrarão seções dedicadas a atender a demandas específicas, com uma seção voltada para adultos e outra projetada para crianças interagirem com conteúdos dinâmicos [RF-005]. Além disso, no canto superior direito, há um campo de pesquisa que permite aos usuários pesquisar o conteúdo desejado [RF-007], bem como ícones de compartilhamento de conteúdo nas redes sociais [RF-010].
 
 ![PáginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
+
+### Login
+
+Para que o usuário acesse os conteúdos da aplicação disponíveis na página inicial, como a sessão infantil e o perfil, deve ser feito o login em uma conta previamente criada [RF-009], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/155ab20a-8ab4-4bc5-a4e4-80f59dd1db81)
+
+### Cadastro
+
+Caso não possua cadastro, a opção "Clique aqui e cadastre-se" permite a criação de contas para os novos usuários [RF-012].
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/8827f4d7-f9a1-47c5-abc3-e8629435949e)
