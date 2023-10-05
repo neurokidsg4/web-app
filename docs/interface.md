@@ -27,12 +27,16 @@ A página de perfil apresenta as informações fornecidas na criação da conta 
 </div>
 
 
-### Página sobre como lidar com crianças neurodiversas no ambiente escolar
+### Páginas estáticas de informações
 
-Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar [RF-001].
 
-![contexto-escolar-RF-001](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/1b3076c4-526d-4c38-8633-21624f416ea1)
+Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar [RF-001]. Da mesma forma se segue para todas as demais páginas estáticas de informações, bem como o layout e design da página: [RF-002] e [RF-004].
 
+<div>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/1b3076c4-526d-4c38-8633-21624f416ea1" width="700">
+</div>
+
+<!--
 ### Página sobre como lidar com crianças neurodiversas no ambiente familiar
 
 O segundo card, identificado por "Como lidar com crianças neurodiversas no ambiente familiar?", disponibiliza informações sobre como lidar com crianças neurodiversas no contexto familiar [RF-004].
@@ -44,6 +48,10 @@ O segundo card, identificado por "Como lidar com crianças neurodiversas no ambi
 O terceiro card, intitulado "Como identificar a neurodivergência na infância?", oferece informações que auxiliam na identificação de possíveis crianças neurodiversas [RF-002].
 
 ![identificação_neurodiversos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/598709d1-51c6-47f7-98a7-40ccf06d718a)
+-->
+
+
+
 
 ### Página de sugestões de atividades escolares
 
