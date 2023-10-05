@@ -24,13 +24,3 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 Na página inicial, os usuários encontrarão seções dedicadas a atender a demandas específicas, com uma seção voltada para adultos e outra projetada para crianças interagirem com conteúdos dinâmicos [RF-005]. Além disso, no canto superior direito, há um campo de pesquisa que permite aos usuários pesquisar o conteúdo desejado [RF-007], bem como ícones de compartilhamento de conteúdo nas redes sociais [RF-010].
 
 ![PáginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
