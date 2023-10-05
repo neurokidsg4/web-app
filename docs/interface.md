@@ -85,6 +85,7 @@ Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar
 
 Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Feedback" no menu de navegação, onde serão redirecionados para uma página com um formulário para fornecerem feedback. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-008].
 
-![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/29f56861-fcfc-4536-b546-a87f206511d6)
+![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
+
 
 
