@@ -18,6 +18,18 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 
 ![PáginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
+### Página sobre como lidar com crianças neurodiversas no ambiente escolar
+
+Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar [RF-001].
+
+![contexto-escolar-RF-001](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/1b3076c4-526d-4c38-8633-21624f416ea1)
+
+### Página sobre como lidar com crianças neurodiversas no ambiente familiar
+
+O segundo card, identificado por "Como lidar com crianças neurodiversas no ambiente familiar?", disponibiliza informações sobre como lidar com crianças neurodiversas no contexto familiar [RF-004].
+
+![contexto-familiar-RF-004](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/a15decf4-96e9-49e6-a427-4831e73115a1)
+
 ### Login
 
 Para que o usuário acesse os conteúdos da aplicação disponíveis na página inicial, como a sessão infantil e o perfil, deve ser feito o login em uma conta previamente criada [RF-009], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
