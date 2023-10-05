@@ -21,7 +21,8 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ### Página inicial
 
-Na página inicial, os usuários encontrarão seções dedicadas a atender a demandas específicas, com uma seção voltada para adultos e outra projetada para crianças interagirem com conteúdos dinâmicos [RF-005]. Além disso, no canto superior direito, há um campo de pesquisa que permite aos usuários pesquisar o conteúdo desejado [RF-007], bem como ícones de compartilhamento de conteúdo nas redes sociais [RF-010].
+Na página inicial, os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. Além disso, há outra seção projetada para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-005]. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-007], bem como ícones para compartilhamento do conteúdo nas redes sociais.
+[RF-010]
 
 ![PáginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
