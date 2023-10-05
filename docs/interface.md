@@ -20,7 +20,7 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 
 ###Página de perfil
 
-A página de perfil consta as informações pessoais dos usuários [RF-012]. Nessa página é possivel editar suas informações bem como excluir sua conta.
+A página de perfil apresenta as informações fornecidas na criação da conta do usuário [RF-012]. Nessa página é possivel editar suas informações bem como excluir a conta.
 
 ![perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/94662bf8-b021-46ff-b49c-b0b95d2d9a58)
 
