@@ -4,9 +4,14 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 
 Explique as guias de estilo utilizadas no seu projeto.
 
+
 ## Design
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+
+### **Modelo de campo com erro**
+
+![Input com erro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/2ed7e051-f497-42f6-ac2e-cd05fb4bd478)
 
 
 ### **Modelo da caixa de dialog**
