@@ -33,6 +33,6 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na página 
 
 ### Cadastro
 
-Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários [RF-012].
+Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados. [RF-012]
 
 ![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/8827f4d7-f9a1-47c5-abc3-e8629435949e)
