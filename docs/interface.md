@@ -12,17 +12,17 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ### Página inicial
 
-A partir da página inicial, os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. Além disso, há outra seção projetada para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-005]. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-007], bem como ícones para compartilhamento do conteúdo nas redes sociais
-[RF-010].
+A partir da página inicial, os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-008], bem como ícones para compartilhamento do conteúdo nas redes sociais
+[RF-011].
 
 ![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
 ### Página de perfil
 
-A página de perfil apresenta as informações fornecidas na criação da conta do usuário [RF-012]. Nessa página é possivel editar suas informações bem como excluir a conta.
+A página de perfil apresenta as informações fornecidas na criação da conta do usuário, botões para editar suas informações bem como excluir a conta e alterar a senha [RF-014].
 Se segue juntamente a este wireframe as telas de exclusão de conta e alteração de senha, onde são acessados através desta página de perfil.
 
-![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
+![Perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
 
 ### Páginas estáticas de informações
@@ -53,13 +53,13 @@ O terceiro card, intitulado "Como identificar a neurodivergência na infância?"
 
 ### Página de sugestões de atividades escolares
 
-O quarto card da sessão destinada a pais e profissionais oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003].
+O quarto card da sessão destinada a pais e profissionais redireciona para a pagina que oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003].
 
 ![atividade-escolar-RF-003](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/10e0d654-be20-4649-968f-084728eafb01)
 
 ### Login
 
-Para que o usuário acesse os conteúdos da aplicação disponíveis na página inicial, como a sessão infantil e o perfil, deve ser feito o login em uma conta previamente criada [RF-009], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
+Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão infantil e perfil, deve ser feito o login em uma conta previamente criada [RF-010], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
 
 
 ![Desktop%20Login_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/110e9378-abb4-4d99-a3d0-475dbce5bf4c)
@@ -67,21 +67,21 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na página 
 
 ### Cadastro
 
-Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados [RF-012].
+Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite o redirecionamento para a página de cadastro para criação de nova conta de usuário a partir da inserção de informações nos campos solicitados [RF-013].
 
 ![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
 
 
 ### Espaço Infantil
 
-Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-006]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-007].
+Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-007]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-008].  Esta sessão é para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-006]
 
 ![Desktop Espaço Infantil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/d17d4a5f-434b-4bc4-aee9-8e2f0859980a)
 
 
 ### Feedback
 
-Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Feedback" no menu de navegação, onde serão redirecionados para uma página com um formulário para fornecerem feedback. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-008].
+Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Feedback" no menu de navegação, onde serão redirecionados para uma página com um formulário para fornecerem feedback. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-009].
 
 ![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
 
