@@ -101,15 +101,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
 |RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar.|ALTA| |
 |RF-005|A aplicação deve conter sessões específicas para cada demanda, uma voltada para pessoas adultas e outra para crianças interagir com o conteúdo dinâmico.|ALTA|
-|RF-006|A aplicação deve conter um quiz que apontará, a depender das respostas, o possível transtorno que acomete o avaliado.|MÉDIA|
-|RF-007|A aplicação deve, a depender do resultado do RF-006, ofertar em seguida, uma série de recomendações, profissionais e informações relacionadas ao possível transtorno apontado pelo resultado do requisito em questão.|MÉDIA|
-|RF-008|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
-|RF-009|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
-|RF-010|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
-|RF-011|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas. |ALTA|
-|RF-012|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA|
-|RF-013|A aplicação deve fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|MÉDIA|
-|RF-014|A aplicação deve permitir que os usuários criem novas contas durante a etapa de acesso ao site. |ALTA|
+|RF-006|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA|
+|RF-007|A aplicação deve permitir a busca por atividades específicas.|MÉDIA|
+|RF-008|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA|
+|RF-009|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas. |ALTA|
+|RF-010|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA|
+|RF-011|A aplicação deve fornecer recursos de treinamento e documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|MÉDIA|
+|RF-012|A aplicação deve permitir que os usuários criem novas contas durante a etapa de acesso ao site. |ALTA|
 
 ### Requisitos não Funcionais
 
@@ -153,8 +151,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01|O projeto deverá ser entregue até o final do semestre. |
 |02|O projeto não poderá ser desenvolvido um módulo de backend.       |
 |03|O projeto deverá fornecer todas as instruções e direções nas atividades propostas para as crianças devem ser claras, simples e visualmente apoiadas para contribuir com o entendimento das tarefas.
-|04|O projeto deverá sinalizar que o requisito RF-006 não é um diagnóstico, e sim uma possibilidade, orientando sempre na busca de um profissional adequado recomendado para diagnóstico.|
-
 <!--
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
