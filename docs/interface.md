@@ -45,7 +45,7 @@ O terceiro card, intitulado "Como identificar a neurodivergência na infância?"
 
 ### Página de sugestões de atividades escolares
 
-O quarto card da sessão destinada a pais e profissionais oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003]
+O quarto card da sessão destinada a pais e profissionais oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003].
 
 ![atividade-escolar-RF-003](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/10e0d654-be20-4649-968f-084728eafb01)
 
@@ -59,4 +59,4 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na página 
 
 Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados [RF-012].
 
-![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/8827f4d7-f9a1-47c5-abc3-e8629435949e)
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0f1ccbe0-a81b-499c-9226-161096d96cc8)
