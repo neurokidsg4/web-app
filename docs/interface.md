@@ -72,3 +72,19 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na página 
 Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados [RF-012].
 
 ![cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0f1ccbe0-a81b-499c-9226-161096d96cc8)
+
+
+### Espaço Infantil
+
+Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-006]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-007].
+
+![Desktop Espaço Infantil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/d17d4a5f-434b-4bc4-aee9-8e2f0859980a)
+
+
+### Feedback
+
+Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Feedback" no menu de navegação, onde serão redirecionados para uma página com um formulário para fornecerem feedback. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-008].
+
+![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/29f56861-fcfc-4536-b546-a87f206511d6)
+
+
