@@ -9,15 +9,15 @@ Explique as guias de estilo utilizadas no seu projeto.
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 
-Este é o modelo de caixa de dialog.
+### **Modelo da caixa de dialog**
 
 ![dialog%20exclus%C3%A3o_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/ce56f9a7-e4d8-4659-8b6d-41b07aa95b66)
 
-O menu quando o usuário está logado apresenta um ícone de logout acompanhado da palavra sair
+### **No menu, quando o usuário está logado, é exibido um ícone de logout acompanhado da opção "Sair"**
 
 ![Frame%20menu%20logado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/54e05034-af89-4f79-9bdd-55444d1e282f)
 
-O menu quando o usuário está deslogado apresenta um ícone de login acompanhado da palavra entrar
+### **No menu, quando o usuário está deslogado, é exibido um ícone de login acompanhado da opção "Entrar"**
 
 ![Frame%20menu%20deslogado_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/fd691959-77f2-4c96-98e8-730d76b73fd4)
 
@@ -66,24 +66,21 @@ Link para auxiliar na construção de paletas de cores:
 
 ## Tipografia!
 
-Título da página:
+### Título da página:
 
-Roboto
+**Roboto**
 
-Título de Seção:
+### Título de Seção:
 
-Roboto
+**Roboto**
 
-Rótulo de componentes:
+### Rótulo de componentes:
 
-Roboto
+**Roboto**
 
-Corpo do Texto:
+### Corpo do Texto:
 
-Roboto
-
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+**Roboto**
 
 ## Iconografia
 
