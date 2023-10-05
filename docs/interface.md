@@ -16,7 +16,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 A partir da página inicial, os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. Além disso, há outra seção projetada para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-005]. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-007], bem como ícones para compartilhamento do conteúdo nas redes sociais
 [RF-010].
 
-![PáginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
+![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
 ### Página sobre como lidar com crianças neurodiversas no ambiente escolar
 
@@ -29,6 +29,18 @@ Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre
 O segundo card, identificado por "Como lidar com crianças neurodiversas no ambiente familiar?", disponibiliza informações sobre como lidar com crianças neurodiversas no contexto familiar [RF-004].
 
 ![contexto-familiar-RF-004](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/a15decf4-96e9-49e6-a427-4831e73115a1)
+
+### Página sobre como identificar a neurodivergência na infância
+
+O terceiro card, intitulado "Como identificar a neurodivergência na infância?", oferece informações que auxiliam na identificação de possíveis crianças neurodiversas [RF-002].
+
+![identificação_neurodiversos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/598709d1-51c6-47f7-98a7-40ccf06d718a)
+
+### Página de sugestões de atividades escolares
+
+O quarto card da sessão destinada a pais e profissionais oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003]
+
+![atividade-escolar-RF-003](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/10e0d654-be20-4649-968f-084728eafb01)
 
 ### Login
 
