@@ -1,4 +1,3 @@
-
 # Projeto de Interface
 
 O Projeto de Interface foi estruturado em oito páginas, cada uma com um propósito específico: Login, Cadastro, Página Inicial, Feedback, Sobre Nós, Infantil, Perfil e Ajuda. O objetivo central é assegurar a conformidade com os padrões de acessibilidade web, garantindo que os layouts sejam intuitivos e que as fontes de texto sejam facilmente legíveis, de forma a atender a um público diversificado, abrangendo indivíduos com diferentes habilidades, necessidades especiais e faixas etárias.
@@ -71,7 +70,7 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na página 
 
 Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados [RF-012].
 
-![cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0f1ccbe0-a81b-499c-9226-161096d96cc8)
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
 
 ### Espaço Infantil
