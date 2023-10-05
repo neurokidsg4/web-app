@@ -22,9 +22,7 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 A página de perfil apresenta as informações fornecidas na criação da conta do usuário [RF-012]. Nessa página é possivel editar suas informações bem como excluir a conta.
 Se segue juntamente a este wireframe as telas de exclusão de conta e alteração de senha, onde são acessados através desta página de perfil.
 
-<div>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/99a01d8a-a96c-42e5-988d-3b348cb9ed23" width="700px" />
-</div>
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
 
 ### Páginas estáticas de informações
@@ -63,14 +61,15 @@ O quarto card da sessão destinada a pais e profissionais oferece sugestões de 
 
 Para que o usuário acesse os conteúdos da aplicação disponíveis na página inicial, como a sessão infantil e o perfil, deve ser feito o login em uma conta previamente criada [RF-009], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
 
-![Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/0dc998ff-6a04-40e4-9219-09c2f06508bd)
+
+![Desktop%20Login_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/110e9378-abb4-4d99-a3d0-475dbce5bf4c)
 
 
 ### Cadastro
 
 Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite a criação de contas para os novos usuários a partir da inserção de informações nos campos solicitados [RF-012].
 
-![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
+![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
 
 
 ### Espaço Infantil
