@@ -1,8 +1,13 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O template padrão encontra-se no arquivo index.html dentro do diretório XXXX <!--source (src)-->
 
-Explique as guias de estilo utilizadas no seu projeto.
+As imagens da logo encontra-se no diretório XXXX <!--src/imgs-->
+
+O arquivo style.css encontra-se no diretório XXXX <!--src/css.-->
+
+<img width="534" alt="template_padrao" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4180dccd-ea6c-4b8b-8edc-a526a4f547a8">
+
 
 
 ## Design
