@@ -12,6 +12,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
+A paleta de cores da aplicação foi cuidadosamente selecionada com o objetivo de criar um ambiente agradável, especialmente voltado para crianças. Além disso, consideramos de forma específica as necessidades das crianças neurodiversas, como aquelas que têm autismo e escolhemos as cores azul, laranja e amarelo por sua capacidade de promover o desenvolvimento social e proporcionar uma sensação de tranquilidade, tendo em vista que essas cores também têm o poder de transmitir alegria e facilitar a interatividade com os recursos disponíveis na aplicação. 
+<!--
 As cores da aplicação foi pensada para proporcionar um ambiente agradavél, principalmente às crianças. Além disso, foi pensado mais especificamente em crianças neurodiversas, como o autismo, onde as cores azul, laranja e amarelo auxiliam no desenvolvimento social e pode trazer um sensação de tranquilidade. As cores também passam um sensação de alegria a ajuda na interatividade com os recursos disponíveis.
 
 
