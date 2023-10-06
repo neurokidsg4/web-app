@@ -38,7 +38,7 @@ A subtela do Perfil apresenta um formulário para a alteração das informaçõe
 Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar [RF-001]. Da mesma forma se segue para todas as demais páginas estáticas de informações, bem como o layout e design da página: [RF-002] e [RF-004].
 
 <div>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/1b3076c4-526d-4c38-8633-21624f416ea1" width="700">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/3cbb91c1-3033-45e0-842c-85a2da0e04b1" width="700">
 </div>
 
 <!--
