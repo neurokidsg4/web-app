@@ -2,7 +2,7 @@
 
 O template padrão encontra-se no arquivo index.html dentro do diretório XXXX <!--source (src)-->
 
-As imagens da logo encontra-se no diretório XXXX <!--src/imgs-->
+A imagem da logo encontra-se no diretório XXXX <!--src/imgs-->
 
 O arquivo style.css encontra-se no diretório XXXX <!--src/css.-->
 
