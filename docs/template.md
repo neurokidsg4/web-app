@@ -81,6 +81,12 @@ Link para auxiliar na construção de paletas de cores:
 >Roboto
 
 ## Iconografia
+Os ícones foram escolhidos baseados no Material Symbols do Google. Na imagem que se segue cada ícone possui a descrição de acordo com a função que representa na aplicação.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/4e683078-21db-425b-af13-ba9bab646b98" >
+
+
+<!--
 
 ### **Escolha a senha/confirme a senha:**
 
@@ -214,3 +220,4 @@ Outras seções podem ser adicionadas neste documento para apresentar padrões d
 > - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
 > - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+-->
