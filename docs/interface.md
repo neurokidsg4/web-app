@@ -93,4 +93,7 @@ Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar
 ![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
 
 
+### Modelos de componentes padrão
+
+![Wireframe%20-%201_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/c77b1f94-65cc-41c0-a458-10e075508883)
 
