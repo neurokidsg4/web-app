@@ -6,7 +6,8 @@ As imagens da logo encontra-se no diretório XXXX <!--src/imgs-->
 
 O arquivo style.css encontra-se no diretório XXXX <!--src/css.-->
 
-<img width="534" alt="template_padrao" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4180dccd-ea6c-4b8b-8edc-a526a4f547a8">
+<img width="1511" alt="template_padrao2" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/9ac7dd7c-768f-4a37-a26b-c789165b5601">
+
 
 
 
