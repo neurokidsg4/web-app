@@ -65,7 +65,7 @@ Link para auxiliar na construção de paletas de cores:
 
 ## Tipografia!
 
-Toda a aplicação foi desenvolvida utilizando a fonte Roboto. Nas diversas páginas há mudanças no tipo da fonte entre Bold, Medium e Regular a depender do nível do título ou texto.
+A aplicação foi desenvolvida utilizando a fonte Roboto em suas diversas páginas. Além disso, observa-se mudanças no tipo da fonte, como Bold, Medium e Regular a depender do nível do título ou texto.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/ed0efbd3-9955-40a7-93e3-a152105765b8](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/e9fe9518-34e8-4272-91ff-5516596ee6e0)">
 
@@ -88,7 +88,8 @@ Toda a aplicação foi desenvolvida utilizando a fonte Roboto. Nas diversas pág
 -->
 
 ## Iconografia
-Os ícones foram escolhidos baseados no Material Symbols do Google. Na imagem que se segue cada ícone possui a descrição de acordo com a função que representa na aplicação.
+
+Os ícones foram escolhidos com base no Material Symbols do Google. Na imagem a seguir, cada ícone está descrito de acordo com o que representa na aplicação.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/4e683078-21db-425b-af13-ba9bab646b98" >
 
