@@ -21,6 +21,12 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 
 ![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
+### Cadastro
+
+Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite o redirecionamento para a página de cadastro para criação de nova conta de usuário a partir da inserção de informações nos campos solicitados [RF-013].
+
+![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
+
 ### Login
 
 Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão infantil e perfil, deve ser feito o login em uma conta previamente criada [RF-010], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
@@ -28,12 +34,6 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão 
 
 ![Desktop%20Login_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/110e9378-abb4-4d99-a3d0-475dbce5bf4c)
 
-
-### Cadastro
-
-Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite o redirecionamento para a página de cadastro para criação de nova conta de usuário a partir da inserção de informações nos campos solicitados [RF-013].
-
-![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
 
 ### Tela de Perfil
 
