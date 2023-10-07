@@ -21,27 +21,46 @@ A partir da página inicial, os usuários encontrarão seções dedicadas a aten
 
 ![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
+### Login
+
+Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão infantil e perfil, deve ser feito o login em uma conta previamente criada [RF-010], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
+
+
+![Desktop%20Login_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/110e9378-abb4-4d99-a3d0-475dbce5bf4c)
+
+
+### Cadastro
+
+Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite o redirecionamento para a página de cadastro para criação de nova conta de usuário a partir da inserção de informações nos campos solicitados [RF-013].
+
+![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
+
 ### Tela de Perfil
 
-A página de perfil apresenta todas as informações informadas pelo usuário no processo de cadastramento e botões para visualizar as informações pessoais e para editar perfil.[RF-014].
+A página de perfil apresenta todas as informações preenchidas pelo usuário no processo de cadastro bem como as opções de visualizar informações pessoais e editar perfil.[RF-014].
 
 ![Desktop%20Perfil%20(1)_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/5c514437-a118-4c6a-a7a0-d060776b2fb8)
 
 
 
-### Subtela do Perfil
+### Editar Perfil
 
-A subtela do Perfil apresenta um formulário para a alteração das informações do usuário, um botão para alterar senha e outro para excluir a conta [RF-015]. Se segue juntamente a este wireframe as telas de exclusão de conta e alteração de senha, onde são acessados através desta subtela do perfil.
+Clicando em Editar perfil o usuário pode alterar as informações de cadastro, alterar a senha de login ou excluir a sua conta. Abaixo segue-se a tela referente a edição das informações bem como da alteração de senha e exclusão da conta.
 
 ![Perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
 
-### Espaço Infantil
+### Área Infantil
 
 Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-007]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-008].  Esta sessão é para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-006]
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/9aa7c1dc-e61c-43d1-b276-492b02147157">
 
+### Jogos interativos
+
+O usuário pode escolher entre os jogos disponíveis na aplicação de acordo com a dificuldade, que tem como obejtivo ajudar no ensino de crianças com dificuldades de aprendizagem pelos métodos convencionais. Cada jogo estimula hbilidades específicas das crianças, como memória, lógica matemática e habilidades sociais.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/a9fd019e-b8c5-4cc9-8a6a-b70ab68f9f75">
 
 ### Páginas estáticas de informações
 
@@ -49,7 +68,7 @@ Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar
 Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar [RF-001]. Da mesma forma se segue para todas as demais páginas estáticas de informações, bem como o layout e design da página: [RF-002] e [RF-004].
 
 <div>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/3cbb91c1-3033-45e0-842c-85a2da0e04b1" width="700">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/3cbb91c1-3033-45e0-842c-85a2da0e04b1">
 </div>
 
 <!--
@@ -69,29 +88,16 @@ O terceiro card, intitulado "Como identificar a neurodivergência na infância?"
 
 ### Página de sugestões de atividades escolares
 
-O quarto card da sessão destinada a pais e profissionais redireciona para a pagina que oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003].
+O usuário pode escolher algumas atividades indicadas pela aplicação para serem aplicadas no ambiente escolar, com o intuito de fornencer diferentes abordagens de ensino do conteúdo.
 
-![atividade-escolar-RF-003](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/10e0d654-be20-4649-968f-084728eafb01)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/89734ebe-41cf-468b-9dd3-58a3d6d2789e">
 
-### Login
-
-Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão infantil e perfil, deve ser feito o login em uma conta previamente criada [RF-010], inserindo as informações nos campos de "e-mail" e "senha", respectivamente. 
-
-
-![Desktop%20Login_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/110e9378-abb4-4d99-a3d0-475dbce5bf4c)
-
-
-### Cadastro
-
-Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite o redirecionamento para a página de cadastro para criação de nova conta de usuário a partir da inserção de informações nos campos solicitados [RF-013].
-
-![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
 
 
 
 ### Feedback
 
-Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Feedback" no menu de navegação, onde serão redirecionados para uma página com um formulário para fornecerem feedback. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-009].
+Através do cabeçalho, os usuários poderão acessar a página de Feedback (também disponível no menu de navegação), onde serão redirecionados para uma página que poderão descrever eventuais problemas na aplicação ou dar sugestões. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-009].
 
 ![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
 
