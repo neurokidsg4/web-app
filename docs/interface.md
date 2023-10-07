@@ -36,6 +36,13 @@ A subtela do Perfil apresenta um formulário para a alteração das informaçõe
 ![Perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
 
+### Espaço Infantil
+
+Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-007]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-008].  Esta sessão é para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-006]
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/9aa7c1dc-e61c-43d1-b276-492b02147157">
+
+
 ### Páginas estáticas de informações
 
 
@@ -60,8 +67,6 @@ O terceiro card, intitulado "Como identificar a neurodivergência na infância?"
 -->
 
 
-
-
 ### Página de sugestões de atividades escolares
 
 O quarto card da sessão destinada a pais e profissionais redireciona para a pagina que oferece sugestões de atividades escolares para crianças neurodivergentes [RF-003].
@@ -83,18 +88,19 @@ Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Log
 ![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
 
 
-### Espaço Infantil
-
-Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-007]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-008].  Esta sessão é para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-006]
-
-![Desktop Espaço Infantil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/d17d4a5f-434b-4bc4-aee9-8e2f0859980a)
-
 
 ### Feedback
 
 Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Feedback" no menu de navegação, onde serão redirecionados para uma página com um formulário para fornecerem feedback. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-009].
 
 ![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
+
+
+### Ajuda
+
+Na tela de ajuda da aplicação o usuário encontra as opções de configurações da conta, relatar problemas e um guia sobre como utilizar a sessão infantil do site [RF-012].
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/caf26841-c676-4771-8316-fad2d05eec5a">
 
 
 ### Modelos de componentes padrão
