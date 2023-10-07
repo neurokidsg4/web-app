@@ -93,8 +93,6 @@ O usuário pode escolher algumas atividades indicadas pela aplicação para sere
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/89734ebe-41cf-468b-9dd3-58a3d6d2789e">
 
 
-
-
 ### Feedback
 
 Através do cabeçalho, os usuários poderão acessar a página de Feedback (também disponível no menu de navegação), onde serão redirecionados para uma página que poderão descrever eventuais problemas na aplicação ou dar sugestões. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-009].
@@ -108,8 +106,16 @@ Na tela de ajuda da aplicação o usuário encontra as opções de configuraçõ
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/caf26841-c676-4771-8316-fad2d05eec5a">
 
+### Sobre nós
+
+Através do cabeçalho (também disponível no menu de navegação), os usuários podem acessar informações sobre a história e os ideais que motivaram a criação da aplicação, assim como o abjetivo a ser atingido.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/a59b3df0-19f2-4d27-b97e-4406e58ca0c5">
+
 
 ### Modelos de componentes padrão
+
+Segue abaixo alguns modelos da aplicação.
 
 ![Wireframe%20-%201_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/c77b1f94-65cc-41c0-a458-10e075508883)
 
