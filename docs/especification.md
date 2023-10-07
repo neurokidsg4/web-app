@@ -118,19 +118,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001|A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.| ALTA |  |
-|RF-002|A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.| ALTA | |
-|RF-003|A aplicação deve permitir que o usuário crie uma conta de acesso.|ALTA| |
-|RF-004|A aplicação deve permitir que o usuário faça login.|ALTA| |
-|RF-005|A aplicação deve conter uma página principal de apresentação dos conteúdos.|ALTA|
-|RF-006|A aplicação deve permitir a visualização do perfil.|ALTA|
-|RF-007|A aplicação deve permitir editar as informações do perfil.|ALTA|
-|RF-008|A aplicação deve permiti que o usuário exclua sua conta.|ALTA|
-|RF-009|A aplicação deve deve conter uma página de ajuda ao usuário.|ALTA|
-|RF-010|A aplicação deve conter uma página de feedback.|ALTA|
-|RF-011|A aplicação deve conter uma página onde descreva sobre a aplicação.|ALTA|
-|RF-012|A aplicação deve conter uma sessão específica para crianças neurodiversas.|ALTA|
-|RF-013|A aplicação deve conter jogos interativos para crianças neurodiversas.|ALTA|
+|RF-001|A aplicação deve conter uma página principal de apresentação dos conteúdos.| ALTA |  |
+|RF-002|A aplicação deve permitir que o usuário crie uma conta de acesso.| ALTA | |
+|RF-003|A aplicação deve permitir que o usuário faça login.|ALTA| |
+|RF-004|A aplicação deve permitir a visualização do perfil.|ALTA| |
+|RF-005|A aplicação deve permitir editar as informações do perfil.|ALTA|
+|RF-006|A aplicação deve permiti que o usuário exclua sua conta.|Alta|
+|RF-007|A aplicação deve conter uma sessão específica para crianças neurodiversas.|ALTA|
+|RF-008|A aplicação deve conter jogos interativos para crianças neurodiversas.|ALTA|
+|RF-009|A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.|ALTA|
+|RF-010|A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.|ALTA|
+|RF-011|A aplicação deve conter uma página de feedback.|ALTA|
+|RF-012|A aplicação deve deve conter uma página de ajuda ao usuário.|ALTA|
+|RF-013|A aplicação deve conter uma página onde descreva sobre a aplicação.|ALTA|
 |RF-014|A aplicação deve campos de pesquisa nas páginas necessárias.|ALTA|
 
 ### Requisitos não Funcionais
