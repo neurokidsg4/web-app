@@ -52,7 +52,7 @@ Clicando em Editar perfil o usuário pode alterar as informações de cadastro, 
 
 ### Área Infantil
 
-Ao acessar o conteúdo por meio da página inicial, os usuários poderão clicar em "Área Infantil" no menu de navegação, onde serão redirecionados para a página destinada a exibir algumas atividades sugeridas, com diferentes níveis de dificuldade, acomodando diversas habilidades e estilos de aprendizado [RF-007]. Nesta página de área infantil haverá, também, uma barra de busca por atividades ou palavras específicas [RF-008].  Esta sessão é para que as crianças interajam com conteúdos dinâmicos e lúdicos [RF-006]
+Através do cabeçalho os usuários poderão acessar a Área infantil (também disponível no menu de navegação), onde contém diversas atividades interativas. Essas atividades poderão ser filtradas através do campo de busca.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/9aa7c1dc-e61c-43d1-b276-492b02147157">
 
