@@ -1,12 +1,16 @@
 # Projeto de Interface
 
-O Projeto de Interface foi estruturado em oito páginas, cada uma com um propósito específico: Login, Cadastro, Página Inicial, Feedback, Sobre Nós, Infantil, Perfil e Ajuda. O objetivo central é assegurar a conformidade com os padrões de acessibilidade web, garantindo que os layouts sejam intuitivos e que as fontes de texto sejam facilmente legíveis, de forma a atender a um público diversificado, abrangendo indivíduos com diferentes habilidades, necessidades especiais e faixas etárias.
+O Projeto de Interface foi estruturado em 25 páginas, cada uma com o objetivo específico de fonercer os recursos necessários. O objetivo central é assegurar a conformidade com os padrões de acessibilidade web, garantindo que os layouts sejam intuitivos e que as fontes de texto sejam facilmente legíveis, de forma a atender a um público diversificado, abrangendo indivíduos com diferentes habilidades, necessidades especiais e faixas etárias.
 
-Além disso, foram criadas seções dedicadas a atender tanto a profissionais e pais de crianças neurodivergentes quanto às próprias crianças com neurodiversidade. Cada seção é identificada por meio de cards que apresentam os tópicos abordados, proporcionando uma organização do conteúdo. Adicionalmente, na parte superior da tela, foi inserida uma seção denominada "Infantil" com o intuito de promover o desenvolvimento de habilidades essenciais por meio de atividades educacionais e lúdicas, estimulando o interesse das crianças neurodivergentes.
+Além disso, foram criadas seções dedicadas a atender tanto a profissionais e pais de crianças neurodivergentes quanto às próprias crianças com neurodiversidade. Cada seção é estruturada de forma a apresentar o conteúdo de forma organizada e intuitiva. Adicionalmente, no cabeçalho, foi inserida uma seção denominada "Área Infantil" com o intuito de promover o desenvolvimento de habilidades essenciais por meio de atividades dinâmicas educacionais e lúdicas, estimulando o interesse das crianças neurodivergentes.
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+Segue-se na imagem abaixo o Fluxo de Usuário da aplicação. Nesse fluxo apresentamos os possíveis caminhos que os usuários podem percorrer para acessar  os recursos disponíveis.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/a446948f-341a-4699-9d47-1ea7e10cb128">
+
+
 
 ## Wireframes
 
