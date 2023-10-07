@@ -101,7 +101,7 @@ Através do cabeçalho, os usuários poderão acessar a página de Feedback[RF-0
 
 ### Ajuda
 
-Na tela de ajuda [RF-012] da aplicação o usuário encontra as opções de configurações da conta, relatar problemas e um guia sobre como utilizar a sessão infantil do site [RF-012].
+Na tela de ajuda [RF-012] da aplicação o usuário encontra as opções de configurações da conta, relatar problemas e um guia sobre como utilizar a sessão infantil do site.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/caf26841-c676-4771-8316-fad2d05eec5a">
 
