@@ -131,6 +131,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011|A aplicação deve conter uma página onde descreva sobre a aplicação.|ALTA|
 |RF-012|A aplicação deve conter uma sessão específica para crianças neurodiversas.|ALTA|
 |RF-013|A aplicação deve conter jogos interativos para crianças neurodiversas.|ALTA|
+|RF-01|A aplicação deve campos de pesquisa nas páginas necessárias.|ALTA|
 
 ### Requisitos não Funcionais
 
