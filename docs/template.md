@@ -16,12 +16,9 @@ O arquivo style.css encontra-se no diretório XXXX
 
 ## Design
 
-Segue-se abaixo o design geral da aplicação aprsentado na página principal, onde podemos ver os principais elementos da aplicação, como cabeçalho, paleta de cores, menu, cards e fontes utilizadas. Além disso podemos ver a responsividade do site e como ele se comporta diante dos variados tamanhos de telas.
+A seguir, observa-se o design geral da aplicação na página principal com os principais elementos que compõem a interface, incluindo o cabeçalho, a paleta de cores, o menu, os cards e as fontes utilizadas. Além disso, a capacidade de responsividade do site foi devidamente demonstrada, destacando a adaptação para diferentes tamanhos de tela.
 
-
-
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/34a7359c-3900-4082-b43a-fe01d2c86842
-
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/47bf065b-e817-4a50-ae0a-e25d587b1866
 
 ## Cores
 
