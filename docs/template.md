@@ -1,13 +1,16 @@
 # Template padrão do site
 
-O template padrão encontra-se no arquivo index.html dentro do diretório XXXX <!--source (src)-->
+Nesta sessão encontra-se, de forma detalhada, as características gráficas da aplicação, como paleta de cores, definição dos ícones, layout e a forma como estão distribuídas pela aplicação. Além disso podemos ver a página principal em fuincionamento, como se comporta cada sessão e a responsividade.
 
-A imagem da logo encontra-se no diretório XXXX <!--src/imgs-->
+<!--
+O template padrão encontra-se no arquivo index.html dentro do diretório XXXX 
 
-O arquivo style.css encontra-se no diretório XXXX <!--src/css.-->
+A imagem da logo encontra-se no diretório XXXX
+
+O arquivo style.css encontra-se no diretório XXXX 
 
 <img width="1511" alt="template_padrao2" src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/9ac7dd7c-768f-4a37-a26b-c789165b5601">
-
+-->
 
 
 
@@ -17,7 +20,7 @@ Segue-se abaixo o design geral da aplicação aprsentado na página principal, o
 
 
 
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/e831c84e-02f9-437e-8b8e-583a7c55fb3d
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/34a7359c-3900-4082-b43a-fe01d2c86842
 
 
 ## Cores
@@ -38,7 +41,7 @@ Link para auxiliar na construção de paletas de cores:
 - [Adobe Color](https://color.adobe.com/pt/create/color-wheel).
 -->
 
-## Tipografia!
+## Tipografia
 
 A aplicação foi desenvolvida utilizando a fonte Roboto em suas diversas páginas. Além disso, observa-se mudanças no tipo da fonte, como Bold, Medium e Regular a depender do nível do título ou texto.
 
