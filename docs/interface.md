@@ -1,22 +1,20 @@
 # Projeto de Interface
 
-O Projeto de Interface foi estruturado em 25 páginas, cada uma com o objetivo específico de fonercer os recursos necessários. O objetivo central é assegurar a conformidade com os padrões de acessibilidade web, garantindo que os layouts sejam intuitivos e que as fontes de texto sejam facilmente legíveis, de forma a atender a um público diversificado, abrangendo indivíduos com diferentes habilidades, necessidades especiais e faixas etárias.
+O Projeto de Interface foi estruturado em 25 páginas, cada uma com o objetivo específico de fornecer os recursos necessários. O objetivo central é assegurar a conformidade com os padrões de acessibilidade web, garantindo que os layouts sejam intuitivos e que as fontes de texto sejam facilmente legíveis, de forma a atender a um público diversificado, abrangendo indivíduos com diferentes habilidades, necessidades especiais e faixas etárias.
 
 Além disso, foram criadas seções dedicadas a atender tanto a profissionais e pais de crianças neurodivergentes quanto às próprias crianças com neurodiversidade. Cada seção é estruturada de forma a apresentar o conteúdo de forma organizada e intuitiva. Adicionalmente, no cabeçalho, foi inserida uma seção denominada "Área Infantil" com o intuito de promover o desenvolvimento de habilidades essenciais por meio de atividades dinâmicas educacionais e lúdicas, estimulando o interesse das crianças neurodivergentes.
 
 ## User Flow
 
-Segue-se na imagem abaixo o Fluxo de Usuário da aplicação. Nesse fluxo apresentamos os possíveis caminhos que os usuários podem percorrer para acessar  os recursos disponíveis.
+A imagem a seguir representa o Fluxo de Usuário da aplicação, no qual são apresentados os diversos caminhos que os usuários podem percorrer para acessar os recursos disponíveis.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/a446948f-341a-4699-9d47-1ea7e10cb128">
-
-
 
 ## Wireframes
 
 ### Página inicial
 
-A partir da página inicial [RF-001], os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado[RF-014], bem como ícones para compartilhamento do conteúdo nas redes sociais.
+A partir da página inicial [RF-001], os usuários encontrarão seções dedicadas a atender demandas específicas, incluindo informações sobre o que é a neurodiversidade, os principais transtornos de desenvolvimento e uma seção de conteúdos voltada para pais e profissionais. No canto superior direito, encontra-se um campo de pesquisa que permite buscar o conteúdo desejado [RF-014], bem como ícones para compartilhamento do conteúdo nas redes sociais.
 
 ![PaginaInicial_Wireframe](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/40fce231-eee1-4f66-b85e-2117d5b5ce39)
 
@@ -36,33 +34,32 @@ Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão 
 
 ### Tela de Perfil
 
-A página de perfil apresenta todas as informações preenchidas pelo usuário no processo de cadastro bem como as opções de visualizar informações pessoais e editar perfil.[RF-004].
+A página de perfil apresenta todas as informações preenchidas pelo usuário no processo de cadastro bem como as opções de visualizar informações pessoais e editar perfil [RF-004].
 
 ![Desktop%20Perfil%20(1)_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/5c514437-a118-4c6a-a7a0-d060776b2fb8)
 
 
-
 ### Editar Perfil
 
-Clicando em Editar perfil o usuário pode alterar as informações de cadastro [RF-005], alterar a senha de login ou excluir a sua conta[RF-006]. Abaixo segue-se a tela referente a edição das informações bem como da alteração de senha e exclusão da conta.
+Clicando em "Editar perfil", o usuário pode alterar as informações de cadastro [RF-005], alterar a senha de login ou excluir a sua conta [RF-006]. Logo abaixo, encontra-se a tela referente à edição das informações, bem como à alteração de senha e à exclusão da conta.
 
 ![Perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/f5d6ae49-e625-42da-86f1-5393e7f1cace)
 
 
 ### Área Infantil
 
-Através do cabeçalho os usuários poderão acessar a Área infantil[RF-007] (também disponível no menu de navegação), onde contém diversas atividades interativas. Essas atividades poderão ser filtradas através do campo de busca.
+Por meio do cabeçalho, os usuários têm a opção de acessar a Área Infantil [RF-007], que também está disponível no menu de navegação. Nesta seção, estão disponíveis diversas atividades interativas que podem ser filtradas utilizando o campo de busca.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/9aa7c1dc-e61c-43d1-b276-492b02147157">
 
+
 ### Jogos interativos
 
-O usuário pode escolher entre os jogos disponíveis [RF-008] na aplicação de acordo com a dificuldade, que tem como obejtivo ajudar no ensino de crianças com dificuldades de aprendizagem pelos métodos convencionais. Cada jogo estimula hbilidades específicas das crianças, como memória, lógica matemática e habilidades sociais.
+Os usuários têm a opção de selecionar entre os jogos disponíveis [RF-008] na aplicação, escolhendo a dificuldade que melhor se adequa ao seu perfil. Esses jogos têm como objetivo auxiliar no ensino de crianças com dificuldades de aprendizagem por métodos convencionais. Cada jogo foi projetado para estimular habilidades específicas das crianças, como memória, lógica matemática e habilidades sociais.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/a9fd019e-b8c5-4cc9-8a6a-b70ab68f9f75">
 
 ### Páginas estáticas de informações
-
 
 Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre o primeiro card denominado "Como lidar com crianças neurodiversas no ambiente escolar?", destinado a pais e profissionais, e serão redirecionados para à página da web que disponibiliza informações sobre como lidar com crianças neurodiversas no contexto escolar. Da mesma forma se segue para todas as demais páginas estáticas de informações, bem como o layout e design da página. [RF-009]
 
@@ -70,44 +67,30 @@ Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/3cbb91c1-3033-45e0-842c-85a2da0e04b1">
 </div>
 
-<!--
-### Página sobre como lidar com crianças neurodiversas no ambiente familiar
-
-O segundo card, identificado por "Como lidar com crianças neurodiversas no ambiente familiar?", disponibiliza informações sobre como lidar com crianças neurodiversas no contexto familiar [RF-004].
-
-![contexto-familiar-RF-004](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/a15decf4-96e9-49e6-a427-4831e73115a1)
-
-### Página sobre como identificar a neurodivergência na infância
-
-O terceiro card, intitulado "Como identificar a neurodivergência na infância?", oferece informações que auxiliam na identificação de possíveis crianças neurodiversas [RF-002].
-
-![identificação_neurodiversos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/598709d1-51c6-47f7-98a7-40ccf06d718a)
--->
-
-
 ### Página de sugestões de atividades escolares
 
-O usuário pode escolher algumas atividades indicadas pela aplicação para serem aplicadas no ambiente escolar[RF-010], com o intuito de fornencer diferentes abordagens de ensino do conteúdo.
+Os usuários têm a opção de escolher algumas atividades recomendadas pela aplicação para serem aplicadas no ambiente escolar [RF-010], com o objetivo de oferecer diferentes abordagens de ensino do conteúdo.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/89734ebe-41cf-468b-9dd3-58a3d6d2789e">
 
 
 ### Feedback
 
-Através do cabeçalho, os usuários poderão acessar a página de Feedback[RF-011] (também disponível no menu de navegação), onde serão redirecionados para uma página que poderão descrever eventuais problemas na aplicação ou dar sugestões. Com isso, será possível coletar a opinião dos usuários a fim de realizar melhorias constantes na aplicação e melhorar a experiência dos usuários [RF-009].
+Através do cabeçalho, é possível acessar a página de Feedback [RF-011], também disponível no menu de navegação. Nessa seção, os usuários têm a oportunidade de descrever eventuais problemas na aplicação ou oferecer sugestões. Essa funcionalidade visa coletar feedback valioso para aprimorar constantemente a aplicação, melhorando a experiência geral dos usuários [RF-009].
 
 ![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
 
 
 ### Ajuda
 
-Na tela de ajuda [RF-012] da aplicação o usuário encontra as opções de configurações da conta, relatar problemas e um guia sobre como utilizar a sessão infantil do site.
+Na tela de Ajuda [RF-012] da aplicação, os usuários encontram as opções de configurações da conta, relatar problemas e um guia sobre como utilizar a seção infantil do site.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/caf26841-c676-4771-8316-fad2d05eec5a">
 
+
 ### Sobre nós
 
-Através do cabeçalho (também disponível no menu de navegação), os usuários podem acessar informações sobre a história e os ideais que motivaram a criação da aplicação[RF-013], assim como o abjetivo a ser atingido.
+Através do cabeçalho, que também está disponível no menu de navegação, os usuários podem acessar informações sobre a história e os ideais que inspiraram a criação da aplicação [RF-013], bem como o objetivo a ser alcançado.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/a59b3df0-19f2-4d27-b97e-4406e58ca0c5">
 
