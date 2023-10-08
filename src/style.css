@@ -583,15 +583,14 @@ footer {
 }
 
 .share-icons {
-    position: fixed;
-    top: 28%;
+    position: absolute;
+    top: 25%;
     right: 0;
-    transform: translateY(-50%);
+    transform: translateY();
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding: 100px;
-    margin-bottom: 10px;
+    align-items: center;
+    padding: 30px;
 }
 
 .share-icon {
@@ -606,6 +605,6 @@ footer {
 }
 
 .share-icon:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.2);
     filter: brightness(1.2);
 }
