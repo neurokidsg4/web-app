@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <!-- Favicon da página -->
     <link rel="stylesheet" href="rodape.css">
+    <link rel="stylesheet" href="css-login-cadastro-sugestoes_escolares/login/style.css">
+    <link rel="stylesheet" href="css-login-cadastro-sugestoes_escolares/login/responsivo.css">
   <title>Login</title>
 </head>
-<body class="corpo">
+<body id="corpo">
     
-    <img src="imgs/logo.png" alt="logo">
+    <picture id="logo">
+      <img src="imgs/logo.png" alt="logo">
+    </picture>
 
     <h1 id="titulo">Entre por aqui</h1>
 
     <main class="principal">
-      <form id="formulario" method="post" action="">
+      <form id="formulario" >
         
-        <fieldset id="campo">
+        <fieldset id="formulario__fieldset">
           
-          <label for="email">Email
+          <label id="campo" for="email">Email
             <input title="Digite seu email" id="email" type="text" name="email" id="email" placeholder="email ...">
           </label>
 
-          <label for="senha">Senha
-            <input title="Digite sua senha" id="senha" type="text" name="senha" id="senha" value="senha">
+          <label id="campo" for="senha">Senha
+            <input title="Digite sua senha" id="senha" type="text" name="senha" id="senha" placeholder="senha ...">
           </label>
 
           <input title="Click para enviar" id="button" type="submit" name="button" value="Entrar" style="visibility: hidden;">
@@ -34,9 +39,11 @@
       </form>
     </main>
 
-    <label tabindex="0" role="button" id="button__label" for="button">Entrar</label>
+    <div  id="button__label">
+      <label tabindex="0" role="button" for="button">Entrar</label>
+    </div>
     
-    <p>Não possui uma conta? <a href="#">Click aqui para se cadastrar</a></p>
+    <p id="redirecionar__cadastro">Não possui uma conta? <a href="#">Click aqui para se cadastrar</a></p>
 
     <footer>
         <nav id="nav-rodape">
