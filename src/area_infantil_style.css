@@ -83,12 +83,14 @@ h2 {
 main {
     margin: 10px;
     flex: 1;
+    display: flex;
+    align-self: center;
 }
 
 /* Estilos gerais do site */
 .site {
     display: flex;
-    min-height: 100vh;
+    min-height: 100svh;
     flex-direction: column;
 }
 
@@ -106,7 +108,8 @@ li {
 /* Estilos da caixa de pesquisa */
 .search-box {
     position: absolute;
-    right: 100px;
+    right: 32%;
+    top: 15%;
     background: white;
     height: 50px;
     border-radius: 40px;
@@ -150,218 +153,49 @@ li {
     border: 3px solid #0BB3D9;
 }
 
-/* Estilos para a página de conteúdo */
-.content-page {
-    padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-}
-
-.subtitle-page{
-    color: #0BB3D9;
-    padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-}
-
-.subtitle-page-first{
-    color: #0BB3D9;
-    padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.share-icons {
-    position: absolute;
-    top: 25%;
-    right: 0;
-    transform: translateY();
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-
-.share-icon {
-    position: relative;
-    cursor: pointer;
-}
-
-.share-icon img {
-    width: 42px;
-    height: 42px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.share-icon:hover img {
-    transform: scale(1.2);
-    filter: brightness(1.2);
-}
-/* Estilos para a seção "container2" */
-.container2 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 100%;
-    gap: 16px;
-    margin-bottom: 50px;
-}
-
-.content2 {
-    padding: 15px;
-    flex-grow: 1;
-    height: 130px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.card2 {
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    box-shadow: 4px 0px 10px #F86645;
-    background-color: white;
-    cursor: pointer;
-    width: 50px;
-    flex-basis: 300px;
-    padding: 2px;
-    min-height: 20px;
-    height: 350px;
-    max-width: 190px;
-    margin-right: 20px;
-    transition: all 0.2s ease-in-out;
-    border-radius: 10px 10px;
-
-}
-
-.content2 > h1 {
-    font-size: 32px;
-    margin-bottom: 16px;
-    margin-top: 0;
-    line-height: 1.384615385;
-}
-
-.content2 > p {
-    font-size: 18px;
-    line-height: 1.55;
-    font-weight: 500;
-}
-
-.card-background2 {
-    height: 100px;
-    background-color: white;
-    transition: all 0.2s ease-in-out;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.card2:hover .card-background2 {
-    height: 120px;
-}
-
-.card-background2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card2:hover .action-bottom-bar2 a {
-    opacity: 1;
-}
-
-.action-bottom-bar2 {
-    display: flex;
-    font-size: 18px;
-    height: 42px;
-    width: 100%;
-}
-
-.action-bottom-bar2 a {
-    display: flex;
-    gap: 6px;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 800;
-    opacity: 0;
-    padding: 0 24px;
-    transition: all 0.2s ease-in-out;
-    color: #F86645;
-}
-
-.action-bottom-bar2 a svg {
-    transition: all 0.2s ease-in-out;
-}
-
-.arrow {
-    display: none;
-}
-
-.action-bottom-bar2 a:hover .arrow {
-    display: block;
-}
-
-.action-bottom-bar2 a:hover .chevron {
-    display: none;
-}
-
-.material-symbols-outlined {
-    align-self: center;
-    padding: 20%;
-    color: black;
-    font-size: 50px;
-}
-
-.subtitle-page{
-    color: #0BB3D9;
-    padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    margin-top: 50px;
-}
-
-.subtitle-page-first{
-    color: #0BB3D9;
-    padding: 10px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    
-}
-
 /* Estilos para a seção "container" */
-.container {
+.container, .container2, .container3 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 90%;
+    max-height: 350px;
     gap: 16px;
+    margin-top: 150px;
+}
+
+.container h1,
+.container2 h1,
+.container3 h1 {
+    text-align: center;
+    color: #0BB3D9;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.vertical-line {
+    border-left: 2px solid #979797;
+    height: 100vh; /* Define a altura da linha vertical */
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 .content {
     padding: 24px;
     flex-grow: 1;
     height: 30px;
+    text-align: left;
 }
 
 .card {
@@ -369,12 +203,12 @@ li {
     flex-direction: column;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    box-shadow: 0px 18px 36px -18px 
-    rgba(0,0,0,0.1),
-    0px 30px 45px -30px rgba(50,50,93,0.25);
+    box-shadow: 10px 20px 36px -15px 
+    #F2E730,
+    10px 30px 45px -30px #F2E730;
     background-color: white;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     flex-basis: 300px;
     padding: 2px;
     min-height: 450px;
@@ -383,21 +217,15 @@ li {
     border-radius: 10px 10px;
 }
 
-.content > h1 {
-    font-size: 32px;
-    margin-bottom: 16px;
-    line-height: 1.384615385;
-}
-
 .content > p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.55;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .card-background {
     height: 200px;
-    background-color: #F2D230;
     transition: all 0.2s ease-in-out;
     text-align: center;
     padding: 5px;
@@ -422,6 +250,10 @@ li {
     display: flex;
     font-size: 18px;
     height: 42px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -453,6 +285,25 @@ li {
     display: none;
 }
 
+.jogar-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.jogar-button:hover{
+    background-color: #F86645;
+    color: white;
+    text-transform: uppercase;
+}
 /* Estilos do rodapé */
 footer {
     display: flex;
@@ -497,7 +348,23 @@ footer {
     .search-box{
         display: none;
     }
-    
+
+    .vertical-line{
+        display: none;
+    }
+
+    main{
+        display: block;
+    }
+
+    .container, .container2, .container3{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        margin-bottom: 250px;
+        max-width: 100%;
+    }
+
     header div.group--hamburgue__logo {
         width: 30%;
         display: flex;
@@ -574,12 +441,47 @@ footer {
         padding: 0 5px;
     }
 
+    .card {
+        flex-grow: 0;
+        margin-right: 0;
+    }
+
+    .card + .card{
+        margin-top: 20px;
+    }
+
+    .action-bottom-bar a {
+        display: flex;
+        gap: 6px;
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 800;
+        opacity: 0;
+        padding: 0 24px;
+        transition: all 0.2s ease-in-out;
+        color: #F86645;
+        justify-content: center; /* Centralize horizontalmente */
+        align-items: center; /* Centralize verticalmente */
+    }
+
+    footer{
+        margin-top: auto;
+    }
+
 }
 
 
 /* Responsividade rodape */
 
 @media screen and (max-width: 812px){
+
+    .search-box{
+        display: none;
+    }
+
+    .vertical-line{
+        display: none;
+    }
     
     nav#nav-rodape ul {
         row-gap: 20px;
@@ -607,4 +509,3 @@ footer {
     }
 
 }
-
