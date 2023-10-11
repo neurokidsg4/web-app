@@ -5,16 +5,33 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 100vh;
+    height: 123vh;
     padding-top: 70px;
+    background: #0BB3D9;
+}
+
+#logo img {
+    height: 100px;
 }
 
 #titulo {
     text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 30px;
 }
 
 #logo {
     text-align: center;
+}
+
+main {
+    margin: 0 auto;
+}
+
+#formulario {
+    display: inline-block;
 }
 
 #formulario__fieldset {
@@ -22,11 +39,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: #D7D7D7;
+    border-radius: 7px;
+    background: #F6F6F6;
+    width: 450px;
+    height: auto;
 }
 
 #campo {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    color: #505050;
+    font-weight: 600;
+}
+
+#email, #senha {
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #D7D7D7;
+    padding: 15px;
+    box-shadow: 1px 3px 5px #a7a7a7;
+}
+
+#email::placeholder, #senha::placeholder {
+    color: #505050;
 }
 
 #button__label {
