@@ -21,6 +21,8 @@ img {
     width: 60%;
     display: flex;
     justify-content: flex-end;
+    list-style: none;
+    color: white;
 }
 
 #nav-cabecalho ul {

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 123vh;
+    height: 130vh;
     padding-top: 70px;
     background: #0BB3D9;
     margin: 0 auto;
@@ -62,12 +62,16 @@ main {
     height: 44px;
     border-radius: 12px;
     border: 1px solid #D7D7D7;
-    padding: 15px;
+    padding: 25px 15px;
     box-shadow: 1px 3px 5px #a7a7a7;
 }
 
+#email:focus, #senha:focus {
+    border: #a7a7a7;
+}
+
 input#senha {
-    padding: 15px 40px;
+    padding: 25px 40px;
 }
 
 #campo input {
@@ -134,4 +138,16 @@ input#senha {
 
 #redirecionar__cadastro {
     text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#redirecionar__cadastro a {
+    color: #3B4DF0;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid #3B4DF0;
+
 }

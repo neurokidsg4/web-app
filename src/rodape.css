@@ -1,13 +1,7 @@
 
-
-#nav-cabecalho {
-    list-style: none;
-    color: white;
-    
-}
-
 /* Estilos do rodapé */
 footer {
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
