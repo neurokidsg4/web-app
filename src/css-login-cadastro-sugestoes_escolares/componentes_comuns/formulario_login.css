@@ -1,0 +1,97 @@
+
+#formulario {
+    display: inline-block;
+}
+
+#formulario__fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: #D7D7D7;
+    border-radius: 7px;
+    background: #F6F6F6;
+    width: 90vw;
+    max-width: 451px;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    #formulario__fieldset {
+        padding: 10px;
+    }
+}
+
+#campo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    color: #505050;
+    font-weight: 600;
+}
+
+#email, #senha {
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #D7D7D7;
+    padding: 25px 15px;
+    box-shadow: 1px 3px 5px #a7a7a7;
+}
+
+#email:focus, #senha:focus {
+    border: #a7a7a7;
+}
+
+input#senha {
+    padding: 25px 40px;
+}
+
+#campo input#email, #campo #grupo--icone__campo input#senha {
+    width: 100%;
+}
+
+#grupo--icone__campo {
+    width: 100%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#grupo--icone__campo span,
+#grupo--icone__campo label {
+    position: absolute;
+    padding: 0 13px;
+    color: #505050;
+}
+
+#grupo--icone__campo label input, #grupo--icone__campo span {
+    position: absolute;
+}
+
+#grupo--icone__campo label {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+#grupo--icone__campo span.cadeado {
+    align-self: flex-start;
+}
+
+#grupo--icone__campo input#checkbox__visibility {
+    visibility: hidden;
+}
+
+#grupo--icone__campo label input#checkbox__visibility:checked ~ span.olho__fechado {
+    visibility: hidden;
+}
+
+#email::placeholder, #senha::placeholder {
+    color: #505050;
+}
