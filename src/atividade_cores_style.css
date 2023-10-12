@@ -318,7 +318,7 @@ footer {
 
 @media screen and (max-width: 812px){
     button {
-        margin: 10px auto;
+        margin: 10px;
     }
 
     footer{
