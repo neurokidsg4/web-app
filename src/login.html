@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <!-- Favicon da página -->
     <link rel="stylesheet" href="rodape.css">
     <link rel="stylesheet" href="css-login-cadastro-sugestoes_escolares/login/style.css">
@@ -29,7 +29,15 @@
           </label>
 
           <label id="campo" for="senha">Senha
-            <input id="senha" title="Digite sua senha" type="text" name="senha" id="senha" placeholder="Digite sua senha">
+
+            <div id="grupo--icone__campo">
+
+              <span class="material-symbols-outlined cadeado">lock</span>
+              <span class="material-symbols-outlined olho__fechado">visibility_off</span>
+              <input id="senha" title="Digite sua senha" type="text" name="senha" id="senha" placeholder="Digite sua senha">
+
+            </div>
+
           </label>
 
           <input id="button" title="Click para enviar" type="submit" name="button" value="Entrar" style="visibility: hidden;">
@@ -39,9 +47,10 @@
       </form>
     </main>
 
-    <div  id="button__label">
+    <button  id="button__label">
       <label tabindex="0" role="button" for="button">Entrar</label>
-    </div>
+      <div id="button__label___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
+    </button>
     
     <p id="redirecionar__cadastro">Não possui uma conta? <a href="#">Click aqui para se cadastrar</a></p>
 

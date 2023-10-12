@@ -8,6 +8,7 @@
     height: 123vh;
     padding-top: 70px;
     background: #0BB3D9;
+    margin: 0 auto;
 }
 
 #logo img {
@@ -17,7 +18,7 @@
 #titulo {
     text-align: center;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 500;
     color: #FFFFFF;
     padding-bottom: 30px;
 }
@@ -65,16 +66,70 @@ main {
     box-shadow: 1px 3px 5px #a7a7a7;
 }
 
+input#senha {
+    padding: 15px 40px;
+}
+
+#campo input {
+    width: 100%;
+}
+
+#grupo--icone__campo {
+    width: 100%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#grupo--icone__campo span {
+    position: absolute;
+    padding: 0 13px;
+    color: #505050;
+}
+
+#grupo--icone__campo span.olho__fechado {
+    align-self: flex-end;
+}
+
+#grupo--icone__campo span.cadeado {
+    align-self: flex-start;
+}
+
+
 #email::placeholder, #senha::placeholder {
     color: #505050;
 }
 
 #button__label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
     text-align: center;
+    margin: 20px auto;
+    border-radius: 999999px;
+    background-color: #F86645;
+    width: 250px;
+    height: 50px;
+    padding: 0 10px;
+    border:  1px solid #F86645;
+    box-shadow:  1px 3px 5px #7c7c7c;
 }
 
 #button__label label {
-    
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+#button__label___seta {
+    background-color: #FFFFFF;
+    border-radius: 999999px;
+    padding: 6px;
+    height: 38px;
+    width: 38px;
+    color: #F86645;
 }
 
 #redirecionar__cadastro {
