@@ -74,7 +74,7 @@ input#senha {
     padding: 25px 40px;
 }
 
-#campo input {
+#campo input#email, #campo #grupo--icone__campo input#senha {
     width: 100%;
 }
 
@@ -86,54 +86,89 @@ input#senha {
     justify-content: center;
 }
 
-#grupo--icone__campo span {
+#grupo--icone__campo span,
+#grupo--icone__campo label {
     position: absolute;
     padding: 0 13px;
     color: #505050;
 }
 
-#grupo--icone__campo span.olho__fechado {
+#grupo--icone__campo label input, #grupo--icone__campo span {
+    position: absolute;
+}
+
+#grupo--icone__campo label {
     align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
 }
 
 #grupo--icone__campo span.cadeado {
     align-self: flex-start;
 }
 
+#grupo--icone__campo input#checkbox__visibility {
+    visibility: hidden;
+}
+
+#grupo--icone__campo label input#checkbox__visibility:checked ~ span.olho__fechado {
+    visibility: hidden;
+}
 
 #email::placeholder, #senha::placeholder {
     color: #505050;
 }
 
-#button__label {
+#button__entrar {
+    margin: 20px auto;
+    border: none;
+    background-color: none;
+    padding: 0;
+    border-radius: 999999px;
+}
+
+#button__entrar___label {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 40px;
     text-align: center;
-    margin: 20px auto;
     border-radius: 999999px;
     background-color: #F86645;
     width: 250px;
     height: 50px;
     padding: 0 10px;
-    border:  1px solid #F86645;
+    border:  2px solid #F86645;
     box-shadow:  1px 3px 5px #7c7c7c;
-}
-
-#button__label label {
     font-weight: 500;
     color: #FFFFFF;
     font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s, font-size 0.2s;
 }
 
-#button__label___seta {
+#button__entrar___label:hover {
+    background-color: #DF5C3E ;
+    color:#E6E6E6;
+    box-shadow: inset 1px 3px 5px #7c7c7c;
+    font-size: 24px;
+}
+
+#button__entrar___seta {
     background-color: #FFFFFF;
     border-radius: 999999px;
     padding: 6px;
     height: 38px;
     width: 38px;
     color: #F86645;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button__entrar___label:hover > div#button__entrar___seta {
+    background-color: #DF5C3E;
+    color: #E6E6E6;
 }
 
 #redirecionar__cadastro {
@@ -150,4 +185,9 @@ input#senha {
     text-decoration: none;
     border-bottom: 2px solid #3B4DF0;
 
+}
+
+#redirecionar__cadastro a:hover {
+    border-bottom: 2px solid #2568D0;
+    color: #2568D0;
 }

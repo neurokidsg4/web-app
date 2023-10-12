@@ -34,7 +34,13 @@
             <div id="grupo--icone__campo">
 
               <span class="material-symbols-outlined cadeado">lock</span>
-              <span class="material-symbols-outlined olho__fechado">visibility_off</span>
+
+              <label for="checkbox__visibility">
+                <input id="checkbox__visibility" type="checkbox">
+                <span class="material-symbols-outlined olho__aberto">visibility</span>
+                <span class="material-symbols-outlined olho__fechado">visibility_off</span>
+              </label>
+              
               <input id="senha" title="Digite sua senha" type="text" name="senha" id="senha" placeholder="Digite sua senha">
 
             </div>
@@ -49,9 +55,11 @@
 
     </main>
 
-    <button  id="button__label">
-      <label tabindex="0" role="button" for="button">Entrar</label>
-      <div id="button__label___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
+    <button id="button__entrar">
+      <label id="button__entrar___label" tabindex="0" role="button" for="button">
+        Entrar
+        <div id="button__entrar___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
+      </label>
     </button>
     
     <p id="redirecionar__cadastro">Não possui uma conta? <a href="#">Click aqui para se cadastrar</a></p>
