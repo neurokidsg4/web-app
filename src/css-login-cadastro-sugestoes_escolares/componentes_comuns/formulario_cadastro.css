@@ -1,0 +1,128 @@
+
+#formulario {
+    display: inline-block;
+    max-width: 1324px;
+    width: 90vw;
+}
+
+#formulario__fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: #D7D7D7;
+    border-radius: 7px;
+    background: #F6F6F6;
+    max-width: inherit;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    #formulario__fieldset {
+        padding: 10px;
+    }
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    gap: 20px;
+    color: #505050;
+    font-weight: 600;
+}
+
+.campo__entrada {
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid #D7D7D7;
+    padding:  0 15px;
+    box-shadow: 1px 3px 5px #a7a7a7;
+
+}
+
+input#email {
+    padding: 0 42px;
+}
+
+input#senha, input#confirma_senha {
+    padding: 25px 40px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+#campo--grupo {
+    display: flex;
+}
+
+#campo--grupo__paises {
+    border: none;
+}
+
+select#campo--grupo__paises option div#icon__brasil {
+    background-color: #000000;
+    padding: 20px;
+}
+
+#campo--grupo__paises___icone {
+    position: absolute;
+    width: 70px;
+    align-self: center;
+    margin-left: 15px;
+}
+
+#campo--grupo__paises___icone span.expand__more {
+    padding: 0;
+}
+
+#celular {
+    padding-left: 90px;
+}
+
+.grupo--icone__campo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grupo--icone__campo span,
+.grupo--icone__campo label {
+    position: absolute;
+    padding: 0 13px;
+    color: #505050;
+}
+
+.grupo--icone__campo label,
+.grupo--icone__campo span.expand__more {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+}
+
+.grupo--icone__campo span.cadeado,
+.grupo--icone__campo span.email {
+    align-self: flex-start;
+}
+
+.grupo--icone__campo input#checkbox__visibility {
+    visibility: hidden;
+}
+
+.grupo--icone__campo label input#checkbox__visibility:checked ~ span.olho__fechado {
+    visibility: hidden;
+}
+
+#email::placeholder, #senha::placeholder {
+    color: #505050;
+}
