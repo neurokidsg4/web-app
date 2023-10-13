@@ -1,6 +1,6 @@
 
-@import url('rodape.css');
 @import url('cabecalho.css');
+@import url('rodape.css');
 
 /* Definições globais para todos os elementos */
 * {
@@ -34,9 +34,11 @@ main {
     
 }
 
+
 li {
     display: inline;
 }
+
 /* Estilos da caixa de pesquisa */
 .search-box {
     position: absolute;
@@ -91,7 +93,7 @@ li {
     margin-right: 40px;
     text-align: left;
     font-size: 20px;
-    width: 70%;
+    width: 85%;
 }
 
 .subtitle-page{
