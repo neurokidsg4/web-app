@@ -20,10 +20,6 @@
     <main class="principal">
         
         <label for="file_pictury">
-            <img src="imgs/nigeria.png"
-            style="height: 30px;"
-             alt="Icone criado por Iconiyo - Flaticon (https://www.flaticon.com/br/icones-gratis/nigeria)">
-
             <img src="imgs/Profile.png" alt="Imagem ilustativa de perfil">
             <input id="file_pictury" type="file" accept="image/*">
         </label>
@@ -100,27 +96,28 @@
 
                     <div id="campo--grupo">
 
-                        <div id="campo--grupo__paises___icone" class="grupo--icone__campo">
-                            
-                            <select id="campo--grupo__paises" title="Digite seu celular" name="celular">
+                        <label id="campo--grupo__paises___icone" class="grupo--icone__campo" for="abre__menu--checkbox__paises">
 
-                                <option value="brasil">
-                                    <div id="icon__brasil"></div>
-                                </option>
+                            <script src="simula_select.js"></script>
 
-                                <option value="estados-unidos">
-                                    <div id="icon__estados-unidos"></div>
-                                </option>
+                            <div id="campo--grupo__paises" class="custom_select">
+
+                                <div class="custom_select_selected"><img src="imgs/brasil.png" alt=""></div>
+
+                                <input id="abre__menu--checkbox__paises" type="checkbox" style="display:none;">
+
+                                <ul class="custom_select_options">
+                                    <li><img src="imgs/brasil.png" alt=""></li>
+                                    <li><img src="imgs/nigeria.png" alt=""></li>
+                                    <li><img src="imgs/estados-unidos.png" alt=""></li>
+                                </ul>
                                 
-                                <option value="nigeria">
-                                    <div id="icon__nigeria"></div>
-                                </option>
-
-                            </select>
+                            </div>
                             
                             <span class="material-symbols-outlined expand__more">expand_more</span>
+
                             
-                        </div>
+                        </label>
                         
                         <input id="celular" class="campo__entrada" title="Digite seu celular" name="celular" placeholder="Número">
                         
