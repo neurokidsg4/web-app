@@ -1,55 +1,67 @@
 
 #formulario {
     display: inline-block;
-    max-width: 1324px;
+    max-width: 1182px;
     width: 90vw;
+}
+
+#container {
+    border: #D7D7D7;
+    background: #F6F6F6;
+}
+
+#file__pictury {
+    display: none;
 }
 
 #formulario__fieldset {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
-    gap: 20px;
-    border: #D7D7D7;
+    row-gap: 20px;
+    column-gap: 20px;
     border-radius: 7px;
-    background: #F6F6F6;
     max-width: inherit;
     height: auto;
-}
-
-@media screen and (max-width: 500px) {
-    #formulario__fieldset {
-        padding: 10px;
-    }
 }
 
 .campo {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 320px;
+    min-width: 320px;
+    max-width: 340px;
     gap: 20px;
     color: #505050;
     font-weight: 600;
 }
 
+#campo--grupo {
+    width: 100%;
+}
+
 .campo__entrada {
+    width: inherit;
     height: 44px;
     border-radius: 12px;
     border: 1px solid #D7D7D7;
     padding:  0 15px;
     box-shadow: 1px 3px 5px #a7a7a7;
-
 }
 
 input#email {
     padding: 0 42px;
 }
 
+input::placeholder {
+    color: #505050;
+}
+
 input#senha, input#confirma_senha {
-    padding: 25px 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 select {
@@ -115,16 +127,20 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
     align-self: flex-start;
 }
 
-.grupo--icone__campo input#checkbox__visibility {
+.grupo--icone__campo input#checkbox__visibility___senha {
     visibility: hidden;
 }
 
-.grupo--icone__campo label input#checkbox__visibility:checked ~ span.olho__fechado {
+.grupo--icone__campo label input#checkbox__visibility___senha:checked ~ span.olho__fechado {
     visibility: hidden;
 }
 
-#email::placeholder, #senha::placeholder {
-    color: #505050;
+.grupo--icone__campo input#checkbox__visibility___confirma-senha {
+    visibility: hidden;
+}
+
+.grupo--icone__campo label input#checkbox__visibility___confirma-senha:checked ~ span.olho__fechado {
+    visibility: hidden;
 }
 
 
@@ -163,6 +179,10 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
     border: 1px solid #797979;
 }
 
+.custom_select_options li img:hover {
+    opacity: 0.7;
+}
+
 .custom_select {
     display: inline-block;
     z-index: 999;
@@ -170,4 +190,23 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
 
 .custom_select .custom_select_selected img {
     height: 23px;
+}
+
+#sobre__voce {
+    width: 100%;
+    max-width: 740px;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    font-size:x-large;
+    align-self: flex-end;
+}
+
+#sobre__voce___textarea {
+    height: 194px;
+    overflow: auto;
+}
+
+#button {
+    display: none;
 }

@@ -19,15 +19,17 @@
 
     <main class="principal">
         
-        <label for="file_pictury">
+        <label for="file__pictury">
             <img src="imgs/Profile.png" alt="Imagem ilustativa de perfil">
-            <input id="file_pictury" type="file" accept="image/*">
+            <input id="file__pictury" type="file" accept="image/*">
         </label>
         
         <form id="formulario" >
             
-            <fieldset id="formulario__fieldset">
+        <div id='container'>    
                 
+            <fieldset id="formulario__fieldset">
+
                 <label class="campo" for="nome">Nome
                     <input id="nome" class="campo__entrada" title="Digite seu nome" type="text" name="nome" placeholder="Qual é o seu nome?">
                 </label>
@@ -131,8 +133,8 @@
 
                         <span class="material-symbols-outlined cadeado">lock</span>
 
-                        <label for="checkbox__visibility">
-                            <input id="checkbox__visibility" type="checkbox">
+                        <label for="checkbox__visibility___senha">
+                            <input id="checkbox__visibility___senha" type="checkbox">
                             <span class="material-symbols-outlined olho__aberto">visibility</span>
                             <span class="material-symbols-outlined olho__fechado">visibility_off</span>
                         </label>
@@ -161,8 +163,8 @@
 
                         <span class="material-symbols-outlined cadeado">lock</span>
 
-                        <label for="checkbox__visibility">
-                            <input id="checkbox__visibility" type="checkbox">
+                        <label for="checkbox__visibility___confirma-senha">
+                            <input id="checkbox__visibility___confirma-senha" type="checkbox">
                             <span class="material-symbols-outlined olho__aberto">visibility</span>
                             <span class="material-symbols-outlined olho__fechado">visibility_off</span>
                         </label>
@@ -173,13 +175,16 @@
 
                 </label>
 
-                <label class="campo" for="sobre">Nos conte um pouco sobre você.
-                    <input id="sobre" class="campo__entrada--textarea" title="Digite seu sobre" type="textarea" name="sobre" placeholder="Digite algo sobre você...?">
+                <label id="sobre__voce" class="campo" for="sobre">Nos conte um pouco sobre você.
+                        <input id="sobre__voce___textarea" class="campo__entrada" title="Digite seu sobre" type="textarea" name="sobre__voce" cols="10" rows="10" wrap="hard" placeholder="Digite algo sobre você...">
                 </label>
 
-                <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar" style="visibility: hidden;">
+                <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
 
             </fieldset>
+       
+        </div>
+
 
         </form>
 
