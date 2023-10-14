@@ -30,165 +30,164 @@
         
         <form id="formulario" >
             
-        <div id='container'>    
-                
-            <fieldset id="formulario__fieldset">
-
-                <label id="campo-nome" class="campo" for="nome">Nome
-                    <input id="nome" class="campo__entrada" title="Digite seu nome" type="text" name="nome" placeholder="Qual é o seu nome?">
-                </label>
-                
-                <label id="campo-genero" class="campo" for="genero">Gênero
-        
-                    <div class="grupo--icone__campo">
-
-                        <span class="material-symbols-outlined expand__more">expand_more</span>
-        
-                        <select id="genero" class="campo__entrada" title="Digite seu genero" name="genero">
-
-                            <option value="" selected disabled>Qual o seu genero?</option>
-                            <option value="nao_binario">Não binario</option>
-                            <option value="nao_binario">Feminino</option>
-                            <option value="nao_binario">Masculino</option>
-                            
-                        </select>
-                        
-                    </div>
+            <div id='container'>    
                     
-                </label>
-                
-                <label id="campo-atuacao" class="campo" for="atuacao">Atuacao
+                <fieldset id="formulario__fieldset">
 
-                    <div class="grupo--icone__campo">
-
-                        <span class="material-symbols-outlined expand__more">expand_more</span>
-
-                        <select id="atuacao" class="campo__entrada" title="Digite sua atuacao" name="atuacao">
-
-                            <option value="" selected disabled>Como você se define?</option>
-                            <option value="mae">Mãe</option>
-                            <option value="pai">Pai</option>
-                            <option value="responsavel_tutelar">Responsável tutelar</option>
-                            <option value="cuidador">Cuidador</option>
-                            <option value="acompanhante">Acompanhante</option>
-                            <option value="educador">Educador(a)</option>
-                            <option value="pediatra">Pediatra</option>
-                            <option value="pscicologo">Pscicologo(a)</option>
-                            <option value="outro">Outro</option>
-                            <option value="nenhum">Nenhuma das opções</option>
-
-                        </select>
-
-                    </div>
-
-                </label>
-                
-                <label id="campo-email" class="campo" for="email">Email
+                    <label id="campo-nome" class="campo" for="nome">Nome
+                        <input id="nome" class="campo__entrada" title="Digite seu nome" type="text" name="nome" placeholder="Qual é o seu nome?">
+                    </label>
                     
-                    <div class="grupo--icone__campo">
-                        
-                        <span class="material-symbols-outlined email">email</span>
-                        <input id="email" class="campo__entrada" title="Digite seu email" type="email" name="email" placeholder="Qual é o seu email?">
-                        
-                    </div>
-                    
-                </label>
-                <!-- 
-                    <img src="imgs/brasil.png" alt="Icone criado por Graphix Dxinerz - Flaticon (https://www.flaticon.com/br/icones-gratis/brasil)">
-                    <img src="imgs/estados-unidos.png" alt="Icone criado por Freepik - Flaticon(https://www.flaticon.com/br/icones-gratis/estados-unidos)">
-                    <img src="imgs/nigeria.png" alt="Icone criado por Iconiyo - Flaticon (https://www.flaticon.com/br/icones-gratis/nigeria)">
-                -->
-                <label id="campo-celular" class="campo" for="celular">Celular
+                    <label id="campo-genero" class="campo" for="genero">Gênero
+            
+                        <div class="grupo--icone__campo">
 
-                    <div id="campo--grupo">
+                            <span class="material-symbols-outlined expand__more">expand_more</span>
+            
+                            <select id="genero" class="campo__entrada" title="Digite seu genero" name="genero">
 
-                        <label id="campo--grupo__paises___icone" class="grupo--icone__campo" for="abre__menu--checkbox__paises">
-
-                            <script src="simula_select.js"></script>
-
-                            <div id="campo--grupo__paises" class="custom_select">
-
-                                <div class="custom_select_selected"><img src="imgs/brasil.png" alt=""></div>
-
-                                <input id="abre__menu--checkbox__paises" type="checkbox" style="display:none;">
-
-                                <ul class="custom_select_options">
-                                    <li><img src="imgs/brasil.png" alt=""></li>
-                                    <li><img src="imgs/nigeria.png" alt=""></li>
-                                    <li><img src="imgs/estados-unidos.png" alt=""></li>
-                                </ul>
+                                <option value="" selected disabled>Qual o seu genero?</option>
+                                <option value="nao_binario">Não binario</option>
+                                <option value="nao_binario">Feminino</option>
+                                <option value="nao_binario">Masculino</option>
                                 
-                            </div>
+                            </select>
                             
+                        </div>
+                        
+                    </label>
+                    
+                    <label id="campo-atuacao" class="campo" for="atuacao">Atuacao
+
+                        <div class="grupo--icone__campo">
+
                             <span class="material-symbols-outlined expand__more">expand_more</span>
 
+                            <select id="atuacao" class="campo__entrada" title="Digite sua atuacao" name="atuacao">
+
+                                <option value="" selected disabled>Como você se define?</option>
+                                <option value="mae">Mãe</option>
+                                <option value="pai">Pai</option>
+                                <option value="responsavel_tutelar">Responsável tutelar</option>
+                                <option value="cuidador">Cuidador</option>
+                                <option value="acompanhante">Acompanhante</option>
+                                <option value="educador">Educador(a)</option>
+                                <option value="pediatra">Pediatra</option>
+                                <option value="pscicologo">Pscicologo(a)</option>
+                                <option value="outro">Outro</option>
+                                <option value="nenhum">Nenhuma das opções</option>
+
+                            </select>
+
+                        </div>
+
+                    </label>
+                    
+                    <label id="campo-email" class="campo" for="email">Email
+                        
+                        <div class="grupo--icone__campo">
                             
-                        </label>
+                            <span class="material-symbols-outlined email">email</span>
+                            <input id="email" class="campo__entrada" title="Digite seu email" type="email" name="email" placeholder="Qual é o seu email?">
+                            
+                        </div>
                         
-                        <input id="celular" class="campo__entrada" title="Digite seu celular" name="celular" placeholder="Número">
+                    </label>
+                    <!-- 
+                        <img src="imgs/brasil.png" alt="Icone criado por Graphix Dxinerz - Flaticon (https://www.flaticon.com/br/icones-gratis/brasil)">
+                        <img src="imgs/estados-unidos.png" alt="Icone criado por Freepik - Flaticon(https://www.flaticon.com/br/icones-gratis/estados-unidos)">
+                        <img src="imgs/nigeria.png" alt="Icone criado por Iconiyo - Flaticon (https://www.flaticon.com/br/icones-gratis/nigeria)">
+                    -->
+                    <label id="campo-celular" class="campo" for="celular">Celular
+
+                        <div id="campo--grupo">
+
+                            <label id="campo--grupo__paises___icone" class="grupo--icone__campo" for="abre__menu--checkbox__paises">
+
+                                <script src="simula_select.js"></script>
+
+                                <div id="campo--grupo__paises" class="custom_select">
+
+                                    <div class="custom_select_selected"><img src="imgs/brasil.png" alt=""></div>
+
+                                    <input id="abre__menu--checkbox__paises" type="checkbox" style="display:none;">
+
+                                    <ul class="custom_select_options">
+                                        <li><img src="imgs/brasil.png" alt=""></li>
+                                        <li><img src="imgs/nigeria.png" alt=""></li>
+                                        <li><img src="imgs/estados-unidos.png" alt=""></li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                <span class="material-symbols-outlined expand__more">expand_more</span>
+
+                                
+                            </label>
+                            
+                            <input id="celular" class="campo__entrada" title="Digite seu celular" name="celular" placeholder="Número">
+                            
+                        </div>
                         
-                    </div>
+                    </label>
                     
-                </label>
-                
-                <label id="campo-senha" class="campo" for="senha">Senha
+                    <label id="campo-senha" class="campo" for="senha">Senha
 
-                    <div class="grupo--icone__campo">
+                        <div class="grupo--icone__campo">
 
-                        <span class="material-symbols-outlined cadeado">lock</span>
+                            <span class="material-symbols-outlined cadeado">lock</span>
 
-                        <label for="checkbox__visibility___senha">
-                            <input id="checkbox__visibility___senha" type="checkbox">
-                            <span class="material-symbols-outlined olho__aberto">visibility</span>
-                            <span class="material-symbols-outlined olho__fechado">visibility_off</span>
-                        </label>
+                            <label for="checkbox__visibility___senha">
+                                <input id="checkbox__visibility___senha" type="checkbox">
+                                <span class="material-symbols-outlined olho__aberto">visibility</span>
+                                <span class="material-symbols-outlined olho__fechado">visibility_off</span>
+                            </label>
+                            
+                            <input id="senha" class="campo__entrada" title="Digite sua senha" type="text" name="senha" placeholder="Digite sua senha">
+
+                        </div>
+
+                    </label>
+
+                    <label id="campo-nascimento" class="campo" for="nascimento">Nascimento
+
+                        <div class="grupo--icone__campo">
+                            <input id="nascimento" class="campo__entrada" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?">
+                        </div>
                         
-                        <input id="senha" class="campo__entrada" title="Digite sua senha" type="text" name="senha" placeholder="Digite sua senha">
+                    </label>
 
-                    </div>
+                    <label id="campo-endereco" class="campo" for="endereco">Endereco
+                        <input id="endereco" class="campo__entrada" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?">
+                    </label>
 
-                </label>
+                    <label id="campo-confirma-senha" class="campo" for="confirma-senha">Confirma senha
 
-                <label id="campo-nascimento" class="campo" for="nascimento">Nascimento
+                        <div class="grupo--icone__campo">
 
-                    <div class="grupo--icone__campo">
-                        <input id="nascimento" class="campo__entrada" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?">
-                    </div>
-                    
-                </label>
+                            <span class="material-symbols-outlined cadeado">lock</span>
 
-                <label id="campo-endereco" class="campo" for="endereco">Endereco
-                    <input id="endereco" class="campo__entrada" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?">
-                </label>
+                            <label for="checkbox__visibility___confirma-senha">
+                                <input id="checkbox__visibility___confirma-senha" type="checkbox">
+                                <span class="material-symbols-outlined olho__aberto">visibility</span>
+                                <span class="material-symbols-outlined olho__fechado">visibility_off</span>
+                            </label>
+                            
+                            <input id="confirma_senha" class="campo__entrada" title="Digite a confirmação da sua senha" type="text" name="confirma_senha" placeholder="Digite sua confirma senha">
 
-                <label id="campo-confirma-senha" class="campo" for="confirma-senha">Confirma senha
+                        </div>
 
-                    <div class="grupo--icone__campo">
+                    </label>
 
-                        <span class="material-symbols-outlined cadeado">lock</span>
+                    <label id="campo-sobre-voce" class="campo" for="sobre">Nos conte um pouco <br> sobre você.
+                            <input id="sobre__voce___textarea" class="campo__entrada" title="Digite seu sobre" type="textarea" name="sobre__voce" cols="10" rows="10" wrap="hard" placeholder="Digite algo sobre você...">
+                    </label>
 
-                        <label for="checkbox__visibility___confirma-senha">
-                            <input id="checkbox__visibility___confirma-senha" type="checkbox">
-                            <span class="material-symbols-outlined olho__aberto">visibility</span>
-                            <span class="material-symbols-outlined olho__fechado">visibility_off</span>
-                        </label>
-                        
-                        <input id="confirma_senha" class="campo__entrada" title="Digite a confirmação da sua senha" type="text" name="confirma_senha" placeholder="Digite sua confirma senha">
+                    <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
 
-                    </div>
-
-                </label>
-
-                <label id="campo-sobre-voce" class="campo" for="sobre">Nos conte um pouco sobre você.
-                        <input id="sobre__voce___textarea" class="campo__entrada" title="Digite seu sobre" type="textarea" name="sobre__voce" cols="10" rows="10" wrap="hard" placeholder="Digite algo sobre você...">
-                </label>
-
-                <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
-
-            </fieldset>
-       
-        </div>
-
+                </fieldset>
+        
+            </div>
 
         </form>
 

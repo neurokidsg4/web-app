@@ -8,6 +8,7 @@
 #container {
     border: #D7D7D7;
     background: #F6F6F6;
+    border-radius: 7px;
 }
 
 #file__pictury {
@@ -119,7 +120,6 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 16px;
 }
 
 .grupo--icone__campo span.cadeado,
@@ -196,9 +196,9 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
     width: 100%;
     max-width: 740px;
     display: flex;
-    gap: 20px;
-    margin: 20px 0;
-    font-size:x-large;
+    gap: 30px;
+    margin: 10px 0 50px 0;
+    font-size:xx-large;
     align-self: flex-end;
 }
 
