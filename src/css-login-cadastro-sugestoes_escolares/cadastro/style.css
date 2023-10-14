@@ -15,8 +15,20 @@
     margin: 0 auto;
 }
 
+#container-imagem {
+    display: flex;
+    height: 200px;
+}
+
+#imagem-perfil {
+    align-self: flex-end;
+}
+
 #logo {
-    text-align: center;
+    position:absolute; 
+    top: 15%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 #logo img {
@@ -27,7 +39,7 @@ main {
     flex-direction: column;
     margin: 0 auto;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 #redirecionar__cadastro {

@@ -13,16 +13,20 @@
 </head>
 <body id="corpo">
     
-    <picture id="logo">
-      <img src="imgs/logo.png" alt="logo">
-    </picture>
-
     <main class="principal">
         
-        <label for="file__pictury">
-            <img src="imgs/Profile.png" alt="Imagem ilustativa de perfil">
-            <input id="file__pictury" type="file" accept="image/*">
-        </label>
+        <div id="container-imagem">
+
+            <label id="imagem-perfil" for="file__pictury">
+                <img src="imgs/Profile.png" alt="Imagem ilustativa de perfil">
+                <input id="file__pictury" type="file" accept="image/*">
+            </label>
+
+            <picture id="logo">
+              <img src="imgs/logo.png" alt="logo">
+            </picture>
+            
+        </div>
         
         <form id="formulario" >
             
@@ -30,11 +34,11 @@
                 
             <fieldset id="formulario__fieldset">
 
-                <label class="campo" for="nome">Nome
+                <label id="campo-nome" class="campo" for="nome">Nome
                     <input id="nome" class="campo__entrada" title="Digite seu nome" type="text" name="nome" placeholder="Qual é o seu nome?">
                 </label>
                 
-                <label class="campo" for="genero">Gênero
+                <label id="campo-genero" class="campo" for="genero">Gênero
         
                     <div class="grupo--icone__campo">
 
@@ -53,7 +57,7 @@
                     
                 </label>
                 
-                <label class="campo" for="atuacao">Atuacao
+                <label id="campo-atuacao" class="campo" for="atuacao">Atuacao
 
                     <div class="grupo--icone__campo">
 
@@ -79,7 +83,7 @@
 
                 </label>
                 
-                <label class="campo" for="email">Email
+                <label id="campo-email" class="campo" for="email">Email
                     
                     <div class="grupo--icone__campo">
                         
@@ -94,7 +98,7 @@
                     <img src="imgs/estados-unidos.png" alt="Icone criado por Freepik - Flaticon(https://www.flaticon.com/br/icones-gratis/estados-unidos)">
                     <img src="imgs/nigeria.png" alt="Icone criado por Iconiyo - Flaticon (https://www.flaticon.com/br/icones-gratis/nigeria)">
                 -->
-                <label class="campo" for="celular">Celular
+                <label id="campo-celular" class="campo" for="celular">Celular
 
                     <div id="campo--grupo">
 
@@ -127,7 +131,7 @@
                     
                 </label>
                 
-                <label class="campo" for="senha">Senha
+                <label id="campo-senha" class="campo" for="senha">Senha
 
                     <div class="grupo--icone__campo">
 
@@ -145,7 +149,7 @@
 
                 </label>
 
-                <label class="campo" for="nascimento">Nascimento
+                <label id="campo-nascimento" class="campo" for="nascimento">Nascimento
 
                     <div class="grupo--icone__campo">
                         <input id="nascimento" class="campo__entrada" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?">
@@ -153,11 +157,11 @@
                     
                 </label>
 
-                <label class="campo" for="endereco">Endereco
+                <label id="campo-endereco" class="campo" for="endereco">Endereco
                     <input id="endereco" class="campo__entrada" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?">
                 </label>
 
-                <label class="campo" for="confirma_senha">Confirma senha
+                <label id="campo-confirma-senha" class="campo" for="confirma-senha">Confirma senha
 
                     <div class="grupo--icone__campo">
 
@@ -175,7 +179,7 @@
 
                 </label>
 
-                <label id="sobre__voce" class="campo" for="sobre">Nos conte um pouco sobre você.
+                <label id="campo-sobre-voce" class="campo" for="sobre">Nos conte um pouco sobre você.
                         <input id="sobre__voce___textarea" class="campo__entrada" title="Digite seu sobre" type="textarea" name="sobre__voce" cols="10" rows="10" wrap="hard" placeholder="Digite algo sobre você...">
                 </label>
 

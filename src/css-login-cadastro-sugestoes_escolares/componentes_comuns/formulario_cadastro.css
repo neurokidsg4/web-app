@@ -192,7 +192,7 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
     height: 23px;
 }
 
-#sobre__voce {
+#campo-sobre-voce {
     width: 100%;
     max-width: 740px;
     display: flex;
