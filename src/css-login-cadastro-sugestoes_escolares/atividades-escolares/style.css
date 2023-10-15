@@ -1,0 +1,148 @@
+
+@import url('../atividades-escolares/responsivo.css');
+@import url('../atividades-escolares/style.css');
+@import url('../atividades-escolares/style.css');
+@import url('../../cabecalho.css');
+@import url('../../rodape.css');
+
+/* Definições globais para todos os elementos */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vp;
+}
+
+main {
+    margin: 0 10px;
+    flex: 1;
+}
+
+/* Estilos gerais do site */
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+li {
+    display: inline;
+}
+
+.subtitle-page-first {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 50px 0;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle-page-first h1 {
+    color: #0BB3D9;
+    font-size: 36px;
+}
+
+.subtitle-page-first > p {
+    text-align: center;
+    color: #505050;
+    font-size: x-large;
+}
+
+/* Estilos para a seção "container" */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 90%;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 
+    0px 18px 36px -18px rgba(0,0,0,0.1),
+    0px 30px 45px -30px rgba(50,50,93,0.25);
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    padding: 2px;
+    min-height: 250px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 12px;
+}
+
+.card-background {
+    font-size: x-small;
+    height: 100px;
+    background-color: #F2D230;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    border-radius: 12px 12px 0 0;
+}
+
+.content {
+    padding: 24px 24px 5px 24px;
+    flex-grow: 1;
+}
+
+.content > p {
+    font-size: small;
+    line-height: 1.55;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-background h1 {
+    padding: 20px;
+}
+
+.card:hover .card-background {
+    height: 90px;
+}
+
+.card:hover .action-bottom-bar a {
+    opacity: 1;
+}
+
+.action-bottom-bar {
+    display: flex;
+    font-size: 18px;
+    height: 42px;
+    width: 100%;
+}
+
+.action-bottom-bar a {
+    display: flex;
+    gap: 6px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 800;
+    opacity: 0;
+    padding: 0 24px;
+    transition: all 0.2s ease-in-out;
+    color: #F86645;
+}
+
+.action-bottom-bar a svg {
+    transition: all 0.2s ease-in-out;
+}
+
+.arrow {
+    display: none;
+}
+
+.action-bottom-bar a:hover .arrow {
+    display: block;
+}
+
+.action-bottom-bar a:hover .chevron {
+    display: none;
+}
