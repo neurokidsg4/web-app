@@ -38,6 +38,11 @@ main {
     display: inline;
 }
 
+.content-list li{
+    display: block;
+    padding: 5px;
+}
+
 /* Estilos da caixa de pesquisa */
 .search-box {
     position: absolute;
