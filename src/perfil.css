@@ -10,6 +10,9 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
 
 /*Conteúdo da tela*/
 main{
@@ -27,19 +30,20 @@ main{
 
 /*Foto e nome de perfil*/
 
-.back-ground-perfil img{
-    display: block;
+#foto-perfil1{
+    display: inline-block;
     width: 150px;
     height: 150px;
-    margin-top: 100px;
+    margin-top: 140px;
+    margin-left: 30px;
     padding: 10px;
+    position: absolute;
 }
 
-.back-ground-perfil{
-    margin-top: 30px;
-    padding-top: 10px;
-    background-color: #0BB3D9;
-    border-radius: 10px;
+#fundo-perfil{
+margin-top: 20px;
+width: 100%;
+height: 100%;
 }
 
 #name{
@@ -50,7 +54,13 @@ main{
     color: rgb(153, 153, 153);
 }
 
+.name-ocupation{
+    position: relative;
+    margin-left: 150px;  
+}
+
 /*Botões*/
+
 .button ul{
     display: flex;
     justify-content: end;
@@ -58,7 +68,7 @@ main{
 }
 
 .button ul li{
-    margin: 10px;
+    margin-right: 10px;
 }
 
 #btn-info-personal{
@@ -66,46 +76,61 @@ main{
     border-radius: 8px;
     color: white;
     padding: 10px;
+    transition: 0.6s;
+}
+
+#btn-info-personal:hover{
+    cursor: pointer;
+    scale: 102%;
 }
 
 #btn-edit{
-    color: orangered;
     padding: 10px;
     border: 1px solid orangered;
     border-radius: 8px;
+    color: orangered;
+    transition: 0.6s;
+}
+
+#btn-edit:hover{
+    cursor: pointer;
+    scale: 102%;
 }
 
 
-/*Dados pessoais */
-
-.data ul{
-    display: block;
-    padding: 3px; 
+.name-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -35px;
 }
+
+
+
+/*Dados do perfil*/
 
 .data-1, .data-2{
-    justify-content: space-between;
-    display: flex;
-    padding: 0px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #0BB3D9;
-}
-
-.info-1, .info-2{
     display: flex;
     justify-content: space-between;
-    text-align: left;
-    padding-bottom: 0px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 30px;
 }
 
-.info-1 li, .info-2 li{
-    border-bottom: #F2D230 solid;
-    padding-right: 40px;
-    box-shadow: 0px 0px 0px 0px #F2D230;
+#data-name-1, #data-gender-1, #data-birth-1, #data-email-1, #data-cell-1, #data-add-1{
+    color:#0BB3D9;
+    font-weight: 640;
 }
+
+.data-gender{
+    position: relative;
+    margin-left: -35px;
+
+}
+
+.data-birth{
+    position: relative;
+    margin-right: 28px;
+}
+
 
 /*Sobre mim*/
 .about-me{
