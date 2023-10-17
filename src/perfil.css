@@ -18,7 +18,6 @@ a{
 main{
     display: flex;
     justify-content: center;
-    
 }
 
 .content{
@@ -26,6 +25,7 @@ main{
     border: 0px solid black;
     width: 50%;
     margin-bottom: 20px;
+    height: calc(100vh - 90px - 101px);
 }
 
 /*Foto e nome de perfil*/
@@ -127,7 +127,6 @@ height: 100%;
 }
 
 .data-gender{
-    position: relative;
     margin-right: -32px;
 }
 
@@ -153,5 +152,66 @@ height: 100%;
 .about-me h2{
     padding: 50px 0px 10px 0px;
     color: #0BB3D9;
+
+}
+
+@media screen and (max-width: 1000px){
+    .content{
+        width: 90%;
+        height: 100%;
+    }
+
+    .image-perfil{
+        display: flex;
+        justify-content: center;
+    }
+
+    #foto-perfil1{
+        margin: 125px;
+    }
+
+    #fundo-perfil{
+        margin-top: 0px;
+        height: 200px;
+        width: 100vh;
+    }
+
+    .name-ocupation{
+        text-align: center;
+        margin: 0px;
+        padding-top: 110px;
+    }
+
+    .name-button{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .data-1, .data-2{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: left;
+    }
+
+    .data-gender{
+        margin: 0px;
+    }
+
+    .data-name, .data-gender, .data-birth, .data-email, .data-cell, .data-add{
+        padding-bottom: 30px;
+    }
+
+    .about-me h2{
+        padding-bottom: 10px;
+        color: #0BB3D9;
+    }
+
+    #info-name-1, #info-gender-1, #info-birth-1, #info-email-1, #info-cell-1, #info-add-1{
+
+        width: 100%;
+    }
+    
 
 }
