@@ -126,9 +126,15 @@ height: 100%;
 
 }
 
-.data-birth{
+.data-gender{
     position: relative;
-    margin-right: 28px;
+    margin-right: -32px;
+}
+
+#info-name-1, #info-gender-1, #info-birth-1, #info-email-1, #info-cell-1, #info-add-1{
+    border-bottom: solid #F2D230 2px;
+    width: 200px;
+    padding: 2px;
 }
 
 
