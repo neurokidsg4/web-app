@@ -100,7 +100,7 @@ main {
     width: 70%;
 }
 
-.content-page h1{
+.content-page h1, h2{
     color: #0BB3D9;
 }
 
