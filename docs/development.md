@@ -32,7 +32,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002|A aplicação deve fornecer informações que ajudem a identificar possíveis crianças neurodiversas.| ALTA | PedroRodrigues | identificar_na_infancia.html |
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| |
 |RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar.|ALTA| Pedro Rodrigues | ambiente_familiar.html |
-|RF-005|A aplicação deve conter uma sessão específica para pessoas adultas.|ALTA|
+|RF-005|A aplicação deve conter uma sessão específica para pessoas adultas.|ALTA| Todos os Integrantes | index.html
 |RF-006|A aplicação deve conter uma sessão específicas para crianças interagir com o conteúdo dinâmico.|ALTA| Pedro Rodrigues | area_infantil.html |
 |RF-007|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA| Todos os Integrantes | atividade_cores.html |
 |RF-008|A aplicação deve permitir a busca por atividades específicas.|MÉDIA| |
