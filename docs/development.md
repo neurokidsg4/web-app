@@ -55,3 +55,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 
+
+## Feedback
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador único do feedback           | 1                                              |
+| Satisfação     | Texto             | Emoji para capturar satisfação do usuário | Muito Boa                                      |
+| Mensagem       | Texto             | Conteúdo do feedback                      | Conteúdo excelente, ajudou a entender melhor a neurodiversidade, meu filho se adaptou muito bem às atividades |
+| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor do feedback| 1                                              |
+
