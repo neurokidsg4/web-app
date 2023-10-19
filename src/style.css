@@ -389,3 +389,13 @@ li {
 .action-bottom-bar a:hover .chevron {
     display: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .share-icon{
+        display: none;
+    }
+
+    .search-box{
+        display: none;
+    }
+}
