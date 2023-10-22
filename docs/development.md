@@ -65,3 +65,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Categoria do Feedback | Texto | Captura a categoria do feedback do usuário | Sugestão                                           |
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor do feedback| 1                                              |
 
+
+## Usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Numero (Inteiro)  | Identificador único do usuário            | 1                                              |
+| Nome           | Texto             | Nome registrado, nome social ou apelido   | Angelica                                       |
+| Email          | Texto             | Conecta o usuário a uma conta cadastrada  | Angelica@gmail.com                             |
+| Senha          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                     |
+| Celular        | Numero (Inteiro)  | Número de celular pessoal do usuário      | 31944445555                                    |
+| Gênero         | Texto             | Evidencia o gênero de quem está usando a aplicação | Feminino                              |
+| Nascimento     | Numero (Inteiro)  | Evidencia a idade de quem está usando a aplicação  | 14041999                                     |
+| Endereço       | Texto             | Evidencia a região do usuário             | 1                                              |
+| Atuação        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | 1 |
+| Sobre          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | 1 |
+
