@@ -9,7 +9,7 @@ header {
     height: 90px;
 }
 
-header div span.hamburgue {
+header label div span.hamburgue {
     display: none;
 }
 

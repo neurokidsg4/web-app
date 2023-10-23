@@ -1,0 +1,76 @@
+
+#abre__menu--checkbox__cabecalho {
+    display: none;
+}
+
+.cabecalho__menu {
+    display: none;
+    min-width: 0px;
+    background-color: #F6F6F6;
+    z-index: 1;
+    position: absolute;
+    height: 0vh;
+}
+
+#abre__menu--checkbox__cabecalho:checked ~ .cabecalho__menu {
+    display: inline-block;
+    height: 95vh;
+    min-width: 330px;
+}
+
+.cabecalho__menu___item {
+    padding: 20px 0 20px 0;
+}
+
+.cabecalho--grupo__icone-menu, .cabecalho--grupo__icone-menu a {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho--grupo__icone-menu a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.cabecalho__grupo--icones {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+span.cabecalho__menu___icone {
+    font-size: 32px;
+    padding: 0 0 0 13px;
+    color: #505050;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.cabecalho__menu___texto--principal {
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 46px;
+    color: #505050;
+}
+
+.cabecalho__menu___texto {
+    padding-left: 6px;
+}
+
+span.cabecalho--arrow {
+    padding: 0 13px 0 6px;
+}
+
+span.cabecalho--notification {
+    padding-right: 16px;
+}
+
+.cabecalho__menu--sub {
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    padding: 25px 0 25px 0;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}

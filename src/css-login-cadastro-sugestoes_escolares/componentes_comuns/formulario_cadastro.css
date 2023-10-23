@@ -52,6 +52,15 @@
     box-shadow: 1px 3px 5px #a7a7a7;
 }
 
+::-ms-reveal {
+    display: none;
+}
+
+.campo__entrada:focus {
+    border: 3px solid #F2D230;
+    outline: none;
+}
+
 input#email {
     padding: 0 42px;
 }
