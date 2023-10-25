@@ -71,28 +71,37 @@ height: 100%;
     margin-right: 10px;
 }
 
-#btn-info-personal{
-    background-color: orangered;
+#btn-save{
+    background-color: #C7D941;
     border-radius: 8px;
     color: white;
     padding: 10px;
     transition: 0.6s;
+    width: 150px;
+    text-align: center;
 }
 
-#btn-info-personal:hover{
+#isave{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+}
+
+#btn-save:hover{
     cursor: pointer;
     scale: 102%;
 }
 
-#btn-edit{
+#btn-cancel{
+    background-color: rgb(231, 66, 25);
     padding: 10px;
-    border: 1px solid orangered;
     border-radius: 8px;
-    color: orangered;
+    color: rgb(255, 255, 255);
     transition: 0.6s;
 }
 
-#btn-edit:hover{
+#btn-cancel:hover{
     cursor: pointer;
     scale: 102%;
 }
@@ -150,6 +159,31 @@ height: 100%;
 .about-me h2{
     padding: 50px 0px 10px 0px;
     color: #0BB3D9;
+}
+
+.btn-edit-del{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 300px 20px 300px;
+}
+
+.btn-edit-del input{
+    background-color: rgb(231, 66, 25);
+    padding: 10px;
+    border: transparent;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+}
+
+#iedit-pw:hover{
+    cursor: pointer;
+    scale: 102%;
+}
+
+#idel-acount:hover{
+    cursor: pointer;
+    scale: 102%;
 }
 
 @media screen and (max-width: 1000px){
