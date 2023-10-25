@@ -78,9 +78,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Nome           | Texto             | Nome registrado, nome social ou apelido   | angelica                                       |
 | Email          | Texto             | Conecta o usuário a uma conta cadastrada  | angelica@gmail.com                             |
 | Senha          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                     |
-| Celular        | Numero (Inteiro)  | Número de celular pessoal do usuário      | 31944445555                                    |
+| Celular        | Texto             | Número de celular pessoal do usuário      | (31)-9-4444-5555                                    |
 | Gênero         | Texto             | Evidencia o gênero de quem está usando a aplicação | feminino                              |
-| Nascimento     | Numero (Inteiro)  | Evidencia a idade de quem está usando a aplicação  | 14041999                              |
+| Nascimento     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14/04/1999                              |
 | Endereço       | Texto             | Evidencia a região do usuário             | Maria_Augosta_Bacelar-Ressaca-Contagem-MG      |
 | Atuação        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | Pedagoga |
 | Sobre          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | Me chamo Angelica. Tenho 39 anos e trabalho com crianças. Meu interesse é aprender mais sobre transtornos para antender melhor as crianças com quem trabalho, caso sejam neuro divergentes |
