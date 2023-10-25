@@ -77,13 +77,17 @@ form {
     margin-top: 15px;
 }
 
+.satisfaction span.selected {
+    font-size: 48px; /* ou qualquer tamanho que desejar */
+}
+
+
 .satisfaction .material-symbols-outlined {
     font-size: 38px;
     margin-right: 10px;
 }
 
 .satisfaction span {
-    user-select: all;
     cursor: pointer;
 }
 
