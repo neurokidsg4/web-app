@@ -1,32 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
     var satisfação = ''; // Inicializa a variável satisfação
 
-    // Captura seleção do Span e faz a classificação baseada no ID de cada Span
-    document.getElementById('sentiment_satisfied').addEventListener('click', function () {
-        satisfação = 'Satisfied';
-    });
+    // Mapeamento dos IDs para textos
+    var satisfactionMap = {
+        'sentiment_satisfied': 'Muito Satisfeito',
+        'sentiment_neutral': 'Neutro',
+        'sentiment_dissatisfied': 'Muito Ruim'
+    };
 
-    document.getElementById('sentiment_neutral').addEventListener('click', function () {
-        satisfação = 'Neutral';
-    });
-
-    document.getElementById('sentiment_dissatisfied').addEventListener('click', function () {
-        satisfação = 'Dissatisfied';
-    });
-
-    // Captura a seleção do checkbox e faz a classificação baseada no ID de cada checkbox
-    var type = ''; // Inicializa a variável type
-
-    document.getElementById('bug').addEventListener('click', function () {
-        type = 'bug';
-    });
-
-    document.getElementById('sugestion').addEventListener('click', function () {
-        type = 'sugestion';
-    });
-
-    document.getElementById('other').addEventListener('click', function () {
-        type = 'other';
+    // Captura seleção do Span e faz a conversão do ID para texto
+    document.querySelectorAll('.satisfaction span').forEach(span => {
+        span.addEventListener('click', function () {
+            satisfação = satisfactionMap[this.id]; // Converta o ID em texto
+            // Remova a classe "selected" de todos os ícones de satisfação
+            document.querySelectorAll('.satisfaction span').forEach(icon => icon.classList.remove('selected'));
+            // Adicione a classe "selected" ao ícone de satisfação selecionado
+            this.classList.add('selected');
+        });
     });
 
     // Função para salvar um feedback no localStorage
@@ -63,19 +53,19 @@ document.addEventListener('DOMContentLoaded', function () {
         const satisfactionElements = document.querySelectorAll('.satisfaction span');
         for (const element of satisfactionElements) {
             if (element.classList.contains('selected')) {
-                satisfação = element.id;
+                satisfação = satisfactionMap[element.id]; // Use o mapeamento para obter o texto correto
                 break;
             }
         }
 
         const description = document.getElementById('message').value;
         const typeElements = document.querySelectorAll('.type-error input[type="checkbox"]');
-        for (const element of typeElements) {
+        var type = ''; // Inicializa a variável type
+        typeElements.forEach(element => {
             if (element.checked) {
                 type = element.value;
-                break;
             }
-        }
+        });
 
         const feedback = {
             id: new Date().getTime(),
@@ -90,39 +80,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Event listener para reiniciar o formulário
     document.querySelector('button[type="reset"]').addEventListener('click', function () {
-    // Seleciona o formulário e chama o método reset() para reiniciá-lo
-    document.querySelector('.feedback-form').reset();
+        // Seleciona o formulário e chama o método reset() para reiniciá-lo
+        document.querySelector('.feedback-form').reset();
     });
 
     // Adicione a chamada para listar feedbacks ao carregar a página
     listFeedbacks();
-});
-
-
-// Captura seleção do Span e faz a classificação baseado no ID de cada Span
-document.getElementById('sentiment_satisfied').addEventListener('click', function() {
-    satisfação = 'Muito Boa';
-    // Remove a classe "selected" de todos os ícones de satisfação
-    const satisfactionIcons = document.querySelectorAll('.satisfaction span');
-    satisfactionIcons.forEach(icon => icon.classList.remove('selected'));
-    // Adiciona a classe "selected" ao ícone de satisfação selecionado
-    this.classList.add('selected');
-});
-
-document.getElementById('sentiment_neutral').addEventListener('click', function() {
-    satisfação = 'Neutra';
-    // Remova a classe "selected" de todos os ícones de satisfação
-    const satisfactionIcons = document.querySelectorAll('.satisfaction span');
-    satisfactionIcons.forEach(icon => icon.classList.remove('selected'));
-    // Adicione a classe "selected" ao ícone de satisfação selecionado
-    this.classList.add('selected');
-});
-
-document.getElementById('sentiment_dissatisfied').addEventListener('click', function() {
-    satisfação = 'Muito Ruim';
-    // Remove a classe "selected" de todos os ícones de satisfação
-    const satisfactionIcons = document.querySelectorAll('.satisfaction span');
-    satisfactionIcons.forEach(icon => icon.classList.remove('selected'));
-    // Adiciona a classe "selected" ao ícone de satisfação selecionado
-    this.classList.add('selected');
 });
