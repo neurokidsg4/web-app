@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Mapeamento dos IDs para textos
     var satisfactionMap = {
-        'sentiment_satisfied': 'Muito Satisfeito',
-        'sentiment_neutral': 'Neutro',
-        'sentiment_dissatisfied': 'Muito Ruim'
+        'sentiment_satisfied': 'muito satisfeito',
+        'sentiment_neutral': 'neutro',
+        'sentiment_dissatisfied': 'muito ruim'
     };
 
     // Captura seleção do Span e faz a conversão do ID para texto
