@@ -86,9 +86,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         saveFeedback(feedback);
         listFeedbacks();
-
-        // Redirecionar para a página de agradecimento após o feedback ser salvo
-        window.location.href = 'agradecimento.html';
     });
 
     // Event listener para reiniciar o formulário
