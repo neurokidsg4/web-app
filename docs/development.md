@@ -66,10 +66,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador único do feedback           | 1                                              |
-| Satisfação     | Texto             | Emoji para capturar satisfação do usuário | Muito Boa                                      |
+| Satisfação     | Texto             | Emoji para capturar satisfação do usuário | sentiment_satisfied                            |
 | Mensagem       | Texto             | Conteúdo do feedback                      | Conteúdo excelente, ajudou a entender melhor a neurodiversidade, meu filho se adaptou muito bem às atividades |
-| Categoria do Feedback | Texto | Captura a categoria do feedback do usuário | Sugestão                                           |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor do feedback| 1                                              |
+| Categoria do Feedback | Texto | Captura a categoria do feedback do usuário | sugestion                                          |
 
 
 ## Usuário
