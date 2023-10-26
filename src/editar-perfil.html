@@ -124,7 +124,8 @@
               <ul>
                 <li id="data-gender-1"><label for="idender-select">Gênero</label></li>
                 <li id="info-gender-1">
-                  <select name="gender-select" id="igender-select">
+                  <select name="gender-select" id="igender-select" required>
+                    <option value="" disabled selected>Qual é o seu gênero?</option>
                     <option value="masculino">Masculino</option>
                     <option value="feminino">Feminino</option>
                   </select>
@@ -170,9 +171,11 @@
         <!--Sobre mim-->
         <div class="about-me">
 
-          <h2>Nos conte um pouco sobre você.</h2>
+          <label for="iabout-me">
+            <h2>Nos conte um pouco sobre você.</h2>
+          </label>
 
-          <input type="text" name="about-me" id="iabout-me" value="">
+          <textarea name="about-me" id="iabout-me" cols="30" rows="10"></textarea>
 
         </div>
       </form>
