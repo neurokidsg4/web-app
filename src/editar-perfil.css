@@ -243,7 +243,20 @@ height: 100%;
 
         width: 100%;
     }
+
+    #igender, #iname, #ibirth, #iemail, #icell, #iadd{
+        width: 350px;
+    }
+
+    #iabout-me{
+        width: 400px;
+    }
     
+    .btn-edit-del{
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px 20px 0px;
+    }
 
 }
 
