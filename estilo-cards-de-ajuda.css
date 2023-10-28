@@ -1,0 +1,140 @@
+@import url("cabecalho_responsivo.css");
+@import url("rodape_responsivo.css");
+
+/* Definições globais para todos os elementos */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vp;
+}
+
+
+/* Estilos gerais do site */
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#nav-cabecalho {
+    list-style: none;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+/* Ajuste para ícones utilizados */
+.icon_config_account {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container_01 img {
+    width: 50%;
+    padding: 12px;
+}
+
+/* Estilos para o contêiner principal */
+.container_01 {
+    display: flex;
+    align-items: center;
+    color: #505050;
+    font-size: clamp(1.1em, 0.2em + 2vw, 1.5em);
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 10vh;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+
+.container_01:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o título principal */
+.title_main {
+    width: auto;
+    max-width: 654.57px;
+    font-size: clamp(1.2em, 0.5em + 3vw, 1.5em);
+    line-height: 1.0;
+    color: #505050;
+    margin-left: 2em;
+    margin-top: 1em;
+   
+}
+
+/* Estilos para a descrição */
+.description {
+    width: 100vw;
+    font-size: clamp(1.2em, 0.1em + 2vw, 1.5em);
+    line-height: 1.0;
+    color: #505050;
+    margin-top: 1em;
+    word-break: break-word;
+}
+
+.line {
+    width: 100vw; 
+    border-bottom: 0.5px solid #ccc; 
+    margin-top: 3em;
+}
+
+/* estilos para as páginas de orientações */
+
+.container_02{
+    width: 800px;
+    height: 450px;
+    box-shadow: 0.1px 0.1px 2px 2px #F6F6F6;
+    border-radius: 2.1px;
+    margin-top: 60px;
+    margin-left: 70px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.instructions{
+    width: auto;
+    max-width: 814.921px;
+    font-size: 30px;
+    padding: 7px;
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+/* Estilos para o título principal */
+
+.title_main_02{
+    width: auto;
+    max-width: 923px;
+    font-size: 20px;
+    font-style: normal;
+    padding: 40px;
+    margin-left: 30px;
+    color: #505050;
+}
+
+.title_main_02 p{
+    width: auto;
+    max-width: 923px;
+    margin-top: 17px;
+    font-size: 25px;
+    color: #505050;
+}
+
+.subtitle_02{
+    width: auto;
+    max-width: 923px;
+    font-size: 30px;
+    padding: 30px;
+    margin-left: 30px;
+    color: #0BB3D9;
+    font-style: normal;
+}
