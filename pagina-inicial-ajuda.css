@@ -48,7 +48,8 @@ li {
 
 /* Estilos da caixa de pesquisa */
 .search-box {
-    width: 800px;
+    width: 100%;
+    max-width: 1000px;
     margin: 50px;
     border-radius: 10px;
     background: #FFF;
@@ -59,15 +60,15 @@ li {
     background: none;
     border: 0;
     outline: 0;
-    font-size: 16px;
+    font-size: clamp(0.5em, 0.5em + 2vw, 1.5em);
     width: 0;
     padding: 0;
     transition: 0.4s;
 }
 
 .search.btn {
-    width: 50px;
-    height: 50px;
+    width: 50%;
+    max-width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,10 +107,9 @@ li {
     color: #0BB3D9;
     text-align: center;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: clamp(0.5em, 0.5em + 2vw, 1.5em);
     font-style: normal;
-    font-weight: 100%;
-    line-height: 30px;
+    line-height: 2em;
 }
 
 .subtitle {
@@ -153,9 +153,9 @@ li {
     justify-content: center;
     color: #505050;
     text-align: center;
-    font-size: 25px;
+    font-size: clamp(1em, 0.5em + 2vw, 1.5em);
+    padding: 10px;
     font-style: normal;
-    font-weight: 400px;
     line-height: 30px;
 }
 
@@ -245,7 +245,7 @@ li {
 
 /* aplicando a responsividade para o container principal */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
     .container_cards_main {
         display: flex;
         flex-direction: column;
@@ -259,30 +259,26 @@ li {
     .container_cards_02 {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 10px;
+        padding: 2em;
     }
 
     .card_02 {
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 4em;
     }
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1500px){
     .container_cards_02 {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 10px;
+        padding: 1em;
     }
 
     .card_02 {
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 3em;
     }
 }
