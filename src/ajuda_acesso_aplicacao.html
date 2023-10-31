@@ -66,19 +66,24 @@
       <p>Inclui artigos sobre como verificar problemas de conexão, interação com os conteúdos e compartilhamento</p>
       </div>
       <div class="line"></div>
-      <div class="container_01">
+      <div class="container_01" onclick="redirectToLink('http://127.0.0.1:5500/src/guia-verificar-problemas-conexao.html')">
         <p>Verificar problemas de conexão</p>
         <img src="/src/imgs/seta_preta.svg">
       </div>
-      <div class="container_01">
+      <div class="container_01" onclick="redirectToLink('http://127.0.0.1:5500/src/guia-interacao-conteudos.html')">
         <p>Como interagir com os conteúdos</p>
         <img src="/src/imgs/seta_preta.svg">
       </div>
-      <div class="container_01">
+      <div class="container_01" onclick="redirectToLink('http://127.0.0.1:5500/src/guia-compartilhamento-conteudos.html')">
         <p>Como compartilhar os conteúdos</p>
         <img src="/src/imgs/seta_preta.svg">
       </div>
     </div>
+    <script>
+      function redirectToLink(url) {
+        window.location.href = url;
+      }
+    </script>   
   </main>
 <footer>
     <nav id="nav-rodape">
@@ -94,6 +99,3 @@
 </body>
 
 </html>
-  
-
-  

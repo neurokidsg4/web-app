@@ -88,53 +88,65 @@ li {
 }
 
 /* estilos para as páginas de orientações */
-
-.container_02{
-    width: 800px;
-    height: 450px;
+.container_02 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: auto;
+    height: auto;
+    max-width: 900px;
     box-shadow: 0.1px 0.1px 2px 2px #F6F6F6;
     border-radius: 2.1px;
-    margin-top: 60px;
-    margin-left: 70px;
-    padding: 40px;
-    margin-bottom: 40px;
+    margin: 5em;
 }
 
-.instructions{
+.container_02 ol {
+    margin: 1em; 
     width: auto;
-    max-width: 814.921px;
-    font-size: 30px;
-    padding: 7px;
-    text-align: left;
-    margin-bottom: 10px; 
+    margin-top: 1em;
+    font-size: clamp(1.3em, 0.5em + 1vw, 1.8em);
+    color: #505050;
 }
 
 /* Estilos para o título principal */
 
 .title_main_02{
     width: auto;
-    max-width: 923px;
-    font-size: 20px;
+    font-size: clamp(0.5em, 0.5em + 2vw, 1.5em);
     font-style: normal;
-    padding: 40px;
-    margin-left: 30px;
+    padding: 2em;
+    margin-left: 2em;
     color: #505050;
 }
 
 .title_main_02 p{
     width: auto;
-    max-width: 923px;
-    margin-top: 17px;
-    font-size: 25px;
+    margin-top: 1em;
+    font-size: clamp(0.5em, 0.5em + 2vw, 1.3em);
     color: #505050;
 }
 
 .subtitle_02{
     width: auto;
-    max-width: 923px;
-    font-size: 30px;
+    font-size: clamp(0.5em, 0.5em + 2vw, 1.8em);
     padding: 30px;
-    margin-left: 30px;
+    margin-left: 2em;
     color: #0BB3D9;
     font-style: normal;
+}
+
+/* Caixa de alerta personalizada */
+
+.card_alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    max-width: 900px;
+    border-radius: 2.1px;
+    margin: 5em;
+    margin-left: 5em;
+    padding: 1.2em;
+    box-shadow: 0px 6.1902px 6.1902px 0px #F86645;
 }
