@@ -60,7 +60,6 @@ body {
     align-self: center;
     max-width: 400px;
     margin: 0 auto;
-    cursor: url('./imgs/spaceship.png'), auto;
 }
 
 .circle {
@@ -70,7 +69,7 @@ body {
     display: inline-block;
     margin: 10px;
     border-radius: 50%;
-    cursor: url('/src/imgs/spaceship.png'), auto;
+    cursor: url('./imgs/spaceship.png'), auto;
     transition: background-color 0.3s ease; 
 }
   
