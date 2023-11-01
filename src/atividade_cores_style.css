@@ -92,7 +92,7 @@ button {
     background-color: #E64A1E;
     color: #fff;
     border: none;
-    cursor: url('/src/imgs/spaceship.png'), auto;
+    cursor: pointer;
     transition: background-color 0.3s ease;
     text-transform: uppercase;
     border-radius: 10px;
