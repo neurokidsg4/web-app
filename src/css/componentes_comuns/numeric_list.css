@@ -1,0 +1,16 @@
+
+.numeric_list {
+    margin: 5px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style: decimal;
+}
+
+.numeric_list li p span {
+    font-weight: 600;
+}
+
+.numeric_list li p:nth-child(2) {
+    margin-top: 5px;
+}

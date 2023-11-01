@@ -1,0 +1,11 @@
+
+.container--lists {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.container--lists__legend {
+    margin-bottom: 5px;
+    font-weight: 600;
+}

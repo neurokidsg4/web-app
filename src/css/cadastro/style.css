@@ -1,6 +1,6 @@
 
 @import url('../componentes_comuns/botao_formulario.css');
-@import url('../componentes_comuns/formulario_cadastro.css');
+@import url('formulario_cadastro.css');
 @import url('responsivo.css');
 
 #corpo {
