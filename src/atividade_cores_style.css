@@ -23,7 +23,7 @@ main {
 }
 
 body {
-    cursor: url('/src/imgs/spaceship.png'), auto;
+    cursor: url('./imgs/spaceship.png'), auto;
 }
 
 /* Estilos gerais do site */
