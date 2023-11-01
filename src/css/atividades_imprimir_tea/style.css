@@ -1,24 +1,6 @@
 @import url('../componentes_comuns/base_atividades_escolares.css');
-
-.container--image {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 70px;
-    column-gap: 24px;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.activity_image img {
-    height: 809px;
-}
+@import url('../componentes_comuns/container_image.css');
 
 #sentimento {
     border: 2px solid #000;
-}
-
-.activity_image figcaption {
-    font-size: larger;
-    text-align: center;
-    padding: 20px;
 }
