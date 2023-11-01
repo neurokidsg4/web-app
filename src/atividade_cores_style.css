@@ -22,6 +22,10 @@ main {
     flex: 1;
 }
 
+body {
+    cursor: url('./imgs/spaceship.png'), auto;
+}
+
 /* Estilos gerais do site */
 .site {
     display: flex;
@@ -65,7 +69,7 @@ main {
     display: inline-block;
     margin: 10px;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: url('/src/imgs/spaceship.png'), auto;
     transition: background-color 0.3s ease; 
 }
   
@@ -92,7 +96,7 @@ button {
     background-color: #E64A1E;
     color: #fff;
     border: none;
-    cursor: pointer;
+    cursor: url('/src/imgs/spaceship.png'), auto;
     transition: background-color 0.3s ease;
     text-transform: uppercase;
     border-radius: 10px;
