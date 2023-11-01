@@ -108,6 +108,17 @@ li {
     padding: 1em;
 }
 
+/* Estilos para links */
+a{
+    text-decoration: none;
+    color: #3da5eb;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 /* Estilos para o título principal */
 
 .title_main_02{
