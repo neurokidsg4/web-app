@@ -25,6 +25,7 @@ footer {
     display: grid;
     text-align: center;
     grid-template-columns: repeat(4, auto);
+    cursor: pointer;
 }
 
 #nav-rodape ul li {
