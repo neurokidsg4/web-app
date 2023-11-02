@@ -40,6 +40,11 @@ li {
     padding: 12px;
 }
 
+.icons_inline{
+    padding: 0.45em;
+    vertical-align: middle;
+}
+
 /* Estilos para o contêiner principal */
 .container_01 {
     display: flex;
@@ -108,15 +113,15 @@ li {
     padding: 1em;
 }
 
-/* Estilos para links */
+/* Estilos para hiperlinks */
 a{
-    text-decoration: none;
-    color: #3da5eb;
+    text-decoration: underline;
+    color:#0BB3D9;
     cursor: pointer;
 }
 
 a:hover{
-    text-decoration: underline;
+    color: #0a629c;
 }
 
 /* Estilos para o título principal */
