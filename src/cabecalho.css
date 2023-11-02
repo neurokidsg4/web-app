@@ -21,6 +21,7 @@ img {
     width: 60%;
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 #nav-cabecalho ul {
@@ -31,7 +32,6 @@ img {
 
 #nav-cabecalho ul li {
     padding: 0 0 0 20px;
-    list-style: none;
 }
 
 #nav-cabecalho ul:first-child {
@@ -68,13 +68,13 @@ img {
     display: none;
 }
 
+li {
+    display: inline;
+}
+
 /* Responsividade cabeçalho */
 
 @media screen and (max-width: 1000px) {
-
-    .search-box{
-        display: none;
-    }
     
     header div.group--hamburgue__logo {
         width: 30%;
@@ -115,7 +115,6 @@ img {
 
     #nav-cabecalho--mobile ul li {
         padding: 5px;
-        list-style: none;
     }
 
     #nav-cabecalho--mobile ul li a {

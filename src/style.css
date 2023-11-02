@@ -14,6 +14,7 @@
 h1,
 h2 {
     padding: 20px 0px;
+    text-transform: uppercase;
 }
 
 main {
@@ -388,4 +389,14 @@ li {
 
 .action-bottom-bar a:hover .chevron {
     display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .share-icon{
+        display: none;
+    }
+
+    .search-box{
+        display: none;
+    }
 }
