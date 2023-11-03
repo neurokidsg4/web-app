@@ -1,4 +1,9 @@
 
+@import url('../../reset.css');
+@import url('../../cabecalho.css');
+@import url('../../rodape.css');
+@import url('../../menu_mobile.css');
+@import url('../componentes_comuns/botao.css');
 @import url('../componentes_comuns/base_atividades_escolares.css');
 @import url('../componentes_comuns/numeric_list.css');
 @import url('../componentes_comuns/container_lists.css');
