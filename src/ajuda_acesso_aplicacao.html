@@ -9,27 +9,26 @@
   <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="estilo-cards-de-ajuda.css">
-  <link rel="shortcut icon" href="/src/imgs/favicon.ico" type="image/x-icon"> <!-- Favicon da página -->
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon"> <!-- Favicon da página -->
   
   <title>Problemas ao acessar ou usar o NeuroKids</title>
 </head>
-
 <body class="site">
   <header>
     <div class="group--hamburgue__logo">
         <span class="material-icons hamburgue">menu</span>
         <div class="logo">
-          <a href="/src/index.html"><img src="/src/imgs/logo.png" alt="Logo NeuroKids"></a>
+          <a href="./index.html"><img src="./imgs/logo.png" alt="Logo NeuroKids"></a>
         </div>
     </div>
     <nav id="nav-cabecalho">
       <ul>
-        <li><a href="/src/index.html">Home</a></li>
-        <li><a href="/src/area_infantil.html">Área infantil</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./area_infantil.html">Área infantil</a></li>
         <li><a href="#">Perfil</a></li>
-        <li><a href="/src/feedback.html">Feedback</a></li>
-        <li><a href="/src/sobre_nos.html">Sobre nós</a></li>
-        <li><a href="/src/ajuda.html">Ajuda</a></li>
+        <li><a href="./feedback.html">Feedback</a></li>
+        <li><a href="./sobre_nos.html">Sobre nós</a></li>
+        <li><a href="./ajuda.html">Ajuda</a></li>
         <li><a href="#">Sair</a></li>
       </ul>
     </nav>
@@ -39,7 +38,7 @@
             <label id="infantil__1" class="area__infantil" for="area__infantil--link">
               <span class="material-symbols-outlined">stadia_controller</span><p>Infantil</p>
             </label>
-            <a id="area__infantil--link" href="/src/area_infantil.html"></a>
+            <a id="area__infantil--link" href="./area_infantil.html"></a>
           </li>
           <li>
             <label id="infantil__2" class="area__infantil" for="area__infantil--link">
@@ -57,8 +56,13 @@
       </nav>
   </header>
   <main>
+    <section>
+      <div class="link_group">
+        <a href="./ajuda.html">Ajuda</a><span class="icons_inline"><img src="./imgs/seta_preta.svg" alt="seta_navegacao" width="30px"></span>
+        <a href="./ajuda_acesso_aplicacao.html">Problemas ao acessar ou usar o NeuroKids</a>
+      </div>
     <div class="icon_config_account">
-      <img src="/src/imgs/problema_conta.svg" alt="config_account">
+      <img src="./imgs/problema_conta.svg" alt="config_account">
      </div>
      <div class="title_main">
       <h1> Problemas ao acessar ou usar o NeuroKids </h1>
@@ -66,19 +70,20 @@
       <p>Inclui artigos sobre como verificar problemas de conexão, interação com os conteúdos e compartilhamento</p>
       </div>
       <div class="line"></div>
-      <div class="container_01" onclick="redirectToLink('http://127.0.0.1:5500/src/guia-verificar-problemas-conexao.html')">
+      <div class="container_01" onclick="redirectToLink('./guia-verificar-problemas-conexao.html')">
         <p>Verificar problemas de conexão</p>
-        <img src="/src/imgs/seta_preta.svg">
+        <img src="./imgs/seta_preta.svg">
       </div>
-      <div class="container_01" onclick="redirectToLink('http://127.0.0.1:5500/src/guia-interacao-conteudos.html')">
+      <div class="container_01" onclick="redirectToLink('./guia-interacao-conteudos.html')">
         <p>Como interagir com os conteúdos</p>
-        <img src="/src/imgs/seta_preta.svg">
+        <img src="./imgs/seta_preta.svg">
       </div>
-      <div class="container_01" onclick="redirectToLink('http://127.0.0.1:5500/src/guia-compartilhamento-conteudos.html')">
+      <div class="container_01" onclick="redirectToLink('guia-compartilhamento-conteudos.html')">
         <p>Como compartilhar os conteúdos</p>
-        <img src="/src/imgs/seta_preta.svg">
+        <img src="./imgs/seta_preta.svg">
       </div>
     </div>
+  </section>
     <script>
       function redirectToLink(url) {
         window.location.href = url;
