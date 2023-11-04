@@ -9,6 +9,11 @@
   <title>NeuroKids</title>
 </head>
 <body id="corpo">
+    <a href="index.html" class="arrow_back">
+        <span class="material-symbols-outlined">arrow_back_ios_new</span>
+        <p>Home</p>
+    </a>
+
     <main class="principal">
         <div id="container-imagem">
             <label id="imagem-perfil" for="file__pictury">
@@ -133,7 +138,7 @@
                     </label>
 
                     <label id="campo-sobre-voce" class="campo" for="sobre">Nos conte um pouco <br> sobre você.
-                            <input id="sobre__voce___textarea" class="campo__entrada" title="Digite seu sobre" type="textarea" name="sobre__voce" cols="10" rows="10" wrap="hard" placeholder="Digite algo sobre você...">
+                            <input id="sobre__voce___textarea" class="campo__entrada" title="Digite seu sobre" type="textarea" name="sobre__voce" cols="10" rows="10" wrap="hard">
                     </label>
 
                     <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
@@ -142,14 +147,19 @@
         </form>
     </main>
 
-    <button id="button__entrar">
-      <label id="button__entrar___label" tabindex="0" role="button" for="button">
-        Entrar
-        <div id="button__entrar___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
-      </label>
-    </button>
+    <!-- Esta ancora foi adicionada ao botão para fins de exemplificação do fluxo durante o teste realizado
+    para avaliação do projeto. Este comentário será removido após tal avaliação. -->
+    <a id="button__entrar" href="login.html">
+        <button id="">
+          <label id="button__entrar___label" tabindex="0" role="button" for="">
+            Cadastrar
+            <div id="button__entrar___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
+          </label>
+        </button>
+    </a>
+
     
-    <p id="redirecionar__cadastro">Não possui uma conta? <a href="#">Click aqui para se cadastrar</a></p>
+    <p id="redirecionar__cadastro">Já possui uma conta? <a href="login.html">Click aqui para entrar</a></p>
 
     <footer>
         <nav id="nav-rodape">

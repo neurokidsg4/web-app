@@ -1,10 +1,14 @@
 
 #button__entrar {
     margin: 50px auto;
-    border: none;
+}
+
+#button__entrar button {
     background-color: none;
-    padding: 0;
     border-radius: 999999px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
 }
 
 #button__entrar___label {
