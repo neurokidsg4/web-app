@@ -21,6 +21,7 @@ img {
     width: 60%;
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 #nav-cabecalho ul {
