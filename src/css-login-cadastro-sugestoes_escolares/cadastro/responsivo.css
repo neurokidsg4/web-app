@@ -1,0 +1,76 @@
+
+@media screen and (max-width: 1230px) {
+    
+    #formulario__fieldset {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    #campo-nome {
+        order: 1;
+    }
+
+    #campo-email {
+        order: 2;
+    }
+
+    #campo-celular {
+        order: 3;
+    }
+
+    #campo-atuacao {
+        order: 4;
+    }
+
+    #campo-nascimento {
+        order: 5;
+    }
+
+    #campo-genero {
+        order: 6;
+    }
+
+    #campo-endereco {
+        order: 7;
+    }
+
+    #campo-senha {
+        order: 8;
+    }
+
+    #campo-confirma-senha {
+        order: 9;
+    }
+
+    #campo-sobre-voce {
+        order: 10;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    
+    #formulario__fieldset {
+        justify-content: center;
+    }
+
+    .campo {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        display: none;
+    }
+
+    #imagem-perfil {
+        align-self: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #formulario__fieldset {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .subtitle-page-first > p {
+        display: none;
+    }
+
+    .subtitle-page-first {
+        padding: 20px 0 30px 0;
+    }
+
+    div.container {
+        gap: 15px
+    }
+}

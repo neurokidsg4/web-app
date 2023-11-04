@@ -1,0 +1,65 @@
+
+@import url('../componentes_comuns/botao_formulario.css');
+@import url('../componentes_comuns/formulario_cadastro.css');
+@import url('responsivo.css');
+
+#corpo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 130vh;
+    padding-top: 70px;
+    background: #0BB3D9;
+    margin: 0 auto;
+    
+}
+
+#container-imagem {
+    display: flex;
+    height: 200px;
+}
+
+#imagem-perfil {
+    align-self: flex-end;
+}
+
+#logo {
+    position:absolute; 
+    top: 15%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo img {
+    height: 100px;
+}
+
+main {
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+#redirecionar__cadastro {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#redirecionar__cadastro a {
+    color: #3B4DF0;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid #3B4DF0;
+
+}
+
+#redirecionar__cadastro a:hover {
+    border-bottom: 2px solid #2568D0;
+    color: #2568D0;
+}
