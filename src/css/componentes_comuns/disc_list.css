@@ -1,0 +1,18 @@
+
+.disc_list li {
+    display: flex;
+    align-items: center;
+}
+
+.disc_list li i {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 0 5px 0 10px;
+}
+
+ul.list.disc_list {
+    margin-top: 10px;
+}

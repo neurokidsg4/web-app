@@ -54,29 +54,14 @@
     row-gap: 24px;
 }
 
-.disc_list li {
-    display: flex;
-    align-items: center;
-}
-
-.disc_list li:first-child {
-    margin-bottom: 5px;
-}
-
-.disc_list li i {
-    display: inline-block;
-    height: 7px;
-    width: 7px;
-    background-color: black;
-    border-radius: 50px;
-    margin: 0 5px 0 10px;
+.third_title {
+    font-size: large;
 }
 
 .credits {
     margin: 20px auto;
 }
 
-.credits li:first-child h2 {
-    font-size: 18px;
-    font-weight: 500;
+.credits .disc_list li {
+    margin-top: 5px;
 }

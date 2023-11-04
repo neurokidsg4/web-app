@@ -10,3 +10,17 @@
 @import url('../componentes_comuns/numeric_list.css');
 @import url('../componentes_comuns/container_lists.css');
 @import url('../componentes_comuns/base_atividades_escolares.css');
+
+.container--vidio h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.container--vidio iframe {
+    height: 30em;
+    width: 55em;
+}
+
+.container--lists > h4 {
+    font-weight: 500;
+}

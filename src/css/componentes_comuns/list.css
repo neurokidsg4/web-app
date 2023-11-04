@@ -1,0 +1,20 @@
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.list li p span {
+    font-weight: 600;
+}
+
+.list li p:nth-child(2) {
+    margin-top: 5px;
+}
+
+.list_legend {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
