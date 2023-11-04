@@ -1,5 +1,9 @@
+
 @import url('../componentes_comuns/base_atividades_escolares.css');
 @import url('../componentes_comuns/container_image.css');
+@import url('../componentes_comuns/disc_list.css');
+@import url('../componentes_comuns/list.css');
+
 
 #sentimento {
     border: 2px solid #000;

@@ -1,10 +1,5 @@
 
-@import url('../../reset.css');
-@import url('../../rodape.css');
-@import url('../../cabecalho.css');
-@import url('../../menu_mobile.css');
 @import url('../componentes_comuns/list.css');
-@import url('../componentes_comuns/botao.css');
 @import url('../componentes_comuns/plus_gap.css');
 @import url('../componentes_comuns/disc_list.css');
 @import url('../componentes_comuns/numeric_list.css');

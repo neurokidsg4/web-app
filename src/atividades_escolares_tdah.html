@@ -14,11 +14,10 @@
 </head>
 
 <body class="site">
-  <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
-
-  <input id="abre__menu--checkbox__cabecalho" type="checkbox">
-
+  <input aria-hidden="true" id="abre__menu--checkbox__cabecalho" type="checkbox">
+  
   <ul class="cabecalho__menu">
+    
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <div class="cabecalho__grupo--icones">
         
@@ -26,11 +25,11 @@
           <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
         </label>
         <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
-
+        
       </div>
       <p class="cabecalho__menu___texto--principal">Menu</p>
     </li>
-
+    
     <li>
       <ul class="cabecalho__menu--sub">
         <li class="cabecalho--grupo__icone-menu">
@@ -62,7 +61,7 @@
         <p class="cabecalho__menu___texto">Entrar</p>
       </a>
     </li>
-
+    
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <a href="">
         <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
@@ -72,9 +71,11 @@
   </ul>
 
   <header>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
     <label for="abre__menu--checkbox__cabecalho">
       <div class="group--hamburgue__logo">
-          <span class="material-icons hamburgue">menu</span>
+          <span class="material-icons hamburgue" aria-hidden="true">menu</span>
           <div class="logo">
             <a href="/src/index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
           </div>
@@ -124,9 +125,9 @@
         <div class="section">
           <h1 id="primary_title" class="title primary_title">Atividades escolares e recreativas para alunos com TDAH</h1>
 
-          <picture class="main_image">
+          <figure class="main_image">
               <img src="imgs/atividades_tdah/principal_tela_atividades.png" alt="Contém vários alunos em uma sala de aula e uma professora explicando uma atividade.">
-          </picture>
+          </figure>
         </div>
         
         
@@ -153,7 +154,6 @@
           </a>
         </div>
 
-        
         <div class="section">
           <h2 class="title secondary_title">Atividades com brincadeiras para crianças com TDAH</h2>
 
@@ -167,51 +167,40 @@
         </div>
         
         <div class="container--lists">
-          
           <div>
               <h4 class="list_legend">Veja algumas atividades a seguir:</h4>
               
               <ol class="list numeric_list plus_gap">
                   <li>
-                      <p><span>Pintar com os dedos:</span></p>
+                      <span>Pintar com os dedos</span>
   
-                      <p>
-                          Nada de usar pincéis, prefira deixar que a criança possa colocar a tinta nas mãos ou só nos dedos e possa colorir um desenho ou mesmo fazer um desenho livre com os dedos.
-                      </p>
+                      Nada de usar pincéis, prefira deixar que a criança possa colocar a tinta nas mãos ou só nos dedos e possa colorir um desenho ou mesmo fazer um desenho livre com os dedos.
                   </li>
   
                   <li>
-                      <p><span>Balões com pasta de dente</span></p>
+                      <span>Balões com pasta de dente</span>
   
-                      <p>
-                          Colocar um tubo de pasta de dente dentro de um balão de festa ao invés de ar é uma boa ideia para que a criança possa brincar. A sensação da pasta de dente dentro do balão é macia e as crianças vão gostar de ficar apertando esse balão tão macio.
-                      </p>
+                      Colocar um tubo de pasta de dente dentro de um balão de festa ao invés de ar é uma boa ideia para que a criança possa brincar. A sensação da pasta de dente dentro do balão é macia e as crianças vão gostar de ficar apertando esse balão tão macio.
                   </li>
       
                   <li>
-                      <p><span>Bolinhas de sabão</span></p>
+                      <span>Bolinhas de sabão</span>
                       
-                      <p>
-                          Colocar um pouco de sabão líquido e água dentro de um copo e usar um canudinho para soprar é uma das atividades mais antigas, que as crianças adoram.
-                      </p>
+                      Colocar um pouco de sabão líquido e água dentro de um copo e usar um canudinho para soprar é uma das atividades mais antigas, que as crianças adoram.
                   </li>
                   
                   <li>
-                      <p><span>Desenhos na caixa de areia</span></p>
+                      <span>Desenhos na caixa de areia</span>
   
-                      <p>
-                          Encha uma caixa de sapato com areia e deixe a criança brincar fazendo desenhos, com os dedos ou um pedacinho de pau. Se não gostar do desenho é só espalhar a areia e começar novamente!
-                      </p>
+                      Encha uma caixa de sapato com areia e deixe a criança brincar fazendo desenhos, com os dedos ou um pedacinho de pau. Se não gostar do desenho é só espalhar a areia e começar novamente!
                   </li>
                   
                   <li>
-                      <p><span>Slime</span></p>
+                      <span>Slime</span>
   
-                      <p>
-                        Toda criança apreciar brincar com slime, e estes encontram-se à venda em todo lado! Praticamente todo supermercado e lojas de brinquedos vendem slime, mas você também pode fazer o seu próprio slime caseiro misturando bem:
-                      </p>
+                    Toda criança apreciar brincar com slime, e estes encontram-se à venda em todo lado! Praticamente todo supermercado e lojas de brinquedos vendem slime, mas você também pode fazer o seu próprio slime caseiro misturando bem:
                           
-                      <ul>
+                      <ul class="list sub_list">
                         <li>
                           Corantes alimentícios;
                         </li>
@@ -239,155 +228,117 @@
                   </li>
                   
                   <li>
-                      <p><span>Jogo da memória</span></p>
+                      <span>Jogo da memória</span>
   
-                      <p>
-                          Esse é um jogo tradicional que pode ser encontrado em toda loja de brinquedos. Mas, sabia que você pode fazer seu próprio jogo da memória? Basta imprimir os desenhos que a criança gosta, colar numa caixa de papelão e depois recortar. Vire tudo ao contrário e comece o jogo! Para iniciar você pode usar 8 a 10 imagens diferentes. À medida que a criança vai alcançando melhor desempenho, você pode ir adicionando mais peças ao jogo.
-                      </p>
+                      Esse é um jogo tradicional que pode ser encontrado em toda loja de brinquedos. Mas, sabia que você pode fazer seu próprio jogo da memória? Basta imprimir os desenhos que a criança gosta, colar numa caixa de papelão e depois recortar. Vire tudo ao contrário e comece o jogo! Para iniciar você pode usar 8 a 10 imagens diferentes. À medida que a criança vai alcançando melhor desempenho, você pode ir adicionando mais peças ao jogo.
                   </li>
   
                   <li>
-                      <p><span>Jogar bola</span></p>
+                      <span>Jogar bola</span>
   
-                      <p>
-                          Os meninos normalmente são fãs de futebol, mas você pode deixar jogar outros jogos como basquete ou voleibol. Jogar em equipes é bom, mas se isso é sempre um problema, deixe a criança jogar sozinha uma vez ou outra e só depois estimule os jogos com outras crianças.
-                      </p>
+                      Os meninos normalmente são fãs de futebol, mas você pode deixar jogar outros jogos como basquete ou voleibol. Jogar em equipes é bom, mas se isso é sempre um problema, deixe a criança jogar sozinha uma vez ou outra e só depois estimule os jogos com outras crianças.
                   </li>
   
                   <li>
-                      <p><span>Pista de obstáculos</span></p>
+                      <span>Pista de obstáculos</span>
   
-                      <p>
-                          Toda criança gosta de uma pista de obstáculos e você pode criar uma dentro de casa, na sala ou no corredor. Basta colocar algumas almofadas, brinquedos e fios no chão, formando um circuito por onde a criança vai ter que passar. Pode ser um bom jogo para ensinar a respeitar regras.
-                      </p>
+                      Toda criança gosta de uma pista de obstáculos e você pode criar uma dentro de casa, na sala ou no corredor. Basta colocar algumas almofadas, brinquedos e fios no chão, formando um circuito por onde a criança vai ter que passar. Pode ser um bom jogo para ensinar a respeitar regras.
                   </li>
   
                   <li>
-                      <p><span>Jogos de encaixe</span></p>
+                      <span>Jogos de encaixe</span>
   
-                      <p>
-                          Você pode comprar pequenas peças de encaixe, com diversas cores e oferecer para a criança. Você pode pedir para que ela faça um quadrado, por exemplo, encaixando as peças umas nas outras, ou pode deixar a criança usar sua imaginação para criar algo à sua maneira.
-                      </p>
+                      Você pode comprar pequenas peças de encaixe, com diversas cores e oferecer para a criança. Você pode pedir para que ela faça um quadrado, por exemplo, encaixando as peças umas nas outras, ou pode deixar a criança usar sua imaginação para criar algo à sua maneira.
                   </li>
   
                   <li>
-                      <p><span>Tocar um instrumento</span></p>
+                      <span>Tocar um instrumento</span>
   
-                      <p>
-                          Seu filho pode aprender a tocar um instrumento! Você pode começar com algo mais simples, que não envolva muito dinheiro e se a criança apresentar algum gosto por um instrumento, realmente investir em algo melhor. Piano e violão são os instrumentos mais clássicos e que podem produzir sons mais calmos que podem ajudar a tranquilizar a criança, mas instrumentos como tambor, maracas e xilofones infantis também são boas opções.
-                      </p>
+                      Seu filho pode aprender a tocar um instrumento! Você pode começar com algo mais simples, que não envolva muito dinheiro e se a criança apresentar algum gosto por um instrumento, realmente investir em algo melhor. Piano e violão são os instrumentos mais clássicos e que podem produzir sons mais calmos que podem ajudar a tranquilizar a criança, mas instrumentos como tambor, maracas e xilofones infantis também são boas opções.
                   </li>
   
                   <li>
-                      <p><span>Morto-vivo</span></p>
+                      <span>Morto-vivo</span>
   
-                      <p>
-                          O jogo do vivo-morto-morto-vivo é bastante conhecido e ajuda a criança a obedecer ordens, mas ela pode se entediar rápido, se não conseguir seguir as instruções, por isso avalie a aceitação da criança com essa brincadeira, se não estiver dando certo, salte para a próxima brincadeira.
-                      </p>
+                      O jogo do vivo-morto-morto-vivo é bastante conhecido e ajuda a criança a obedecer ordens, mas ela pode se entediar rápido, se não conseguir seguir as instruções, por isso avalie a aceitação da criança com essa brincadeira, se não estiver dando certo, salte para a próxima brincadeira.
                   </li>
   
                   <li>
-                      <p><span>Dança da cadeira</span></p>
+                      <span>Dança da cadeira</span>
   
-                      <p>
-                          Para a tradicional dança da cadeira você vai precisar de, pelo menos, 2 crianças e 1 cadeira, mas se tiver umas 4 ou 5 crianças a brincadeira fica mais divertida. Escolha uma música mais lenta, para que as crianças não fiquem muito agitadas nessa brincadeira.
-                      </p>
+                      Para a tradicional dança da cadeira você vai precisar de, pelo menos, 2 crianças e 1 cadeira, mas se tiver umas 4 ou 5 crianças a brincadeira fica mais divertida. Escolha uma música mais lenta, para que as crianças não fiquem muito agitadas nessa brincadeira.
                   </li>
   
                   <li>
-                      <p><span>Andar sobre um fio</span></p>
+                      <span>Andar sobre um fio</span>
   
-                      <p>
-                          Andar na corda bamba, de forma mais segura, é o máximo. Não precisa colocar a criança em risco para se divertir! Você pode colocar um fio ou uma corda no chão e pedir a criança para andar por cima, sem vacilar. Não pode colocar os pés fora da corda. Essa também é uma ótima brincadeira para estimular a atenção, concentração e a obedecer às regras.
-                      </p>
+                      Andar na corda bamba, de forma mais segura, é o máximo. Não precisa colocar a criança em risco para se divertir! Você pode colocar um fio ou uma corda no chão e pedir a criança para andar por cima, sem vacilar. Não pode colocar os pés fora da corda. Essa também é uma ótima brincadeira para estimular a atenção, concentração e a obedecer às regras.
                   </li>
   
                   <li>
-                      <p><span>Vide jogos</span></p>
+                      <span>Vide jogos</span>
   
-                      <p>
-                          Ok, esse é controverso! Você pode deixar a criança jogar videojogos por um período programado de 1 ou 2 horas, mas se você sabe que a criança ficará muito agitada e depois terá dificuldade em desligar o jogo, talvez seja melhor, não deixar jogar. Avalie a situação a cada dia. Recompensar a criança com mais uma brincadeira ou um presente ou bolacha por ter obedecido a regra do horário, pode fazer com que ela obedeça mais rápido da próxima vez.
-                      </p>
+                      Ok, esse é controverso! Você pode deixar a criança jogar videojogos por um período programado de 1 ou 2 horas, mas se você sabe que a criança ficará muito agitada e depois terá dificuldade em desligar o jogo, talvez seja melhor, não deixar jogar. Avalie a situação a cada dia. Recompensar a criança com mais uma brincadeira ou um presente ou bolacha por ter obedecido a regra do horário, pode fazer com que ela obedeça mais rápido da próxima vez.
                   </li>
   
                   <li>
-                      <p><span>Descobrindo a Calma Interior (Meditação Guiada)</span></p>
+                      <span>Descobrindo a Calma Interior (Meditação Guiada)</span>
   
-                      <p>
-                          A meditação guiada é uma das atividades para crianças com TDAH, permitindo que elas descubram sua calma interior e desenvolvam habilidades de autorregulação. Reserve um tempo diário para praticar a meditação com seu filho, fornecendo instruções claras e orientação suave. Comece com sessões curtas e, gradualmente, aumente o tempo. A meditação pode ajudar a criança a aprender a focar sua atenção e a gerenciar os impulsos, reduzindo a agitação mental associada ao TDAH.
-                      </p>
+                      A meditação guiada é uma das atividades para crianças com TDAH, permitindo que elas descubram sua calma interior e desenvolvam habilidades de autorregulação. Reserve um tempo diário para praticar a meditação com seu filho, fornecendo instruções claras e orientação suave. Comece com sessões curtas e, gradualmente, aumente o tempo. A meditação pode ajudar a criança a aprender a focar sua atenção e a gerenciar os impulsos, reduzindo a agitação mental associada ao TDAH.
                   </li>
   
                   <li>
-                      <p><span>Conexão com a Natureza (Caça ao Tesouro ao Ar Livre)</span></p>
+                      <span>Conexão com a Natureza (Caça ao Tesouro ao Ar Livre)</span>
   
-                      <p>
-                        Levar a criança com TDAH para explorar a natureza através de uma divertida caça ao tesouro ao ar livre é uma excelente maneira de combinar movimento, aprendizado e foco. Crie uma lista de itens para procurar, como folhas de diferentes formas, pedras coloridas ou sementes. Incentive a criança a usar sua atenção e habilidades de observação para encontrar esses tesouros na natureza. Essa atividade estimula o interesse pela exploração e ajuda a canalizar a energia em um ambiente ao ar livre.
-                      </p>
+                    Levar a criança com TDAH para explorar a natureza através de uma divertida caça ao tesouro ao ar livre é uma excelente maneira de combinar movimento, aprendizado e foco. Crie uma lista de itens para procurar, como folhas de diferentes formas, pedras coloridas ou sementes. Incentive a criança a usar sua atenção e habilidades de observação para encontrar esses tesouros na natureza. Essa atividade estimula o interesse pela exploração e ajuda a canalizar a energia em um ambiente ao ar livre.
                   </li>
   
                   <li>
-                      <p><span>Atividades Artísticas (Pintura com os Sentidos)</span></p>
+                      <span>Atividades Artísticas (Pintura com os Sentidos)</span>
   
-                      <p>
-                          Entre as atividades para crianças com TDAH as atividades artísticas são uma maneira maravilhosa de estimular a criatividade e a concentração em crianças com TDAH. Experimente a pintura com os sentidos, utilizando diferentes materiais e texturas. Incentive a criança a usar os dedos, pincéis, esponjas e até mesmo objetos incomuns para pintar. Essa abordagem tátil ajuda a envolver múltiplos sentidos e melhora a concentração, permitindo que a criança se expresse de forma artística.
-                      </p>
+                      Entre as atividades para crianças com TDAH as atividades artísticas são uma maneira maravilhosa de estimular a criatividade e a concentração em crianças com TDAH. Experimente a pintura com os sentidos, utilizando diferentes materiais e texturas. Incentive a criança a usar os dedos, pincéis, esponjas e até mesmo objetos incomuns para pintar. Essa abordagem tátil ajuda a envolver múltiplos sentidos e melhora a concentração, permitindo que a criança se expresse de forma artística.
                   </li>
   
                   <li>
-                      <p><span>Jogos de Tabuleiro (Desafios Estratégicos)</span></p>
+                      <span>Jogos de Tabuleiro (Desafios Estratégicos)</span>
   
-                      <p>
-                          Os jogos de tabuleiro podem ser uma ótima maneira de promover o foco e o pensamento estratégico em crianças com TDAH. Opte por jogos que envolvam desafios estratégicos, como xadrez, damas, Carcassonne ou Ticket to Ride. Esses jogos incentivam a criança a planejar, pensar à frente e tomar decisões com cuidado. Além disso, eles proporcionam interação social e desenvolvimento de habilidades sociais importantes.
-                      </p>
+                      Os jogos de tabuleiro podem ser uma ótima maneira de promover o foco e o pensamento estratégico em crianças com TDAH. Opte por jogos que envolvam desafios estratégicos, como xadrez, damas, Carcassonne ou Ticket to Ride. Esses jogos incentivam a criança a planejar, pensar à frente e tomar decisões com cuidado. Além disso, eles proporcionam interação social e desenvolvimento de habilidades sociais importantes.
                   </li>
   
                   <li>
-                      <p><span>Movimento e Diversão (Dança Criativa)</span></p>
+                      <span>Movimento e Diversão (Dança Criativa)</span>
   
-                      <p>
-                          A dança criativa é uma das atividades para crianças com TDAH, energética e divertida que permite que as crianças canalizem sua energia de forma positiva. Crie um espaço amplo para a dança, coloque músicas animadas e encoraje a criança a explorar movimentos livres e expressivos. A dança estimula o desenvolvimento físico, melhora a coordenação motora e ajuda a liberar endorfinas, promovendo uma sensação de bem-estar.
-                      </p>
+                      A dança criativa é uma das atividades para crianças com TDAH, energética e divertida que permite que as crianças canalizem sua energia de forma positiva. Crie um espaço amplo para a dança, coloque músicas animadas e encoraje a criança a explorar movimentos livres e expressivos. A dança estimula o desenvolvimento físico, melhora a coordenação motora e ajuda a liberar endorfinas, promovendo uma sensação de bem-estar.
                   </li>
   
                   <li>
-                      <p><span>Horticultura Terapêutica (Cultivo de Plantas e Ervas)</span></p>
+                      <span>Horticultura Terapêutica (Cultivo de Plantas e Ervas)</span>
   
-                      <p>
-                          A horticultura terapêutica oferece inúmeros benefícios para crianças com TDAH. Cultivar plantas e ervas proporciona uma conexão com a natureza e ajuda a desenvolver habilidades de responsabilidade e paciência. Incentive a criança a plantar sementes, regar as plantas e observar seu crescimento. Essa atividade prática ensina sobre ciclo de vida, nutrição e respeito pelo meio ambiente, ao mesmo tempo em que oferece uma experiência calmante.
-                      </p>
+                      A horticultura terapêutica oferece inúmeros benefícios para crianças com TDAH. Cultivar plantas e ervas proporciona uma conexão com a natureza e ajuda a desenvolver habilidades de responsabilidade e paciência. Incentive a criança a plantar sementes, regar as plantas e observar seu crescimento. Essa atividade prática ensina sobre ciclo de vida, nutrição e respeito pelo meio ambiente, ao mesmo tempo em que oferece uma experiência calmante.
                   </li>
   
                   <li>
-                      <p><span>Aventura Literária (Contação de Histórias)</span></p>
+                      <span>Aventura Literária (Contação de Histórias)</span>
   
-                      <p>
-                          A contação de histórias é uma atividade que estimula a imaginação e a criatividade em crianças com TDAH. Leia histórias interessantes e cativantes para a criança, incentivando-a a participar da narração. Após a leitura, encoraje-a a criar suas próprias histórias, desenvolvendo suas habilidades de escrita e expressão verbal. Essa atividade também ajuda a melhorar a atenção, concentração e compreensão da linguagem.
-                      </p>
+                      A contação de histórias é uma atividade que estimula a imaginação e a criatividade em crianças com TDAH. Leia histórias interessantes e cativantes para a criança, incentivando-a a participar da narração. Após a leitura, encoraje-a a criar suas próprias histórias, desenvolvendo suas habilidades de escrita e expressão verbal. Essa atividade também ajuda a melhorar a atenção, concentração e compreensão da linguagem.
                   </li>
   
                   <li>
-                      <p><span>Jogos Sensoriais (Caixa de Areia Mágica)</span></p>
+                      <span>Jogos Sensoriais (Caixa de Areia Mágica)</span>
   
-                      <p>
-                          Os jogos sensoriais são ideais para crianças com TDAH, pois proporcionam uma experiência tátil e relaxante. Crie uma caixa de areia mágica, adicionando itens sensoriais, como conchas, pedras coloridas e brinquedos pequenos. Incentive a criança a explorar a caixa de areia com as mãos, observando as texturas, formas e cores dos objetos. Essa atividade ajuda a acalmar a mente e a desenvolver habilidades sensoriais.
-                      </p>
+                      Os jogos sensoriais são ideais para crianças com TDAH, pois proporcionam uma experiência tátil e relaxante. Crie uma caixa de areia mágica, adicionando itens sensoriais, como conchas, pedras coloridas e brinquedos pequenos. Incentive a criança a explorar a caixa de areia com as mãos, observando as texturas, formas e cores dos objetos. Essa atividade ajuda a acalmar a mente e a desenvolver habilidades sensoriais.
                   </li>
   
                   <li>
-                      <p><span>Hora do Yoga (Equilíbrio e Serenidade)</span></p>
+                      <span>Hora do Yoga (Equilíbrio e Serenidade)</span>
   
-                      <p>
-                          O yoga oferece uma combinação única de movimento, respiração e foco mental, tornando-se uma atividade benéfica para crianças com TDAH. Realize sessões de yoga adaptadas à idade da criança, ensinando posturas simples e técnicas de respiração consciente. O yoga promove o equilíbrio, a flexibilidade e a serenidade interior, ajudando a criança a encontrar um estado de tranquilidade.
-                      </p>
+                      O yoga oferece uma combinação única de movimento, respiração e foco mental, tornando-se uma atividade benéfica para crianças com TDAH. Realize sessões de yoga adaptadas à idade da criança, ensinando posturas simples e técnicas de respiração consciente. O yoga promove o equilíbrio, a flexibilidade e a serenidade interior, ajudando a criança a encontrar um estado de tranquilidade.
                   </li>
   
                   <li>
-                      <p><span>Oficinas Criativas (Construção e Montagem)</span></p>
+                      <span>Oficinas Criativas (Construção e Montagem)</span>
   
-                      <p>
-                          As oficinas criativas, como construção e montagem, estimulam a criatividade, a concentração e as habilidades motoras em crianças com TDAH. Proporcione materiais de construção, como blocos de montar, Legos ou kits de modelagem. Incentive a criança a criar estruturas, veículos ou personagens usando sua imaginação. Essa atividade envolvente ajuda a canalizar a energia de forma construtiva.
-                      </p>
+                      As oficinas criativas, como construção e montagem, estimulam a criatividade, a concentração e as habilidades motoras em crianças com TDAH. Proporcione materiais de construção, como blocos de montar, Legos ou kits de modelagem. Incentive a criança a criar estruturas, veículos ou personagens usando sua imaginação. Essa atividade envolvente ajuda a canalizar a energia de forma construtiva.
                   </li>
               </ol>
             </div>
