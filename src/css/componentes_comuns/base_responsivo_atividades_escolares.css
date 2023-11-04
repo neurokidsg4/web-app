@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 540px){
+    
+    #main_image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    
+    #activity_image {
+        width: min-content;
+    }
+
+    #activity_image img {
+        height: 60vh;
+    }
+
+    #activity_image .alt_description {
+        padding: 20px 0 20px 0;
+    }
+}

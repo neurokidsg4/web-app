@@ -1,0 +1,8 @@
+
+@media screen and (max-width: 668px) {
+    
+    #main_image {
+        background: no-repeat center/100% url('../../imgs/atividades_tod/principal_plano.png');
+        height: 245.2px;
+    }
+}

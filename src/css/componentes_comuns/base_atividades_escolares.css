@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+.hidden2 {
+    display: none;
+}
+
 .hidden {
     position: absolute;
     left: -999999px;
@@ -22,6 +26,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    padding: 0 10px 0 10px;
 }
 
 .title {
@@ -33,8 +38,9 @@
     font-size: xx-large;
 }
 
-.main_image img {
-    height: 509.22px;
+.main_image {
+    height: 509.2px;
+    width: 100%;
 }
 
 .section {

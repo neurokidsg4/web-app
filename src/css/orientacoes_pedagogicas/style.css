@@ -1,15 +1,17 @@
 
-@import url('../../reset.css');
-@import url('../../rodape.css');
-@import url('../../cabecalho.css');
-@import url('../../menu_mobile.css');
+@import url('../componentes_comuns/base_atividades_escolares.css');
+@import url('responsivo.css');
 @import url('../componentes_comuns/list.css');
 @import url('../componentes_comuns/botao.css');
 @import url('../componentes_comuns/plus_gap.css');
 @import url('../componentes_comuns/disc_list.css');
 @import url('../componentes_comuns/numeric_list.css');
 @import url('../componentes_comuns/container_lists.css');
-@import url('../componentes_comuns/base_atividades_escolares.css');
+@import url('../componentes_comuns/base_responsivo_atividades_escolares.css');
+
+.main_image {
+    background: no-repeat center url('../../imgs/orientacoes_pediatra/principal_pediatra.png');
+}
 
 .sub_list {
     margin: 5px 0 5px 0;
