@@ -25,6 +25,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
+<<<<<<< HEAD
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado |
 |------|-----------------------------------------|----| ----|-----------------|
@@ -50,6 +51,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|-----------------------------------------|----| ----|-----------------|
 |RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA| Wesley Bruno | input_erro.css / input_erro.js |
 
+=======
+|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|------|------------------------|------------|-----------------|
+|RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
+|RF-002| Usuários autenticados podem registrar novas notícias. | ALTA | cadastro-noticia.html |
+>>>>>>> martha
 
 ## Descrição das estruturas:
 
@@ -60,28 +67,4 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
 | Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
-
-## Feedback
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único do feedback           | 1                                              |
-| Satisfação     | Texto             | Emoji para capturar satisfação do usuário | muito satisfeito                               |
-| Mensagem       | Texto             | Conteúdo do feedback                      | Conteúdo excelente, ajudou a entender melhor a neurodiversidade, meu filho se adaptou muito bem às atividades |
-| Categoria do Feedback | Texto | Captura a categoria do feedback do usuário | sugestion                                          |
-
-
-## Usuário
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único do usuário            | 1                                              |
-| Nome           | Texto             | Nome registrado, nome social ou apelido   | angelica                                       |
-| Email          | Texto             | Conecta o usuário a uma conta cadastrada  | angelica@gmail.com                             |
-| Senha          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                     |
-| Celular        | Texto             | Número de celular pessoal do usuário      | (31)-9-4444-5555                                    |
-| Gênero         | Texto             | Evidencia o gênero de quem está usando a aplicação | feminino                              |
-| Nascimento     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14/04/1999                              |
-| Endereço       | Texto             | Evidencia a região do usuário             | Maria_Augosta_Bacelar-Ressaca-Contagem-MG      |
-| Atuação        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | Pedagoga |
-| Sobre          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | Me chamo Angelica. Tenho 39 anos e trabalho com crianças. Meu interesse é aprender mais sobre transtornos para antender melhor as crianças com quem trabalho, caso sejam neuro divergentes |
 

@@ -54,7 +54,11 @@ li {
     border: 3px solid #0BB3D9;
 }
 
+<<<<<<< HEAD
 /* Estilos para a seção "containe" */
+=======
+/* Estilos para a seção "container" */
+>>>>>>> martha
 .container, .container2, .container3 {
     display: flex;
     justify-content: center;
