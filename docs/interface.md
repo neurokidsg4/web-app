@@ -22,14 +22,14 @@ A partir da página inicial [RF-001], os usuários encontrarão seções dedicad
 
 Caso não possua cadastro, a opção "Clique aqui e cadastre-se", na tela de Login, permite o redirecionamento para a página de cadastro para criação de nova conta de usuário a partir da inserção de informações nos campos solicitados [RF-002].
 
-![Desktop%20Cadastro_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/69e1c2b5-8d67-4ac9-9d8a-02629c81794d)
+![Desktop Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/792a227a-8505-4989-80ea-37688a86ce7e)
 
 ### Login
 
+
 Para que o usuário acesse os conteúdos da aplicação disponíveis na sessão infantil e perfil, deve ser feito o login em uma conta previamente criada, inserindo as informações nos campos de "e-mail" e "senha", respectivamente [RF-003]. 
 
-
-![Desktop%20Login_resized](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/110e9378-abb4-4d99-a3d0-475dbce5bf4c)
+![Desktop Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/46b0355c-9e08-4fc7-b03b-a08ad9dfe46a)
 
 
 ### Tela de Perfil
@@ -71,7 +71,7 @@ Ao acessar o conteúdo por meio da página inicial, os usuários clicarão sobre
 
 Os usuários têm a opção de escolher algumas atividades recomendadas pela aplicação para serem aplicadas no ambiente escolar [RF-010], com o objetivo de oferecer diferentes abordagens de ensino do conteúdo.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/89734ebe-41cf-468b-9dd3-58a3d6d2789e">
+![Desktop Atividades Escolares](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/3e4bc9cb-e4fd-45cb-850e-15cb31e52bc0)
 
 
 ### Feedback
