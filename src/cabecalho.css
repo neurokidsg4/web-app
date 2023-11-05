@@ -10,7 +10,7 @@ header {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header label div span.hamburgue {
+header div span.hamburgue {
     display: none;
 }
 
@@ -22,6 +22,7 @@ img {
     width: 60%;
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 #nav-cabecalho ul {
@@ -32,6 +33,7 @@ img {
 
 #nav-cabecalho ul li {
     padding: 0 0 0 20px;
+    list-style: none;
 }
 
 #nav-cabecalho ul:first-child {
@@ -60,8 +62,7 @@ img {
 
 #nav-cabecalho ul li a:hover:after{
     width: 100%;
-    font-size: 1.2em;
-    
+    font-size: 1.2em; 
 }
 
 #nav-cabecalho--mobile {
@@ -113,8 +114,15 @@ img {
         justify-content: space-around;
     }
 
-    
-    #nav-cabecalho--mobile ul li .area__infantil {
+    #nav-cabecalho--mobile ul li {
+        padding: 5px;
+    }
+
+    #nav-cabecalho--mobile ul li a {
+        display: none;
+    }
+
+    #nav-cabecalho--mobile ul li label.area__infantil {
         display: flex;
         text-decoration-line: none;
         flex-direction: column;
@@ -125,7 +133,7 @@ img {
         padding: 10px;
     }
 
-    #nav-cabecalho--mobile ul li .area__infantil span {
+    #nav-cabecalho--mobile ul li label.area__infantil span {
         color: #ffffff;
         width: 24px;
         width: auto;

@@ -1,7 +1,7 @@
 
+
 /* Estilos do rodapé */
 footer {
-    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +25,7 @@ footer {
     display: grid;
     text-align: center;
     grid-template-columns: repeat(4, auto);
+    cursor: pointer;
 }
 
 #nav-rodape ul li {
@@ -64,5 +65,4 @@ footer {
     .rodape__item___4 {
         grid-area: rodape__item___4;
     }
-
 }

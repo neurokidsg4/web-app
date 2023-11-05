@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet"
+    href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="perfil.css">
+
+  <title>Perfil</title>
+</head>
+
+<body>
+
+  <!--Cabeçalh-->
+  <header>
+    <div class="group--hamburgue__logo">
+      <span class="material-icons hamburgue">menu</span>
+      <div class="logo">
+        <a href="/src/index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+      </div>
+    </div>
+    <nav id="nav-cabecalho">
+      <ul>
+        <li><a href="/src/index.html">Home</a></li>
+        <li><a href="/src/area_infantil.html">Área infantil</a></li>
+        <li><a href="/src/perfil.html">Perfil</a></li>
+        <li><a href="/src/feedback.html">Feedback</a></li>
+        <li><a href="/src/sobre_nos.html">Sobre nós</a></li>
+        <li><a href="/src/ajuda.html">Ajuda</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </nav>
+    <nav id="nav-cabecalho--mobile">
+      <ul>
+        <li>
+          <label id="infantil__1" class="area__infantil" for="area__infantil--link">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </label>
+          <a id="area__infantil--link" href="/src/area_infantil.html"></a>
+        </li>
+
+        <li>
+          <label id="infantil__2" class="area__infantil" for="area__infantil--link">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </label>
+          <a id="area__infantil--link" href="#"></a>
+        </li>
+
+        <li>
+          <label id="infantil__3" class="area__infantil" for="area__infantil--link">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </label>
+          <a id="area__infantil--link" href="#"></a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!--Corpo do perfil-->
+  <main>
+    <div class="content">
+
+      <!--Imagme de peril e de fundo-->
+      <div class="image-perfil">
+
+        <img id="foto-perfil1" src="/src/imgs/foto-perfil.png" alt="Foto de perfil">
+
+        <img id="fundo-perfil" src="/src/imgs/fundo-perfil.jpg" alt="Imagem de fundo do perfil">
+
+      </div>
+
+      <!--Botões, nome e ocupação-->
+      <div class="name-button">
+
+        <div class="name-ocupation">
+          <ul>
+            <li id="name">Charles Deo</li>
+            <li id="ocupation">Pediátra</li>
+          </ul>
+        </div>
+
+        <div class="button">
+          <ul>
+            <a href="editar-perfil.html" target="_self">
+              <li id="btn-edit">Editar perfil</li>
+            </a>
+
+            <a href="editar-senha.html">
+              <li id="btn-edit-pw">Editar senha</li>
+            </a>
+
+            <a href="excluir-conta.html">
+              <li id="btn-del-acount">Excluir conta</li>
+            </a>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <!--Dados do perfil-->
+      <div class="data">
+        <!--Primeira linha de dados-->
+        <div class="data-1">
+          <div class="data-name">
+            <ul>
+              <li id="data-name-1">Nome</li>
+              <li id="info-name-1">Charles Deo Campos</li>
+            </ul>
+          </div>
+
+          <div class="data-gender">
+            <ul>
+              <li id="data-gender-1">Masculino</li>
+              <li id="info-gender-1">Gênero</li>
+            </ul>
+          </div>
+
+          <div class="data-birth">
+            <ul>
+              <li id="data-birth-1">Nascimento</li>
+              <li id="info-birth-1">06/11/1990</li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Segunda linha de dados-->
+        <div class="data-2">
+          <div class="data-email">
+            <ul>
+              <li id="data-email-1">Email</li>
+              <li id="info-email-1">charles_deo@gmail.com</li>
+            </ul>
+          </div>
+
+          <div class="data-cell">
+            <ul>
+              <li id="data-cell-1">Celular</li>
+              <li id="info-cell-1">+55(31)90000-0000</li>
+            </ul>
+          </div>
+
+          <div class="data-add">
+            <ul>
+              <li id="data-add-1">Endereço</li>
+              <li id="info-add-1">Contagem - MG</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!--Sobre mim-->
+      <div class="about-me">
+
+        <h2>Sobre mim</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cupiditate culpa veritatis non praesentium
+          sed doloribus quia hic tempora vero! Saepe numquam quos odit dignissimos, sunt error corrupti. Voluptatem,
+          quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, corporis impedit? Nisi eos minus,
+          dolore tempora nulla sit error exercitationem quidem cum at tenetur nihil reiciendis repudiandae nemo.
+          Iusto, tenetur!</p>
+
+      </div>
+
+    </div>
+  </main>
+  <!--Rodapé-->
+  <footer>
+    <nav id="nav-rodape">
+      <ul>
+        <li class="rodape__item___1">
+          <p>© 2023 Projeto NeuroKids</p>
+        </li>
+        <li class="rodape__item___2"><a href="#">Contato</a></li>
+        <li class="rodape__item___3"><a href="#">Privacidade</a></li>
+        <li class="rodape__item___4"><a href="#">Termos de uso</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+
+</html>

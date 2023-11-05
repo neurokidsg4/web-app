@@ -10,15 +10,6 @@
     box-sizing: border-box;
 }
 
-.hidden2 {
-    display: none;
-}
-
-.hidden {
-    position: absolute;
-    left: -999999px;
-}
-
 .container {
     margin: 32px auto;
     width: 93%;
