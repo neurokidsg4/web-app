@@ -15,46 +15,109 @@
 </head>
 
 <body class="site">
+  <input id="abre__menu--checkbox__cabecalho" type="checkbox">
+
+  <ul class="cabecalho__menu">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <div class="cabecalho__grupo--icones">
+        
+        <label for="abre__menu--checkbox__cabecalho">
+          <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
+        </label>
+        <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
+
+      </div>
+      <p class="cabecalho__menu___texto--principal">Menu</p>
+    </li>
+
+    <li>
+      <ul class="cabecalho__menu--sub">
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="index.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">home</span>
+            <p class="cabecalho__menu___texto">Home</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="feedback.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">feedback</span>
+            <p class="cabecalho__menu___texto">Feedback</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="sobre_nos.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">group</span>
+            <p class="cabecalho__menu___texto">Sobre nós</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="login.html">
+        <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
+        <p class="cabecalho__menu___texto">Entrar</p>
+      </a>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="#">
+        <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
+        <p class="cabecalho__menu___texto">Sair</p>
+      </a>
+    </li>
+  </ul>
+
   <header>
-    <div class="group--hamburgue__logo">
-        <span class="material-icons hamburgue">menu</span>
-        <div class="logo">
-          <a href="./index.html"><img src="./imgs/logo.png" alt="Logo NeuroKids"></a>
-        </div>
-    </div>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
+    <label for="abre__menu--checkbox__cabecalho">
+      <div class="group--hamburgue__logo">
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
+      </div>
+    </label>
+
     <nav id="nav-cabecalho">
       <ul>
-        <li class="list-header"><a href="./index.html">Home</a></li>
-        <li class="list-header"><a href="./area_infantil.html">Área infantil</a></li>
-        <li class="list-header"><a href="#">Perfil</a></li>
-        <li class="list-header"><a href="./feedback.html">Feedback</a></li>
-        <li class="list-header"><a href="./sobre_nos.html">Sobre nós</a></li>
-        <li class="list-header"><a href="#">Ajuda</a></li>
-        <li class="list-header"><a href="#">Sair</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="area_infantil.html">Área infantil</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li><a href="#">Sair</a></li>
       </ul>
     </nav>
+
     <nav id="nav-cabecalho--mobile">
-        <ul>
-          <li>
-            <label id="infantil__1" class="area__infantil" for="area__infantil--link">
-              <span class="material-symbols-outlined">stadia_controller</span><p>Infantil</p>
-            </label>
-            <a id="area__infantil--link" href="./area_infantil.html"></a>
-          </li>
-          <li>
-            <label id="infantil__2" class="area__infantil" for="area__infantil--link">
-              <span class="material-symbols-outlined">account_circle</span><p>Perfil</p>
-            </label>
-            <a id="area__infantil--link" href="#"></a>
-          </li>
-          <li>
-            <label id="infantil__3" class="area__infantil" for="area__infantil--link">
-              <span class="material-symbols-outlined">info</span><p>Ajuda</p>
-            </label>
-            <a id="area__infantil--link" href="#"></a>
-          </li>
-        </ul>
-      </nav>
+      <ul>
+        <li>
+          <a class="area__infantil" href="area_infantil.html">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </a>
+        </li>
+        
+        <li>
+          <a id="infantil__2" class="area__infantil" href="perfil.html">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </a>
+        </li>
+
+        <li>
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <main>
@@ -133,19 +196,19 @@
     
       <div class="share-icons">
         <a href="#" class="share-icon">
-          <img src="/src/imgs/link_icon.png" alt="Link da página inicial">
+          <img src="imgs/link_icon.png" alt="Link da página inicial">
         </a>
         <a href="#" class="share-icon">
-          <img src="/src/imgs/twitter_icon.png" alt="Compartilhar no Twitter">
+          <img src="imgs/twitter_icon.png" alt="Compartilhar no Twitter">
         </a>
         <a href="#" class="share-icon">
-          <img src="/src/imgs/facebook_icon.png" alt="Compartilhar no Facebook">
+          <img src="imgs/facebook_icon.png" alt="Compartilhar no Facebook">
         </a>
         <a href="" class="share-icon">
-          <img src="/src/imgs/email_icon.png" alt="Compartilhar por E-mail">
+          <img src="imgs/email_icon.png" alt="Compartilhar por E-mail">
         </a>
         <a href="" class="share-icon">
-          <img src="/src/imgs/linkedln_icon.png" alt="Compartilhar no Linkedln">
+          <img src="imgs/linkedln_icon.png" alt="Compartilhar no Linkedln">
         </a>
     </div>
     </div>

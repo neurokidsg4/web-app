@@ -12,6 +12,7 @@ footer {
     padding: 30px 5%;
     gap: 10px;
     width: 100%;
+
 }
 
 #nav-rodape {
@@ -40,6 +41,11 @@ footer {
 /* Responsividade rodape */
 
 @media screen and (max-width: 812px){
+
+    footer{
+        position: relative;
+        bottom: 0;
+    }
     
     nav#nav-rodape ul {
         row-gap: 20px;

@@ -8,11 +8,12 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="estilo-cards-de-ajuda.css">
+  <link rel="stylesheet" href="./atividade_contagem_objetos.css">
   <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon"> <!-- Favicon da página -->
   
-  <title>Como utilizar a guia de atividades infantis</title>
+  <title>NeuroKids</title>
 </head>
+
 <body class="site">
   <header>
     <div class="group--hamburgue__logo">
@@ -28,7 +29,7 @@
         <li><a href="#">Perfil</a></li>
         <li><a href="./feedback.html">Feedback</a></li>
         <li><a href="./sobre_nos.html">Sobre nós</a></li>
-        <li><a href="./ajuda.html">Ajuda</a></li>
+        <li><a href="#">Ajuda</a></li>
         <li><a href="#">Sair</a></li>
       </ul>
     </nav>
@@ -56,54 +57,64 @@
       </nav>
   </header>
   <main>
-    <section>
-      <div class="link_group">
-        <a href="./ajuda.html">Ajuda</a><span class="icons_inline"><img src="./imgs/seta_preta.svg" alt="seta_navegacao" width="30px"></span>
-        <a href="./ajuda_atividades_aplicacao.html">Como utilizar a guia de atividades infantis</a>
-      </div>
-    <div class="icon_config_account">
-      <img src="./imgs/guia_atividadades.svg" alt="config_account">
-     </div>
-     <div class="title_main">
-      <h1>Como utilizar a guia de atividades infantis</h1>
-      <div class="description">
-      <p>Entenda como funcionam os níveis de dificuldade, avaliação do progresso e como realizar as atividades</p>
-      </div>
-      <div class="line"></div>
-      <div class="container_01" onclick="redirectToLink('./guia-niveis-dificuldade.html')">
-        <p>Entenda sobre os níveis de dificuldade das atividades</p>
-        <img src="./imgs/seta_preta.svg">
-      </div>
-      <div class="container_01" onclick="redirectToLink('./guia-avaliacao-desempenho.html')">
-        <p>Como funciona a avaliação do desempenho</p>
-        <img src="./imgs/seta_preta.svg">
-      </div>
-      <div class="container_01" onclick="redirectToLink('./guia-realizar-atividades.html')">
-        <p>Como realizar as atividades propostas</p>
-        <img src="./imgs/seta_preta.svg">
-      </div>
+    <h1>Contagem de Objetos Coloridos</h1>
+    <div class="text_description">
+    <p> Este é um jogo super divertido! Você verá objetos coloridos na tela e terá que contar quantos deles têm da cor que aparece. Depois, selecione entre as opções a quantidade correta. Vamos brincar e aprender juntos?
+     </p>
     </div>
-  </section>
-    <script>
-      function redirectToLink(url) {
-        window.location.href = url;
-      }
-    </script>   
-  </main>
-<footer>
-    <nav id="nav-rodape">
-      <ul>
-        <li class="rodape__item___1"><p>© 2023 Projeto NeuroKids</p></li>
-        <li class="rodape__item___2"><a href="#">Contato</a></li>
-        <li class="rodape__item___3"><a href="#">Privacidade</a></li>
-        <li class="rodape__item___4"><a href="#">Termos de uso</a></li>
-      </ul>
-    </nav>
-  </footer>
+    <div class="color_text">
+    <p>Verde</p>
+    </div>
+    <div class="kids_icons_container">
+        <div class="objects_description">
+            <img src="./imgs/balao_icone.svg">
+            <p>Balão</p>
+        </div>
+        <div class="objects_description">
+            <img src="./imgs/bicicleta_icone.svg">
+            <p>Bicicleta</p>
+        </div>
+        <div class="objects_description">
+            <img src="./imgs/barco_icone.svg">
+            <p>Barco</p>
+        </div>
+        <div class="objects_description">
+            <img src="./imgs/aviao_icone.svg">
+            <p>Avião</p>
+        </div>
+        <div class="objects_description">
+            <img src="./imgs/telefone_icone.svg">
+            <p>Telefone</p>
+        </div>
+        <div class="objects_description">
+            <img src="./imgs/brinquedo_icone.svg">
+            <p>Brinquedo</p>
+        </div>
+    </div>
+    <div class="number_button">
+        <button class="button">2</button>
+        <button class="button">4</button>
+        <button class="button">1</button>
+    </div>
+
+    <div class="button-message-container">
+        <div class="button-container">
+          <button id="back">Voltar</button>
+          <button id="continue">Continuar</button>
+        </div>
+        <div id="message"></div>
+      </div>
+    <footer>
+      <nav id="nav-rodape">
+        <ul>
+          <li class="rodape__item___1"><p>© 2023 Projeto NeuroKids</p></li>
+          <li class="rodape__item___2"><a href="#">Contato</a></li>
+          <li class="rodape__item___3"><a href="#">Privacidade</a></li>
+          <li class="rodape__item___4"><a href="#">Termos de uso</a></li>
+        </ul>
+      </nav>
+    </footer>
 
 </body>
 
 </html>
-  
-
-  

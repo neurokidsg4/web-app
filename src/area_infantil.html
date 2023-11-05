@@ -13,47 +13,110 @@
     <title>NeuroKids</title>
 </head>
 <body class="site">
-    <header>
-        <div class="group--hamburgue__logo">
-            <span class="material-icons hamburgue">menu</span>
-            <div class="logo">
-              <a href="./index.html"><img src="./imgs/logo.png" alt="Logo NeuroKids"></a>
-            </div>
-        </div>
-        <nav id="nav-cabecalho">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./area_infantil.html">Área infantil</a></li>
-            <li><a href="perfil.html">Perfil</a></li>
-            <li><a href="./feedback.html">Feedback</a></li>
-            <li><a href="./sobre_nos.html">Sobre nós</a></li>
-            <li><a href="#">Ajuda</a></li>
-            <li><a href="#">Sair</a></li>
-          </ul>
-        </nav>
-        <nav id="nav-cabecalho--mobile">
-            <ul>
-              <li>
-                <label id="infantil__1" class="area__infantil" for="area__infantil--link">
-                  <span class="material-symbols-outlined">stadia_controller</span><p>Infantil</p>
-                </label>
-                <a id="area__infantil--link" href="./area_infantil.html"></a>
-              </li>
-              <li>
-                <label id="infantil__2" class="area__infantil" for="area__infantil--link">
-                  <span class="material-symbols-outlined">account_circle</span><p>Perfil</p>
-                </label>
-                <a id="area__infantil--link" href="#"></a>
-              </li>
-              <li>
-                <label id="infantil__3" class="area__infantil" for="area__infantil--link">
-                  <span class="material-symbols-outlined">info</span><p>Ajuda</p>
-                </label>
-                <a id="area__infantil--link" href="#"></a>
-              </li>
-            </ul>
-          </nav>
-      </header>
+  <input id="abre__menu--checkbox__cabecalho" type="checkbox">
+
+  <ul class="cabecalho__menu">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <div class="cabecalho__grupo--icones">
+        
+        <label for="abre__menu--checkbox__cabecalho">
+          <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
+        </label>
+        <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
+
+      </div>
+      <p class="cabecalho__menu___texto--principal">Menu</p>
+    </li>
+
+    <li>
+      <ul class="cabecalho__menu--sub">
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="index.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">home</span>
+            <p class="cabecalho__menu___texto">Home</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="feedback.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">feedback</span>
+            <p class="cabecalho__menu___texto">Feedback</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="sobre_nos.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">group</span>
+            <p class="cabecalho__menu___texto">Sobre nós</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="login.html">
+        <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
+        <p class="cabecalho__menu___texto">Entrar</p>
+      </a>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="#">
+        <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
+        <p class="cabecalho__menu___texto">Sair</p>
+      </a>
+    </li>
+  </ul>
+
+  <header>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
+    <label for="abre__menu--checkbox__cabecalho">
+      <div class="group--hamburgue__logo">
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
+      </div>
+    </label>
+
+    <nav id="nav-cabecalho">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="area_infantil.html">Área infantil</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </nav>
+
+    <nav id="nav-cabecalho--mobile">
+      <ul>
+        <li>
+          <a class="area__infantil" href="area_infantil.html">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </a>
+        </li>
+        
+        <li>
+          <a id="infantil__2" class="area__infantil" href="perfil.html">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </a>
+        </li>
+
+        <li>
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
     <main>
         <div class="search-box">
             <input type="text" class="search-text" placeholder="O que voce deseja buscar?"> <!-- Campo de entrada de texto para pesquisa -->
@@ -61,7 +124,6 @@
               <img src="./imgs/loupe-blue.svg" alt="" class="loupe-blue" width="20px" height="20px"> <!-- Ícone de pesquisa -->
             </a>
         </div>
-
         <div class="container">
             <div class="section">
               <h1>Fácil</h1>
@@ -71,7 +133,7 @@
                 </div>
                 <div class="content">
                   <p>Atividade: Acerte a cor</p>
-                  <p>Descrição: Apresenta à criança o nome de uma cor e ela deve selecionar a cor correspondente</p>
+                  <p>Descrição: Apresenta à criança o nome de uma cor e ela deve selecionar a cor correspondente.</p>
                 </div>
                 <div class="action-bottom-bar">
                   <a href="./atividade_cores.html" class="jogar-button">
@@ -100,14 +162,14 @@
             <h1>Intermediário</h1>
             <article class="card">
               <div class="card-background">
-                <img src="./imgs/cores.jpg" alt="Imagem Cores Diversas">
+                <img src="./imgs/contagem_jogo.jpg" alt="Imagem Cores Diversas">
               </div>
               <div class="content">
-                <p>Atividade: Acerte a cor</p>
-                <p>Descrição: Apresenta à criança o nome de uma cor e ela deve selecionar a cor correspondente</p>
+                <p>Atividade: Contagem de Objetos Coloridos </p>
+                <p>Descrição: Uma série de imagens com vários objetos coloridos, e deve ser contado quantos objetos de uma cor específica estão presentes. </p>
               </div>
               <div class="action-bottom-bar">
-                <a href="#" class="jogar-button">
+                <a href="./atividade_contagem_objetos.html" class="jogar-button">
                   Jogue
                   <svg xmlns="http://www.w3.org/2000/svg" class="chevron" width="24" height="24" viewBox="0 0 24 24"
                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -125,7 +187,6 @@
               </div>
             </article>
           </div>
-          
       </div>
       <div class="vertical-line"></div>
       <div class="container3">
@@ -133,14 +194,14 @@
           <h1>Avançado</h1>
           <article class="card">
             <div class="card-background">
-              <img src="./imgs/cores.jpg" alt="Imagem Cores Diversas">
+              <img src="./imgs/jogo-numero.png" alt="Imagem Cores Diversas">
             </div>
             <div class="content">
-              <p>Atividade: Acerte a cor</p>
-              <p>Descrição: Apresenta à criança o nome de uma cor e ela deve selecionar a cor correspondente</p>
+              <p>Atividade: Jogo de Matemática </p>
+              <p>Descrição: Jogo online de matemática que ensinem conceitos mais avançados, como multiplicação e divisão. </p>
             </div>
             <div class="action-bottom-bar">
-              <a href="#" class="jogar-button">
+              <a href="./jogo-matematica.html" class="jogar-button">
                 Jogue
                 <svg xmlns="http://www.w3.org/2000/svg" class="chevron" width="24" height="24" viewBox="0 0 24 24"
                   stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -158,10 +219,8 @@
             </div>
           </article>
         </div>
-        
     </div>
-    </main>
-
+  </main>
     <footer>
       <nav id="nav-rodape">
         <ul>
