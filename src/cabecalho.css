@@ -113,26 +113,19 @@ img {
         justify-content: space-around;
     }
 
-    #nav-cabecalho--mobile ul li {
-        padding: 5px;
-    }
-
-    #nav-cabecalho--mobile ul li a {
-        display: none;
-    }
-
-    #nav-cabecalho--mobile ul li label.area__infantil {
+    
+    #nav-cabecalho--mobile ul li .area__infantil {
         display: flex;
+        text-decoration-line: none;
         flex-direction: column;
         text-align: center;
         align-items: center;
         border-radius: 9em;
         background-color: #C7D941;
         padding: 10px;
-        cursor: pointer;
     }
 
-    #nav-cabecalho--mobile ul li label.area__infantil span {
+    #nav-cabecalho--mobile ul li .area__infantil span {
         color: #ffffff;
         width: 24px;
         width: auto;
@@ -140,7 +133,7 @@ img {
         padding: 0px;
     }
 
-    #nav-cabecalho--mobile ul li label.area__infantil p {
+    #nav-cabecalho--mobile ul li .area__infantil p {
         color: #ffffff; 
     }
 
