@@ -1,0 +1,15 @@
+
+@import url('../componentes_comuns/base_atividades_escolares.css');
+@import url('responsive.css');
+@import url('../componentes_comuns/list.css');
+@import url('../componentes_comuns/disc_list.css');
+@import url('../componentes_comuns/container_image.css');
+@import url('../componentes_comuns/base_responsivo_atividades_escolares.css');
+
+.main_image {
+    background: no-repeat center url('../../imgs/atividades_tea/principal_imprimir.png');
+}
+
+#sentimento {
+    border: 2px solid #000;
+}
