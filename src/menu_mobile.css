@@ -1,4 +1,13 @@
 
+.hidden2 {
+    display: none;
+}
+
+.hidden {
+    position: absolute;
+    left: -999999px;
+}
+
 #abre__menu--checkbox__cabecalho {
     display: none;
 }
