@@ -41,7 +41,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-008|A aplicação deve permitir a busca por atividades específicas.|MÉDIA| Martha Beatriz |
 |RF-009|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA| Pedro Rodrigues | feedback.html |
 |RF-010|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas. |ALTA| Wesley Bruno | login.html |
-|RF-011|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA| Martha Beatriz |
+|RF-011|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA| Martha Beatriz |index.html|
 |RF-012|A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|MÉDIA| Martha Beatriz | index.html
 |RF-013|A aplicação deve permitir que os usuários criem novas contas durante a etapa de acesso ao site. |ALTA| Wesley Bruno | cadastro.html|
 |RF-014|A aplicação deve ter uma página onde seja possível visualizar as informações pessoais e oferecer um botão para editar as informações.|ALTA|Gustavo Novaes|perfil.html|
