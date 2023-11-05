@@ -1,17 +1,18 @@
 
-@import url('../atividades-escolares/responsivo.css');
-@import url('../atividades-escolares/style.css');
-@import url('../atividades-escolares/style.css');
-@import url('../../cabecalho.css');
-@import url('../../rodape.css');
+@import url("../../reset.css");
+@import url('responsivo.css');
+@import url("../../rodape.css");
+@import url("../../cabecalho.css");
+@import url("../../menu_mobile.css");
 
-/* Definições globais para todos os elementos */
+.hidden {
+    position: absolute;
+    left: -999999px;
+}
+
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
-    height: 100vp;
 }
 
 main {
@@ -19,7 +20,6 @@ main {
     flex: 1;
 }
 
-/* Estilos gerais do site */
 .site {
     display: flex;
     min-height: 100vh;
@@ -50,7 +50,6 @@ li {
     font-size: x-large;
 }
 
-/* Estilos para a seção "container" */
 .container {
     display: flex;
     justify-content: center;
@@ -78,7 +77,7 @@ li {
 }
 
 .card-background {
-    font-size: x-small;
+    font-size: small;
     height: 100px;
     background-color: #F2D230;
     transition: all 0.2s ease-in-out;
