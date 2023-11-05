@@ -73,17 +73,33 @@ img {
 
 @media screen and (max-width: 1000px) {
 
+    
+    #nav-cabecalho {
+        width: 100%;
+    }
+
     .search-box{
         display: none;
     }
     
+    header div div.logo a img {
+        height: 51px;
+    }
+}
+
+@media screen and (max-width: 0px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
     header div.group--hamburgue__logo {
         width: 30%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-
+    
     header div.group--hamburgue__logo span.hamburgue {
         display: inline-block;
         width: 24px; 
@@ -93,36 +109,28 @@ img {
         color: #C7D941;
         cursor: pointer;
     }
-
-    header div div.logo a img {
-        height: 51px;
+    
+    #nav-cabecalho {
+        display: none !important;
     }
-
-    nav#nav-cabecalho {
-        display: none;
-    }
-
-    nav#nav-cabecalho--mobile {
+    
+    #nav-cabecalho--mobile {
         width: 70%;
-        display: flex;
+        display: flex !important;
         justify-content: flex-end;
     }
-
+    
     #nav-cabecalho--mobile ul {
         width: 70%;
         display: flex;
         justify-content: space-around;
     }
-
+    
     #nav-cabecalho--mobile ul li {
         padding: 5px;
     }
-
-    #nav-cabecalho--mobile ul li a {
-        display: none;
-    }
-
-    #nav-cabecalho--mobile ul li label.area__infantil {
+    
+    #nav-cabecalho--mobile ul li .area__infantil {
         display: flex;
         text-decoration-line: none;
         flex-direction: column;
@@ -132,24 +140,49 @@ img {
         background-color: #C7D941;
         padding: 10px;
     }
-
-    #nav-cabecalho--mobile ul li label.area__infantil span {
+    
+    #nav-cabecalho--mobile ul li .area__infantil span {
         color: #ffffff;
         width: 24px;
         width: auto;
         font-size: 32px;
         padding: 0px;
     }
-
+    
     #nav-cabecalho--mobile ul li .area__infantil p {
         color: #ffffff; 
     }
-
+    
     #infantil__2 p {
         padding: 0 8px;
     }
-
+    
     #infantil__3 p {
         padding: 0 5px;
     }
+}
+
+@media screen and (max-width: 568px) {
+
+    #nav-cabecalho--mobile {
+        width: 100% !important;
+    }
+
+    #nav-cabecalho--mobile ul {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    #nav-cabecalho--mobile ul {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    header div div.logo {
+        display: none;
+    }    
 }
