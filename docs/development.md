@@ -43,6 +43,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-010|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas. |ALTA| Wesley Bruno | login.html |
 |RF-011|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA| Martha Beatriz |index.html|
 |RF-012|A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|MÉDIA| Martha Beatriz | ajuda.html
+ajuda_acesso_aplicacao.html
+ajuda_atividades_aplicacao.html
+ajuda_configuracao_conta.html
+atividade_contagem_objetos.css
+atividade_contagem_objetos.html
+guia-alterarconfiguracoes-perfil.html
+guia-avaliacao-desempenho.html
+guia-como-excluir-conta.html
+guia-compartilhamento-conteudos.html
+guia-interacao-conteudos.html
+guia-mudanca-email-e-senha.html
+guianiveis-dificuldade.html
+guia-realizar-atividades.html
+guia-verificar-problemas-conexao.html
+pagina-inicial-ajuda.css
 |RF-013|A aplicação deve permitir que os usuários criem novas contas durante a etapa de acesso ao site. |ALTA| Wesley Bruno | cadastro.html|
 |RF-014|A aplicação deve ter uma página onde seja possível visualizar as informações pessoais e oferecer um botão para editar as informações.|ALTA|Gustavo Novaes|perfil.html|
 |RF-015|A aplicação deve ter uma subtela, dentro da própria tela de perfil, contendo um formulário que permita o usuário editar suas informações cadastrais, alterar senha e excluir conta.|ALTA|Gustavo Novaes|editar-perfil.html; alterar-senha.html; excluir-conta.html;|
