@@ -41,11 +41,6 @@ main {
     margin-left: 30px;
     padding: 10px;
     position: absolute;
-    transform: translate(170px, -10px);
-}
-
-.image-perfil{
-    width: 100px;
 }
 
 #fundo-perfil {
