@@ -1,7 +1,5 @@
 @import url('rodape.css');
 @import url('cabecalho.css');
-@import url('rodape_responsivo.css');
-@import url('cabecalho_responsivo.css');
 @import url('menu_mobile.css');
 
 /* Definições globais para todos os elementos */
@@ -134,29 +132,28 @@ li {
     max-width: 100%;
     gap: 10px;
     margin-bottom: 40px;
-    margin-left: 70px;
+    margin-left: 4em;
 }
 
 .title_cards_01 {
     display: flex;
-    width: 100%;
-    height: 150px;
+    width: auto;
     justify-content: center;
     color: #505050;
     text-align: center;
-    font-size: 32px;
+    font-size: clamp(1.0em, 0.2em + 2vw, 1.5em);
     font-style: normal;
-    line-height: 33px;
+    margin-bottom: 40px;
+    line-height: 30px;
 }
 
 .description_cards_01 {
-    width: 100%;
-    height: 100px;
+    width: auto;
     display: flex;
     justify-content: center;
     color: #505050;
     text-align: center;
-    font-size: clamp(1em, 0.5em + 2vw, 1.5em);
+    font-size: clamp(1.0em, 0.2em + 2vw, 1.5em);
     padding: 10px;
     font-style: normal;
     line-height: 30px;
@@ -177,9 +174,9 @@ li {
 }
 
 .card-background {
-    width: auto; 
-    height: 400px; 
-    box-shadow: 0px 6.1902px 6.1902px 0px #F86645;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0.3em 0.3em 0 #F86645; 
 }
 
 /* Ajuste para os ícones */
@@ -218,15 +215,15 @@ li {
 }
 
 .description_cards_02 {
-    width: 100%;
-    height: 20.000px;
+    width: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     color: #505050;
     font-size: 21.24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.000px;
+    line-height: 2em;
     text-align: left;
     margin-left: 10px;
     margin-top: 2px;
@@ -269,10 +266,11 @@ li {
         display: flex;
         flex-direction: column;
         margin-left: 4em;
+        width: 80%;
     }
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1200px){
     .container_cards_02 {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
@@ -285,3 +283,5 @@ li {
         margin-left: 3em;
     }
 }
+
+   
