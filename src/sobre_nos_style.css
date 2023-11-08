@@ -203,3 +203,16 @@ li {
         margin-top: auto;
     }
 }
+
+    
+@media screen and (max-width: 450px) {
+
+    .container2 .section .card .content,
+    .container3 .section .card .content {
+        height: auto;
+    }
+    .container2 .section .card,
+    .container3 .section .card {
+        min-height: auto;
+    }
+}
