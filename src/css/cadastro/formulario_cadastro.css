@@ -87,13 +87,8 @@ select {
 
 #campo--grupo__paises___icone {
     position: absolute;
-    width: 65px;
     align-self: center;
     margin-left: 10px;
-}
-
-#campo--grupo__paises {
-    border: none;
 }
 
 input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
@@ -106,7 +101,7 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
 }
 
 #celular {
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 .grupo--icone__campo {
@@ -155,51 +150,19 @@ input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
 
 
 
-
 /* CSS para teste simulação de select com imagens*/
 
-/* Os estilos do select */
+/* Inicio dos estilos do select */
 .custom_select_selected {
     display: inline-block;
     cursor: hand;
     padding: 7px 2px 7px 7px;
 }
 
-.custom_select_options {
-    display: none;
-    border: 1px solid #D7D7D7;
-    color: #505050;
-    width: auto;
-    list-style: none;
-    position:absolute;
-    padding: 0 5px;
-    background-color: #F6F6F6;
-    box-shadow: 1px 2px 3px #D7D7D7;
-}
-
-.custom_select_options li {
-    width: 100%;
-}
-
-.custom_select_options li img {
-    height: 23px;
-    margin: 5px 2px;
-    display: block;
-    border: 1px solid #797979;
-}
-
-.custom_select_options li img:hover {
-    opacity: 0.7;
-}
-
-.custom_select {
-    display: inline-block;
-    z-index: 999;
-}
-
-.custom_select .custom_select_selected img {
+.custom_select_selected img {
     height: 23px;
 }
+/* Fim */
 
 #campo-sobre-voce {
     width: 100%;

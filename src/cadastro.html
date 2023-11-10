@@ -29,11 +29,11 @@
         <form id="formulario" >
             <div id='container'>    
                 <fieldset id="formulario__fieldset">
-                    <label id="campo-nome" class="campo" for="nome">Nome
+                    <label id="campo-nome" class="campo" for="nome">* Nome
                         <input id="nome" class="campo__entrada" title="Digite seu nome" type="text" name="nome" placeholder="Qual é o seu nome?" required>
                     </label>
                     
-                    <label id="campo-genero" class="campo" for="genero">Gênero
+                    <label id="campo-genero" class="campo" for="genero">* Gênero
                         <div class="grupo--icone__campo">
                             <span class="material-symbols-outlined expand__more">expand_more</span>
                             <select id="genero" class="campo__entrada" title="Digite seu genero" name="genero" required>
@@ -47,7 +47,7 @@
                         </div>
                     </label>
                     
-                    <label id="campo-atuacao" class="campo" for="atuacao">Atuacao
+                    <label id="campo-atuacao" class="campo" for="atuacao">* Atuacao
                         <div class="grupo--icone__campo">
                             <span class="material-symbols-outlined expand__more">expand_more</span>
                             <select id="atuacao" class="campo__entrada" title="Digite sua atuacao" name="atuacao" required>
@@ -68,7 +68,7 @@
                         </div>
                     </label>
                     
-                    <label id="campo-email" class="campo" for="email">Email
+                    <label id="campo-email" class="campo" for="email">* Email
                         <div class="grupo--icone__campo">
                             <span class="material-symbols-outlined email">email</span>
                             <input id="email" class="campo__entrada" title="Digite seu email" type="email" name="email" placeholder="Qual é o seu email?" required>
@@ -77,29 +77,20 @@
 
                     <label id="campo-celular" class="campo" for="celular">Celular
                         <div id="campo--grupo">
-                            <label id="campo--grupo__paises___icone" class="grupo--icone__campo" for="abre__menu--checkbox__paises">
-                                <script src="simula_select.js"></script>
+                            <label id="campo--grupo__paises___icone">
+                                <div>
 
-                                <div id="campo--grupo__paises" class="custom_select">
                                     <div class="custom_select_selected"><img src="imgs/brasil.png" alt=""></div>
-
                                     <input id="abre__menu--checkbox__paises" type="checkbox" style="display:none;">
 
-                                    <ul class="custom_select_options">
-                                        <li><img src="imgs/brasil.png" alt=""></li>
-                                        <li><img src="imgs/nigeria.png" alt=""></li>
-                                        <li><img src="imgs/estados-unidos.png" alt=""></li>
-                                    </ul>
                                 </div>
-                                
-                                <span class="material-symbols-outlined expand__more">expand_more</span>
                             </label>
                             
-                            <input id="celular" class="campo__entrada" title="Digite seu celular" type="number" name="celular" placeholder="Número" required>
+                            <input id="celular" class="campo__entrada" title="Digite seu celular" type="number" name="celular" placeholder="Número">
                         </div>
                     </label>
                     
-                    <label id="campo-senha" class="campo" for="senha">Senha
+                    <label id="campo-senha" class="campo" for="senha">* Senha
                         <div class="grupo--icone__campo">
                             <span class="material-symbols-outlined cadeado">lock</span>
 
@@ -113,17 +104,17 @@
                         </div>
                     </label>
 
-                    <label id="campo-nascimento" class="campo" for="nascimento">Nascimento
+                    <label id="campo-nascimento" class="campo" for="nascimento">* Nascimento
                         <div class="grupo--icone__campo">
                             <input id="nascimento" class="campo__entrada" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?" required>
                         </div>
                     </label>
 
-                    <label id="campo-endereco" class="campo" for="endereco">Endereco
+                    <label id="campo-endereco" class="campo" for="endereco">* Endereco
                         <input id="endereco" class="campo__entrada" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?" required>
                     </label>
 
-                    <label id="campo-confirma-senha" class="campo" for="confirma-senha">Confirma senha
+                    <label id="campo-confirma-senha" class="campo" for="confirma-senha">* Confirma senha
                         <div class="grupo--icone__campo">
                             <span class="material-symbols-outlined cadeado">lock</span>
 
@@ -149,14 +140,15 @@
 
     <!-- Esta ancora foi adicionada ao botão para fins de exemplificação do fluxo durante o teste realizado
     para avaliação do projeto. Este comentário será removido após tal avaliação. -->
-    <a id="button__entrar" href="login.html">
-        <button id="">
-          <label id="button__entrar___label" tabindex="0" role="button" for="">
+    
+    <div id="button__entrar">
+        <button>
+            <label id="button__entrar___label" tabindex="0" role="button" for="button">
             Cadastrar
             <div id="button__entrar___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
-          </label>
+            </label>
         </button>
-    </a>
+    </div>
 
     
     <p id="redirecionar__cadastro">Já possui uma conta? <a href="login.html">Click aqui para entrar</a></p>
