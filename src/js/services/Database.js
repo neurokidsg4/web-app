@@ -22,9 +22,22 @@ export class Database {
 
         let valueParse;
         
-        if(key === 'user') valueParse = JSON.parse(Cryptography.b64_to_utf8(localStorage.getItem(key)));
-        else valueParse = JSON.parse(localStorage.getItem(key));
+        if(key === 'user') {
 
+            try {
+                valueParse = JSON.parse(Cryptography.b64_to_utf8(localStorage.getItem(key)) || '');
+            } catch (error) {
+                return null;
+            }
+        }
+        else{
+            
+            try {
+                valueParse = JSON.parse(localStorage.getItem(key) || '');
+            } catch (error) {
+                return null;
+            }
+        }
         return valueParse;
     }
 
@@ -43,6 +56,12 @@ export class Database {
     static delete(key) {
 
         localStorage.setItem(key, '');
-        return !Database.exists(key);
+        return Database.exists(key);
+    }
+
+    static isLogged(key) {
+
+        const value = Database.select(key);
+        return !!value;
     }
 }
