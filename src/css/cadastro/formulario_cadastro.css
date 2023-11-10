@@ -40,28 +40,6 @@
     font-weight: 600;
 }
 
-.field_invalid {
-    color: #F86645;
-}
-
-.field_invalid .input_invalid {
-    color: #F86645;
-    border: 3px solid #F86645;
-}
-
-.input_invalid::placeholder {
-    color: #F86645;
-}
-
-.message_invalid {
-    display: inline-block;
-    margin-top: 10px;
-}
-
-#group--cell_phone {
-    width: 100%;
-}
-
 .input {
     width: 100%;
     height: 44px;
