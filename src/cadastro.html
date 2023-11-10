@@ -79,14 +79,11 @@
                         <div id="campo--grupo">
                             <label id="campo--grupo__paises___icone">
                                 <div>
-
                                     <div class="custom_select_selected"><img src="imgs/brasil.png" alt=""></div>
-                                    <input id="abre__menu--checkbox__paises" type="checkbox" style="display:none;">
-
                                 </div>
                             </label>
                             
-                            <input id="celular" class="campo__entrada" title="Digite seu celular" type="number" name="celular" placeholder="Número">
+                            <input id="celular" class="campo__entrada" title="Digite seu celular" type="text" name="celular" placeholder="Número">
                         </div>
                     </label>
                     
@@ -100,7 +97,7 @@
                                 <span class="material-symbols-outlined olho__fechado">visibility_off</span>
                             </label>
 
-                            <input id="senha" class="campo__entrada" title="Digite sua senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                            <input id="senha" class="campo__entrada" title="Digite sua senha" type="password" name="senha" placeholder="Digite uma senha" required>
                         </div>
                     </label>
 
@@ -138,9 +135,6 @@
         </form>
     </main>
 
-    <!-- Esta ancora foi adicionada ao botão para fins de exemplificação do fluxo durante o teste realizado
-    para avaliação do projeto. Este comentário será removido após tal avaliação. -->
-    
     <div id="button__entrar">
         <button>
             <label id="button__entrar___label" tabindex="0" role="button" for="button">
@@ -150,7 +144,6 @@
         </button>
     </div>
 
-    
     <p id="redirecionar__cadastro">Já possui uma conta? <a href="login.html">Click aqui para entrar</a></p>
 
     <footer>
@@ -163,5 +156,7 @@
             </ul>
         </nav>
     </footer>
+
+    <script type="module" src="js/validadores_input/celular.js"></script>
 </body>
 </html>
