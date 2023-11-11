@@ -1,9 +1,9 @@
 
-const regex = new RegExp('^([a-zA-Z0-9&.!_-]+@[a-zA-Z0-9&.!_-]+.[a-zA-Z0-9&.!_-]+)$');
+const regex = new RegExp('^([a-zA-Z\s]+)$');
 
-const input = document.getElementById("email");
-const field = document.getElementById("field--email");
-const message = document.querySelector("#message--email.message--invalid");
+const input = document.getElementById("name");
+const field = document.getElementById("field--name");
+const message = document.querySelector("#message--name.message--invalid");
 
 input.addEventListener("blur", blur);
 

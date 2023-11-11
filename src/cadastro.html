@@ -29,8 +29,14 @@
         <form id="form" >
             <div id='container'>    
                 <fieldset id="fieldset">
-                    <label class="field" for="name">* Nome
-                        <input id="name" class="input" title="Digite seu nome" type="text" name="name" placeholder="Qual é o seu nome?" required>
+                    <label id="field--name" class="field" for="name">* Nome
+                        <div>
+                            <div>
+                                <input id="name" class="input" title="Digite seu nome" type="text" name="name" placeholder="Qual é o seu nome?" required>
+                            </div>
+    
+                            <p id="message--name" class="message--invalid">Este campo deve conter apenas letras</p>
+                        </div>
                     </label>
                     
                     <label class="field" for="gender">* Gênero
@@ -167,5 +173,6 @@
 
     <script type="module" src="js/validadores_input/celular.js"></script>
     <script type="module" src="js/validadores_input/email.js"></script>
+    <script type="module" src="js/validadores_input/nome.js"></script>
 </body>
 </html>
