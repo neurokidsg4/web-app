@@ -68,10 +68,14 @@
                         </div>
                     </label>
                     
-                    <label class="field" for="email">* Email
-                        <div class="group">
-                            <span class="material-symbols-outlined email">email</span>
-                            <input id="email" class="input" title="Digite seu email" type="email" name="email" placeholder="Qual é o seu email?" required>
+                    <label id="field--email" class="field" for="email">* Email
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined email">email</span>
+                                <input id="email" class="input" title="Digite seu email" type="email" name="email" placeholder="exemplo@gmail.com" required>
+                            </div>
+
+                            <p id="message--email" class="message--invalid">Preencha corretamente este campo</p>
                         </div>
                     </label>
 
@@ -86,7 +90,8 @@
                                 
                                 <input id="cell_phone" class="input" title="Digite seu celular" type="text" name="cell_phone" placeholder="Número">
                             </div>
-                            <p id="message" class="message--invalid">Digita apenas números</p>
+
+                            <p id="message--cell_phone" class="message--invalid">Digita apenas números</p>
                         </div>
                     </label>
                     
@@ -161,5 +166,6 @@
     </footer>
 
     <script type="module" src="js/validadores_input/celular.js"></script>
+    <script type="module" src="js/validadores_input/email.js"></script>
 </body>
 </html>

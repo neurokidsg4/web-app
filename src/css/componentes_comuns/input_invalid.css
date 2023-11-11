@@ -1,4 +1,4 @@
-#message {
+.message--invalid {
     display: none;
     margin-top: 10px;
     font-size: small;
@@ -15,8 +15,4 @@
 
 .input--invalid::placeholder {
     color: #F86645;
-}
-
-#group--cell_phone {
-    width: 100%;
 }

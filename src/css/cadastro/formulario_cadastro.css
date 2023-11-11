@@ -65,6 +65,10 @@ input#email {
 input::placeholder {
     color: #505050;
 }
+    
+#group--cell_phone {
+    width: 100%;
+}
 
 input#password, input#confirm_password {
     padding-left: 40px;

@@ -1,11 +1,10 @@
 
 const regex = new RegExp('[0-9]{2}');
 const regex2 = new RegExp('[!@#$%¨&*+-/a-zA-Z\s:;.,]+');
-const regex3 = new RegExp('\s+');
 
 const input = document.getElementById("cell_phone");
 const field = document.getElementById("field--cell_phone");
-const message = document.querySelector("#message.message--invalid");
+const message = document.querySelector("#message--cell_phone.message--invalid");
 
 window.onload = function(){
     
