@@ -101,17 +101,21 @@
                         </div>
                     </label>
                     
-                    <label class="field" for="password">* Senha
-                        <div class="group">
-                            <span class="material-symbols-outlined lock">lock</span>
+                    <label id="field--password" class="field" for="password">* Senha
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined lock">lock</span>
+    
+                                <label for="checkbox__visibility___password">
+                                    <input id="checkbox__visibility___password" type="checkbox">
+                                    <span class="material-symbols-outlined eye_open">visibility</span>
+                                    <span class="material-symbols-outlined eye_closed">visibility_off</span>
+                                </label>
+    
+                                <input id="password" class="input" title="Digite sua senha" type="password" name="password" placeholder="Digite uma senha" required>
+                            </div>
 
-                            <label for="checkbox__visibility___password">
-                                <input id="checkbox__visibility___password" type="checkbox">
-                                <span class="material-symbols-outlined eye_open">visibility</span>
-                                <span class="material-symbols-outlined eye_closed">visibility_off</span>
-                            </label>
-
-                            <input id="password" class="input" title="Digite sua senha" type="password" name="password" placeholder="Digite uma senha" required>
+                            <p id="message--password" class="message--invalid">De 4 a 8 caracteres, os especiais permitidos são @!&#._-</p>
                         </div>
                     </label>
 
@@ -174,5 +178,6 @@
     <script type="module" src="js/validadores_input/celular.js"></script>
     <script type="module" src="js/validadores_input/email.js"></script>
     <script type="module" src="js/validadores_input/nome.js"></script>
+    <script type="module" src="js/validadores_input/senha.js"></script>
 </body>
 </html>
