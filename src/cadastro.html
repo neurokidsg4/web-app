@@ -39,38 +39,46 @@
                         </div>
                     </label>
                     
-                    <label class="field" for="gender">* Gênero
-                        <div class="group">
-                            <span class="material-symbols-outlined expand__more">expand_more</span>
-                            <select id="gender" class="input" title="Digite seu genero" name="gender" required>
-
-                                <option value="" selected disabled>Qual o seu genero?</option>
-                                <option value="nao_binario">Não binario</option>
-                                <option value="mulher">Mulher</option>
-                                <option value="homem">Homem</option>
+                    <label id="field--gender" class="field" for="gender">* Gênero
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined expand__more">expand_more</span>
+                                <select id="gender" class="input" title="Digite seu genero" name="gender" required>
                                 
-                            </select>
+                                    <option value="" selected disabled>Qual o seu genero?</option>
+                                    <option value="nao_binario">Não binario</option>
+                                    <option value="mulher">Mulher</option>
+                                    <option value="homem">Homem</option>
+                                    
+                                </select>
+                            </div>
+                            
+                            <p id="message--gender" class="message--invalid">Preencha este campo</p>
                         </div>
                     </label>
                     
-                    <label class="field" for="acting">* Atuacao
-                        <div class="group">
-                            <span class="material-symbols-outlined expand__more">expand_more</span>
-                            <select id="acting" class="input" title="Digite sua atuacao" name="acting" required>
-
-                                <option value="" selected disabled>Como você se define?</option>
-                                <option value="mae">Mãe</option>
-                                <option value="pai">Pai</option>
-                                <option value="responsavel_tutelar">Responsável tutelar</option>
-                                <option value="cuidador">Cuidador</option>
-                                <option value="acompanhante">Acompanhante</option>
-                                <option value="educador">Educador(a)</option>
-                                <option value="pediatra">Pediatra</option>
-                                <option value="pscicologo">Pscicologo(a)</option>
-                                <option value="outro">Outro</option>
-                                <option value="nenhum">Nenhuma das opções</option>
-
-                            </select>
+                    <label id="field--acting" class="field" for="acting">* Atuacao
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined expand__more">expand_more</span>
+                                <select id="acting" class="input" title="Digite sua atuacao" name="acting" required>
+    
+                                    <option value="" selected disabled>Como você se define?</option>
+                                    <option value="mae">Mãe</option>
+                                    <option value="pai">Pai</option>
+                                    <option value="responsavel_tutelar">Responsável tutelar</option>
+                                    <option value="cuidador">Cuidador</option>
+                                    <option value="acompanhante">Acompanhante</option>
+                                    <option value="educador">Educador(a)</option>
+                                    <option value="pediatra">Pediatra</option>
+                                    <option value="pscicologo">Pscicologo(a)</option>
+                                    <option value="outro">Outro</option>
+                                    <option value="nenhum">Nenhuma das opções</option>
+    
+                                </select>
+                            </div>
+                            
+                            <p id="message--acting" class="message--invalid">Preencha este campo</p>
                         </div>
                     </label>
                     
@@ -119,9 +127,13 @@
                         </div>
                     </label>
 
-                    <label class="field" for="birth">* Nascimento
-                        <div class="group">
-                            <input id="birth" class="input" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
+                    <label id="field--birth" class="field" for="birth">* Nascimento
+                        <div>
+                            <div class="group">
+                                <input id="birth" class="input" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
+                            </div>
+                            
+                            <p id="message--birth" class="message--invalid">Preencha este campo</p>
                         </div>
                     </label>
 
@@ -184,5 +196,8 @@
     <script type="module" src="js/validadores_input/nome.js"></script>
     <script type="module" src="js/validadores_input/senha.js"></script>
     <script type="module" src="js/validadores_input/confirma_senha.js"></script>
+    <script type="module" src="js/validadores_input/nascimento.js"></script>
+    <script type="module" src="js/validadores_input/atuacao.js"></script>
+    <script type="module" src="js/validadores_input/genero.js"></script>
 </body>
 </html>
