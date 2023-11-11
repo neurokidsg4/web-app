@@ -129,17 +129,21 @@
                         <input id="endereco" class="input" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?" required>
                     </label>
 
-                    <label class="field" for="confirm_password">* Confirma senha
-                        <div class="group">
-                            <span class="material-symbols-outlined lock">lock</span>
+                    <label id="field--confirm_password" class="field" for="confirm_password">* Confirma senha
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined lock">lock</span>
+    
+                                <label for="checkbox__visibility___confirm_password">
+                                    <input id="checkbox__visibility___confirm_password" type="checkbox">
+                                    <span class="material-symbols-outlined eye_open">visibility</span>
+                                    <span class="material-symbols-outlined eye_closed">visibility_off</span>
+                                </label>
+                                
+                                <input id="confirm_password" class="input" title="Digite a confirmação da sua senha" type="password" name="confirm_password" placeholder="Digite sua confirma senha" required>
+                            </div>
 
-                            <label for="checkbox__visibility___confirm_password">
-                                <input id="checkbox__visibility___confirm_password" type="checkbox">
-                                <span class="material-symbols-outlined eye_open">visibility</span>
-                                <span class="material-symbols-outlined eye_closed">visibility_off</span>
-                            </label>
-                            
-                            <input id="confirm_password" class="input" title="Digite a confirmação da sua senha" type="password" name="confirm_password" placeholder="Digite sua confirma senha" required>
+                            <p id="message--confirm_password" class="message--invalid">As duas senhas não são iguais. Verifique e tente novamente</p>
                         </div>
                     </label>
 
@@ -179,5 +183,6 @@
     <script type="module" src="js/validadores_input/email.js"></script>
     <script type="module" src="js/validadores_input/nome.js"></script>
     <script type="module" src="js/validadores_input/senha.js"></script>
+    <script type="module" src="js/validadores_input/confirma_senha.js"></script>
 </body>
 </html>
