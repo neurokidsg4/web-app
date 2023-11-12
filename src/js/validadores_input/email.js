@@ -5,16 +5,18 @@ const input = document.getElementById("email");
 const field = document.getElementById("field--email");
 const message = document.querySelector("#message--email.message--invalid");
 
-input.addEventListener("blur", blur);
+input.addEventListener("input", inputFunction);
 
-function blur() {
+function inputFunction() {
     
     if(!regex.test(input.value)) {
+        
         field.classList.add('field--invalid');
         input.classList.add('input--invalid');
         message.style.display = 'inline-block';
 
     } else {
+
         field.classList.remove('field--invalid');
         input.classList.remove('input--invalid');
         message.style.display = 'none';

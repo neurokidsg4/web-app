@@ -32,7 +32,7 @@
                     <label id="field--name" class="field" for="name">* Nome
                         <div>
                             <div>
-                                <input id="name" class="input" title="Digite seu nome" type="text" name="name" placeholder="Qual é o seu nome?" required>
+                                <input id="name" class="input input--required" title="Digite seu nome" type="text" name="name" placeholder="Qual é o seu nome?" required>
                             </div>
     
                             <p id="message--name" class="message--invalid">Este campo deve conter apenas letras</p>
@@ -43,7 +43,7 @@
                         <div>
                             <div class="group">
                                 <span class="material-symbols-outlined expand__more">expand_more</span>
-                                <select id="gender" class="input" title="Digite seu genero" name="gender" required>
+                                <select id="gender" class="input input--required" title="Digite seu genero" name="gender" required>
                                 
                                     <option value="" selected disabled>Qual o seu genero?</option>
                                     <option value="nao_binario">Não binario</option>
@@ -61,7 +61,7 @@
                         <div>
                             <div class="group">
                                 <span class="material-symbols-outlined expand__more">expand_more</span>
-                                <select id="acting" class="input" title="Digite sua atuacao" name="acting" required>
+                                <select id="acting" class="input input--required" title="Digite sua atuacao" name="acting" required>
     
                                     <option value="" selected disabled>Como você se define?</option>
                                     <option value="mae">Mãe</option>
@@ -86,7 +86,7 @@
                         <div>
                             <div class="group">
                                 <span class="material-symbols-outlined email">email</span>
-                                <input id="email" class="input" title="Digite seu email" type="email" name="email" placeholder="exemplo@gmail.com" required>
+                                <input id="email" class="input input--required" title="Digite seu email" type="email" name="email" placeholder="exemplo@gmail.com" required>
                             </div>
 
                             <p id="message--email" class="message--invalid">Preencha corretamente este campo</p>
@@ -102,14 +102,14 @@
                                     </div>
                                 </label>
                                 
-                                <input id="cell_phone" class="input" title="Digite seu celular" type="text" name="cell_phone" placeholder="Número">
+                                <input id="cell_phone" class="input input--required" title="Digite seu celular" type="text" name="cell_phone" placeholder="Número">
                             </div>
 
                             <p id="message--cell_phone" class="message--invalid">Digita apenas números</p>
                         </div>
                     </label>
-                    
-                    <label id="field--password" class="field" for="password">* Senha
+
+                    <label id="field--password" class="field" for="password">* senha
                         <div>
                             <div class="group">
                                 <span class="material-symbols-outlined lock">lock</span>
@@ -119,8 +119,8 @@
                                     <span class="material-symbols-outlined eye_open">visibility</span>
                                     <span class="material-symbols-outlined eye_closed">visibility_off</span>
                                 </label>
-    
-                                <input id="password" class="input" title="Digite sua senha" type="password" name="password" placeholder="Digite uma senha" required>
+                                
+                                <input id="password" class="input input--required" title="Digite uma senha" type="password" name="password" placeholder="Digite sua confirma senha" required>
                             </div>
 
                             <p id="message--password" class="message--invalid">De 4 a 8 caracteres, os especiais permitidos são @!&#._-</p>
@@ -130,7 +130,7 @@
                     <label id="field--birth" class="field" for="birth">* Nascimento
                         <div>
                             <div class="group">
-                                <input id="birth" class="input" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
+                                <input id="birth" class="input input--required" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
                             </div>
                             
                             <p id="message--birth" class="message--invalid">Preencha este campo</p>
@@ -145,14 +145,14 @@
                         <div>
                             <div class="group">
                                 <span class="material-symbols-outlined lock">lock</span>
-    
+                                
                                 <label for="checkbox__visibility___confirm_password">
                                     <input id="checkbox__visibility___confirm_password" type="checkbox">
                                     <span class="material-symbols-outlined eye_open">visibility</span>
                                     <span class="material-symbols-outlined eye_closed">visibility_off</span>
                                 </label>
                                 
-                                <input id="confirm_password" class="input" title="Digite a confirmação da sua senha" type="password" name="confirm_password" placeholder="Digite sua confirma senha" required>
+                                <input id="confirm_password" class="input input--required" title="Digite a confirmação da sua senha" type="password" name="confirm_password" placeholder="Digite sua confirma senha" required>
                             </div>
 
                             <p id="message--confirm_password" class="message--invalid">As duas senhas não são iguais. Verifique e tente novamente</p>
@@ -170,7 +170,7 @@
     </main>
 
     <div id="button__entrar">
-        <button>
+        <button id="button_btn">
             <label id="button__entrar___label" tabindex="0" role="button" for="button">
             Cadastrar
             <div id="button__entrar___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
@@ -199,5 +199,7 @@
     <script type="module" src="js/validadores_input/nascimento.js"></script>
     <script type="module" src="js/validadores_input/atuacao.js"></script>
     <script type="module" src="js/validadores_input/genero.js"></script>
+    <script type="module" src="js/exibe_oculta_senha.js"></script>
+    <script type="module" src="js/submete_formulario.js"></script>
 </body>
 </html>

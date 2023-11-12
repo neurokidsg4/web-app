@@ -130,7 +130,7 @@ select {
 .group input#checkbox__visibility___password {
     visibility: hidden;
 }
-senha
+
 .group label input#checkbox__visibility___password:checked ~ span.eye_closed {
     visibility: hidden;
 }
