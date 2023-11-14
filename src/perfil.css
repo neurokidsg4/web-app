@@ -1,5 +1,7 @@
 @import url('rodape.css');
 @import url('cabecalho.css');
+@import url('rodape_responsivo.css');
+@import url('cabecalho_responsivo.css');
 @import url('menu_mobile.css');
 
 * {
@@ -185,7 +187,7 @@ main {
     #fundo-perfil {
         margin-top: 0px;
         height: 200px;
-        width: 100vh;
+        width: 111%;
     }
 
     .name-ocupation {

@@ -3,68 +3,125 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="jogo-matematica.css">
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
 
     <title>Jogo de matemática</title>
 
-    <!--
-        https://br.ixl.com/matematica/1-ano/conte-as-imagens-numeros-ate-10
-
-        https://br.ixl.com/matematica/1-ano/compare-os-numeros-ate-10
-    -->
-
 </head>
 
 <body>
-    <header>
-        <div class="group--hamburgue__logo">
-            <span class="material-icons hamburgue">menu</span>
-            <div class="logo">
-                <a href="/src/index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
-            </div>
-        </div>
-        <nav id="nav-cabecalho">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="area_infantil.html">Área infantil</a></li>
-                <li><a href="perfil.html">Perfil</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
-                <li><a href="sobre_nos.html">Sobre nós</a></li>
-                <li><a href="ajuda.html">Ajuda</a></li>
-                <li><a href="#">Sair</a></li>
-            </ul>
-        </nav>
-        <nav id="nav-cabecalho--mobile">
-            <ul>
-                <li>
-                    <label id="infantil__1" class="area__infantil" for="area__infantil--link">
-                        <span class="material-symbols-outlined">stadia_controller</span>
-                        <p>Infantil</p>
-                    </label>
-                    <a id="area__infantil--link" href="/src/area_infantil.html"></a>
-                </li>
 
-                <li>
-                    <label id="infantil__2" class="area__infantil" for="area__infantil--link">
-                        <span class="material-symbols-outlined">account_circle</span>
-                        <p>Perfil</p>
-                    </label>
-                    <a id="area__infantil--link" href="#"></a>
-                </li>
+    <input id="abre__menu--checkbox__cabecalho" type="checkbox">
 
-                <li>
-                    <label id="infantil__3" class="area__infantil" for="area__infantil--link">
-                        <span class="material-symbols-outlined">info</span>
-                        <p>Ajuda</p>
-                    </label>
-                    <a id="area__infantil--link" href="#"></a>
-                </li>
+  <ul class="cabecalho__menu">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <div class="cabecalho__grupo--icones">
+        
+        <label for="abre__menu--checkbox__cabecalho">
+          <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
+        </label>
+        <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
 
-            </ul>
-        </nav>
-    </header>
+      </div>
+      <p class="cabecalho__menu___texto--principal">Menu</p>
+    </li>
+
+    <li>
+      <ul class="cabecalho__menu--sub">
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="index.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">home</span>
+            <p class="cabecalho__menu___texto">Home</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="feedback.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">feedback</span>
+            <p class="cabecalho__menu___texto">Feedback</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="sobre_nos.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">group</span>
+            <p class="cabecalho__menu___texto">Sobre nós</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="login.html">
+        <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
+        <p class="cabecalho__menu___texto">Entrar</p>
+      </a>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="#">
+        <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
+        <p class="cabecalho__menu___texto">Sair</p>
+      </a>
+    </li>
+  </ul>
+
+  <header>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
+    <label for="abre__menu--checkbox__cabecalho">
+      <div class="group--hamburgue__logo">
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
+      </div>
+    </label>
+
+    <nav id="nav-cabecalho">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="area_infantil.html">Área infantil</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </nav>
+
+    <nav id="nav-cabecalho--mobile">
+      <ul>
+        <li>
+          <a class="area__infantil" href="area_infantil.html">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </a>
+        </li>
+        
+        <li>
+          <a id="infantil__2" class="area__infantil" href="perfil.html">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </a>
+        </li>
+
+        <li>
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
     <div class="content">
         <h1>Qual a quantidade de ursos de pelúcia?</h1>
