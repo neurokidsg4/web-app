@@ -275,6 +275,7 @@ li {
 .share-icon {
     position: relative;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .share-icon img {
