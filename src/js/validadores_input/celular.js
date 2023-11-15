@@ -1,7 +1,7 @@
 
 const regex = new RegExp('[0-9]{2}');
 const regex2 = new RegExp('[_!@#$%¨&*+-/a-zA-Z\s:;.,]+');
-const regex3 = new RegExp('[0-9]{11}');
+const regex3 = new RegExp('^[0-9()]{4}[0-9]{9}$');
 const regex4 = /\(/;
 const regex5 = /\)/;
 
@@ -10,7 +10,29 @@ const field = document.getElementById("field--cell_phone");
 const message = document.querySelector("#message--cell_phone.message--invalid");
 
 window.onload = function() {
+
+    input.addEventListener("blur", blur);
     
+    function blur() {
+
+        if(!regex3.test(input.value) && input.value !== '') {
+
+            console.log("entrei no blur");
+
+            field.classList.add('field--invalid');
+            input.classList.add('input--invalid');
+            message.style.display = 'inline-block';
+
+            input.value = input.value.trim();
+        } else {
+            field.classList.remove('field--invalid');
+            input.classList.remove('input--invalid');
+            message.style.display = 'none';
+
+            input.value = input.value.trim();
+        }
+    }
+
     input.addEventListener("input", inputFunction);
 
     function inputFunction() {
