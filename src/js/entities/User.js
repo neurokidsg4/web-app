@@ -1,3 +1,5 @@
+import { Cryptography } from '../services/Cryptography.js'
+
 export class User{
 
     photo;
@@ -19,7 +21,7 @@ export class User{
         this.gender = gender,
         this.cellPhone = cellPhone,
         this.birth = birth,
-        this.password = password,
+        this.password = Cryptography.utf8_to_b64(password),
         this.about = about,
         this.cep = cep
     }

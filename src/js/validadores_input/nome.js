@@ -1,5 +1,5 @@
 
-const regex = new RegExp('^([a-zA-Z\s]+)$');
+const regex = new RegExp('^[a-zA-Z á]*$');
 
 const input = document.getElementById("name");
 const field = document.getElementById("field--name");

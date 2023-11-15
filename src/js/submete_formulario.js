@@ -37,8 +37,18 @@ button.addEventListener('click', (e) => {
         
         let user = new User(photo, name, email, acting, gender, cellPhone, birth, password, about, cep);
         
-        console.log(user);
-    
-        window.location.href = '../login.html';
+        const url = "http://localhost:3000/users";
+
+        fetch(url, {
+            method : "POST",
+            body : JSON.stringify(user),
+            headers: {'Content-Type': 'application/json'}
+        }).then(
+            response => response.text()
+        ).then(
+            () => alert('Cadastro realizado com sucesso! Vá para página de login e entre com sua nova conta.')
+        ). catch(
+            err => alert('Ops! Algo deu errado. Você pode tentar realizar o cadastro novamente mais tarde; nos enviar um feedback relatando o erro ou nos contatar diretamente através do link no rodape, chamado "Contato".')
+        );
     }
 })
