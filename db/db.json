@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "photo": "...",
+      "name": "Angelica",
+      "gender": "mulher",
+      "acting": "pedagoga",
+      "email": "angelica@gmail.com",
+      "cell-phone": "pedagoga",
+      "password": "123ange",
+      "cep": "00111444",
+      "about": "abcdefghijklmnopqrstuvwxyz",
+      "birth": "10,02,2000"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "jogo das cores",
+      "performance-percentage": 78
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "message": "abcdefghijklmnopqrstuvwxyz",
+      "satisfaction": "very satisfied",
+      "category": "sugestion"
+    }
+  ]
+}
