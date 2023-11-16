@@ -1,22 +1,22 @@
+
+import { returnPhoto } from './foto_perfil_cadastro.js'
 import { User } from './entities/User.js'
 
 const button = document.getElementById('button');
 
 button.addEventListener('click', (e) => {
-
     e.preventDefault();
-    
-    const inputs = document.querySelectorAll('.input--required');
+
+    const inputsRequired = document.querySelectorAll('.input--required');
+    const photoReader = returnPhoto();
     let itsOk = true;
 
-    console.log(inputs);
+    for(let control = 0; control <= inputsRequired.length - 1 ; control ++) {
 
-    for(let control = 0; control <= inputs.length - 1 ; control ++) {
-
-        if(inputs[control].value === '' || inputs[control].className.endsWith('input--invalid')) {
-            inputs[control].setCustomValidity('Preencha este campo corretamente.')
-            inputs[control].reportValidity();
-            inputs[control].focus();
+        if(inputsRequired[control].value === '' || inputsRequired[control].className.endsWith('input--invalid')) {
+            inputsRequired[control].setCustomValidity('Preencha este campo corretamente.')
+            inputsRequired[control].reportValidity();
+            inputsRequired[control].focus();
             itsOk = false;
             return;
         }
@@ -24,8 +24,8 @@ button.addEventListener('click', (e) => {
 
     if(itsOk) {
 
+        const photo = photoReader;
         const name = document.getElementById('name').value;
-        const photo = document.getElementById('file__pictury').value;
         const email = document.getElementById('email').value;
         const gender = document.getElementById('gender').value;
         const birth = document.getElementById('birth').value;
