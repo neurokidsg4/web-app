@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado |
 |------|-----------------------------------------|----| ----|-----------------|
-|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA| Wesley Bruno | input_erro.css / input_erro.js |
+|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA| Wesley Bruno | input_invalid.css / celular.js, confirma_senha.js, email.js, nome.js, senha.js |
 
 
 ## Descrição das estruturas:
