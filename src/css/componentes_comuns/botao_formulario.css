@@ -1,9 +1,9 @@
 
-#button__entrar {
+#button_enter {
     margin: 50px auto;
 }
 
-#button__entrar button {
+#button_enter button {
     background-color: none;
     border-radius: 999999px;
     padding: 0;
@@ -11,7 +11,7 @@
     border: none;
 }
 
-#button__entrar___label {
+#button_enter__label {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -31,14 +31,14 @@
     transition: background-color 0.2s, color 0.2s, box-shadow 0.2s, font-size 0.2s;
 }
 
-#button__entrar___label:hover {
+#button_enter__label:hover {
     background-color: #DF5C3E ;
     color:#E6E6E6;
     box-shadow: inset 1px 3px 5px #7c7c7c;
     font-size: 24px;
 }
 
-#button__entrar___seta {
+#button_enter__seta {
     background-color: #FFFFFF;
     border-radius: 999999px;
     padding: 6px;
@@ -48,7 +48,7 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-#button__entrar___label:hover > div#button__entrar___seta {
+#button_enter__label:hover > div#button_enter__seta {
     background-color: #DF5C3E;
     color: #E6E6E6;
 }

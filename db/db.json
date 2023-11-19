@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "mario",
+      "email": "mario@gmail.com",
+      "acting": "pai",
+      "gender": "nao_binario",
+      "cellPhone": "(52)486858888",
+      "birth": "2222-02-22",
+      "password": "MTIzNA==",
+      "about": "",
+      "cep": "Praça da Sé",
+      "id": 2
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "jogo das cores",
+      "performance-percentage": 78
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "message": "abcdefghijklmnopqrstuvwxyz",
+      "satisfaction": "very satisfied",
+      "category": "sugestion"
+    }
+  ]
+}

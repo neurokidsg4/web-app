@@ -1,0 +1,18 @@
+.message--invalid {
+    display: none;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.field--invalid {
+    color: #F86645;
+}
+
+.field--invalid .input--invalid {
+    color: #F86645;
+    border: 3px solid #F86645;
+}
+
+.input--invalid::placeholder {
+    color: #F86645;
+}
