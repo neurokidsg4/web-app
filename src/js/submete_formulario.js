@@ -1,5 +1,5 @@
 
-import { returnPhoto } from './foto_perfil_cadastro.js'
+import { returnPhoto } from './foto_cadastro.js'
 import { User } from './entities/User.js'
 
 const button = document.getElementById('button');

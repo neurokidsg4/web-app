@@ -1,4 +1,5 @@
-import { Database } from '../services/Database.js';
+
+import { LocalStorage } from './services/LocalStorage.js';
 
 const btnActionLogout = document.querySelectorAll('.btn_action_logout');
 const btnActionLogin = document.querySelectorAll('.btn_action_login');
@@ -6,7 +7,7 @@ const btnActionLogin = document.querySelectorAll('.btn_action_login');
 const btnLogout = document.querySelectorAll('.btn_logout');
 const btnLogin = document.querySelectorAll('.btn_login');
 
-if(Database.isLogged('user')) {
+if(LocalStorage.isLogged('user')) {
 
     btnLogin.forEach(btn => {
         btn.style.display = 'none';
@@ -22,7 +23,7 @@ else {
 btnActionLogout.forEach(btn => {
     btn.addEventListener('click', () => {
 
-        Database.delete('user');
+        LocalStorage.delete('user');
         window.location.href = "./index.html";
     })
 })
