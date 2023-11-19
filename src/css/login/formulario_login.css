@@ -1,9 +1,9 @@
 
-#formulario {
+#form {
     display: inline-block;
 }
 
-#formulario__fieldset {
+#fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,13 +18,7 @@
     height: auto;
 }
 
-@media screen and (max-width: 500px) {
-    #formulario__fieldset {
-        padding: 10px;
-    }
-}
-
-#campo {
+.field {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -33,7 +27,7 @@
     font-weight: 600;
 }
 
-#email, #senha {
+#email, #password {
     height: 44px;
     border-radius: 12px;
     border: 1px solid #D7D7D7;
@@ -41,19 +35,23 @@
     box-shadow: 1px 3px 5px #a7a7a7;
 }
 
-#email:focus, #senha:focus {
+#email:focus, #password:focus {
     border: #a7a7a7;
 }
 
-input#senha {
+input#password {
     padding: 25px 40px;
 }
 
-#campo input#email, #campo #grupo--icone__campo input#senha {
+.field input#email, .field .group input#password {
     width: 100%;
 }
 
-#grupo--icone__campo {
+::-ms-reveal {
+    display: none;
+}
+
+.group {
     width: 100%;
     position:relative;
     display: flex;
@@ -61,18 +59,18 @@ input#senha {
     justify-content: center;
 }
 
-#grupo--icone__campo span,
-#grupo--icone__campo label {
+.group span,
+.group label {
     position: absolute;
     padding: 0 13px;
     color: #505050;
 }
 
-#grupo--icone__campo label input, #grupo--icone__campo span {
+.group label input, .group span {
     position: absolute;
 }
 
-#grupo--icone__campo label {
+.group label {
     align-self: flex-end;
     display: flex;
     justify-content: center;
@@ -80,18 +78,22 @@ input#senha {
     padding: 20px 25px;
 }
 
-#grupo--icone__campo span.cadeado {
+.group span.lock {
     align-self: flex-start;
 }
 
-#grupo--icone__campo input#checkbox__visibility {
+.group input#checkbox__visibility___password {
     visibility: hidden;
 }
 
-#grupo--icone__campo label input#checkbox__visibility:checked ~ span.olho__fechado {
+.group label input#checkbox__visibility___password:checked ~ span.eye_closed {
     visibility: hidden;
 }
 
-#email::placeholder, #senha::placeholder {
+#email::placeholder, #password::placeholder {
     color: #505050;
+}
+
+#button {
+    visibility: hidden;
 }

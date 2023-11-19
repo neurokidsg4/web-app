@@ -9,7 +9,7 @@
   <title>Login</title>
 </head>
 
-<body id="corpo">
+<body id="container">
     <a href="index.html" class="arrow_back">
       <span class="material-symbols-outlined">arrow_back_ios_new</span>
       <p>Home</p>
@@ -19,45 +19,45 @@
       <img src="imgs/logo.png" alt="logo">
     </figure>
 
-    <h1 id="titulo">Entre por aqui</h1>
+    <h1 id="main_title">Entre por aqui</h1>
 
-    <main class="principal">
-      <form id="formulario">
-        <fieldset id="formulario__fieldset">
+    <main>
+      <form id="form">
+        <fieldset id="fieldset">
           
-          <label id="campo" for="email">Email
+          <label class="field" for="email">Email
             <input id="email" title="Digite seu email" type="text" name="email" id="email" placeholder="Qual é o seu nome?">
           </label>
 
-          <label id="campo" for="senha">Senha
-            <div id="grupo--icone__campo">
-              <span class="material-symbols-outlined cadeado">lock</span>
+          <label class="field" for="password">Senha
+            <div class="group">
+              <span class="material-symbols-outlined lock">lock</span>
 
-              <label for="checkbox__visibility">
-                <input id="checkbox__visibility" type="checkbox">
-                <span class="material-symbols-outlined olho__aberto">visibility</span>
-                <span class="material-symbols-outlined olho__fechado">visibility_off</span>
+              <label for="checkbox__visibility___password">
+                <input id="checkbox__visibility___password" type="checkbox">
+                <span class="material-symbols-outlined eye_open">visibility</span>
+                <span class="material-symbols-outlined eye_closed">visibility_off</span>
               </label>
               
-              <input id="senha" title="Digite sua senha" type="text" name="senha" id="senha" placeholder="Digite sua senha">
+              <input id="password" title="Digite sua senha" type="text" name="password" id="password" placeholder="Digite sua senha">
             </div>
           </label>
 
-          <input id="button" title="Click para enviar" type="submit" name="button" value="Entrar" style="visibility: hidden;">
+          <input id="button" title="Click para enviar" type="submit" name="button" value="Entrar">
         </fieldset>
       </form>
     </main>
 
-    <div id="button__entrar">
+    <div id="button_enter">
       <button>
-        <label id="button__entrar___label" tabindex="0" role="button" for="button">
+        <label id="button_enter__label" tabindex="0" role="button" for="button">
           Entrar
-          <div id="button__entrar___seta"><span class="material-symbols-outlined">arrow_forward</span></div>
+          <div id="button_enter__seta"><span class="material-symbols-outlined">arrow_forward</span></div>
         </label>
       </button>
   </div>
     
-    <p id="redirecionar__cadastro">Não possui uma conta? <a href="cadastro.html">Click aqui para se cadastrar</a></p>
+    <p id="redirect_register">Não possui uma conta? <a href="cadastro.html">Click aqui para se cadastrar</a></p>
 
     <footer>
         <nav id="nav-rodape">
@@ -69,5 +69,9 @@
             </ul>
         </nav>
     </footer>
+
+    <script type="module" src="js/exibe_oculta_senha.js"></script>
+    <script type="module" src="js/controllers/login.js"></script>
+
 </body>
 </html>

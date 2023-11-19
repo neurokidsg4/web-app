@@ -12,10 +12,12 @@ passwordChecked.addEventListener('click', () => {
     }
 })
 
-confirmPasswordChecked.addEventListener('click', () => {
-    if(confirmPasswordChecked.checked) {
-        confirmPassword.setAttribute('type', 'text');
-    } else {
-        confirmPassword.setAttribute('type', 'password');
-    }
-})
+if(confirmPasswordChecked) {
+    confirmPasswordChecked.addEventListener('click', () => {
+        if(confirmPasswordChecked.checked) {
+            confirmPassword.setAttribute('type', 'text');
+        } else {
+            confirmPassword.setAttribute('type', 'password');
+        }
+    })
+}

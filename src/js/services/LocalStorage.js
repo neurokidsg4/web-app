@@ -1,9 +1,9 @@
 import { Cryptography } from "./Cryptography.js";
 
-export class Database {
+export class LocalStorage {
     
     static exists(key) {
-        return !! Database.select(key);
+        return !! LocalStorage.select(key);
     }
 
     static insert(key, value) {
@@ -15,7 +15,7 @@ export class Database {
 
         localStorage.setItem(key, valueParse);
         
-        return Database.exists(key);
+        return LocalStorage.exists(key);
     }
 
     static select(key) {
@@ -50,18 +50,18 @@ export class Database {
 
         localStorage.setItem(key, valueParse);
 
-        return Database.exists(key);
+        return LocalStorage.exists(key);
     }
 
     static delete(key) {
 
         localStorage.setItem(key, '');
-        return Database.exists(key);
+        return LocalStorage.exists(key);
     }
 
     static isLogged(key) {
 
-        const value = Database.select(key);
+        const value = LocalStorage.select(key);
         return !!value;
     }
 }
