@@ -97,3 +97,8 @@ input#password {
 #button {
     visibility: hidden;
 }
+
+.input:focus {
+    border: 3px solid #F2D230 !important;
+    outline: none;
+}

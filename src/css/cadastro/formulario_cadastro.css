@@ -143,7 +143,6 @@ select {
     visibility: hidden;
 }
 
-
 /* Inicio dos estilos do select */
 .custom_select_selected {
     display: inline-block;

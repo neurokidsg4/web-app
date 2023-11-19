@@ -50,7 +50,7 @@ main {
     gap: 20px;
 }
 
-#redirecionar__cadastro {
+#redirect_login {
     text-align: center;
     color: #FFFFFF;
     font-size: 14px;
@@ -58,7 +58,7 @@ main {
     margin-bottom: 30px;
 }
 
-#redirecionar__cadastro a {
+#redirect_login a {
     color: #3B4DF0;
     padding-bottom: 2px;
     text-decoration: none;
@@ -66,7 +66,7 @@ main {
 
 }
 
-#redirecionar__cadastro a:hover {
+#redirect_login a:hover {
     border-bottom: 2px solid #2568D0;
     color: #2568D0;
 }
