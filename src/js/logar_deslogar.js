@@ -24,7 +24,7 @@ btnActionLogout.forEach(btn => {
     btn.addEventListener('click', () => {
 
         LocalStorage.delete('user');
-        window.location.href = "./index.html";
+        location.reload();
     })
 })
 

@@ -24,7 +24,8 @@ button.addEventListener('click', (e) => {
 
         if(passwordUser === password) {
             LocalStorage.insert('user', Cryptography.utf8_to_b64(userJson));
-            window.location.href = './index.html';
+            window.location.href = LocalStorage.exists('redirect') ? LocalStorage.select('redirect') : './index.html';
+            LocalStorage.delete('redirect');
         } else {
             alert('Senha invalida. Verifique e tente novamente.');
         }
