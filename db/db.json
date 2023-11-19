@@ -1,17 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "photo": "...",
-      "name": "Angelica",
-      "gender": "mulher",
-      "acting": "pedagoga",
-      "email": "angelica@gmail.com",
-      "cell-phone": "pedagoga",
-      "password": "123ange",
-      "cep": "00111444",
-      "about": "abcdefghijklmnopqrstuvwxyz",
-      "birth": "10,02,2000"
+      "name": "mario",
+      "email": "mario@gmail.com",
+      "acting": "pai",
+      "gender": "nao_binario",
+      "cellPhone": "(52)486858888",
+      "birth": "2222-02-22",
+      "password": "MTIzNA==",
+      "about": "",
+      "cep": "Praça da Sé",
+      "id": 2
     }
   ],
   "results": [
