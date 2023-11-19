@@ -12,7 +12,6 @@ button.addEventListener('click', (e) => {
     let itsOk = true;
 
     for(let control = 0; control <= inputsRequired.length - 1 ; control ++) {
-
         if(inputsRequired[control].value === '' || inputsRequired[control].className.endsWith('input--invalid')) {
             inputsRequired[control].setCustomValidity('Preencha este campo corretamente.')
             inputsRequired[control].reportValidity();
