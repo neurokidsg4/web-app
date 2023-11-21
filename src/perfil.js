@@ -13,11 +13,17 @@ btnEditar.addEventListener("click", function(){
     var nascimento = document.getElementById('info-birth-1').innerHTML;
     localStorage.setItem("nascimento", nascimento);
 
-    var email = document.getElementById('info-email-1').innerHtml;
+    var email = document.getElementById('info-email-1').innerHTML;
     localStorage.setItem("email", email);
 
     var cell = document.getElementById("info-cell-1").innerHTML;
     localStorage.setItem("cell", cell);
+
+    var endereco = document.getElementById("info-add-1").innerHTML;
+    localStorage.setItem("endereco", endereco);
+
+    var sobreMim = document.getElementById("iabout-me").innerHTML;
+    localStorage.setItem("sobreMim", sobreMim);
 
 });
 
@@ -31,3 +37,15 @@ document.getElementById("info-gender-1").innerHTML = novoGenero;
 
 var novoNascimento = localStorage.getItem("nascimento");
 document.getElementById("info-birth-1").innerHTML = novoNascimento;
+
+var novoEmail = localStorage.getItem("email");
+document.getElementById("info-email-1").innerHTML = novoEmail;
+
+var novoCell = localStorage.getItem("cell");
+document.getElementById("info-cell-1").innerHTML = novoCell;
+
+var novoEndereco = localStorage.getItem("endereco");
+document.getElementById("info-add-1").innerHTML = novoEndereco;
+
+var novoSobreMim = localStorage.getItem("sobreMim");
+document.getElementById("iabout-me").innerHTML = novoSobreMim;

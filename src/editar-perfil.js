@@ -10,6 +10,18 @@ document.getElementById("igender-select").value = generoAtual;
 var nascimentoAtual = localStorage.getItem("nascimento");
 document.getElementById("ibirth").value = nascimentoAtual;
 
+var emailAtual = localStorage.getItem("email");
+document.getElementById("iemail").value = emailAtual;
+
+var cellAtual = localStorage.getItem("cell");
+document.getElementById("icell").value = cellAtual;
+
+var enderecoAtual = localStorage.getItem("endereco");
+document.getElementById("iadd").value = enderecoAtual;
+
+var sobreMimAtual = localStorage.getItem("sobreMim");
+document.getElementById("iabout-me").value = sobreMimAtual;
+
 
 /*Pegando os novos valores digitados nos campos de editar perfil e atualizando no localstorage*/
 
@@ -25,5 +37,17 @@ btnSave.addEventListener("click", function(){
 
     var nascimento = document.getElementById("ibirth").value;
     localStorage.setItem("nascimento", nascimento);
+
+    var email = document.getElementById("iemail").value;
+    localStorage.setItem("email", email);
+
+    var cell = document.getElementById("icell").value;
+    localStorage.setItem("cell", cell);
+
+    var endereco = document.getElementById("iadd").value;
+    localStorage.setItem("endereco", endereco);
+
+    var sobreMim = document.getElementById("iabout-me").value;
+    localStorage.setItem("sobreMim", sobreMim);
 
 });
