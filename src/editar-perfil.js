@@ -1,3 +1,18 @@
+ 
+/*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de editar perfil*/
+
+var nomeAtual = localStorage.getItem("nome");
+document.getElementById("iname").value = nomeAtual;
+
+var generoAtual = localStorage.getItem("genero");
+document.getElementById("igender-select").value = generoAtual;
+
+var nascimentoAtual = localStorage.getItem("nascimento");
+document.getElementById("ibirth").value = nascimentoAtual;
+
+
+/*Pegando os novos valores digitados nos campos de editar perfil e atualizando no localstorage*/
+
 var btnSave = document.getElementById("btn-save");
 
 btnSave.addEventListener("click", function(){
@@ -11,9 +26,4 @@ btnSave.addEventListener("click", function(){
     var nascimento = document.getElementById("ibirth").value;
     localStorage.setItem("nascimento", nascimento);
 
-})
-
-
-/*Os dados não persistem.
-Quando deixa de preencher algum campo ele fica vazio, mesmo que tenha preenchido anteriormente.
-Arrumar um jeito de persistir os dados uma vez preenchidos.*/
+});
