@@ -151,6 +151,7 @@ main {
 .share-icon {
     position: relative;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .share-icon img {
@@ -186,12 +187,17 @@ main {
 
 /* Responsividade ambiente escolar */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1800px) {
     .share-icon{
         display: none;
     }
-
     .search-box{
         display: none;
     }
+}
+
+@media screen and (min-width:1800px) {
+    .share-button{
+        display: none;
+}
 }

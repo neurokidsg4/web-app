@@ -1,11 +1,19 @@
+.share {
+    text-align: center;
+}
 
-.btn {
-    font-size: large;
-    font-weight: 600;
-    color: white;
-    background-color: #F86645;
-    padding: 10px 80px;
-    margin: 0 auto;
-    border: none;
+.share-button{
     border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #F86645;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 600;
+}
+
+.share-button:hover {
+    background-color: #F86645;
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho ao passar o mouse */
 }
