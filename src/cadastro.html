@@ -35,50 +35,42 @@
                                 <input id="name" class="input input--required" title="Digite seu nome" type="text" name="name" placeholder="Qual é o seu nome?" required>
                             </div>
     
-                            <p id="message--name" class="message--invalid">Este campo deve conter apenas letras</p>
+                            <p id="message--name" class="message--invalid">Este campo deve conter apenas letras. Evite usar caracteres especiais, números e outros</p>
                         </div>
                     </label>
                     
                     <label id="field--gender" class="field" for="gender">* Gênero
-                        <div>
-                            <div class="group">
-                                <span class="material-symbols-outlined expand__more">expand_more</span>
-                                <select id="gender" class="input input--required" title="Digite seu genero" name="gender" required>
-                                
-                                    <option value="" selected disabled>Qual o seu genero?</option>
-                                    <option value="nao_binario">Não binario</option>
-                                    <option value="mulher">Mulher</option>
-                                    <option value="homem">Homem</option>
-                                    
-                                </select>
-                            </div>
+                        <div class="group">
+                            <span class="material-symbols-outlined expand__more">expand_more</span>
+                            <select id="gender" class="input input--required" title="Digite seu genero" name="gender" required>
                             
-                            <p id="message--gender" class="message--invalid">Preencha este campo</p>
+                                <option value="" selected disabled>Qual o seu genero?</option>
+                                <option value="nao_binario">Não binario</option>
+                                <option value="mulher">Mulher</option>
+                                <option value="homem">Homem</option>
+                                
+                            </select>
                         </div>
                     </label>
                     
                     <label id="field--acting" class="field" for="acting">* Atuacao
-                        <div>
-                            <div class="group">
-                                <span class="material-symbols-outlined expand__more">expand_more</span>
-                                <select id="acting" class="input input--required" title="Digite sua atuacao" name="acting" required>
-    
-                                    <option value="" selected disabled>Como você se define?</option>
-                                    <option value="mae">Mãe</option>
-                                    <option value="pai">Pai</option>
-                                    <option value="responsavel_tutelar">Responsável tutelar</option>
-                                    <option value="cuidador">Cuidador</option>
-                                    <option value="acompanhante">Acompanhante</option>
-                                    <option value="educador">Educador(a)</option>
-                                    <option value="pediatra">Pediatra</option>
-                                    <option value="pscicologo">Pscicologo(a)</option>
-                                    <option value="outro">Outro</option>
-                                    <option value="nenhum">Nenhuma das opções</option>
-    
-                                </select>
-                            </div>
-                            
-                            <p id="message--acting" class="message--invalid">Preencha este campo</p>
+                        <div class="group">
+                            <span class="material-symbols-outlined expand__more">expand_more</span>
+                            <select id="acting" class="input input--required" title="Digite sua atuacao" name="acting" required>
+
+                                <option value="" selected disabled>Como você se define?</option>
+                                <option value="mae">Mãe</option>
+                                <option value="pai">Pai</option>
+                                <option value="responsavel_tutelar">Responsável tutelar</option>
+                                <option value="cuidador">Cuidador</option>
+                                <option value="acompanhante">Acompanhante</option>
+                                <option value="educador">Educador(a)</option>
+                                <option value="pediatra">Pediatra</option>
+                                <option value="pscicologo">Pscicologo(a)</option>
+                                <option value="outro">Outro</option>
+                                <option value="nenhum">Nenhuma das opções</option>
+
+                            </select>
                         </div>
                     </label>
                     
@@ -89,7 +81,8 @@
                                 <input id="email" class="input input--required" title="Digite seu email" type="email" name="email" placeholder="exemplo@gmail.com" required>
                             </div>
 
-                            <p id="message--email" class="message--invalid">Preencha corretamente este campo</p>
+                            <p id="message--email" class="message--invalid">Preencha corretamente este campo usando @</p>
+                            <p id="message--email_exists" class="message--invalid">Este email já está em uso. Escolha outro e tente novamente</p>
                         </div>
                     </label>
 
@@ -102,10 +95,10 @@
                                     </div>
                                 </label>
                                 
-                                <input id="cell_phone" class="input" title="Digite seu celular" type="text" name="cell_phone" placeholder="Número">
+                                <input id="cell_phone" class="input" title="Digite seu celular" type="text" name="cell_phone" placeholder="(DDD)9XXXXYYYY">
                             </div>
 
-                            <p id="message--cell_phone" class="message--invalid">Digita apenas números</p>
+                            <p id="message--cell_phone" class="message--invalid">Digita apenas números sem exeder a quantidade padrão: (DDD)9XXXXYYYY. Evite usar caracteres especiais, letras e outros</p>
                         </div>
                     </label>
 
@@ -123,17 +116,13 @@
                                 <input id="password" class="input input--required" title="Digite uma senha" type="password" name="password" placeholder="Digite sua confirma senha" required>
                             </div>
 
-                            <p id="message--password" class="message--invalid">De 4 a 8 caracteres, os especiais permitidos são @!&#._-</p>
+                            <p id="message--password" class="message--invalid">A senha deve ter de 4 a 8 caracteres. Os caracteres especiais permitidos são: @!&#._-</p>
                         </div>
                     </label>
 
                     <label id="field--birth" class="field" for="birth">* Nascimento
-                        <div>
-                            <div class="group">
-                                <input id="birth" class="input input--required" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
-                            </div>
-                            
-                            <p id="message--birth" class="message--invalid">Preencha este campo</p>
+                        <div class="group">
+                            <input id="birth" class="input input--required" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
                         </div>
                     </label>
 
@@ -160,7 +149,7 @@
                     </label>
 
                     <label id="field_about" class="field" for="sobre">Nos conte um pouco <br> sobre você.
-                            <input id="about" class="input" title="Digite seu sobre" type="textarea" name="about" cols="10" rows="10" wrap="hard">
+                            <textarea id="about" class="input" title="Digite seu sobre" type="textarea" name="about" cols="100" rows="100" wrap="hard"></textarea>
                     </label>
 
                     <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
