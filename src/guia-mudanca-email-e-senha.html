@@ -14,46 +14,112 @@
   <title>Trocar o seu endereço de e-mail e atualizar a senha</title>
 </head>
 <body class="site">
+  <input id="abre__menu--checkbox__cabecalho" type="checkbox">
+
+  <ul id="cabecalho__menu" class="cabecalho__menu">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <div class="cabecalho__grupo--icones">
+        
+        <label for="abre__menu--checkbox__cabecalho">
+          <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
+        </label>
+        <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
+
+      </div>
+      <p class="cabecalho__menu___texto--principal">Menu</p>
+    </li>
+
+    <li>
+      <ul class="cabecalho__menu--sub">
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="index.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">home</span>
+            <p class="cabecalho__menu___texto">Home</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="feedback.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">feedback</span>
+            <p class="cabecalho__menu___texto">Feedback</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="sobre_nos.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">group</span>
+            <p class="cabecalho__menu___texto">Sobre nós</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
+        <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
+        <p class="cabecalho__menu___texto">Entrar</p>
+      </button>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
+        <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
+        <p class="cabecalho__menu___texto">Sair</p>
+      </button>
+    </li>
+  </ul>
+
   <header>
-    <div class="group--hamburgue__logo">
-        <span class="material-icons hamburgue">menu</span>
-        <div class="logo">
-          <a href="./index.html"><img src="./imgs/logo.png" alt="Logo NeuroKids"></a>
-        </div>
-    </div>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
+    <label for="abre__menu--checkbox__cabecalho">
+      <div class="group--hamburgue__logo">
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
+      </div>
+    </label>
+
     <nav id="nav-cabecalho">
       <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./area_infantil.html">Área infantil</a></li>
-        <li><a href="./perfil.html">Perfil</a></li>
-        <li><a href="./feedback.html">Feedback</a></li>
-        <li><a href="./sobre_nos.html">Sobre nós</a></li>
-        <li><a href="./ajuda.html">Ajuda</a></li>
-        <li><a href="#">Sair</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="area_infantil.html">Área infantil</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
       </ul>
-      <nav id="nav-cabecalho--mobile">
-        <ul>
-          <li>
-            <label id="infantil__1" class="area__infantil" for="area__infantil--link">
-              <span class="material-symbols-outlined">stadia_controller</span><p>Infantil</p>
-            </label>
-            <a id="area__infantil--link" href="./area_infantil.html"></a>
-          </li>
-          <li>
-            <label id="infantil__2" class="area__infantil" for="area__infantil--link">
-              <span class="material-symbols-outlined">account_circle</span><p>Perfil</p>
-            </label>
-            <a id="area__infantil--link" href="#"></a>
-          </li>
-          <li>
-            <label id="infantil__3" class="area__infantil" for="area__infantil--link">
-              <span class="material-symbols-outlined">info</span><p>Ajuda</p>
-            </label>
-            <a id="area__infantil--link" href="#"></a>
-          </li>
-        </ul>
-      </nav>      
+    </nav>
+
+    <nav id="nav-cabecalho--mobile">
+      <ul>
+        <li>
+          <button class="area__infantil childish_redirect_if">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </button>
+        </li>
+        
+        <li>
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </button>
+        </li>
+
+        <li>
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
+  
   <main>
     <section>
       <div class="link_group">
@@ -96,7 +162,8 @@
     </nav>
   </footer>
 
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
 </body>
-
 </html>
   
