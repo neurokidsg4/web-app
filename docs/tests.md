@@ -27,7 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa nome, atuação, genero, email, celular, cep, nascimento, senha, confirma senha e uma breve descrição de si ou algo relevante e clica no botão "Cadastrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br>3) A aplicação armazena os dados.
-**Requisitos associados** | RF-002 RNF-009
+**Requisitos associados** | RF-002, RNF-009
 **Artefatos associados** | cadastro.html
 **Resultado esperado** | Criação de cadastro.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
