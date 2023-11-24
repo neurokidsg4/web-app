@@ -22,24 +22,53 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
+Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste.
 
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Procedimento**  | 1) Usuário informa nome, atuação, genero, email, celular, cep, nascimento, senha, confirma senha e uma breve descrição de si ou algo relevante e clica no botão "Cadastrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br>3) A aplicação armazena os dados.
+**Requisitos associados** | RF-002 RNF-009
+**Artefatos associados** | cadastro.html
+**Resultado esperado** | Criação de cadastro.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Logar Usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário informa email e senha e clica no botão "Entrar".<br>2) A aplicação verifica se há uma conta registrado no banco de dados. <br>3) Se houver uma conta registrada a aplicação libera o acesso às paginas restritas. <br4) A aplicação direciona o usuário para a página de onde parou ou para onde estava navegando
+**Requisitos associados** | RF-003
+**Artefatos associados** | login.html
+**Resultado esperado** | Logar usuario, liberando acesso às paginas restritas (perfil.html e area_infantil.html).
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Criptografar Dados**
+ :--------------: | ------------
+**Procedimento**  | 1) A aplicação deve criptografar dados sensíveis.
+**Requisitos associados** | RNF-005
+**Artefatos associados** | Cryptography.js
+**Resultado esperado** | Dados criptografados.
+**Dados de entrada** | Inserção de dados sensíveis.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT04 - Persistir Dados**
+ :--------------: | ------------
+**Procedimento**  | 1) A aplicação deve persistir dados cadastrais em json server e/ou localStorage.
+**Requisitos associados** | RNF-004
+**Artefatos associados** | LocalStorage.js, db.json
+**Resultado esperado** | Dados persistidos.
+**Dados de entrada** | Inserção de dados cadastrais e de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT5 - Enviar feedback**
+ :--------------: | ------------
+**Procedimento**  | 1) A aplicação deve enviar o feedback para uma conta de email exclusiva própria dela.
+**Requisitos associados** | RNF-012
+**Artefatos associados** | feedback.js
+**Resultado esperado** | Feedback enviado.
+**Dados de entrada** | Inserção de dados do formulário de feedback.
+**Resultado obtido** | Sucesso.
+
 
 ## Registro dos Testes de Software
 
