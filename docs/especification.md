@@ -148,7 +148,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-009|A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|MÉDIA|
 |RNF-010|A aplicação deve usar como referência o site Expressia.com. |BAIXA|
 |RNF-011|A aplicação deve ser desenvolvida usando a metodologia Scrum|ALTA|
-|RNF-012|A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva da aplicação.|ALTA|
+|RNF-012|A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.|ALTA|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
