@@ -27,7 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa nome, atuação, genero, email, celular, cep, nascimento, senha, confirma senha e uma breve descrição de si ou algo relevante e clica no botão "Cadastrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br>3) A aplicação armazena os dados.
-**Requisitos associados** | RF-002, RNF-009
+**Requisitos associados** | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso. RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.
 **Artefatos associados** | cadastro.html
 **Resultado esperado** | Criação de cadastro.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
@@ -36,7 +36,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT02 - Logar Usuário**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa email e senha e clica no botão "Entrar".<br>2) A aplicação verifica se há uma conta registrado no banco de dados. <br>3) Se houver uma conta registrada a aplicação libera o acesso às paginas restritas. <br4) A aplicação direciona o usuário para a página de onde parou ou para onde estava navegando
-**Requisitos associados** | RF-003
+**Requisitos associados** | RF-003 A aplicação deve permitir que o usuário faça login.
 **Artefatos associados** | login.html
 **Resultado esperado** | Logar usuario, liberando acesso às paginas restritas (perfil.html e area_infantil.html).
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
@@ -45,7 +45,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT03 - Criptografar Dados**
  :--------------: | ------------
 **Procedimento**  | 1) A aplicação deve criptografar dados sensíveis.
-**Requisitos associados** | RNF-005
+**Requisitos associados** | RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).
 **Artefatos associados** | Cryptography.js
 **Resultado esperado** | Dados criptografados.
 **Dados de entrada** | Inserção de dados sensíveis.
@@ -54,7 +54,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT04 - Persistir Dados**
  :--------------: | ------------
 **Procedimento**  | 1) A aplicação deve persistir dados cadastrais em json server e/ou localStorage.
-**Requisitos associados** | RNF-004
+**Requisitos associados** | RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.
 **Artefatos associados** | LocalStorage.js, db.json
 **Resultado esperado** | Dados persistidos.
 **Dados de entrada** | Inserção de dados cadastrais e de login.
@@ -63,7 +63,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT5 - Enviar feedback**
  :--------------: | ------------
 **Procedimento**  | 1) A aplicação deve enviar o feedback para uma conta de email exclusiva própria dela.
-**Requisitos associados** | RNF-012
+**Requisitos associados** | RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.
 **Artefatos associados** | feedback.js
 **Resultado esperado** | Feedback enviado.
 **Dados de entrada** | Inserção de dados do formulário de feedback.
