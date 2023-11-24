@@ -143,7 +143,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004|A aplicação deve persistir os dados em JSON Server ou LocalStorage.|ALTA|
 |RNF-005|A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-006|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
-|RNF-007|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
+|RNF-007|A aplicação deve conter conteúdos de atividades propostas para crianças. |ALTA|
 |RNF-008|A aplicação deve utilizar o Google Material Design como layout.|MÉDIA|
 |RNF-009|A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|MÉDIA|
 |RNF-010|A aplicação deve usar como referência o site Expressia.com. |BAIXA|
