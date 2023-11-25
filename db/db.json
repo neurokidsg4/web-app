@@ -38,15 +38,7 @@
       "id": 1,
       "userId": 1,
       "name": "jogo das cores",
-      "performance-percentage": 78
-    }
-  ],
-  "feedback": [
-    {
-      "id": 1,
-      "message": "abcdefghijklmnopqrstuvwxyz",
-      "satisfaction": "very satisfied",
-      "category": "sugestion"
+      "performance": 78
     }
   ]
 }
