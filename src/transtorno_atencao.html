@@ -177,11 +177,44 @@
         </div>
       </div>
       <div class="share">
-        <button class="share-button" id="share_content">
+        <button class="share-button" id="openmodal" onclick="openModal()">
         Compartilhar
         </button>
       </div>
+      <dialog id="modal">
+        <div class="window-container">
+            <div class="buttons-share-icons">
+                <button type="button" id="home_link_button">
+                    <img src="imgs/link_icon.png" alt="Link da página inicial">
+                    <h3>Link</h3>
+                </button>
+                
+                <button type="button" id="twitter_link_button">
+                    <img src="imgs/twitter_icon.png" alt="Compartilhar no Twitter">
+                    <h3>Twitter</h3>
+                </button>
+                
+                <button type="button" id="facebook_link_button">
+                    <img src="imgs/facebook_icon.png" alt="Compartilhar no Facebook">
+                    <h3>Facebook</h3>
+                </button>
+                
+                <button type="button" id="gmail_link_button">
+                    <img src="imgs/email_icon.png" alt="Compartilhar por E-mail">
+                    <h3>Gmail</h3>
+                </button>
+                
+                <button type="button" id="linkedln_link_button">
+                    <img src="imgs/linkedln_icon.png" alt="Compartilhar no LinkedIn">
+                    <h3>LinkedIn</h3>
+                </button>
+            </div>
+        <img class="close-img" src="imgs/icone_fechar.svg" alt="Ícone para fechar janela" id="closemodal">
+        </div>
+    </dialog>
       <script src="botoes_compartilhamento.js"></script>
+      <script src="modal_compartilhamento.js"></script>
+      </div>
   </main>
 
   <footer>
