@@ -44,7 +44,7 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
-        if (cont < 3) {
+        if (cont < 5) {
 
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
