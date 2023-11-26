@@ -1,7 +1,9 @@
 
-var num1 = 0;
-var num2 = 0;
+var num1 = [8, 0, 6, 9, 2];
+var num2 = [2, 3, 6, 1, 2];
 var cont = 1;
+var op1;
+var op2;
 
 const btnContinue = document.getElementById("icontinue");
 btnContinue.style.display = "none";
@@ -17,11 +19,11 @@ btnVoltar.style.display = "none";
 //Gera dois número aleatório de 0 a 10.
 function geraNum() {
 
-    num1 = parseInt(Math.random() * 10);
-    num2 = parseInt(Math.random() * 10);
+    op1 = num1[cont-1];
+    op2 = num2[cont-1];
 
-    document.getElementById("num1").innerHTML = num1;
-    document.getElementById("num2").innerHTML = num2;
+    document.getElementById("num1").innerHTML = op1;
+    document.getElementById("num2").innerHTML = op2;
 
 }
 
@@ -34,7 +36,7 @@ btnConfimar.addEventListener("click", function () {
 
     btnConfimar.style.display = "none";
 
-    var calculo = num1 / num2;
+    var calculo = op1 / op2;
     var resposta = document.getElementById("resposta").value;
 
 
@@ -44,7 +46,7 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
-        if (cont < 3) {
+        if (cont < 5) {
 
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
@@ -61,8 +63,9 @@ btnConfimar.addEventListener("click", function () {
 
         else{
             btnConfimar.style.display ="none";
-            btnProximaFase.style.display  = "";
+            btnProximaFase.style.display  = "none";
             btnVoltar.style.display = "";
+
 
             btnVoltar.addEventListener("click", function(){
                 window.location.href = "/src/area_infantil.html";
