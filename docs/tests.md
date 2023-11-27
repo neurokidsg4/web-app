@@ -22,7 +22,7 @@ Nesta seção, apresentamos a documentação dos testes realizados pelo grupo pa
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste.
+Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
 
 **Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
