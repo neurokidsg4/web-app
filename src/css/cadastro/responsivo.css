@@ -30,20 +30,36 @@
         order: 6;
     }
 
-    #campo-endereco {
+    #campo-cep {
         order: 7;
     }
 
-    #campo-senha {
+    #campo-endereco {
         order: 8;
     }
 
-    #campo-confirma-senha {
+    #campo-cidae {
         order: 9;
     }
 
-    #campo-sobre-voce {
+    #campo-estado {
         order: 10;
+    }
+
+    #campo-numero {
+        order: 11;
+    }
+
+    #campo-senha {
+        order: 12;
+    }
+
+    #campo-confirma-senha {
+        order: 13;
+    }
+
+    #campo-sobre-voce {
+        order: 14;
     }
 }
 
