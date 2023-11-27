@@ -29,6 +29,8 @@ function inputFunction() {
             .then(response => response.json())
             .then((user) => {
 
+                console.log('entrei no then');
+
                 if(user[0].email === email) {
 
                     field.classList.add('field--invalid');
@@ -38,6 +40,7 @@ function inputFunction() {
                 };
             })
             .catch(err => {
+                console.log('entrei no catch');
                 
                 field.classList.remove('field--invalid');
                 input.classList.remove('input--invalid');

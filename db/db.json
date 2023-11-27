@@ -1,37 +1,6 @@
 {
   "users": [
-    {
-      "name": "mario",
-      "email": "mario@gmail.com",
-      "acting": "pai",
-      "gender": "nao_binario",
-      "cellPhone": "(52)486858888",
-      "birth": "2222-02-22",
-      "password": "MTIzNA==",
-      "about": "",
-      "cep": "Praça da Sé",
-      "id": 2
-    },
-    {
-      "photo": {
-        "lastModified": 1678399500750,
-        "lastModifiedDate": "2023-03-09T22:05:00.750Z",
-        "name": "behaviorSubject.png",
-        "size": 195613,
-        "type": "image/png",
-        "webkitRelativePath": ""
-      },
-      "name": "wilson",
-      "email": "mario@gmail.com",
-      "acting": "acompanhante",
-      "gender": "nao_binario",
-      "cellPhone": "(52)486858888",
-      "birth": "2421-03-12",
-      "password": "MTIzNA==",
-      "about": "asdf",
-      "cep": "Praça da Sé",
-      "id": 3
-    }
+    
   ],
   "results": [
     {

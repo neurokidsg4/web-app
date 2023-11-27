@@ -9,12 +9,12 @@ export class PhotoRegister {
     webkitRelativePath;
 
     constructor(
-        lastModified,
+        webkitRelativePath,
         lastModifiedDate,
+        lastModified,
         name,
         size,
         type,
-        webkitRelativePath,
     ) {
         Object.setPrototypeOf(this, File);
 
