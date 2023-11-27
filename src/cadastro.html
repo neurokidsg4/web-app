@@ -113,16 +113,6 @@
                         </div>
                     </label>
 
-                    <label id="campo-nascimento" class="campo" for="nascimento">Nascimento
-                        <div class="grupo--icone__campo">
-                            <input id="nascimento" class="campo__entrada" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?" required>
-                        </div>
-                    </label>
-
-                    <label id="campo-endereco" class="campo" for="endereco">Endereco
-                        <input id="endereco" class="campo__entrada" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?" required>
-                    </label>
-
                     <label id="campo-confirma-senha" class="campo" for="confirma-senha">Confirma senha
                         <div class="grupo--icone__campo">
                             <span class="material-symbols-outlined cadeado">lock</span>
@@ -135,6 +125,32 @@
                             
                             <input id="confirma_senha" class="campo__entrada" title="Digite a confirmação da sua senha" type="password" name="confirma_senha" placeholder="Digite sua confirma senha" required>
                         </div>
+                    </label>
+
+                    <label id="campo-nascimento" class="campo" for="nascimento">Nascimento
+                        <div class="grupo--icone__campo">
+                            <input id="nascimento" class="campo__entrada" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?" required>
+                        </div>
+                    </label>
+
+                    <label id="campo-cep" class="campo" for="endereco">CEP
+                        <input id="cep" class="campo__entrada" title="Digite seu CEP" type="text" name="cep" placeholder="Qual o seu CEP?" required>
+                    </label>
+
+                    <label id="campo-endereco" class="campo" for="endereco">Endereço
+                        <input id="endereco" class="campo__entrada" title="Digite seu endereço" type="text" name="endereco" placeholder="Qual rua você mora?" required>
+                    </label>
+
+                    <label id="campo-cidade" class="campo" for="endereco">Cidade
+                        <input id="cidade" class="campo__entrada" title="Digite sua cidade" type="text" name="endereco" placeholder="Qual cidade você mora?" required>
+                    </label>
+
+                    <label id="campo-estado" class="campo" for="endereco">Estado
+                        <input id="estado" class="campo__entrada" title="Digite seu estado" type="text" name="endereco" placeholder="Qual Estado você mora?" required>
+                    </label>
+
+                    <label id="campo-numero" class="campo" for="endereco">Número
+                        <input id="numero" class="campo__entrada" title="Digite o número da sua residência" type="text" name="endereco" placeholder="Qual o número da sua casa?" required>
                     </label>
 
                     <label id="campo-sobre-voce" class="campo" for="sobre">Nos conte um pouco <br> sobre você.
@@ -171,5 +187,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="./busca_cep.js"></script>
 </body>
 </html>
