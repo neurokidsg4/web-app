@@ -22,7 +22,7 @@ Nesta seção, apresentamos a documentação dos testes realizados pelo grupo pa
 
 ## Plano de Testes de Software
 
-Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
+Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não funcional, que está sendo verificado. Além disso, indicaremos o artefato (página) onde o teste será executado, juntamente com sua descrição.
 
 **Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
