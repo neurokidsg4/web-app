@@ -121,13 +121,9 @@
                     </label>
 
                     <label id="field--birth" class="field" for="birth">* Nascimento
-                        <div class="group">
-                            <input id="birth" class="input input--required" title="Digite seu nascimento" type="date" name="birth" placeholder="Quando você nasceu?" required>
+                        <div>
+                            <input id="birth" class="input input--required" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?" required>
                         </div>
-                    </label>
-
-                    <label class="field" for="endereco">* Endereco
-                        <input id="endereco" class="input" title="Digite seu endereco" type="text" name="endereco" placeholder="Onde você mora?" required>
                     </label>
 
                     <label id="field--confirm_password" class="field" for="confirm_password">* Confirma senha
@@ -148,7 +144,19 @@
                         </div>
                     </label>
 
-                    <label id="field_about" class="field" for="sobre">Nos conte um pouco <br> sobre você.
+                    <label id="campo-cep" class="campo" for="endereco">* CEP
+                        <input id="cep" class="campo__entrada" title="Digite seu CEP" type="text" name="cep" placeholder="Qual o seu CEP?" required>
+                    </label>
+
+                    <label id="campo-cidade" class="campo" for="endereco">Cidade
+                        <input id="cidade" class="campo__entrada" title="Digite sua cidade" type="text" name="endereco" placeholder="Qual cidade você mora?" disabled>
+                    </label>
+
+                    <label id="campo-estado" class="campo" for="endereco">Estado
+                        <input id="estado" class="campo__entrada" title="Digite seu estado" type="text" name="endereco" placeholder="Qual Estado você mora?" disabled>
+                    </label>
+
+                    <label id="field_about" class="field" for="about">Nos conte um pouco <br> sobre você.
                             <textarea id="about" class="input" title="Digite seu sobre" type="textarea" name="about" cols="100" rows="100" wrap="hard"></textarea>
                     </label>
 
@@ -179,14 +187,5 @@
             </ul>
         </nav>
     </footer>
-
-    <script type="module" src="js/validadores_input/celular.js"></script>
-    <script type="module" src="js/validadores_input/email.js"></script>
-    <script type="module" src="js/validadores_input/nome.js"></script>
-    <script type="module" src="js/validadores_input/senha.js"></script>
-    <script type="module" src="js/validadores_input/confirma_senha.js"></script>
-    <script type="module" src="js/exibe_oculta_senha.js"></script>
-    <script type="module" src="js/submete_formulario.js"></script>
-    <script type="module" src="js/foto_cadastro.js"></script>
 </body>
 </html>
