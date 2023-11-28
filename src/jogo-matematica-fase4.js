@@ -1,6 +1,6 @@
 
-var num1 = [8, 0, 6, 9, 2];
-var num2 = [2, 3, 6, 1, 2];
+var num1 = parseInt(Math.floor(Math.random() * 10));
+var num2 = parseInt(Math.floor(Math.random() * 10));
 var cont = 1;
 var op1;
 var op2;
@@ -19,9 +19,15 @@ btnVoltar.style.display = "none";
 //Gera dois número aleatório de 0 a 10.
 function geraNum() {
 
-    op1 = num1[cont-1];
-    op2 = num2[cont-1];
-
+    op1 = num1;
+    op2 = num2;
+    if (op2 == 0) {
+        op2 = parseInt(Math.floor(Math.random() * 10) + 1)
+    }
+    while (op1 % op2 != 0){
+        op1 = parseInt(Math.floor(Math.random() * 10));
+        op2 = parseInt(Math.floor(Math.random() * 10) + 1)
+    }
     document.getElementById("num1").innerHTML = op1;
     document.getElementById("num2").innerHTML = op2;
 

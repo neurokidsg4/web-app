@@ -20,6 +20,11 @@ function geraNum() {
     num1 = parseInt(Math.random() * 10);
     num2 = parseInt(Math.random() * 10);
 
+    while (num2 > num1){
+        num1 = parseInt(Math.floor(Math.random() * 10))
+        num2 = parseInt(Math.floor(Math.random() * 10))
+    }
+
     document.getElementById("num1").innerHTML = num1;
     document.getElementById("num2").innerHTML = num2;
 
