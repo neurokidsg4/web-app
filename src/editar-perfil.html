@@ -21,11 +21,9 @@
 </head>
 
 <body>
-
-  <!--Cabeçalh-->
   <input id="abre__menu--checkbox__cabecalho" type="checkbox">
 
-  <ul class="cabecalho__menu">
+  <ul id="cabecalho__menu" class="cabecalho__menu">
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <div class="cabecalho__grupo--icones">
         
@@ -63,18 +61,18 @@
       </ul>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="login.html">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
         <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
         <p class="cabecalho__menu___texto">Entrar</p>
-      </a>
+      </button>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="#">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
         <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
         <p class="cabecalho__menu___texto">Sair</p>
-      </a>
+      </button>
     </li>
   </ul>
 
@@ -98,24 +96,25 @@
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
         <li><a href="ajuda.html">Ajuda</a></li>
-        <li><a href="#">Sair</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
       </ul>
     </nav>
 
     <nav id="nav-cabecalho--mobile">
       <ul>
         <li>
-          <a class="area__infantil" href="area_infantil.html">
+          <button class="area__infantil childish_redirect_if">
             <span class="material-symbols-outlined">stadia_controller</span>
             <p>Infantil</p>
-          </a>
+          </button>
         </li>
         
         <li>
-          <a id="infantil__2" class="area__infantil" href="perfil.html">
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
             <span class="material-symbols-outlined">account_circle</span>
             <p>Perfil</p>
-          </a>
+          </button>
         </li>
 
         <li>
@@ -127,7 +126,7 @@
       </ul>
     </nav>
   </header>
-
+  
   <!--Corpo do perfil-->
   <main>
     <div class="content">
@@ -146,15 +145,15 @@
 
         <div class="name-ocupation">
           <ul>
-            <li id="name">Charles Deo</li>
+            <li id="name_profile">Charles Deo</li>
             <li id="ocupation">Pediátra</li>
           </ul>
         </div>
-
+        
         <div class="button">
           <ul>
             <a href="perfil.html">
-              <li id="btn-save"><input type="submit" name="save" id="isave" value="Salvar"></li>
+              <li id="btn-save"><input type="submit" name="save" id="save" value="Salvar"></li>
             </a>
             <a href="perfil.html" target="_self">
               <li id="btn-cancel">Cancelar</li>
@@ -172,16 +171,18 @@
             <div class="data-name">
 
               <ul>
-                <li id="data-name-1"><label for="iname">Nome</label></li>
-                <li id="info-name-1"><input type="text" name="name" id="iname" value="" placeholder="Qual é o seu nome?"></li>
+                <li id="data-name-1"><label id="field--name" for="name">Nome</label></li>
+                <li id="info-name-1"><input class="input--required" type="text" name="name" id="name" value="" placeholder="Qual é o seu nome?" required></li>
+
+                <p id="message--name" class="message--invalid">Este campo deve conter apenas letras. Evite usar caracteres especiais, números e outros</p>
               </ul>
             </div>
 
             <div class="data-gender">
               <ul>
-                <li id="data-gender-1"><label for="idender-select">Gênero</label></li>
+                <li id="data-gender-1"><label for="gender-select">Gênero</label></li>
                 <li id="info-gender-1">
-                  <select name="gender-select" id="igender-select" required>
+                  <select name="gender-select" id="gender-select" required>
                     <option value="" disabled selected>Qual é o seu gênero?</option>
                     <option value="Masculino">Masculino</option>
                     <option value="Feminino">Feminino</option>
@@ -194,8 +195,8 @@
 
             <div class="data-birth">
               <ul>
-                <li id="data-birth-1"><label for="ibirth">Nascimento</label></li>
-                <li id="info-birth-1"><input type="date" name="birth" id="ibirth" value=""></li>
+                <li id="data-birth-1"><label for="birth">Nascimento</label></li>
+                <li id="info-birth-1"><input type="date" name="birth" id="birth" value=""></li>
               </ul>
             </div>
           </div>
@@ -204,49 +205,54 @@
           <div class="data-2">
             <div class="data-email">
               <ul>
-                <li id="data-email-1"><label for="iemail">Email</label></li>
-                <li id="info-email-1"><input type="text" name="email" id="iemail" value="" placeholder="Qual é o seu email?"></li>
+                <li id="data-email-1"><label id="field--email" for="email">Email</label></li>
+                <li id="info-email-1"><input class="input--required" type="email" name="email" id="email" value="" placeholder="Qual é o seu email?" required></li>
+
+                <p id="message--email" class="message--invalid">Preencha corretamente este campo usando @</p>
+                <p id="message--email_exists" class="message--invalid">Este email já está em uso. Escolha outro e tente novamente</p>
               </ul>
             </div>
 
             <div class="data-cell">
               <ul>
-                <li id="data-cell-1"><label for="icell">Celular</label></li>
-                <li id="info-cell-1"><input type="tel" name="cell" id="icell" value="" placeholder="Número"></li>
+                <li id="data-cell-1"><label id="field--cell_phone" for="cell_phone">Celular</label></li>
+                <li id="info-cell-1"><input class="input--required" type="tel" name="cell_phone" id="cell_phone" value="" placeholder="(DDD)9XXXXYYYY"></li>
+
+                <p id="message--cell_phone" class="message--invalid">Digita apenas números sem exeder a quantidade padrão: (DDD)9XXXXYYYY. Evite usar caracteres especiais, letras e outros</p>
               </ul>
             </div>
 
-            <div class="data-add">
+            <div class="data-address">
               <ul>
-                <li id="data-add-1"><label for="iadd">Endereço</label></li>
-                <li id="info-add-1"><input type="text" name="add" id="iadd" value="" placeholder="Onde você mora?"></li>
+                <li id="data-address-1"><label for="address">Endereço</label></li>
+                <li id="info-address-1"><input type="text" name="address" id="address" value="" placeholder="Onde você mora?"></li>
               </ul>
             </div>
           </div>
-
         </div>
 
         <!--Sobre mim-->
-        <div class="about-me">
+        <div class="about">
 
-          <label for="iabout-me">
+          <label for="about">
             <h2>Nos conte um pouco sobre você.</h2>
           </label>
 
-          <textarea name="about-me" id="iabout-me" cols="30" rows="10"></textarea>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
 
         </div>
       </form>
 <!--
       <div class="btn-edit-del">
-        <input type="button" name="edit-pw" id="iedit-pw" value="Editar senha">
+        <input type="button" name="edit-pw" id="edit-pw" value="Editar senha">
 
-        <input type="button" name="del-acount" id="idel-acount" value="Excluir conta">
+        <input type="button" name="del-acount" id="del-acount" value="Excluir conta">
       </div>
 -->
 
     </div>
   </main>
+  
   <!--Rodapé-->
   <footer>
     <nav id="nav-rodape">
@@ -261,6 +267,12 @@
     </nav>
   </footer>
 
-</body>
-<script src="editar-perfil.js"></script>
+  <script src="editar-perfil.js"></script>
+  
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+
+  <script type="module" src="js/validadores_input/celular.js"></script>
+  <script type="module" src="js/validadores_input/email.js"></script>
+  <script type="module" src="js/validadores_input/nome.js"></script>
 </html>

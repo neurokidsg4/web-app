@@ -8,8 +8,8 @@ document.getElementById('cep').addEventListener('blur', function () {
         .then(data => {
             // Preenche automaticamente os campos de endereço, cidade e estado
             // document.getElementById('endereco').value = data.logradouro;
-            document.getElementById('cidade').value = data.localidade;
-            document.getElementById('estado').value = data.uf;
+            document.getElementById('city').value = data.localidade;
+            document.getElementById('state').value = data.uf;
         })
         .catch(error => console.error('Erro ao consultar o CEP:', error));
 });

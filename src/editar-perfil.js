@@ -2,25 +2,25 @@
 /*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de editar perfil*/
 
 var nomeAtual = localStorage.getItem("nome");
-document.getElementById("iname").value = nomeAtual;
+document.getElementById("name").value = nomeAtual;
 
 var generoAtual = localStorage.getItem("genero");
-document.getElementById("igender-select").value = generoAtual;
+document.getElementById("gender-select").value = generoAtual;
 
 var nascimentoAtual = localStorage.getItem("nascimento");
-document.getElementById("ibirth").value = nascimentoAtual;
+document.getElementById("birth").value = nascimentoAtual;
 
 var emailAtual = localStorage.getItem("email");
-document.getElementById("iemail").value = emailAtual;
+document.getElementById("email").value = emailAtual;
 
-var cellAtual = localStorage.getItem("cell");
-document.getElementById("icell").value = cellAtual;
+var cellAtual = localStorage.getItem("cell_phone");
+document.getElementById("cell_phone").value = cellAtual;
 
 var enderecoAtual = localStorage.getItem("endereco");
-document.getElementById("iadd").value = enderecoAtual;
+document.getElementById("address").value = enderecoAtual;
 
-var sobreMimAtual = localStorage.getItem("sobreMim");
-document.getElementById("iabout-me").value = sobreMimAtual;
+var sobreMimAtual = localStorage.getItem("about");
+document.getElementById("about").value = sobreMimAtual;
 
 
 /*Pegando os novos valores digitados nos campos de editar perfil e atualizando no localstorage*/

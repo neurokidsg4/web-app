@@ -17,7 +17,7 @@
 <body class="site">
   <input id="abre__menu--checkbox__cabecalho" type="checkbox">
 
-  <ul class="cabecalho__menu">
+  <ul id="cabecalho__menu" class="cabecalho__menu">
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <div class="cabecalho__grupo--icones">
         
@@ -55,18 +55,18 @@
       </ul>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="login.html">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
         <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
         <p class="cabecalho__menu___texto">Entrar</p>
-      </a>
+      </button>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="#">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
         <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
         <p class="cabecalho__menu___texto">Sair</p>
-      </a>
+      </button>
     </li>
   </ul>
 
@@ -90,24 +90,25 @@
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
         <li><a href="ajuda.html">Ajuda</a></li>
-        <li><a href="#">Sair</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
       </ul>
     </nav>
 
     <nav id="nav-cabecalho--mobile">
       <ul>
         <li>
-          <a class="area__infantil" href="area_infantil.html">
+          <button class="area__infantil childish_redirect_if">
             <span class="material-symbols-outlined">stadia_controller</span>
             <p>Infantil</p>
-          </a>
+          </button>
         </li>
         
         <li>
-          <a id="infantil__2" class="area__infantil" href="perfil.html">
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
             <span class="material-symbols-outlined">account_circle</span>
             <p>Perfil</p>
-          </a>
+          </button>
         </li>
 
         <li>
@@ -192,9 +193,12 @@
       </ul>
     </nav>
   </footer>
+  
   <script src="./lupa_busca.js"></script>
   <script src="./compartilhar_email.js"></script>
   <script src="./copiar_link.js"></script>
-</body>
 
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+</body>
 </html>

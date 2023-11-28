@@ -70,6 +70,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
 | Nome           | Texto             | Nome registrado, nome social ou apelido   | angelica                                       |
+| foto           | Texto             | Foto de rosto do usuário                  | asdfj654dfsd.png                               |
 | Email          | Texto             | Conecta o usuário a uma conta cadastrada  | angelica@gmail.com                             |
 | Senha          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                     |
 | Celular        | Texto             | Número de celular pessoal do usuário      | 31944445555                                    |
@@ -83,6 +84,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Resultado Do Jogo
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| id             | Numero (inteiro)  | Identificador único do registro do resultado | 1                                           |
 | userId         | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
 | Nome           | Texto             | Nome do jogo, o qual pertence o resultado | jogo,das,cores                                 |
-| Resultado      | Texto             | Evidencia o resultado do usuário no jogo numa escala que vai de 0% até 100% | 100          |
+| Resultado      | Numero (inteiro)  | Evidencia o resultado do usuário no jogo numa escala que vai de 0% até 100% | 100          |

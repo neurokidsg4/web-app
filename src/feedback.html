@@ -17,7 +17,7 @@
 <body class="site">
   <input id="abre__menu--checkbox__cabecalho" type="checkbox">
 
-  <ul class="cabecalho__menu">
+  <ul id="cabecalho__menu" class="cabecalho__menu">
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <div class="cabecalho__grupo--icones">
         
@@ -55,18 +55,18 @@
       </ul>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="login.html">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
         <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
         <p class="cabecalho__menu___texto">Entrar</p>
-      </a>
+      </button>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="#">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
         <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
         <p class="cabecalho__menu___texto">Sair</p>
-      </a>
+      </button>
     </li>
   </ul>
 
@@ -90,24 +90,25 @@
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
         <li><a href="ajuda.html">Ajuda</a></li>
-        <li><a href="#">Sair</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
       </ul>
     </nav>
 
     <nav id="nav-cabecalho--mobile">
       <ul>
         <li>
-          <a class="area__infantil" href="area_infantil.html">
+          <button class="area__infantil childish_redirect_if">
             <span class="material-symbols-outlined">stadia_controller</span>
             <p>Infantil</p>
-          </a>
+          </button>
         </li>
         
         <li>
-          <a id="infantil__2" class="area__infantil" href="perfil.html">
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
             <span class="material-symbols-outlined">account_circle</span>
             <p>Perfil</p>
-          </a>
+          </button>
         </li>
 
         <li>
@@ -119,7 +120,7 @@
       </ul>
     </nav>
   </header>
-
+  
   <main>
     <div class="page-infomation">
         <h1 class="main-title">Envie-nos seu Feedback</h1>
@@ -128,25 +129,30 @@
     <form action="" method="get" class="feedback-form" >
         <label for="experience" class="experience">Como foi sua experiência?</label>
         <div class="satisfaction">
-            <span class="material-symbols-outlined" id="sentiment_satisfied">
-                sentiment_satisfied
-                </span>
-            <span class="material-symbols-outlined" id="sentiment_neutral">
-                sentiment_neutral
-                </span>
-            <span class="material-symbols-outlined" id="sentiment_dissatisfied">
-                sentiment_dissatisfied
-                </span>
+          <label for="satisfied">
+            <input class="radio--sentiment" id="satisfied" type="radio" name="radio--sentiment" value="Satisfeito(a)" style="display: none;">
+            <span class="material-symbols-outlined" id="sentiment_satisfied">sentiment_satisfied</span>
+          </label>
+
+          <label for="neutral">
+            <input class="radio--sentiment" id="neutral" type="radio" name="radio--sentiment" value="Neutro(a)" style="display: none;">
+            <span class="material-symbols-outlined" id="sentiment_neutral">sentiment_neutral</span>
+          </label>
+
+          <label for="dissatisfied">
+            <input class="radio--sentiment" id="dissatisfied" type="radio" name="radio--sentiment" value="Insatisfeito(a)" style="display: none;">
+            <span class="material-symbols-outlined" id="sentiment_dissatisfied">sentiment_dissatisfied</span>
+          </label>
         </div>
         <div class="message-area">
             <label for="message">Mensagem</label>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
         </div>
        <div class="type-error">
-            <span><input type="checkbox" name="bug" id="bug" value="bug">Bug</span>
-            <span><input type="checkbox" name="sugestion" id="sugestion" value="sugestion">Sugestão</span>
-            <span><input type="checkbox" name="other" id="other" value="other">Outro</span>
-       </div> 
+            <span><label for="bug"><input class="radio--tag" type="radio" name="radio--tag" id="bug" value="Bug">Bug</label></span>
+            <span><label for="sugestion"><input class="radio--tag" type="radio" name="radio--tag" id="sugestion" value="Sugestao">Sugestão</label></span>
+            <span><label for="other"><input class="radio--tag" type="radio" name="radio--tag" id="other" value="Outro">Outro</label></span>
+       </div>
        <div class="buttons">
         <button type="submit" id="submit-feedback">Enviar</button>
         <button type="reset">Excluir</button>
@@ -164,7 +170,20 @@
       </ul>
     </nav>
   </footer>
-  <script src="./feedback.js"></script>
-</body>
 
+  <script src="./feedback.js"></script>
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+  <script type="module" src="js/controllers/feedback.js"></script>
+
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("I_5ZGtnZBNmgYHhjY");
+    })();
+  </script>
+
+</body>
 </html>

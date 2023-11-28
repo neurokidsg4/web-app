@@ -10,4 +10,20 @@
     div.container {
         gap: 15px
     }
+
+    .card .card-background {
+        height: 90px !important;
+    }    
+
+    .card .action-bottom-bar a {
+        opacity: 1 !important;
+    }
+    
+    .action-bottom-bar a .arrow {
+        display: none !important;
+    }
+
+    .action-bottom-bar a .chevron {
+        display: block !important;
+    }
 }

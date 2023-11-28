@@ -19,7 +19,7 @@ img {
 }
 
 #nav-cabecalho {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
     cursor: pointer;
@@ -135,6 +135,7 @@ img {
         border-radius: 9em;
         background-color: #C7D941;
         padding: 10px;
+        border: none;
     }
     
     #nav-cabecalho--mobile ul li .area__infantil span {
@@ -146,7 +147,8 @@ img {
     }
     
     #nav-cabecalho--mobile ul li .area__infantil p {
-        color: #ffffff; 
+        color: #ffffff;
+        font-size: 16px;
     }
     
     #infantil__2 p {

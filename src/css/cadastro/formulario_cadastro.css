@@ -1,5 +1,6 @@
 
-#formulario {
+
+#form {
     display: inline-block;
     max-width: 1182px;
     width: 90vw;
@@ -15,7 +16,7 @@
     display: none;
 }
 
-#formulario__fieldset {
+#fieldset {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,7 +29,7 @@
     height: auto;
 }
 
-.campo {
+.field {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -39,11 +40,7 @@
     font-weight: 600;
 }
 
-#campo--grupo {
-    width: 100%;
-}
-
-.campo__entrada {
+.input {
     width: 100%;
     height: 44px;
     border-radius: 12px;
@@ -56,7 +53,7 @@
     display: none;
 }
 
-.campo__entrada:focus {
+.input:focus {
     border: 3px solid #F2D230;
     outline: none;
 }
@@ -68,8 +65,12 @@ input#email {
 input::placeholder {
     color: #505050;
 }
+    
+#group--cell_phone {
+    width: 100%;
+}
 
-input#senha, input#confirma_senha {
+input#password, input#confirm_password {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -81,139 +82,97 @@ select {
     text-overflow: '';
 }
 
-#campo--grupo {
+#group--cell_phone {
     display: flex;
 }
 
-#campo--grupo__paises___icone {
+#group--cell_phone__icon {
     position: absolute;
-    width: 65px;
     align-self: center;
     margin-left: 10px;
 }
 
-#campo--grupo__paises {
-    border: none;
-}
-
-input#abre__menu--checkbox__paises:checked ~ .custom_select_options {
-    display: block;
-    top: -1;
-}
-
-#campo--grupo__paises___icone span.expand__more {
+#group--cell_phone__icon span.expand__more {
     padding: 0;
 }
 
-#celular {
-    padding-left: 80px;
+#cell_phone {
+    padding-left: 60px;
 }
 
-.grupo--icone__campo {
+.group {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.grupo--icone__campo span,
-.grupo--icone__campo label {
+.group span,
+.group label {
     position: absolute;
     padding: 0 13px;
     color: #505050;
 }
 
-.grupo--icone__campo label,
-.grupo--icone__campo span.expand__more {
+.group label,
+.group span.expand__more {
     align-self: flex-end;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.grupo--icone__campo span.cadeado,
-.grupo--icone__campo span.email {
+.group span.lock,
+.group span.email {
     align-self: flex-start;
 }
 
-.grupo--icone__campo input#checkbox__visibility___senha {
+.group input#checkbox__visibility___password {
     visibility: hidden;
 }
 
-.grupo--icone__campo label input#checkbox__visibility___senha:checked ~ span.olho__fechado {
+.group label input#checkbox__visibility___password:checked ~ span.eye_closed {
     visibility: hidden;
 }
 
-.grupo--icone__campo input#checkbox__visibility___confirma-senha {
+.group input#checkbox__visibility___confirm_password {
     visibility: hidden;
 }
 
-.grupo--icone__campo label input#checkbox__visibility___confirma-senha:checked ~ span.olho__fechado {
+.group label input#checkbox__visibility___confirm_password:checked ~ span.eye_closed {
     visibility: hidden;
 }
 
-
-
-
-
-/* CSS para teste simulação de select com imagens*/
-
-/* Os estilos do select */
+/* Inicio dos estilos do select */
 .custom_select_selected {
     display: inline-block;
     cursor: hand;
     padding: 7px 2px 7px 7px;
 }
 
-.custom_select_options {
-    display: none;
-    border: 1px solid #D7D7D7;
-    color: #505050;
-    width: auto;
-    list-style: none;
-    position:absolute;
-    padding: 0 5px;
-    background-color: #F6F6F6;
-    box-shadow: 1px 2px 3px #D7D7D7;
-}
-
-.custom_select_options li {
-    width: 100%;
-}
-
-.custom_select_options li img {
-    height: 23px;
-    margin: 5px 2px;
-    display: block;
-    border: 1px solid #797979;
-}
-
-.custom_select_options li img:hover {
-    opacity: 0.7;
-}
-
-.custom_select {
-    display: inline-block;
-    z-index: 999;
-}
-
-.custom_select .custom_select_selected img {
+.custom_select_selected img {
     height: 23px;
 }
+/* Fim */
 
-#campo-sobre-voce {
+#field--about {
     width: 100%;
     max-width: 740px;
-    display: block;
+    display: flex;
     gap: 30px;
     margin: 10px 0 50px 0;
     font-size:xx-large;
     align-self: flex-end;
 }
 
-#sobre__voce___textarea {
+#about {
     height: 194px;
     overflow: auto;
+    padding: 10px;
+}
+
+#field--state {
+    align-self: flex-start;
 }
 
 #button {
