@@ -155,10 +155,10 @@ select {
 }
 /* Fim */
 
-#field_about {
+#field--about {
     width: 100%;
     max-width: 740px;
-    display: block;
+    display: flex;
     gap: 30px;
     margin: 10px 0 50px 0;
     font-size:xx-large;
@@ -169,6 +169,10 @@ select {
     height: 194px;
     overflow: auto;
     padding: 10px;
+}
+
+#field--state {
+    align-self: flex-start;
 }
 
 #button {

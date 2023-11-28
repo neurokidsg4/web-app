@@ -144,20 +144,26 @@
                         </div>
                     </label>
 
-                    <label id="campo-cep" class="campo" for="endereco">* CEP
-                        <input id="cep" class="campo__entrada" title="Digite seu CEP" type="text" name="cep" placeholder="Qual o seu CEP?" required>
+                    <label id="field--cep" class="field" for="cep">* CEP
+                        <div>
+                            <div>
+                                <input id="cep" class="input input--required" title="Digite seu CEP" type="text" name="cep" placeholder="Qual o seu CEP?" required>
+                            </div>
+
+                            <p id="message--cep" class="message--invalid">O capmpo CEP deve conter apenas 8 (oito) dígitos numéricos</p>
+                        </div>
                     </label>
 
-                    <label id="campo-cidade" class="campo" for="endereco">Cidade
-                        <input id="cidade" class="campo__entrada" title="Digite sua cidade" type="text" name="endereco" placeholder="Qual cidade você mora?" disabled>
+                    <label id="field--city" class="field" for="city">Cidade
+                        <input id="city" class="input input--required" title="Preenchimento automático" type="text" name="city" placeholder="Preenchimento automático" disabled>
                     </label>
 
-                    <label id="campo-estado" class="campo" for="endereco">Estado
-                        <input id="estado" class="campo__entrada" title="Digite seu estado" type="text" name="endereco" placeholder="Qual Estado você mora?" disabled>
+                    <label id="field--state" class="field" for="state">Estado
+                        <input id="state" class="input input--required" title="Preenchimento automático" type="text" name="state" placeholder="Preenchimento automático" disabled>
                     </label>
 
-                    <label id="field_about" class="field" for="about">Nos conte um pouco <br> sobre você.
-                            <textarea id="about" class="input" title="Digite seu sobre" type="textarea" name="about" cols="100" rows="100" wrap="hard"></textarea>
+                    <label id="field--about" class="field" for="about">Nos conte um pouco <br> sobre você.
+                            <textarea id="about" class="input" title="Digite seu sobre você" type="textarea" name="about" cols="100" rows="100" wrap="hard"></textarea>
                     </label>
 
                     <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
@@ -187,5 +193,16 @@
             </ul>
         </nav>
     </footer>
+
+    <script type="module" src="js/services/busca_cep.js"></script>
+    <script type="module" src="js/exibe_oculta_senha.js"></script>
+    <script type="module" src="js/foto_cadastro.js"></script>
+    <script type="module" src="js/foto_cadastro.js"></script>
+    <script type="module" src="js/submete_formulario.js"></script>
+    <script type="module" src="js/validadores_input/celular.js"></script>
+    <script type="module" src="js/validadores_input/confirma_senha.js"></script>
+    <script type="module" src="js/validadores_input/email.js"></script>
+    <script type="module" src="js/validadores_input/nome.js"></script>
+    <script type="module" src="js/validadores_input/senha.js"></script>
 </body>
 </html>
