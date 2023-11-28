@@ -29,25 +29,25 @@ var btnSave = document.getElementById("btn-save");
 
 btnSave.addEventListener("click", function(){
 
-    var nome = document.getElementById("iname").value;
+    var nome = document.getElementById("name").value;
     localStorage.setItem("nome", nome);
 
-    var genero = document.getElementById("igender-select").value;
+    var genero = document.getElementById("gender-select").value;
     localStorage.setItem("genero", genero);
 
-    var nascimento = document.getElementById("ibirth").value;
+    var nascimento = document.getElementById("birth").value;
     localStorage.setItem("nascimento", nascimento);
 
-    var email = document.getElementById("iemail").value;
+    var email = document.getElementById("email").value;
     localStorage.setItem("email", email);
 
-    var cell = document.getElementById("icell").value;
+    var cell = document.getElementById("cell").value;
     localStorage.setItem("cell", cell);
 
-    var endereco = document.getElementById("iadd").value;
+    var endereco = document.getElementById("add").value;
     localStorage.setItem("endereco", endereco);
 
-    var sobreMim = document.getElementById("iabout-me").value;
+    var sobreMim = document.getElementById("about-me").value;
     localStorage.setItem("sobreMim", sobreMim);
 
 });
