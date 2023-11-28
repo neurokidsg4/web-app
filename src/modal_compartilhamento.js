@@ -1,3 +1,16 @@
+function openModal() {
+    var modal = document.getElementById('modal');
+    modal.style.display = 'flex'; 
+}
+
+// Função para fechar o modal
+function closeModal() {
+    var modal = document.getElementById('modal');
+    modal.style.display = 'none';
+}
+
+document.getElementById('closemodal').addEventListener('click', closeModal);
+
 function redirect(platform, content) {
     var url;
 
@@ -10,7 +23,7 @@ function redirect(platform, content) {
             url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(content);
             break;
 
-        case 'linkedn':
+        case 'linkedln':
             url = 'https://www.linkedin.com/sharing/share-offsite/?mini=true&url=' + encodeURIComponent(content);
             break;
 
@@ -23,18 +36,18 @@ function redirect(platform, content) {
 }
 
 // declaração das variáveis de escopo global que configuram os eventos
-var socialMediaTwitter = document.getElementById('twitter_link');
-var socialMediaFacebook = document.getElementById('facebook_link');
-var socialMediaLinkedIn = document.getElementById('linkedln_link');
+var twitterbutton = document.getElementById('twitter_link_button');
+var facebookbutton = document.getElementById('facebook_link_button');
+var linkedInbutton = document.getElementById('linkedln_link_button');
 
-socialMediaTwitter.addEventListener("click", function() {
+twitterbutton.addEventListener("click", function() {
     redirect('twitter', 'https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/');
 });
 
-socialMediaFacebook.addEventListener("click", function() {
+facebookbutton.addEventListener("click", function() {
     redirect('facebook', 'https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/');
 });
 
-socialMediaLinkedIn.addEventListener("click", function() {
-    redirect('linkedn', 'https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/');
+linkedInbutton.addEventListener("click", function() {
+    redirect('linkedln', 'https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/');
 });

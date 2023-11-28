@@ -131,7 +131,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011|A aplicação deve conter uma página de feedback.|ALTA|
 |RF-012|A aplicação deve deve conter uma página de ajuda ao usuário.|ALTA|
 |RF-013|A aplicação deve conter uma página onde descreva sobre a aplicação.|ALTA|
-|RF-014|A aplicação deve campos de pesquisa nas páginas necessárias.|ALTA|
+|RF-014|A aplicação deve conter campos de pesquisa nas páginas necessárias.|ALTA|
 
 ### Requisitos não Funcionais
 
@@ -143,11 +143,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004|A aplicação deve persistir os dados em JSON Server ou LocalStorage.|ALTA|
 |RNF-005|A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados). |ALTA|
 |RNF-006|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA|
-|RNF-007|A aplicação deve garantir que a formatação do texto e das letras seja clara e legível, usando fontes apropriadas para a faixa etária do público-alvo que tanto consome os conteúdos quanto para a realização de atividades propostas para as crianças. |ALTA|
+|RNF-007|A aplicação deve conter conteúdos de atividades propostas para crianças. |ALTA|
 |RNF-008|A aplicação deve utilizar o Google Material Design como layout.|MÉDIA|
-|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA|
+|RNF-009|A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|MÉDIA|
 |RNF-010|A aplicação deve usar como referência o site Expressia.com. |BAIXA|
 |RNF-011|A aplicação deve ser desenvolvida usando a metodologia Scrum|ALTA|
+|RNF-012|A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.|ALTA|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
