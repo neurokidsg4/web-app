@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado |
 |------|-----------------------------------------|----| ----|-----------------|
-|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA| Wesley Bruno | input_erro.css / input_erro.js |
+|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA| Wesley Bruno | input_invalid.css / celular.js, confirma_senha.js, email.js, nome.js, senha.js |
 
 
 ## Descrição das estruturas:
@@ -70,13 +70,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
 | Nome           | Texto             | Nome registrado, nome social ou apelido   | angelica                                       |
-| foto           | Texto             | Foto de rosto do usuário                  | asdfj654dfsd.png                               |
+| foto           | Object            | Foto de rosto do usuário                  | {"lastModified": 1678399500750, "lastModifiedDate": "2023-03-09T22:05:00.750Z", "name": "perfilFoto.png", "size": 195613, "type": "image/png", "webkitRelativePath": ""}              |
 | Email          | Texto             | Conecta o usuário a uma conta cadastrada  | angelica@gmail.com                             |
 | Senha          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                     |
-| Celular        | Texto             | Número de celular pessoal do usuário      | 31944445555                                    |
-| Gênero         | Texto             | Evidencia o gênero de quem está usando a aplicação | feminino                              |
-| Nascimento     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14,04,1999                            |
-| Endereço       | Texto             | Evidencia a região do usuário             | Maria_Augosta_Bacelar,Ressaca,Contagem,MG      |
+| Celular        | Texto             | Número de celular pessoal do usuário      | (31)944445555                                  |
+| Gênero         | Texto             | Evidencia o gênero de quem está usando a aplicação | mulher                                |
+| Nascimento     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14-04-1999                            |
+| Endereço       | Texto             | Evidencia a região do usuário             | Maria_Augosta_Bacelar-Ressaca-Contagem,MG      |
 | Atuação        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | Pedagoga |
 | Sobre          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | Me chamo Angelica. Tenho 39 anos e trabalho com crianças. Meu interesse é aprender mais sobre transtornos para antender melhor as crianças com quem trabalho, caso sejam neuro divergentes |
 
@@ -86,5 +86,5 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | id             | Numero (inteiro)  | Identificador único do registro do resultado | 1                                           |
 | userId         | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
-| Nome           | Texto             | Nome do jogo, o qual pertence o resultado | jogo,das,cores                                 |
+| Nome           | Texto             | Nome do jogo, o qual pertence o resultado | jogo-das-cores                                 |
 | Resultado      | Numero (inteiro)  | Evidencia o resultado do usuário no jogo numa escala que vai de 0% até 100% | 100          |
