@@ -48,4 +48,4 @@ var novoEndereco = localStorage.getItem("endereco");
 document.getElementById("info-add-1").innerHTML = novoEndereco;
 
 var novoSobreMim = localStorage.getItem("sobreMim");
-document.getElementById("iabout-me").innerHTML = novoSobreMim;
+document.getElementById("about-me").innerHTML = novoSobreMim;
