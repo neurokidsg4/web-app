@@ -145,7 +145,7 @@
 
         <div class="name-ocupation">
           <ul>
-            <li id="name">Charles Deo</li>
+            <li id="name_profile">Charles Deo</li>
             <li id="ocupation">Pediátra</li>
           </ul>
         </div>
@@ -173,6 +173,8 @@
               <ul>
                 <li id="data-name-1"><label id="field--name" for="name">Nome</label></li>
                 <li id="info-name-1"><input class="input--required" type="text" name="name" id="name" value="" placeholder="Qual é o seu nome?" required></li>
+
+                <p id="message--name" class="message--invalid">Este campo deve conter apenas letras. Evite usar caracteres especiais, números e outros</p>
               </ul>
             </div>
 
@@ -214,7 +216,9 @@
             <div class="data-cell">
               <ul>
                 <li id="data-cell-1"><label id="field--cell_phone" for="cell_phone">Celular</label></li>
-                <li id="info-cell-1"><input type="number" name="cell_phone" id="cell_phone" value="" placeholder="Número"></li>
+                <li id="info-cell-1"><input class="input--required" type="tel" name="cell_phone" id="cell_phone" value="" placeholder="(DDD)9XXXXYYYY"></li>
+
+                <p id="message--cell_phone" class="message--invalid">Digita apenas números sem exeder a quantidade padrão: (DDD)9XXXXYYYY. Evite usar caracteres especiais, letras e outros</p>
               </ul>
             </div>
 
@@ -268,6 +272,4 @@
   <script type="module" src="js/validadores_input/celular.js"></script>
   <script type="module" src="js/validadores_input/email.js"></script>
   <script type="module" src="js/validadores_input/nome.js"></script>
-  <script type="module" src="js/submete_formulario.js"></script>
-  <script type="module" src="js/foto_cadastro.js"></script>
 </html>
