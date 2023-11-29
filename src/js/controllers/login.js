@@ -23,7 +23,7 @@ button.addEventListener('click', (e) => {
         const passwordUser = Cryptography.b64_to_utf8(userJson[0].password);
 
         if(passwordUser === password) {
-            LocalStorage.insert('user', Cryptography.utf8_to_b64(userJson));
+            LocalStorage.insert('user', userJson);
             window.location.href = LocalStorage.exists('redirect') ? LocalStorage.select('redirect') : './index.html';
             LocalStorage.delete('redirect');
         } else {

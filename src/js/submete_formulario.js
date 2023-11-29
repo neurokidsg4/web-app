@@ -32,7 +32,7 @@ button.addEventListener('click', (e) => {
         const about = document.getElementById('about').value;
         const password = document.getElementById('password').value;
         const cellPhone = document.getElementById('cell_phone').value;
-        const cep = document.getElementById('endereco').value;
+        const cep = document.getElementById('cep').value;
         
         let user = new User(photo, name, email, acting, gender, cellPhone, birth, password, about, cep);
         
