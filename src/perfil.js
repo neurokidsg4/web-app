@@ -22,7 +22,7 @@ btnEditar.addEventListener("click", function(){
     var endereco = document.getElementById("info-add-1").innerHTML;
     localStorage.setItem("endereco", endereco);
 
-    var sobreMim = document.getElementById("iabout-me").innerHTML;
+    var sobreMim = document.getElementById("about").innerHTML;
     localStorage.setItem("sobreMim", sobreMim);
 
 });
@@ -48,4 +48,4 @@ var novoEndereco = localStorage.getItem("endereco");
 document.getElementById("info-add-1").innerHTML = novoEndereco;
 
 var novoSobreMim = localStorage.getItem("sobreMim");
-document.getElementById("about-me").innerHTML = novoSobreMim;
+document.getElementById("about").innerHTML = novoSobreMim;

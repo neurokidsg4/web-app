@@ -19,7 +19,7 @@ document.getElementById("cell_phone").value = cellAtual;
 var enderecoAtual = localStorage.getItem("endereco");
 document.getElementById("address").value = enderecoAtual;
 
-var sobreMimAtual = localStorage.getItem("about");
+var sobreMimAtual = localStorage.getItem("sobreMim");
 document.getElementById("about").value = sobreMimAtual;
 
 
