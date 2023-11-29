@@ -41,13 +41,13 @@ btnSave.addEventListener("click", function(){
     var email = document.getElementById("email").value;
     localStorage.setItem("email", email);
 
-    var cell = document.getElementById("cell").value;
+    var cell = document.getElementById("cell_phone").value;
     localStorage.setItem("cell", cell);
 
-    var endereco = document.getElementById("add").value;
+    var endereco = document.getElementById("address").value;
     localStorage.setItem("endereco", endereco);
 
-    var sobreMim = document.getElementById("about-me").value;
+    var sobreMim = document.getElementById("about").value;
     localStorage.setItem("sobreMim", sobreMim);
 
 });
