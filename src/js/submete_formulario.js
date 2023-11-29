@@ -5,6 +5,7 @@ import { User } from './entities/User.js';
 const button = document.getElementById('button');
 
 button.addEventListener('click', (e) => {
+    
     e.preventDefault();
 
     const inputsRequired = document.querySelectorAll('.input--required');
