@@ -1,6 +1,6 @@
 /*Pegando os dados atuais do perfil e salvando no localstorage*/
 
-btnEditar = document.getElementById('btn-edit');
+const btnEditar = document.getElementById('btn-edit');
 
 btnEditar.addEventListener("click", function(){
 
