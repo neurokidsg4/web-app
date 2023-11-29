@@ -13,7 +13,7 @@ document.getElementById("birth").value = nascimentoAtual;
 var emailAtual = localStorage.getItem("email");
 document.getElementById("email").value = emailAtual;
 
-var cellAtual = localStorage.getItem("cell_phone");
+var cellAtual = localStorage.getItem("cell");
 document.getElementById("cell_phone").value = cellAtual;
 
 var enderecoAtual = localStorage.getItem("endereco");
