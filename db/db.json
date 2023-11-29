@@ -1,6 +1,17 @@
 {
   "users": [
-    
+    {
+      "name": "wilson",
+      "email": "aslan@gmail.com",
+      "acting": "mae",
+      "gender": "mulher",
+      "cellPhone": "(31)993568474",
+      "birth": "1111-11-11",
+      "password": "MTExMQ==",
+      "about": "asdf",
+      "cep": "32113440",
+      "id": 1
+    }
   ],
   "results": [
     {

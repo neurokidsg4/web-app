@@ -25,7 +25,7 @@ export class LocalStorage {
         if(key === 'user') {
 
             try {
-                valueParse = JSON.parse(Cryptography.b64_to_utf8(localStorage.getItem(key)) || '');
+                valueParse = JSON.parse(Cryptography.b64_to_utf8(localStorage.getItem(key)));
             } catch (error) {
                 return null;
             }
@@ -33,7 +33,7 @@ export class LocalStorage {
         else{
             
             try {
-                valueParse = JSON.parse(localStorage.getItem(key) || '');
+                valueParse = JSON.parse(localStorage.getItem(key));
             } catch (error) {
                 return null;
             }
