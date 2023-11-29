@@ -20,7 +20,7 @@
 
   <input id="abre__menu--checkbox__cabecalho" type="checkbox">
 
-  <ul id="cabecalho__menu" class="cabecalho__menu">
+  <ul class="cabecalho__menu">
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <div class="cabecalho__grupo--icones">
 
@@ -58,18 +58,18 @@
       </ul>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
-      <button class="btn_action_login">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="login.html">
         <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
         <p class="cabecalho__menu___texto">Entrar</p>
-      </button>
+      </a>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
-      <button class="btn_action_logout">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <a href="#">
         <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
         <p class="cabecalho__menu___texto">Sair</p>
-      </button>
+      </a>
     </li>
   </ul>
 
@@ -94,25 +94,24 @@
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
         <li><a href="ajuda.html">Ajuda</a></li>
-        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
-        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
+        <li><a href="#">Sair</a></li>
       </ul>
     </nav>
 
     <nav id="nav-cabecalho--mobile">
       <ul>
         <li>
-          <button class="area__infantil childish_redirect_if">
+          <a class="area__infantil" href="area_infantil.html">
             <span class="material-symbols-outlined">stadia_controller</span>
             <p>Infantil</p>
-          </button>
+          </a>
         </li>
 
         <li>
-          <button id="infantil__2" class="area__infantil profile_redirect_if">
+          <a id="infantil__2" class="area__infantil" href="perfil.html">
             <span class="material-symbols-outlined">account_circle</span>
             <p>Perfil</p>
-          </button>
+          </a>
         </li>
 
         <li>
@@ -125,8 +124,9 @@
     </nav>
   </header>
 
-    <div class="content">
-        <h1>Qual a quantidade de ursos de pelúcia?</h1>
+  <div class="content">
+    <h1>Realize as operações!</h1>
+    <p id="idesc">Acerte 5 operações de soma e passe para a próxima fase</p>
 
     <div class="calculo">
 
@@ -155,12 +155,20 @@
     </div>
 
 
-        <div class="button">
-            <button id="iconfirm">Confirmar</button>
-        </div>
+    <div class="button">
+      
+
+      <a href="jogo-matematica-fase2.html"><button id="iproxima-fase">Próxima fase</button></a>
+
+      <button id="ivoltar">Sair</button>
 
 
     </div>
+
+
+
+
+  </div>
 
 
   <footer>
@@ -176,8 +184,8 @@
     </nav>
   </footer>
 
-    <script type="module" src="js/logar_deslogar.js"></script>
-    <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+
 </body>
 <script src="jogo-matematica.js"></script>
+
 </html>
