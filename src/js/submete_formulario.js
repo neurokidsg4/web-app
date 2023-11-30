@@ -41,8 +41,8 @@ button.addEventListener('click', (e) => {
 
         fetch(url, {
             method : "POST",
-            body : JSON.stringify(user)
-            // headers: {'Content-Type': 'application/json'}
+            body : JSON.stringify(user),
+            headers: {'Content-Type': 'application/json'}
         })
         .then(response => response.json())
         .then((user) => {
