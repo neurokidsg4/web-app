@@ -1,5 +1,5 @@
 
-var Nome = document.querySelector("#info-name-1");
+var nome = document.querySelector("#info-name-1");
 
 fetch("/db/db.json").then((response) => {
 
@@ -7,7 +7,7 @@ fetch("/db/db.json").then((response) => {
 
         dados.users.map((usuario) => {
 
-            Nome.innerHTML = usuario.nome;
+            Nnome.innerHTML = usuario.nome;
         })
     }) 
 
