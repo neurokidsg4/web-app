@@ -44,8 +44,11 @@ button.addEventListener('click', (e) => {
             body : JSON.stringify(user),
             headers: {'Content-Type': 'application/json'}
         })
-        .then(response => response.text())
-        .then(() => alert('Cadastro realizado com sucesso! Vá para página de login e entre com sua nova conta.'))
+        .then(response => response.json())
+        .then((user) => {
+            console.log(user);
+            alert('Cadastro realizado com sucesso! Vá para página de login e entre com sua nova conta.');
+        })
         .catch(err => alert('Ops! Algo deu errado. Você pode tentar realizar o cadastro novamente mais tarde; nos enviar um feedback relatando o erro ou nos contatar diretamente através do link no rodape, chamado "Contato".'));
     }
 })
