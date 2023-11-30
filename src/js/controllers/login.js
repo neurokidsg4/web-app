@@ -11,7 +11,7 @@ button.addEventListener('click', (e) => {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    const url = "http://localhost:3000/users";
+    const url = "https://api-neurokids.vercel.app/users";
 
     fetch(`${url}?email=${email}`, {
         method: 'GET',
@@ -27,7 +27,7 @@ button.addEventListener('click', (e) => {
             window.location.href = LocalStorage.exists('redirect') ? LocalStorage.select('redirect') : './index.html';
             LocalStorage.delete('redirect');
         } else {
-            alert('Senha invalida. Verifique e tente novamente.');
+            alert('Usuário ou senha invalidos. Verifique e tente novamente.');
         }
     })
     .catch(err => alert('Usuário inválido. Verifique e tente novamente.'));

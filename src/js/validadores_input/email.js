@@ -20,7 +20,7 @@ function inputFunction() {
     
             const email = input.value;
 
-            const url = `http://localhost:3000/users?email=${email}`;
+            const url = `https://api-neurokids.vercel.app/users?email=${email}`;
 
             fetch(url, {
                 method : "GET",
