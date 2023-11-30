@@ -37,7 +37,7 @@ button.addEventListener('click', (e) => {
         
         let user = new User(photo, name, email, acting, gender, cellPhone, birth, password, about, cep);
         
-        const url = "http://localhost:3000/users";
+        const url = "https://api-neurokids.vercel.app/users";
 
         fetch(url, {
             method : "POST",
