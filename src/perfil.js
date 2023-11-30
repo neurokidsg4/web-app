@@ -1,4 +1,21 @@
-/*Pegando os dados atuais do perfil e salvando no localstorage*/
+
+var Nome = document.querySelector("#info-name-1");
+
+fetch("/db/db.json").then((response) => {
+
+    response.json().then((dados) => {
+
+        dados.users.map((usuario) => {
+
+            Nome.innerHTML = usuario.nome;
+        })
+    }) 
+
+})
+
+
+
+/*Pegando os dados atuais do perfil e salvando no localstorage
 
 const btnEditar = document.getElementById('btn-edit');
 
@@ -27,7 +44,7 @@ btnEditar.addEventListener("click", function(){
 
 });
 
-/*Pegando os novos dados do localstorage e colocando no perfil */
+//Pegando os novos dados do localstorage e colocando no perfil
 
 var novoNome = localStorage.getItem("nome");
 document.getElementById("info-name-1").innerHTML = novoNome;
@@ -49,3 +66,5 @@ document.getElementById("info-gender-1").innerHTML = novoGenero;
 
 var novoSobreMim = localStorage.getItem("sobreMim");
 document.getElementById("iabout-me").innerHTML = novoSobreMim;
+
+*/

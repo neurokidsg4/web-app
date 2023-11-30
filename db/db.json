@@ -1,13 +1,11 @@
 {
-  "users": [
-
-  ],
-  "results": [
+  "users": 
+  [
     {
-      "id": 1,
-      "userId": 1,
-      "name": "jogo das cores",
-      "performance": 78
+      "nome": "Gustavo",
+      "idade": 25
     }
+
+
   ]
 }
