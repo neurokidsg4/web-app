@@ -1,6 +1,17 @@
 {
   "users": [
-
+    {
+      "name": "willson",
+      "email": "aslan@gmail.com",
+      "acting": "pediatra",
+      "gender": "mulher",
+      "cellPhone": "(31)993568474",
+      "birth": "1111-11-11",
+      "password": "MTExMQ==",
+      "about": "",
+      "cep": "32113440",
+      "id": 1
+    }
   ],
   "results": [
     {
