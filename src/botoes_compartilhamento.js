@@ -36,5 +36,5 @@ socialMediaFacebook.addEventListener("click", function() {
 });
 
 socialMediaLinkedIn.addEventListener("click", function() {
-    redirect('linkedn', 'https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/');
+    redirect('linkedln', 'https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/');
 });

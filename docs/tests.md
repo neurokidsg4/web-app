@@ -18,11 +18,11 @@ A documentação dos testes é dividida nas seguintes seções:
 
 # Teste de Software
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
+Nesta seção, apresentamos a documentação dos testes realizados pelo grupo para verificar os requisitos funcionais e não funcionais da aplicação web NeuroKids.
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste.
+Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não funcional, que está sendo verificado. Além disso, indicaremos o artefato (página) onde o teste será executado, juntamente com sua descrição.
 
 **Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
@@ -72,23 +72,38 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
 
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
+|*Caso de Teste*                                 |*TC-01 - Cadastrar usuário *                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso. RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|
+|Link do vídeo do teste realizado: || 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*TC-02 - Logar Usuário *                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado |  RF-003 A aplicação deve permitir que o usuário faça login.|
+|Link do vídeo do teste realizado: | | 
+
+
+|*Caso de Teste*                                 |*TC-03 - Criptografar Dados *                                         |
+|---|---|
+|Requisito Associado | RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).|
+|Link do vídeo do teste realizado: | | 
+
+|*Caso de Teste*                                 |*TC-04 - Persistir Dados *                                         |
+|---|---|
+|Requisito Associado |RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
+|Link do vídeo do teste realizado: | | 
+
+|*Caso de Teste*                                 |*TC-05 - Enviar feedback *                                         |
+|---|---|
+|Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.|
+|Link do vídeo do teste realizado: |  | 
 
 
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
 
 
 ## Testes de unidade automatizados (Opcional)

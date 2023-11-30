@@ -51,34 +51,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado |
 |------|-----------------------------------------|----| ----|-----------------|
-|RNF-009|A aplicação deve informar o usuário caso tente cadastrar um email fora do padrão, através de uma mensagem impressa em algum lugar da tela.|MÉDIA| Wesley Bruno | input_invalid.css / celular.js, confirma_senha.js, email.js, nome.js, senha.js |
+|RNF-009|A aplicação deve informar o usuário caso tente inserir algum dado inválido no formulário de cadastro e de editar o perfil. |MÉDIA| Wesley Bruno | input_invalid.css / celular.js, confirma_senha.js, email.js, nome.js, senha.js |
 
 
 ## Descrição das estruturas:
 
-## Feedback
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (inteiro)  | Identificador único do feedback           | 1                                              |
-| Satisfação     | Texto             | Emoji para capturar satisfação do usuário | muito satisfeito                               |
-| Mensagem       | Texto             | Conteúdo do feedback                      | Conteúdo excelente, ajudou a entender melhor a neurodiversidade, meu filho se adaptou muito bem às atividades |
-| Categoria do Feedback | Texto | Captura a categoria do feedback do usuário | sugestion                                          |
-
-
 ## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
-| Nome           | Texto             | Nome registrado, nome social ou apelido   | angelica                                       |
-| foto           | Object            | Foto de rosto do usuário                  | {"lastModified": 1678399500750, "lastModifiedDate": "2023-03-09T22:05:00.750Z", "name": "perfilFoto.png", "size": 195613, "type": "image/png", "webkitRelativePath": ""}              |
-| Email          | Texto             | Conecta o usuário a uma conta cadastrada  | angelica@gmail.com                             |
-| Senha          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                     |
-| Celular        | Texto             | Número de celular pessoal do usuário      | (31)944445555                                  |
-| Gênero         | Texto             | Evidencia o gênero de quem está usando a aplicação | mulher                                |
-| Nascimento     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14-04-1999                            |
-| Endereço       | Texto             | Evidencia a região do usuário             | Maria_Augosta_Bacelar-Ressaca-Contagem,MG      |
-| Atuação        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | Pedagoga |
-| Sobre          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | Me chamo Angelica. Tenho 39 anos e trabalho com crianças. Meu interesse é aprender mais sobre transtornos para antender melhor as crianças com quem trabalho, caso sejam neuro divergentes |
+| id             | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
+| name           | Texto             | Nome registrado, nome social ou apelido   | angelica                                       |
+| photo           | Object            | Foto de rosto do usuário                  | {"lastModified": 1678399500750, "lastModifiedDate": "2023-03-09T22:05:00.750Z", "name": "perfilFoto.png", "size": 195613, "type": "image/png", "webkitRelativePath": ""}              |
+| email          | Texto             | Conecta o usuário a uma conta cadastrada  | angelica@gmail.com                             |
+| password          | Texto             | Dá acesso ao usuário, dono da conta       | ange1415$1                                  |
+| cellPhone        | Texto             | Número de celular pessoal do usuário      | (31)944445555                                |
+| gender         | Texto             | Evidencia o gênero de quem está usando a aplicação | mulher                                |
+| birth     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14-04-1999                                 |
+| cep       | Texto             | Evidencia a região do usuário             | 00111222                                            |
+| acting        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | Pedagoga |
+| about          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | Me chamo Angelica. Tenho 39 anos e trabalho com crianças. Meu interesse é aprender mais sobre transtornos para antender melhor as crianças com quem trabalho, caso sejam neuro divergentes |
 
 
 ## Resultado Do Jogo
@@ -86,5 +77,5 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | id             | Numero (inteiro)  | Identificador único do registro do resultado | 1                                           |
 | userId         | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
-| Nome           | Texto             | Nome do jogo, o qual pertence o resultado | jogo-das-cores                                 |
-| Resultado      | Numero (inteiro)  | Evidencia o resultado do usuário no jogo numa escala que vai de 0% até 100% | 100          |
+| name           | Texto             | Nome do jogo, o qual pertence o resultado | jogo-das-cores                                 |
+| result      | Numero (inteiro)  | Evidencia o resultado do usuário no jogo numa escala que vai de 0% até 100% | 100          |
