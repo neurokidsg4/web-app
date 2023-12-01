@@ -1,53 +1,68 @@
  
 /*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de editar perfil*/
 
-var nomeAtual = localStorage.getItem("nome");
-document.getElementById("name").value = nomeAtual;
+const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+var btnSave = document.getElementById("btn-save");
+console.log(usuario)
+console.log(usuario.nome)
 
-var generoAtual = localStorage.getItem("genero");
-document.getElementById("gender-select").value = generoAtual;
+// var foto = localStorage.getItem("foto");
+// document.getElementById("foto").src = foto;
 
-var nascimentoAtual = localStorage.getItem("nascimento");
-document.getElementById("birth").value = nascimentoAtual;
+// var novoNome = localStorage.getItem("nome");
+document.getElementById("name").value = usuario.nome;
+  
+// var novoGenero = localStorage.getItem("genero");
+document.getElementById("gender-select").value = usuario.genero;
 
-var emailAtual = localStorage.getItem("email");
-document.getElementById("email").value = emailAtual;
+// var novoNascimento = localStorage.getItem("nascimento");
+document.getElementById("birth").value = usuario.nascimento;
 
-var cellAtual = localStorage.getItem("celular");
-document.getElementById("cell_phone").value = cellAtual;
+// var novoEmail = localStorage.getItem("email");
+document.getElementById("email").value = usuario.email;
 
-var enderecoAtual = localStorage.getItem("cep");
-document.getElementById("address").value = enderecoAtual;
+// var novoCell = localStorage.getItem("celular");
+document.getElementById("cell_phone").value = usuario.celular;
 
-var sobreMimAtual = localStorage.getItem("sobreMim");
-document.getElementById("about").value = sobreMimAtual;
+// var novoEndereco = localStorage.getItem("cep");
+document.getElementById("address").value = usuario.cep;
 
+// var novoSobreMim = localStorage.getItem("sobreMim");
+document.getElementById("about").value = usuario.sobreMim || '';
 
 /*Pegando os novos valores digitados nos campos de editar perfil e atualizando no localstorage*/
 
-var btnSave = document.getElementById("btn-save");
 
 btnSave.addEventListener("click", function(){
 
     var nome = document.getElementById("name").value;
-    localStorage.setItem("nome", nome);
+    // localStorage.setItem("nome", nome);
+    usuario.nome = nome;
 
     var genero = document.getElementById("gender-select").value;
-    localStorage.setItem("genero", genero);
+    // localStorage.setItem("genero", genero);
+    usuario.genero = genero;
 
     var nascimento = document.getElementById("birth").value;
-    localStorage.setItem("nascimento", nascimento);
+    // localStorage.setItem("nascimento", nascimento);
+    usuario.nascimento = nascimento;
 
     var email = document.getElementById("email").value;
-    localStorage.setItem("email", email);
+    // localStorage.setItem("email", email);
+    usuario.email = email;
 
     var celular = document.getElementById("cell_phone").value;
-    localStorage.setItem("celular", celular);
+    // localStorage.setItem("celular", celular);
+    usuario.celular = celular;
 
-    var endereco = document.getElementById("address").value;
-    localStorage.setItem("cep", endereco);
+    var cep = document.getElementById("address").value;
+    // localStorage.setItem("cep", endereco);
+    usuario.cep = cep;
 
-    var sobreMim = document.getElementById("about").value;
-    localStorage.setItem("sobreMim", sobreMim);
-
+    var sobre = document.getElementById("about").value;
+    // localStorage.setItem("sobreMim", sobreMim);
+    usuario.sobre = sobre;
+    console.log(usuario)
+    
+    localStorage.setItem("usuario", JSON.stringify(usuario));
 });
