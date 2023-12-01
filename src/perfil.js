@@ -1,5 +1,10 @@
 
-var nome = document.querySelector("#info-name-1");
+const nome = document.querySelector("#info-name-1");
+const email = document.querySelector("#info-email-1");
+const genero = document.querySelector("#info-gender-1");
+const nascimento = document.querySelector("#info-birth-1");
+const celular = document.querySelector("#info-cell-1");
+const endereco = document.querySelector("#info-add-1");
 
 fetch("/db/db.json").then((response) => {
 
@@ -7,12 +12,16 @@ fetch("/db/db.json").then((response) => {
 
         dados.users.map((usuario) => {
 
-            Nnome.innerHTML = usuario.nome;
+            nome.innerHTML = usuario.nome;
+            email.innerHTML = usuario.email;
+            genero.innerHTML = usuario.genero;
+            nascimento.innerHTML = usuario.nascimento;
+            celular.innerHTML = usuario.celular;
+            endereco.innerHTML = usuario.endereco;
         })
     }) 
 
-})
-
+});
 
 
 /*Pegando os dados atuais do perfil e salvando no localstorage

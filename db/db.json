@@ -3,9 +3,12 @@
   [
     {
       "nome": "Gustavo",
-      "idade": 25
+      "email": "gustavo@hotmail.com",
+      "genero": "Masculino",
+      "nascimento": "18/04/1998",
+      "celular": "24999068296",
+      "endereco": "Barra Mansa - RJ"
+
     }
-
-
   ]
 }
