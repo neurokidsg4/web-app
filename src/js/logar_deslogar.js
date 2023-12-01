@@ -5,7 +5,7 @@ const btnActionLogin = document.querySelectorAll('.btn_action_login');
 const btnLogout = document.querySelectorAll('.btn_logout');
 const btnLogin = document.querySelectorAll('.btn_login');
 
-if(localStorage.getItem('user')) {
+if(localStorage.getItem('usuario')) {
 
     btnLogin.forEach(btn => {
         btn.style.display = 'none';
@@ -21,7 +21,7 @@ else {
 btnActionLogout.forEach(btn => {
     btn.addEventListener('click', () => {
 
-        localStorage.setItem('user', '');
+        localStorage.setItem('usuario', '');
         location.reload();
     })
 })
