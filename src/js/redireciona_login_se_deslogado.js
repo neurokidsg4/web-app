@@ -3,7 +3,7 @@ const children = document.querySelector('.childish_redirect_if')
 const profile = document.querySelector('.profile_redirect_if');
 
 children.addEventListener('click', () => {
-    if(localStorage.getItem('usuario')) {
+    if(localStorage.getItem('login')) {
         window.location.href = './area_infantil.html';
     } else {
         localStorage.setItem('redirect', './area_infantil.html');
@@ -12,10 +12,12 @@ children.addEventListener('click', () => {
 });
 
 profile.addEventListener('click', () => {
-    if(localStorage.getItem('usuario')) {
+    if(localStorage.getItem('login')) {
         window.location.href = './perfil.html';
     } else {
         localStorage.setItem('redirect', './perfil.html');
         window.location.href = './login.html';
     };
 });
+
+localStorage.setItem('redirect', '');
