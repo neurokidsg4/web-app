@@ -93,9 +93,7 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("resultado").innerHTML = "Tente mais uma vez.";
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
-
     }
-
 });
 
 btnProximaFase.addEventListener('click', () => {

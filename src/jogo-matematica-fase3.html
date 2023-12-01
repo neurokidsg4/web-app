@@ -12,18 +12,17 @@
   <link rel="stylesheet" href="jogo-matematica.css">
   <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
 
-  <title>Jogo de matemática</title>
+  <title>NeuroKids</title>
 
 </head>
 
 <body>
-
   <input id="abre__menu--checkbox__cabecalho" type="checkbox">
 
-  <ul class="cabecalho__menu">
+  <ul id="cabecalho__menu" class="cabecalho__menu">
     <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
       <div class="cabecalho__grupo--icones">
-
+        
         <label for="abre__menu--checkbox__cabecalho">
           <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
         </label>
@@ -58,64 +57,63 @@
       </ul>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="login.html">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
         <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
         <p class="cabecalho__menu___texto">Entrar</p>
-      </a>
+      </button>
     </li>
 
-    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
-      <a href="#">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
         <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
         <p class="cabecalho__menu___texto">Sair</p>
-      </a>
+      </button>
     </li>
   </ul>
 
   <header>
-    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal"
-      aria-hidden="false"></a>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
 
     <label for="abre__menu--checkbox__cabecalho">
       <div class="group--hamburgue__logo">
-        <span class="material-icons hamburgue">menu</span>
-        <div class="logo">
-          <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
-        </div>
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
       </div>
     </label>
 
     <nav id="nav-cabecalho">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="area_infantil.html">Área infantil</a></li>
-        <li><a href="perfil.html">Perfil</a></li>
+        <li><a class=" area__infantil childish_redirect_if">Área infantil</a></li>
+        <li><a class="area__infantil profile_redirect_if">Perfil</a></li>
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
         <li><a href="ajuda.html">Ajuda</a></li>
-        <li><a href="#">Sair</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
       </ul>
     </nav>
 
     <nav id="nav-cabecalho--mobile">
       <ul>
         <li>
-          <a class="area__infantil" href="area_infantil.html">
+          <button class="area__infantil childish_redirect_if">
             <span class="material-symbols-outlined">stadia_controller</span>
             <p>Infantil</p>
-          </a>
+          </button>
         </li>
-
+        
         <li>
-          <a id="infantil__2" class="area__infantil" href="perfil.html">
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
             <span class="material-symbols-outlined">account_circle</span>
             <p>Perfil</p>
-          </a>
+          </button>
         </li>
 
         <li>
-          <a id="infantil__3" class="area__infantil" href="ajuda.html">
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
             <span class="material-symbols-outlined">info</span>
             <p>Ajuda</p>
           </a>
@@ -179,9 +177,11 @@
       </ul>
     </nav>
   </footer>
+  
+  <script src="jogo-matematica-fase3.js"></script>
 
-
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
 </body>
-<script src="jogo-matematica-fase3.js"></script>
 
 </html>
