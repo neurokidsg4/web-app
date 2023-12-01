@@ -13,10 +13,10 @@ document.getElementById("birth").value = nascimentoAtual;
 var emailAtual = localStorage.getItem("email");
 document.getElementById("email").value = emailAtual;
 
-var cellAtual = localStorage.getItem("cell");
+var cellAtual = localStorage.getItem("celular");
 document.getElementById("cell_phone").value = cellAtual;
 
-var enderecoAtual = localStorage.getItem("endereco");
+var enderecoAtual = localStorage.getItem("cep");
 document.getElementById("address").value = enderecoAtual;
 
 var sobreMimAtual = localStorage.getItem("sobreMim");
@@ -41,11 +41,11 @@ btnSave.addEventListener("click", function(){
     var email = document.getElementById("email").value;
     localStorage.setItem("email", email);
 
-    var cell = document.getElementById("cell_phone").value;
-    localStorage.setItem("cell", cell);
+    var celular = document.getElementById("cell_phone").value;
+    localStorage.setItem("celular", celular);
 
     var endereco = document.getElementById("address").value;
-    localStorage.setItem("endereco", endereco);
+    localStorage.setItem("cep", endereco);
 
     var sobreMim = document.getElementById("about").value;
     localStorage.setItem("sobreMim", sobreMim);

@@ -1,5 +1,4 @@
 
-// const regex = new RegExp('^[a-zA-Z\s]*$');
 const regex = /^[a-zA-Z\s]*$/;
 
 const input = document.getElementById("name");
