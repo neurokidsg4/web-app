@@ -99,5 +99,5 @@ btnConfimar.addEventListener("click", function () {
 });
 
 btnProximaFase.addEventListener('click', () => {
-    window.location.href = './src/jogo-matematica-fase3.html';
+    window.location.href = './jogo-matematica-fase3.html';
 });

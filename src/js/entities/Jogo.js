@@ -13,7 +13,6 @@ export class Game {
 
     sumPoint() {
         this.punctuation += 1;
-        console.log(`Ponto até agora ${this.punctuation}`);
     }
 
     returnPerformance() {
@@ -34,7 +33,6 @@ export class Game {
                 break;
         };
 
-        console.log(`Seu desempenho foi ${performance}`);
         return performance;
     }
 
@@ -52,9 +50,6 @@ export class Game {
 
         this.gameHistory.push(jogo);
             
-        console.log(this.gameHistory);
-        console.log(this.gameHistory[this.gameHistory.length - 1]);
-
         localStorage.setItem(keyGame, JSON.stringify(this.gameHistory));
     }
 }
