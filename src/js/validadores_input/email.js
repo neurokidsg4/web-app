@@ -1,5 +1,5 @@
 
-const regex = new RegExp('^([a-zA-Z0-9&.!_-]+@[a-zA-Z0-9&.!_-]+.[a-zA-Z0-9&.!_-]+)$');
+const regex = new RegExp('^([a-zA-Z0-9&.!_-]+@[a-zA-Z0-9&.!_-]+.[a-zA-Z0-9&.!_-]+)*$');
 
 const input = document.getElementById("email");
 const field = document.getElementById("field--email");
@@ -16,13 +16,13 @@ function inputFunction() {
             input.classList.add('input--invalid');
             message.style.display = 'inline-block';
     
-        } else {
+    } else {
     
-            const email = input.value;
+        const email = input.value;
 
-            field.classList.remove('field--invalid');
-            input.classList.remove('input--invalid');
-            message.style.display = 'none';
+        field.classList.remove('field--invalid');
+        input.classList.remove('input--invalid');
+        message.style.display = 'none';
 
             // const url = `http://localhost:3000/users?email=${email}`;
 
@@ -48,5 +48,5 @@ function inputFunction() {
             //     messageExists.style.display = 'none';
             //     message.style.display = 'none';
             // });
-        }
+    }
 }
