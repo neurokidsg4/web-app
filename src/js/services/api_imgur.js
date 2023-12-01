@@ -5,6 +5,7 @@ const photo = document.getElementById('photo');
 const filePictury = document.getElementById('file__pictury');
 
 let photoReader;
+let photoSend;
 
 filePictury.addEventListener('change', function (evt) {
     if (!(evt.target && evt.target.files && evt.target.files.length > 0)) {

@@ -1,4 +1,6 @@
 
+import { User } from '../entities/User.js';
+
 const button = document.getElementById('button');
 
 button.addEventListener('click', (e) => {
@@ -20,14 +22,21 @@ button.addEventListener('click', (e) => {
 
     if(itsOk) {
 
-        localStorage.setItem('nome', document.getElementById('name').value);
-        localStorage.setItem('email', document.getElementById('email').value);
-        localStorage.setItem('genero', document.getElementById('gender').value);
-        localStorage.setItem('nascimento', document.getElementById('birth').value);
-        localStorage.setItem('atuacao', document.getElementById('acting').value);
-        localStorage.setItem('sobreMim', document.getElementById('about').value);
-        localStorage.setItem('senha', document.getElementById('password').value);
-        localStorage.setItem('celular', document.getElementById('cell_phone').value);
-        localStorage.setItem('cep', document.getElementById('cep').value);        
-    }
-})
+        const user = new User(
+            document.getElementById('name').value,
+            document.getElementById('email').value,
+            document.getElementById('acting').value,
+            document.getElementById('gender').value,
+            document.getElementById('cell_phone').value,
+            document.getElementById('birth').value,
+            document.getElementById('password').value,
+            document.getElementById('about').value,
+            document.getElementById('cep').value
+        );
+        
+        localStorage.setItem('usuario', JSON.stringify(user));
+
+        alert('Cadastro realizado com sucesso. Agora vá para a página de login e entre com sua nova conta.');
+    } 
+    else { alert('Ops! Algo deu errado. Tente novamente mais tarde. Se o problema persistir contate a gente pelo link "Contato" que se encontra no rodape do site.'); }
+});
