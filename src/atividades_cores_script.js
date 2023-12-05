@@ -6,7 +6,7 @@ const continueButton = document.querySelector('#continue');
 const backButton = document.querySelector('#back');
 let correctColorIndex = 2; // Índice do círculo correto (0-5)
 let numAttempts = 0;
-let numCorrect = 0;
+let correctGuessesPerAttempt = 0
 
 // Array de cores para o jogo
 const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
@@ -23,7 +23,7 @@ function startGame() {
         continueButton.style.display = 'none';
         backButton.style.display = 'block';
         backButton.addEventListener('click', handleBackButtonClick);
-        saveNumCorrect();
+        saveCorrectGuessesPerAttempt();
         return;
     }
 
@@ -56,11 +56,11 @@ function startGame() {
 // Função para lidar com o clique em um círculo
 function handleCircleClick(event) {
     const clickedColorIndex = Array.from(circles).indexOf(event.target);
-    
+
     if (clickedColorIndex === correctColorIndex) {
         // O jogador acertou
-        numCorrect++;
-        message.textContent = 'Você acertou! Parabéns!\n' + numCorrect + ' de 5';
+        correctGuessesPerAttempt++;
+        message.textContent = 'Você acertou! Parabéns!\n' + correctGuessesPerAttempt + ' de 5';
     } else {
         // O jogador errou
         message.textContent = 'Você errou. Tente novamente.';
@@ -78,15 +78,24 @@ function handleCircleClick(event) {
     backButton.addEventListener('click', handleBackButtonClick);
 }
 
+
 // Função para lidar com o clique no botão "Voltar"
 function handleBackButtonClick() {
     // Redireciona para a página desejada
     window.location.href = '/src/area_infantil.html';
 }
 
-// Função para salvar o número de acertos no localStorage
-function saveNumCorrect() {
-    localStorage.setItem('acertos cores', numCorrect);
+// Função para salvar a lista de acertos por tentativa no localStorage
+function saveCorrectGuessesPerAttempt() {
+    // Obter as tentativas anteriores do localStorage
+    const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
+
+    // Adicionar a lista atual à lista de tentativas anteriores
+    previousAttempts.push({ attempt: numAttempts - 1 , correct: correctGuessesPerAttempt });
+
+    // Salvar a lista completa no localStorage
+    localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
+
 }
 
 // Iniciar o jogo quando a página carregar
