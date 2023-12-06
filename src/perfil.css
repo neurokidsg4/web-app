@@ -117,7 +117,7 @@ main {
 /*Dados do perfil*/
 
 .data-1,
-.data-2 {
+.data-2, .data-3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -128,7 +128,7 @@ main {
 #data-birth-1,
 #data-email-1,
 #data-cell-1,
-#data-add-1 {
+#data-add-1, #data-add-estado, #data-add-cidade {
     color: #0BB3D9;
     font-weight: 640;
 }
@@ -148,7 +148,7 @@ main {
 #info-birth-1,
 #info-email-1,
 #info-cell-1,
-#info-add-1 {
+#info-add-1, #info-add-estado, #info-add-cidade {
     border-bottom: solid #F2D230 2px;
     width: 200px;
     padding: 2px;
