@@ -40,9 +40,10 @@ for(let i = 0; i < gameHistory.length; i++) {
 
     nameGameFieldText.innerHTML = gameHistory[i][0].gameName;
 
-    const attemptResults = gameHistory[i].length;
+    const numberOfResults = gameHistory[i].length;
+    let totalScore = 0;
+    let expectedScore = 0;
 
-    
 
     const percentage = 
     console.log(nameGameFieldText);
