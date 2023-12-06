@@ -131,6 +131,7 @@ main {
 #data-add-1, #data-add-estado, #data-add-cidade {
     color: #0BB3D9;
     font-weight: 640;
+    
 }
 
 .data-gender {
@@ -154,6 +155,10 @@ main {
     padding: 2px;
 }
 
+.data-cidade{
+    position: absolute;
+    margin-left: 380px;
+}
 
 /*Sobre mim*/
 .about-me {
