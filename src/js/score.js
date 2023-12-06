@@ -1,17 +1,57 @@
 
 const catalogPeformance = document.getElementById('catalog_game_peformance');
 
-const row =  document.createElement('div').classList.add('row');
-const group =  document.createElement('div').classList.add('group row__group');
-const nameGameField =  document.createElement('div').classList.add('field group__field');
-const nameGameFieldText = document.createElement('p').classList.add('game-name group__text');
-const arrow =  document.createElement('span').classList.add('arrow material-symbols-outlined').innerHTML = east;
-const peformanceField =  document.createElement('div').classList.add('field group__field');
-const text =  document.createElement('p').classList.add('group__text');
-const peformanceResult =  document.createElement('i').classList.add('group__peformance');
 
+// const acerteAsCores = gameHistory.acerteAsCores || [];
 const gameHistory = JSON.parse(localStorage.getItem('jogos')) || {};
-const acerteAsCores = gameHistory.acerteAsCores || [];
+// const list = document.createElementFragment();
+
+for(let i = 0; i < gameHistory.length; i++) {
+
+    const row =  document.createElement('div');
+    row.classList.add('row');
+
+    const group =  document.createElement('div')
+    group.classList.add('group');
+    group.classList.add('row__group');
+
+    const nameGameField =  document.createElement('div');
+    nameGameField.classList.add('field');
+    nameGameField.classList.add('group__field');
+
+    const nameGameFieldText = document.createElement('p')
+    nameGameFieldText.classList.add('game-name');
+    nameGameFieldText.classList.add('group__text');
+
+    const arrow =  document.createElement('span');
+    arrow.classList.add('arrow');
+    arrow.classList.add('material-symbols-outlined');
+    arrow.innerHTML = 'east';
+
+    const peformanceField =  document.createElement('div');
+    peformanceField.classList.add('field');
+    peformanceField.classList.add('group__field');
+
+    const peformanceText =  document.createElement('p').classList;
+    peformanceText.add('group__text');
+
+    const peformanceResult =  document.createElement('i');
+    peformanceResult.classList.add('group__peformance');
+
+    nameGameFieldText.innerHTML = gameHistory[i][0].gameName;
+
+    const attemptResults = gameHistory[i].length;
+
+    
+
+    const percentage = 
+    console.log(nameGameFieldText);
+
+    for(let t = 0; t < gameHistory[i].length; t++) {
+        
+
+    }
+}
 
 
 

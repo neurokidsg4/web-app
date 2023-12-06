@@ -1,7 +1,7 @@
 
 export class Game {
 
-    gameHistory = localStorage.getItem('jogos') ? JSON.parse(localStorage.getItem('jogos')) : {};    
+    gameHistory = localStorage.getItem('jogos') ? JSON.parse(localStorage.getItem('jogos')) : [];    
     punctuation = 0;
     attempt = 0;
     gameName = '';
@@ -47,7 +47,7 @@ export class Game {
     }
 
     gameSaves(keyGame) {
-        const gameResult = this.gameHistory[keyGame] || [];
+        // const gameResult = this.gameHistory[] || [];
 
         const jogo = {
             peformance: this.returnPeformance(),
@@ -57,8 +57,33 @@ export class Game {
             data: new Date(),
         };
 
-        gameResult.push(jogo)
-        this.gameHistory[keyGame] = gameResult;
+        let isOk = false;
+
+        if(this.gameHistory.length) {
+
+            for(let i = 0; i < this.gameHistory.length; i++) {
+    
+                console.log(this.gameHistory[i][i].gameName);
+    
+                if(this.gameName === this.gameHistory[i][0].gameName) {
+    
+                    console.log(this.gameHistory[i][0].gameName);
+    
+                    this.gameHistory[i].push(jogo);
+                    isOk = true;
+                    return;
+                };
+            };
+
+            if(!isOk) this.gameHistory.push([jogo]);
+
+        } else {
+
+            this.gameHistory.push([jogo]);
+        }
+        
+        // gameResult.push(jogo)
+        // this.gameHistory[keyGame] = gameResult;
 
         localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
     }
