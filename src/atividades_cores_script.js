@@ -30,7 +30,7 @@ function startGame() {
         continueButton.style.display = 'none';
         backButton.style.display = 'block';
         backButton.addEventListener('click', handleBackButtonClick);
-        saveCorrectGuessesPerAttempt();
+        // saveCorrectGuessesPerAttempt();
         return;
     }
 

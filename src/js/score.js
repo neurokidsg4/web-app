@@ -1,9 +1,8 @@
 
 const catalogPeformance = document.getElementById('catalog_game_peformance');
 
-
 const gameHistory = JSON.parse(localStorage.getItem('jogos')) || {};
-// const list = document.createElementFragment();
+const fragment = new DocumentFragment();
 
 for(let i = 0; i < gameHistory.length; i++) {
 
@@ -31,10 +30,10 @@ for(let i = 0; i < gameHistory.length; i++) {
     peformanceField.classList.add('field');
     peformanceField.classList.add('group__field');
 
-    const peformanceText =  document.createElement('p').classList;
-    peformanceText.add('group__text');
+    const peformanceText =  document.createElement('p');
+    peformanceText.classList.add('group__text');
 
-    const peformancePercentage =  document.createElement('i');
+    const peformancePercentage =  document.createElement('P');
     peformancePercentage.classList.add('group__peformance');
 
     const numberOfResults = gameHistory[i].length;
@@ -62,15 +61,20 @@ for(let i = 0; i < gameHistory.length; i++) {
     
     group.append(arrow);
     
-    peformanceText.innerHTML = 'Desempenho: ';
-    peformancePercentage.innerHTML = `${percentage}%`;
+    peformanceText.innerHTML = `Desempenho: ${percentage}%`;
     peformanceField.append(peformanceText);
-    peformanceField.append();
-    group.append();
+    group.append(peformanceField);
 
-    console.log(percentage);
+    // peformancePercentage.innerHTML = `${percentage}%`;
+    // peformanceField.append(peformancePercentage);
 
+    row.append(group);
+
+    fragment.appendChild(row);
+    catalogPeformance.append(fragment);
 }
+
+
 //esta calculando a porcentagem
 //esta calculando adicionando o nome do jogo na tag <p>
 

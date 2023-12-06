@@ -47,7 +47,11 @@ export class Game {
     }
 
     gameSaves(keyGame) {
-        // const gameResult = this.gameHistory[] || [];
+
+        console.log(this.gameHistory);
+        console.log(this.gameHistory.length);
+        console.log(this.gameHistory[0]);
+        console.log(this.gameHistory[0][0]);
 
         const jogo = {
             peformance: this.returnPeformance(),
@@ -59,32 +63,24 @@ export class Game {
 
         let isOk = false;
 
-        if(this.gameHistory.length) {
+        if(this.gameHistory.length > 0) {
+            console.log('entrei no primeiro if');
 
             for(let i = 0; i < this.gameHistory.length; i++) {
-    
-                console.log(this.gameHistory[i][i].gameName);
-    
+                console.log('entrei no for');
+        
                 if(this.gameName === this.gameHistory[i][0].gameName) {
-    
-                    console.log(this.gameHistory[i][0].gameName);
-    
+                    // console.log('entrei no segundo if');
+
                     this.gameHistory[i].push(jogo);
-                    isOk = true;
+                    localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
                     return;
                 };
             };
-
-            if(!isOk) this.gameHistory.push([jogo]);
-
         } else {
 
-            this.gameHistory.push([jogo]);
-        }
-        
-        // gameResult.push(jogo)
-        // this.gameHistory[keyGame] = gameResult;
-
-        localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
+            this.gameHistory.push([jogo]);  
+            localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
+        };
     }
 }
