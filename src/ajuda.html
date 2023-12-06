@@ -127,7 +127,8 @@
     </div>
      <div class="search-box" id="search-container">
       <input type="text" class="search-text" placeholder="O que você deseja buscar?">
-        <img src="./imgs/loupe-blue.svg" alt="" class="loupe-blue" width="20px" height="20px"> 
+      <img src="./imgs/loupe-blue.svg" alt="" class="loupe-blue" width="20px" height="20px"> 
+        </div> 
     </div>
     <div class="container_cards_main">
       <article class="card_01" onclick="redirectToLink('./ajuda_configuracao_conta.html')">
@@ -151,43 +152,51 @@
           <p class="description_cards_01">Entenda como funcionam os níveis de dificuldade, avaliação do progresso e como realizar as atividades</p>
         </div>
       </article>
-    </div>
-    <script>
-      function redirectToLink(url) {
-        window.location.href = url;
-      }
-    </script>    
+    </div> 
     </div>
    <div class="subtitle">
     <h3>Artigos mais visualizados</h3>
    </div>
    <div class="container_cards_02">
-    <div class="card_02">
+    <div class="card_02" onclick="redirectToLink('./guia-como-excluir-conta.html')">
       <h3 class="title_cards_02"> Como excluir a sua conta NeuroKids</h3>
       <p class="description_cards_02"> Entenda como excluir a conta diretamente pela guia Perfil da página inicial.</p>
     </div>
-    <div class="card_02">
+    <div class="card_02" onclick="redirectToLink('./guia-compartilhamento-conteudos.html')">
       <h3 class="title_cards_02">Compartilhar os conteúdos</h3>
       <p class="description_cards_02">Saiba mais sobre como compartilhar os conteúdos com outras pessoas.</p>
     </div>
-    <div class="card_02">
+    <div class="card_02" onclick="redirectToLink('./guia-alterar-configuracoes-perfil.html')">
       <h3 class="title_cards_02">Alterar as configurações de perfil</h3>
       <p class="description_cards_02">Personalize o nome do seu perfil do NeuroKids, a descrição sobre você e sua foto de perfil.</p>
     </div>
-    <div class="card_02">
+    <div class="card_02" onclick="redirectToLink('./guia-niveis-dificuldade.html')">
       <h3 class="title_cards_02">Níveis de dificuldades das atividades infantis</h3>
       <p class="description_cards_02">Entenda os diferentes graus de dificuldade e a divisão das atividades.</p>
     </div>
-    <div class="card_02">
+    <div class="card_02" onclick="redirectToLink('./guia-avaliacao-desempenho.html')">
       <h3 class="title_cards_02">Método de avaliação</h3>
       <p class="description_cards_02">Veja como funciona o processo de avaliação e a exibição final dos resultados.</p>
     </div>
-    <div class="card_02">
+    <div class="card_02" onclick="redirectToLink('./guia-realizar-atividades.html')">
       <h3 class="title_cards_02">Como fazer as atividades do NeuroKids</h3>
       <p class="description_cards_02">Tire suas dúvidas sobre por onde começar e como escolher a atividade.</p>
     </div>
+    <div class="card_02" onclick="redirectToLink('./guia-mudanca-email-e-senha.html')">
+      <h3 class="title_cards_02">Trocar o seu endereço de e-mail e atualizar a senha</h3>
+      <p class="description_cards_02">Atualize o endereço de e-mail associado à sua conta NeuroKids e a sua senha.</p>
+    </div>
+    <div class="card_02" onclick="redirectToLink('./guia-verificar-problemas-conexao.html')">
+      <h3 class="title_cards_02">Verificar problemas de conexão</h3>
+      <p class="description_cards_02">Soluções para problemas de conexão com o site.</p>
+    </div>
+    <div class="card_02" onclick="redirectToLink('./guia-interacao-conteudos.html')">
+      <h3 class="title_cards_02">Como interagir com os conteúdos</h3>
+      <p class="description_cards_02">Saiba mais sobre como utilizar as seções de conteúdo disponíveis.</p>
+    </div>
     </div>
   </main>
+  <script src="lupa_busca_ajuda.js"></script> 
  <footer>
     <nav id="nav-rodape">
       <ul>

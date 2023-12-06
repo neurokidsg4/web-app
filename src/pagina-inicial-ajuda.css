@@ -1,7 +1,5 @@
 @import url('rodape.css');
 @import url('cabecalho.css');
-@import url('rodape_responsivo.css');
-@import url('cabecalho_responsivo.css');
 @import url('menu_mobile.css');
 
 /* Definições globais para todos os elementos */
@@ -46,7 +44,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 41px;
+    height: 5vh;
 }
 
 /* Estilos da caixa de pesquisa */
@@ -69,9 +67,30 @@ li {
     transition: 0.4s;
 }
 
+.search-box .list{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y:auto;
+}
+
+.list li{
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.list li:hover{
+    background: #defefe;
+}
+
 .search.btn {
-    width: 50%;
-    max-width: 30px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +98,6 @@ li {
     cursor: pointer;
 }
 
-/* Ajuste para o ícone da lupa */
 .loupe-blue {
     margin: 0;
     color: #0BB3D9;
@@ -205,7 +223,7 @@ li {
   }
 
   .title_cards_02 {
-    width: 391.323px;
+    width: auto;
     height: 122.147px;
     color: #505050;
     font-size: 1.7em;
@@ -218,7 +236,7 @@ li {
 }
 
 .description_cards_02 {
-    width: 100%;
+    width: auto;
     height: 20.000px;
     display: flex;
     justify-content: center;
