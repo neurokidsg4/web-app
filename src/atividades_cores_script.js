@@ -99,17 +99,17 @@ function handleBackButtonClick() {
 }
 
 // Função para salvar a lista de acertos por tentativa no localStorage
-function saveCorrectGuessesPerAttempt() {
+// function saveCorrectGuessesPerAttempt() {
     // Obter as tentativas anteriores do localStorage
-    const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
+    // const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
 
     // Adicionar a lista atual à lista de tentativas anteriores
-    previousAttempts.push({ attempt: numAttempts - 1 , correct: correctGuessesPerAttempt });
+    // previousAttempts.push({ attempt: numAttempts - 1 , correct: correctGuessesPerAttempt });
 
     // Salvar a lista completa no localStorage
-    localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
+    // localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
 
-}
+// }
 
 // Iniciar o jogo quando a página carregar
 window.addEventListener('load', startGame);
