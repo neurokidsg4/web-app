@@ -1,8 +1,6 @@
 
-import { Cryptography } from "../services/Cryptography.js";
-import { LocalStorage } from "../services/LocalStorage.js";
-
 const button = document.getElementById('button');
+const user = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
 
 button.addEventListener('click', (e) => {
 
@@ -11,24 +9,12 @@ button.addEventListener('click', (e) => {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    const url = "http://localhost:3000/users";
+    if(user.senha === password && user.email === email) {
+        localStorage.setItem('login', 'true');
+        window.location.href = localStorage.getItem('redirect') ? localStorage.getItem('redirect') : './index.html';
+        localStorage.setItem('redirect', '');
 
-    fetch(`${url}?email=${email}`, {
-        method: 'GET',
-        headers: {'Content-Type': 'application/json'}
-    })
-    .then(user => user.json())
-    .then(userJson => {
-
-        const passwordUser = Cryptography.b64_to_utf8(userJson[0].password);
-
-        if(passwordUser === password) {
-            LocalStorage.insert('user', userJson);
-            window.location.href = LocalStorage.exists('redirect') ? LocalStorage.select('redirect') : './index.html';
-            LocalStorage.delete('redirect');
-        } else {
-            alert('Senha invalida. Verifique e tente novamente.');
-        }
-    })
-    .catch(err => alert('Usuário inválido. Verifique e tente novamente.'));
+    } else {
+        alert('Usuário ou senha inválidos. Verifique e tente novamente.');
+    };
 })

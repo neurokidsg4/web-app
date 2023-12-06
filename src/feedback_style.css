@@ -1,6 +1,10 @@
 @import url('rodape.css');
 @import url('cabecalho.css');
 @import url('menu_mobile.css');
+@import url('css/cadastro/responsivo.css');
+@import url('css/cadastro/formulario_cadastro.css');
+@import url('css/componentes_comuns/input_invalid.css');
+
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
@@ -37,13 +41,6 @@ main {
 }
 
 /* Estilos para a página de conteúdo */
-form {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 10px; 
-    max-width: 500px;
-    margin: 0 auto; 
-}
 
 .page-infomation {
     text-align: center;
@@ -55,22 +52,40 @@ form {
 }
 
 .feedback-form {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+    max-width: 500px;
+    margin: 0 auto; 
     width: 80%; 
     max-width: 500px; 
-    height: 500px;
     max-height: 80%;
     margin: 0 auto;
-    padding: 20px; 
     text-align: left; 
     border: 1px solid #ccc; 
     border-radius: 10px; 
-    background-color: #f9f9f9; 
+    background-color: #f5f5f5; 
     margin-top: 30px;
 }
 
-.experience{
-    font-weight: bold; 
+#fieldset {
+    padding: 20px 20px 25px 20px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
+
+.field {
+    max-width: 390px;
+    font-size: large;
+}
+
+#fieldset-other {
+    border: none;
+    padding: 0 20px 0 20px;
+}
+
 
 .satisfaction{
     margin-top: 15px;
@@ -97,11 +112,6 @@ form {
     margin-top: 15px;
 }
 
-.message-area label {
-    text-align: left; 
-    font-weight: bold; 
-}
-
 .message-area textarea {
     width: 100%; 
     padding: 10px;
@@ -112,8 +122,13 @@ form {
     border-radius: 10px;
 }
 
+#message {
+    border: 1px solid #ccc;
+}
+
 .buttons {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .buttons button {
@@ -141,7 +156,7 @@ form {
     background-color: #F86645;
 }
 
-.feedback-form .buttons button {
+ .buttons button {
     width: 150px;
     height: 40px;
 }
@@ -157,25 +172,25 @@ form {
     font-size: 13px;
 }
 
-.feedback-form #sentiment_satisfied {
+ #sentiment_satisfied {
     color: #4CAF50; 
     cursor: pointer; 
     transition: transform 0.2s;
 }
 
-.feedback-form #sentiment_neutral {
+ #sentiment_neutral {
     color: #FFC107; 
     cursor: pointer; 
     transition: transform 0.2s;
 }
 
-.feedback-form #sentiment_dissatisfied {
+ #sentiment_dissatisfied {
     color: #FF0000;
     cursor: pointer; 
     transition: transform 0.2s;
 }
 
-.feedback-form #sentiment_satisfied:hover , #sentiment_neutral:hover, #sentiment_dissatisfied:hover {
+ #sentiment_satisfied:hover , #sentiment_neutral:hover, #sentiment_dissatisfied:hover {
     transform: scale(1.2); 
 }
 

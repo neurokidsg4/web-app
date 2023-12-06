@@ -1,4 +1,8 @@
 
+import { Game } from './js/entities/Jogo.js';
+
+const jogo = new Game('Matematica');
+
 var num1 = 0;
 var num2 = 0;
 var cont = 1;
@@ -37,15 +41,17 @@ btnConfimar.addEventListener("click", function () {
     var calculo = num1 + num2;
     var resposta = document.getElementById("resposta").value;
 
-
-
     if (calculo == resposta) {
+
+        jogo.sumPoint();
 
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
         if (cont < 5) {
 
+            jogo.attempt();
+            
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
 

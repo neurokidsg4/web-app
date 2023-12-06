@@ -64,14 +64,20 @@ main {
 
 .button ul {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 50px 0px 50px 0px;
+    flex-wrap: wrap;
 }
 
 .button ul li {
     margin-right: 10px;
 }
 
+#btn-historico {
+    border: none;
+}
+
+#btn-historico,
 #btn-edit-pw,
 #btn-del-acount,
 #btn-edit {

@@ -1,65 +1,58 @@
-import { Cryptography } from '../services/Cryptography.js'
 
 export class User{
 
-    photo;
-    name;
+    nome;
     email;
-    acting;
-    gender;
-    cellPhone;
-    birth;
-    password;
-    about;
+    atuacao;
+    genero;
+    celular;
+    nascimento;
+    senha;
+    sobreMin;
     cep;
 
-    constructor(photo, name, email, acting, gender, cellPhone, birth, password, about, cep) {
-        this.photo = photo,
-        this.name = name,
+    constructor(nome, email, atuacao, genero, celular, nascimento, senha, sobreMin, cep) {
+        this.nome = nome,
         this.email = email,
-        this.acting = acting,
-        this.gender = gender,
-        this.cellPhone = cellPhone,
-        this.birth = birth,
-        this.password = Cryptography.utf8_to_b64(password),
-        this.about = about,
+        this.atuacao = atuacao,
+        this.genero = genero,
+        this.celular = celular,
+        this.nascimento = nascimento,
+        this.senha = senha,
+        this.sobreMin = sobreMin,
         this.cep = cep
     }
 
-    get photo() {
-        return this.photo;
-    }
-
-    get name() {
-        return this.name;
+    get nome() {
+        return this.nome;
     }
 
     get email() {
         return this.email;
     }
 
-    get acting() {
-        return this.acting;
+    get atuacao() {
+        return this.atuacao;
     }
 
-    get gender() {
-        return this.gender;
+    get genero() {
+        return this.genero;
     }
 
-    get cellPhone() {
-        return this.cellPhone;
+    get celular() {
+        return this.celular;
     }
 
-    get birth() {
-        return this.birth;
+    get nascimento() {
+        return this.nascimento;
     }
 
-    get password() {
-        return this.password;
+    get senha() {
+        return this.senha;
     }
 
-    get about() {
-        return this.about;
+    get sobreMin() {
+        return this.sobreMin;
     }
 
     get cep() {

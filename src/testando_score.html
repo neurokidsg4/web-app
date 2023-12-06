@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./testando_screen.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div id="box">
+            <h4 class="main_title">Score</h4>
+            <span class="close material-symbols-outlined">close</span>
+
+            <div id="catalog_game_peformance">
+                <div id="row">
+                    <!-- colocar essa tag para ser inserida por javascript -->
+                    <!-- C7D941    0BB3D9    F6F6F6    505050     F86645 -->
+                    <div class="group row__group">
+                        <div class="field group__field"><p class="game-name group__text">${game}</p></div>
+    
+                        <span class="arrow material-symbols-outlined">east</span>
+    
+                        <div class="field group__field">
+                            <p class="group__text">Desempenho</p>
+                            <i id="group__peformance">${peformance}</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="row">
+                    <!-- colocar essa tag para ser inserida por javascript -->
+                    <!-- C7D941    0BB3D9    F6F6F6    505050     F86645 -->
+                    <div class="group row__group">
+                        <div class="field group__field"><p class="game-name group__text">${game}</p></div>
+    
+                        <span class="arrow material-symbols-outlined">east</span>
+    
+                        <div class="field group__field">
+                            <p class="group__text">Desempenho</p>
+                            <i id="group__peformance">${peformance}</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="filter">
+                    <p class="filter__text">Filtrar por:</p>
+                    <select class="filter__selection" name="filter" id="filter">
+                        <option value="todos" selected>Todos os jogos</option>
+                        <option value="matematica">Matematica</option>
+                        <option value="acerte_as_cores">Acerte as Cores</option>
+                        <option value="objetos_coloridos">Contagem de Objetos Coloridos</option>
+                    </select>
+                </div>
+
+                <div>
+                    <div id="head--table">
+                        <div class="field">
+                            <p class="head--table__text">Jogo</p>
+                        </div>
+                        
+                        <div class="field">
+                            <p class="head--table__text">Desempenho</p>
+                        </div>
+                        
+                        <div class="field">
+                            <p class="head--table__text">Data</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container--list">
+                <!-- colocar essa tag para ser inserida por javascript -->
+                <ul id="list">
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Acerte as Cores</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Alto</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">12/08/2023</p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <div class="item__game">
+                            <p class="item__text">Contagem de Objetos Coloridos</p>
+                        </div>
+                        
+                        <div class="item__peformance">
+                            <p class="item__text">Medio</p>
+                        </div>
+                        
+                        <div class="item__date">
+                            <p class="item__text">13/08/2023</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <button class="btn btn--fechar">Fechar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

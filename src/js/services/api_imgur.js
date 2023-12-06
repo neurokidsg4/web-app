@@ -5,6 +5,7 @@ const photo = document.getElementById('photo');
 const filePictury = document.getElementById('file__pictury');
 
 let photoReader;
+let photoSend;
 
 filePictury.addEventListener('change', function (evt) {
     if (!(evt.target && evt.target.files && evt.target.files.length > 0)) {
@@ -30,24 +31,17 @@ filePictury.addEventListener('change', function (evt) {
             },
             body: formData
         })
-            .then(response => response.json())
-            .then(data => {
-                console.log('Imagem enviada para o LocalStorage com sucesso:', data);
-                
-                // Armazena o link Imgur em localStorage para recuperar em outra página
-                const imgurLink = data.data.link;
-                localStorage.setItem('imgurLink', imgurLink);
-
-                // Exibe uma mensagem no navegador
-                alert('Imagem enviada para o LocalStorage com sucesso!');
-
-                // Redireciona para outra página
-                //window.location.href = './index.html';
-            })
-            .catch(error => {
-                console.error('Erro ao enviar imagem para o LocalStorage:', error);
-                alert('Erro ao enviar imagem para o LocalStorage. Por favor, tente novamente.');
-            });
+        .then(response => response.json())
+        .then(data => {
+                            
+            // Armazena o link Imgur em localStorage para recuperar em outra página
+            const imgurLink = data.data.link;
+            localStorage.setItem('foto', imgurLink);
+        })
+        .catch(error => {
+            console.error('Erro ao enviar imagem para o LocalStorage:', error);
+            alert('Erro ao enviar imagem para o LocalStorage. Por favor, tente novamente.');
+        });
     };
 
     photoReader.readAsDataURL(evt.target.files[0]);

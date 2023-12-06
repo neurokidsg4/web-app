@@ -1,3 +1,7 @@
+import { Game } from './js/entities/Jogo.js'
+
+const objGame = new Game('Acerte as Cores');
+
 // Obtém os elementos HTML relevantes
 const circles = document.querySelectorAll('.circle');
 const colorName = document.querySelector('.color-name');
@@ -25,6 +29,9 @@ function startGame() {
 
     // Verificar se atingiu o limite de tentativas
     if (numAttempts > 5) {
+
+        objGame.gameSaves('acerteAsCores');
+
         // Limpar a mensagem e exibir apenas o botão de voltar
         message.textContent = '';
         continueButton.style.display = 'none';
@@ -63,9 +70,15 @@ function startGame() {
 
 // Função para lidar com o clique em um círculo
 function handleCircleClick(event) {
+
+    objGame.attemptCounter();
+
     const clickedColorIndex = Array.from(circles).indexOf(event.target);
 
     if (clickedColorIndex === correctColorIndex) {
+
+        objGame.sumPoint();
+
         // O jogador acertou
         correctGuessesPerAttempt++;
         message.textContent = 'Você acertou! Parabéns!\n' + correctGuessesPerAttempt + ' de 5';
@@ -126,9 +139,9 @@ function handleBackButtonClick() {
 }
 
 // Função para salvar a lista de acertos por tentativa no localStorage
-function saveCorrectGuessesPerAttempt() {
+// function saveCorrectGuessesPerAttempt() {
     // Obter as tentativas anteriores do localStorage
-    const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
+    // const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
 
     // Adicionar a lista atual à lista de tentativas anteriores
     previousAttempts.push({ 
@@ -140,9 +153,9 @@ function saveCorrectGuessesPerAttempt() {
     });
 
     // Salvar a lista completa no localStorage
-    localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
+    // localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
 
-}
+// }
 
 // Iniciar o jogo quando a página carregar
 window.addEventListener('load', startGame);

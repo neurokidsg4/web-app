@@ -13,7 +13,7 @@
   <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="perfil.css">
 
-  <title>Perfil</title>
+  <title>NeuroKids</title>
 </head>
 
 <body>
@@ -86,9 +86,8 @@
 
     <nav id="nav-cabecalho">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="area_infantil.html">Área infantil</a></li>
-        <li><a href="perfil.html">Perfil</a></li>
+        <li><a class=" area__infantil childish_redirect_if">Área infantil</a></li>
+        <li><a class="area__infantil profile_redirect_if">Perfil</a></li>
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
         <li><a href="ajuda.html">Ajuda</a></li>
@@ -148,6 +147,11 @@
 
         <div class="button">
           <ul>
+            
+              <li>
+                <button id="btn-historico">Historico dos jogos</button>
+              </li>
+
             <a href="editar-perfil.html" target="_self">
               <li id="btn-edit">Editar perfil</li>
             </a>
@@ -196,7 +200,7 @@
           <div class="data-email">
             <ul>
               <li id="data-email-1">Email</li>
-              <li id="info-email-1">charles_deo@gmail.com</li>
+              <li id="info-email-1"></li>
             </ul>
           </div>
 
@@ -221,11 +225,7 @@
 
         <h2>Sobre mim</h2>
 
-        <p id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cupiditate culpa veritatis non praesentium
-          sed doloribus quia hic tempora vero! Saepe numquam quos odit dignissimos, sunt error corrupti. Voluptatem,
-          quo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, corporis impedit? Nisi eos minus,
-          dolore tempora nulla sit error exercitationem quidem cum at tenetur nihil reiciendis repudiandae nemo.
-          Iusto, tenetur!</p>
+        <p id="iabout-me"></p>
 
       </div>
 
@@ -249,5 +249,8 @@
   
   <script type="module" src="js/logar_deslogar.js"></script>
   <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+  <script type="module" src="js/verifica_login.js"></script>
+  <script type="module" src="js/dialog_score.js"></script>
+  <script type="module" src="js/score.js"></script>
 </body>
 </html>

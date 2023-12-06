@@ -1,4 +1,13 @@
 
+import { Game } from './js/entities/Jogo.js';
+
+const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+const jogo = new Game('Jogo de Matematica - Subtracao', usuario.nome);
+
+console.log(jogo)
+console.log(usuario)
+console.log(usuario.nome)
+
 var num1 = 0;
 var num2 = 0;
 var cont = 1;
@@ -33,7 +42,7 @@ function geraNum() {
 geraNum();
 
 //Ação ao confirmar a resposta.
-btnConfimar = document.getElementById("iconfirm");
+const btnConfimar = document.getElementById("iconfirm");
 
 btnConfimar.addEventListener("click", function () {
 
@@ -45,6 +54,8 @@ btnConfimar.addEventListener("click", function () {
 
 
     if (calculo == resposta) {
+
+        jogo.sumPoint();
 
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
@@ -72,8 +83,9 @@ btnConfimar.addEventListener("click", function () {
             btnVoltar.addEventListener("click", function(){
                 window.location.href = "/src/area_infantil.html";
             });
-        }
 
+            jogo.gameSaves('jogoMatematicaSubtracao');
+        }
     }
 
     else{
@@ -81,7 +93,9 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("resultado").innerHTML = "Tente mais uma vez.";
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
-
     }
+});
 
+btnProximaFase.addEventListener('click', () => {
+    window.location.href = './jogo-matematica-fase3.html';
 });

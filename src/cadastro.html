@@ -32,7 +32,8 @@
                     <label id="field--name" class="field" for="name">* Nome
                         <div>
                             <div>
-                                <input id="name" class="input input--required" title="Digite seu nome" type="text" name="name" placeholder="Qual é o seu nome?" required>
+                                <input style="display: none;">
+                                <input id="name" class="input input--required" name="name" type="text" title="Digite seu nome" placeholder="Qual é o seu nome?" required>
                             </div>
     
                             <p id="message--name" class="message--invalid">Este campo deve conter apenas letras. Evite usar caracteres especiais, números e outros</p>
@@ -45,9 +46,9 @@
                             <select id="gender" class="input input--required" title="Digite seu genero" name="gender" required>
                             
                                 <option value="" selected disabled>Qual o seu genero?</option>
-                                <option value="nao_binario">Não binario</option>
-                                <option value="mulher">Mulher</option>
-                                <option value="homem">Homem</option>
+                                <option value="Não binario">Não binario</option>
+                                <option value="Mulher">Mulher</option>
+                                <option value="Homem">Homem</option>
                                 
                             </select>
                         </div>
@@ -194,10 +195,10 @@
         </nav>
     </footer>
 
-    <script type="module" src="js/services/busca_cep.js"></script>
+    <script type="module" src="js/services/api_cep.js"></script>
+    <script type="module" src="js/services/api_imgur.js"></script>
     <script type="module" src="js/exibe_oculta_senha.js"></script>
-    <script type="module" src="js/foto_cadastro2.js"></script>
-    <script type="module" src="js/submete_formulario.js"></script>
+    <script type="module" src="js/controllers/cadastro.js"></script>
     <script type="module" src="js/validadores_input/celular.js"></script>
     <script type="module" src="js/validadores_input/confirma_senha.js"></script>
     <script type="module" src="js/validadores_input/email.js"></script>
