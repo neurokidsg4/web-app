@@ -1,18 +1,22 @@
 
 export class Game {
 
-    gameHistory = [];    
+    gameHistory = localStorage.getItem('jogos') ? JSON.parse(localStorage.getItem('jogos')) : {};    
     punctuation = 0;
+    attempt = 0;
     gameName = '';
     userName = '';
-
-    constructor(gameName, userName) {
+    
+    constructor(gameName) {
         this.gameName = gameName;
-        this.userName = userName;
     }
 
     sumPoint() {
         this.punctuation += 1;
+    }
+
+    attemptCounter() {
+        this.attempt += 1;
     }
 
     returnPerformance() {
@@ -38,18 +42,21 @@ export class Game {
 
     gameSaves(keyGame) {
 
-        this.gameHistory = localStorage.getItem(keyGame) ? JSON.parse(localStorage.getItem(keyGame)) : [];
+        // this.gameHistory = localStorage.getItem(keyGame) ? JSON.parse(localStorage.getItem(keyGame)) : [];
+
+        const gameResult = this.gameHistory[keyGame];
 
         const jogo = {
-            punctuation: `Acertou ${this.punctuation} pontos de um total de 5`,
             performance: this.returnPerformance(),
+            punctuation: this.punctuation,
             gameName: this.gameName,
-            userName: this.userName,
-            data: new Date()
+            attempt: this.attempt,
+            data: new Date(),
         };
 
-        this.gameHistory.push(jogo);
-            
-        localStorage.setItem(keyGame, JSON.stringify(this.gameHistory));
+        gameResult.push(jogo)
+        this.gameHistory[keyGame] = gameResult;
+
+        localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
     }
 }
