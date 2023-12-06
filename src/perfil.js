@@ -7,4 +7,4 @@ document.getElementById("info-birth-1").innerHTML = usuario.nascimento;
 document.getElementById("info-email-1").innerHTML = usuario.email;
 document.getElementById("info-cell-1").innerHTML = usuario.celular;
 document.getElementById("info-add-1").innerHTML = usuario.cep;
-document.getElementById("iabout-me").innerHTML = usuario.sobreMim;
+document.getElementById("iabout-me").innerHTML = usuario.sobreMin;
