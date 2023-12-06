@@ -6,7 +6,13 @@ const continueButton = document.querySelector('#continue');
 const backButton = document.querySelector('#back');
 let correctColorIndex = 2; // Índice do círculo correto (0-5)
 let numAttempts = 0;
-let correctGuessesPerAttempt = 0
+let correctGuessesPerAttempt = 0;
+let performance;
+const gameName = 'Jogo de Cores';
+let day;
+let month;
+let year;
+let actualDate;
 
 // Array de cores para o jogo
 const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
@@ -15,6 +21,7 @@ const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
 function startGame() {
     // Incrementar o número de tentativas
     numAttempts++;
+    captureActualDate();
 
     // Verificar se atingiu o limite de tentativas
     if (numAttempts > 5) {
@@ -23,8 +30,9 @@ function startGame() {
         continueButton.style.display = 'none';
         backButton.style.display = 'block';
         backButton.addEventListener('click', handleBackButtonClick);
+        classifyPerformance();
         saveCorrectGuessesPerAttempt();
-        return;
+        return
     }
 
     // Escolher uma cor aleatória para adivinhar
@@ -78,6 +86,38 @@ function handleCircleClick(event) {
     backButton.addEventListener('click', handleBackButtonClick);
 }
 
+function verifyNumAttempts() {
+    if (numAttempts > 1) {
+        performance = parseInt((correctGuessesPerAttempt / (numAttempts - 1)) * 100);
+    }
+
+    return performance
+}
+
+function classifyPerformance() {
+    performance = verifyNumAttempts();
+    if (performance >= 80){
+        performance = 'Alto';
+    }
+    else if (performance >= 60){
+        performance = 'Médio';
+    }
+    else {
+        performance = 'Baixo';
+    };
+
+    return performance
+}
+
+function captureActualDate() {
+    const date = new Date();
+    day =  String(date.getDate()).padStart(2, '0');
+    month = String(date.getMonth() + 1).padStart(2, '0');
+    year = date.getFullYear();
+    actualDate = day + '/' + month + '/' + year;
+
+    return actualDate
+}
 
 // Função para lidar com o clique no botão "Voltar"
 function handleBackButtonClick() {
@@ -91,7 +131,13 @@ function saveCorrectGuessesPerAttempt() {
     const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
 
     // Adicionar a lista atual à lista de tentativas anteriores
-    previousAttempts.push({ attempt: numAttempts - 1 , correct: correctGuessesPerAttempt });
+    previousAttempts.push({ 
+        attempt: numAttempts - 1 , 
+        correct: correctGuessesPerAttempt, 
+        gameName: gameName, 
+        performance: performance,
+        date: actualDate,
+    });
 
     // Salvar a lista completa no localStorage
     localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
