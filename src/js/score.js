@@ -2,7 +2,6 @@
 const catalogPeformance = document.getElementById('catalog_game_peformance');
 
 
-// const acerteAsCores = gameHistory.acerteAsCores || [];
 const gameHistory = JSON.parse(localStorage.getItem('jogos')) || {};
 // const list = document.createElementFragment();
 
@@ -35,25 +34,45 @@ for(let i = 0; i < gameHistory.length; i++) {
     const peformanceText =  document.createElement('p').classList;
     peformanceText.add('group__text');
 
-    const peformanceResult =  document.createElement('i');
-    peformanceResult.classList.add('group__peformance');
-
-    nameGameFieldText.innerHTML = gameHistory[i][0].gameName;
+    const peformancePercentage =  document.createElement('i');
+    peformancePercentage.classList.add('group__peformance');
 
     const numberOfResults = gameHistory[i].length;
     let totalScore = 0;
     let expectedScore = 0;
-
-
-    const percentage = 
-    console.log(nameGameFieldText);
+    let percentage = 0;
 
     for(let t = 0; t < gameHistory[i].length; t++) {
         
+        gameHistory[i][t].gameName;
 
+        totalScore += gameHistory[i][t].punctuation;
+        expectedScore += gameHistory[i][t].attempt;
+
+        gameHistory[i][t].peformance;
+        gameHistory[i][t].data;
     }
-}
 
+    percentage = (totalScore * 100) / expectedScore;
+
+    
+    nameGameFieldText.innerHTML = gameHistory[i][0].gameName;
+    nameGameField.append(nameGameFieldText);
+    group.append(nameGameField);
+    
+    group.append(arrow);
+    
+    peformanceText.innerHTML = 'Desempenho: ';
+    peformancePercentage.innerHTML = `${percentage}%`;
+    peformanceField.append(peformanceText);
+    peformanceField.append();
+    group.append();
+
+    console.log(percentage);
+
+}
+//esta calculando a porcentagem
+//esta calculando adicionando o nome do jogo na tag <p>
 
 
 // element.classList.add ('new-class');
