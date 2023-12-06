@@ -1,3 +1,7 @@
+import { Game } from './js/entities/Jogo.js'
+
+const objGame = new Game('Acerte as Cores');
+
 // Obtém os elementos HTML relevantes
 const circles = document.querySelectorAll('.circle');
 const colorName = document.querySelector('.color-name');
@@ -18,6 +22,9 @@ function startGame() {
 
     // Verificar se atingiu o limite de tentativas
     if (numAttempts > 5) {
+
+        objGame.gameSaves('acerteAsCores');
+
         // Limpar a mensagem e exibir apenas o botão de voltar
         message.textContent = '';
         continueButton.style.display = 'none';
@@ -55,9 +62,15 @@ function startGame() {
 
 // Função para lidar com o clique em um círculo
 function handleCircleClick(event) {
+
+    objGame.attemptCounter();
+
     const clickedColorIndex = Array.from(circles).indexOf(event.target);
 
     if (clickedColorIndex === correctColorIndex) {
+
+        objGame.sumPoint();
+
         // O jogador acertou
         correctGuessesPerAttempt++;
         message.textContent = 'Você acertou! Parabéns!\n' + correctGuessesPerAttempt + ' de 5';

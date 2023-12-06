@@ -19,35 +19,38 @@ export class Game {
         this.attempt += 1;
     }
 
-    returnPerformance() {
+    returnPeformance() {
         
-        let performance = '';
+        let peformance = '';
         
         switch(this.punctuation) {
-            case 2 : performance = 'baixo';
+            case 1: peformance = 'baixo';
+                break;
+            
+            case 2: peformance = 'baixo';
+                break;
+            
+            case 3: peformance = 'medio';
                 break;
 
-            case 4: performance = 'medio';
+            case 4: peformance = 'alto';
                 break;
 
-            case 5: performance = 'alto';
+            case 5: peformance = 'alto';
                 break;
 
-            default: performance = '';
+            default: peformance = '';
                 break;
         };
 
-        return performance;
+        return peformance;
     }
 
     gameSaves(keyGame) {
-
-        // this.gameHistory = localStorage.getItem(keyGame) ? JSON.parse(localStorage.getItem(keyGame)) : [];
-
-        const gameResult = this.gameHistory[keyGame];
+        const gameResult = this.gameHistory[keyGame] || [];
 
         const jogo = {
-            performance: this.returnPerformance(),
+            peformance: this.returnPeformance(),
             punctuation: this.punctuation,
             gameName: this.gameName,
             attempt: this.attempt,
