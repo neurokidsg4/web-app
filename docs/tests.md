@@ -27,7 +27,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT01 - Acesso página principal**
  :--------------: | ------------
 **Procedimento**  | 1) O usuário deve acessar o link infomado em dados de entrada e ter acesso a página principal de conteúdo.
-**Requisitos associados** | RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.
+**Requisitos associados** | RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.<br>RNF-006	A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura.
 **Artefatos associados** | index.html
 **Resultado esperado** | Carregamento de página bem executado.
 **Dados de entrada** | [NeuroKids - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/)
@@ -94,7 +94,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-01 - Acesso página principal *                                    |
 |---|---|
-|Requisito Associado |RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.|
+|Requisito Associado |RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.<br>RNF-006	A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2410b8a9-c681-413b-b46c-e82352c29ad5| 
 
 
