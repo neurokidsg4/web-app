@@ -170,10 +170,8 @@ body{
     margin-bottom: 20px;
 }
 
-#data-add-nulo{
-    color: #ffffff;
-    font-weight: 640;
-
+.data-nulo{
+    visibility: hidden;
 }
 
 #info-add-nulo{

@@ -11,6 +11,8 @@ document.getElementById("email").value = usuario.email;
 document.getElementById("cell_phone").value = usuario.celular;
 document.getElementById("cep").value = usuario.cep;
 document.getElementById("about").value = usuario.sobreMin || '';
+document.getElementById("state").value = usuario.estado;
+document.getElementById("city").value = usuario.cidade;
 
 btnSave.addEventListener("click", function(){
 

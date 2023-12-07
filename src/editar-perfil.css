@@ -130,9 +130,8 @@ height: 100%;
     font-weight: 640;
 }
 
-.data-city{
-    position: absolute;
-    margin-left: 360px;
+.data-nulo{
+    visibility: hidden;
 }
 
 .data-gender{
@@ -233,7 +232,7 @@ select:invalid{
     color: gray;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1750px){
     .content{
         width: 90%;
         height: 100%;
@@ -266,7 +265,7 @@ select:invalid{
         justify-content:center;
     }
 
-    .data-1, .data-2{
+    .data-1, .data-2, .data-3{
         display: flex;
         flex-direction: column;
         text-align: left;
@@ -277,7 +276,7 @@ select:invalid{
         margin: 0px;
     }
 
-    .data-name, .data-gender, .data-birth, .data-email, .data-cell, .data-address{
+    .data-name, .data-gender, .data-birth, .data-email, .data-cell, .data-address, .data-state, .data-city{
         padding-bottom: 30px;
     }
 
