@@ -135,7 +135,7 @@ body{
 #data-birth-1,
 #data-email-1,
 #data-cell-1,
-#data-add-1, #data-add-estado, #data-add-cidade {
+#data-add-1, #data-add-estado, #data-add-cidade{
     color: #0BB3D9;
     font-weight: 640;
     
@@ -164,6 +164,23 @@ body{
     padding: 2px;
     margin-bottom: 20px;
 }
+
+#data-add-nulo{
+    color: #ffffff;
+    font-weight: 640;
+
+}
+
+#info-add-nulo{
+    border-bottom: solid #ffffff 2px;
+    width: 200px;
+    padding: 2px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+
 
 /*
 .data-cidade{
