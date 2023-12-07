@@ -20,7 +20,7 @@ main {
     display: flex;
     justify-content: center;
     flex: 1;
-    margin: 10px;
+    margin: 0px;
 }
 
 body{
@@ -107,6 +107,11 @@ body{
 }
 
 #btn-edit:hover {
+    cursor: pointer;
+    scale: 102%;
+}
+
+#btn-historico:hover {
     cursor: pointer;
     scale: 102%;
 }
@@ -207,7 +212,7 @@ body{
 
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1750px) {
     .content {
         width: 90%;
         height: 100%;
@@ -231,13 +236,13 @@ body{
     .name-ocupation {
         text-align: center;
         margin: 0px;
-        padding-top: 110px;
+        margin: 110px 0px 20px 0px;
     }
 
     .name-button {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        
     }
 
     .data-1,
