@@ -20,8 +20,6 @@ btnProximaFase.style.display = "none";
 const btnVoltar = document.getElementById("ivoltar");
 btnVoltar.style.display = "none";
 
-
-
 //Gera dois número aleatório de 0 a 10.
 function geraNum() {
 
