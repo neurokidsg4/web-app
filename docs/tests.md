@@ -87,6 +87,16 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Realizar login previamente.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT08 - Informações para pais e profissionais e sugestão de atividades escolares**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário, na página principal, deve rolar a página para baixo, encontrando uma sessão com foco nos pais e profissionais que lidam com crianças neurodiversas.<br>2a) O usuário querendo ter acesso a sugestões de atividade que podem ser realizadas no ambiente escolar, deve clicar em "saiba mais" no card que corresponde às atividades escolares propostas, será redirecionado para a tela onde serão dispostas 07 atividades propostas, o usuário decide qual acessar pela sua necessidade clicando novamente em "saiba mais" no devido card.<br>2b) O usuário querendo ter acesso sobre como lidar com crianças neurodiversas em 02 diferentes contextos ou procurando saber como é possível identificar a neurodiversidade ainda na infância, pode clicar em "saiba mais" no card que for de maior interesse do usuário, então será redirecionado para a página que trata sobre o assunto correspondente.<br>3a) O usuário, tendo acessado o card de sua preferência via desktop, pode decidir buscar por uma palavra específica em todo o corpo do texto, utilizando a lupa de busca, ou pode decidir compartilhar o conteúdo disponível de 05 formas diferentes (ícone de link - copia o link da página, ícone do twitter - compartilha pelo twitter do usuário, ícone do facebook - compartilha no facebook do usuário, ícone de e-mail - permite que o usuário compartilhe o conteúdo através do seu e-mail, ícone do linkedin - compartilha no linkedin do usuário).<br>3b) O usuário, tendo acessado o card de sua preferência via mobile, não estará habilitado a buscar por palavra específica, mas, assim como no desktop, conseguirá compartilhar o link das mesmas 05 formas diferentes clicando no botão "compartilhar" ao final de cada página com essa funcionalidade.
+**Requisitos associados** | RF-009	A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.<br>RF-010	A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.<br>RF-014	A aplicação deve conter campos de pesquisa nas páginas necessárias.<br>RNF-007	A aplicação deve conter conteúdos de atividades propostas para crianças.
+**Artefatos associados** | ambiente_escolar.html, ambiente_familar.html, atividades_escolares_tdah.html, atividades_escolares_tea.html, atividades_escolares_tod.html, atividades_imprimir_tdah.html, atividades_imprimir_tea.html, identificar_na_infancia.html, orientacoes_pedagogicas.html, plano_escolar_tod.html, sugestoes_atividades_escolares.html
+**Resultado esperado** | Acesso aos cards fluida.
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso.
+
+
 
 ## Registro dos Testes de Software
 
@@ -128,6 +138,14 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |---|---|
 |Requisito Associado |RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/20673b8c-66ad-42fe-ab94-ff9ead8f4733| 
+
+|*Caso de Teste*                                 |*TC-08 - Informações para pais e profissionais e sugestão de atividades escolares *                                         |
+|---|---|
+|Requisito Associado |RF-009	A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.<br>RF-010	A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.<br>RF-014	A aplicação deve conter campos de pesquisa nas páginas necessárias.<br>RNF-007	A aplicação deve conter conteúdos de atividades propostas para crianças.|
+|Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4121cedf-e4ab-480e-9a18-7d36da60d9ab| 
+|Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/32ed9ef9-5e45-47e4-b110-4c3198a73272| 
+|Link do vídeo do teste realizado - parte 03: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/b676ed30-5860-45da-a494-10e50221097a| 
+
 
 
 ## Avaliação dos Testes de Software
