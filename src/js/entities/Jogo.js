@@ -46,12 +46,7 @@ export class Game {
         return peformance;
     }
 
-    gameSaves(keyGame) {
-
-        console.log(this.gameHistory);
-        console.log(this.gameHistory.length);
-        console.log(this.gameHistory[0]);
-        console.log(this.gameHistory[0][0]);
+    gameSaves() {
 
         const jogo = {
             peformance: this.returnPeformance(),
@@ -61,22 +56,18 @@ export class Game {
             data: new Date(),
         };
 
-        let isOk = false;
-
         if(this.gameHistory.length > 0) {
-            console.log('entrei no primeiro if');
 
             for(let i = 0; i < this.gameHistory.length; i++) {
-                console.log('entrei no for');
         
                 if(this.gameName === this.gameHistory[i][0].gameName) {
-                    // console.log('entrei no segundo if');
 
                     this.gameHistory[i].push(jogo);
                     localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
                     return;
                 };
             };
+
         } else {
 
             this.gameHistory.push([jogo]);  

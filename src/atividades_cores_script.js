@@ -23,7 +23,7 @@ function startGame() {
     // Verificar se atingiu o limite de tentativas
     if (numAttempts > 5) {
 
-        objGame.gameSaves('acerteAsCores');
+        objGame.gameSaves();
 
         // Limpar a mensagem e exibir apenas o botão de voltar
         message.textContent = '';

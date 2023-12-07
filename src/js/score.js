@@ -1,42 +1,38 @@
 
-const catalogPeformance = document.getElementById('catalog_game_peformance');
-
 const gameHistory = JSON.parse(localStorage.getItem('jogos')) || {};
-const fragment = new DocumentFragment();
 
+const catalogPeformance = document.getElementById('catalog_game_peformance');
 for(let i = 0; i < gameHistory.length; i++) {
 
-    const row =  document.createElement('div');
-    row.classList.add('row');
+    const fragment = new DocumentFragment();
+    
+    const divRow =  document.createElement('div');
+    divRow.classList.add('row');
 
-    const group =  document.createElement('div')
-    group.classList.add('group');
-    group.classList.add('row__group');
+    const divGroup =  document.createElement('div')
+    divGroup.classList.add('group');
+    divGroup.classList.add('row__group');
 
-    const nameGameField =  document.createElement('div');
-    nameGameField.classList.add('field');
-    nameGameField.classList.add('group__field');
+    const divNameGameField =  document.createElement('div');
+    divNameGameField.classList.add('field');
+    divNameGameField.classList.add('group__field');
 
-    const nameGameFieldText = document.createElement('p')
-    nameGameFieldText.classList.add('game-name');
-    nameGameFieldText.classList.add('group__text');
+    const pNameGameText = document.createElement('p')
+    pNameGameText.classList.add('game-name');
+    pNameGameText.classList.add('group__text');
 
-    const arrow =  document.createElement('span');
-    arrow.classList.add('arrow');
-    arrow.classList.add('material-symbols-outlined');
-    arrow.innerHTML = 'east';
+    const spanArrow =  document.createElement('span');
+    spanArrow.classList.add('arrow');
+    spanArrow.classList.add('material-symbols-outlined');
+    spanArrow.innerHTML = 'east';
 
-    const peformanceField =  document.createElement('div');
-    peformanceField.classList.add('field');
-    peformanceField.classList.add('group__field');
+    const divPerformanceField =  document.createElement('div');
+    divPerformanceField.classList.add('field');
+    divPerformanceField.classList.add('group__field');
 
-    const peformanceText =  document.createElement('p');
-    peformanceText.classList.add('group__text');
+    const pPeformanceText =  document.createElement('p');
+    pPeformanceText.classList.add('group__text');
 
-    const peformancePercentage =  document.createElement('P');
-    peformancePercentage.classList.add('group__peformance');
-
-    const numberOfResults = gameHistory[i].length;
     let totalScore = 0;
     let expectedScore = 0;
     let percentage = 0;
@@ -53,45 +49,91 @@ for(let i = 0; i < gameHistory.length; i++) {
     }
 
     percentage = (totalScore * 100) / expectedScore;
-
     
-    nameGameFieldText.innerHTML = gameHistory[i][0].gameName;
-    nameGameField.append(nameGameFieldText);
-    group.append(nameGameField);
+    pNameGameText.innerHTML = gameHistory[i][0].gameName;
+    divNameGameField.append(pNameGameText);
+    divGroup.append(divNameGameField);
     
-    group.append(arrow);
+    divGroup.append(spanArrow);
     
-    peformanceText.innerHTML = `Desempenho: ${percentage}%`;
-    peformanceField.append(peformanceText);
-    group.append(peformanceField);
+    pPeformanceText.innerHTML = `Desempenho: ${percentage.toFixed(0)}%`;
+    divPerformanceField.append(pPeformanceText);
+    divGroup.append(divPerformanceField);
 
-    // peformancePercentage.innerHTML = `${percentage}%`;
-    // peformanceField.append(peformancePercentage);
+    divRow.append(divGroup);
 
-    row.append(group);
-
-    fragment.appendChild(row);
+    fragment.appendChild(divRow);
     catalogPeformance.append(fragment);
-}
+};
 
+const ul = document.getElementById('list');
+for(let j = 0; j < gameHistory.length; j++) {
 
-//esta calculando a porcentagem
-//esta calculando adicionando o nome do jogo na tag <p>
+    for(let k = 0; k < gameHistory[j].length; k++) {
 
+        const fragment = new DocumentFragment();
 
-// element.classList.add ('new-class');
+        const li = document.createElement('li');
+        li.classList.add('item');
+    
+        const divGameName = document.createElement('div');
+        divGameName.classList.add('item__game');
+    
+        const pGameName = document.createElement('p');
+        pGameName.classList.add('item__text');
+        pGameName.classList.add('game_name');
+    
+        const divPerformance = document.createElement('div');
+        divPerformance.classList.add('item__peformance');
+    
+        const pPerformance = document.createElement('p');
+        pPerformance.classList.add('item__text');
+    
+        const divDate = document.createElement('div');
+        divDate.classList.add('item__date');
+    
+        const pDate = document.createElement('p');
+        pDate.classList.add('item__text');
 
-// div.id = 'meuId' document.createElement('div'); div.setAttribute('id', 'meuId');
+        pGameName.textContent = gameHistory[j][k].gameName;
+        pPerformance.textContent = gameHistory[j][k].peformance;
+        pDate.textContent = gameHistory[j][k].data;
+        
+        divGameName.append(pGameName);
+        divPerformance.append(pPerformance);
+        divDate.append(pDate);
+        li.append(divGameName);    
+        li.append(divPerformance);    
+        li.append(divDate);    
+    
+        fragment.append(li);
+        ul.append(fragment);
+    };
+};
 
-// <div class="row">
-//     <div class="group row__group">
-//         <div class="field group__field"><p class="game-name group__text">${game}</p></div>
+const filter = document.querySelector('.filter__selection');
+filter.addEventListener('change', search);
 
-//         <span class="arrow material-symbols-outlined">east</span>
+function search() {
 
-//         <div class="field group__field">
-//             <p class="group__text">Desempenho</p>
-//             <i id="group__peformance">${peformance}</i>
-//         </div>
-//     </div>
-// </div>
+    const results = document.querySelectorAll('.game_name');
+    const value = filter.value;
+    
+    results.forEach(item => {
+
+        if(item.innerText.includes(value) || value.includes('Todos')) {
+
+            const div = item.parentNode;
+            const li = div.parentNode;
+            li.style.display = 'grid';
+            document.querySelector('.message--not_history').style.display = 'none';
+
+        } else {
+
+            const div = item.parentNode;
+            const li = div.parentNode;
+            li.style.display = 'none';
+            document.querySelector('.message--not_history').style.display = 'inline-block';
+        }
+    });
+};
