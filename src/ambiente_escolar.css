@@ -255,7 +255,7 @@ dialog:hover, dialog:focus {
 
 /* Responsividade ambiente escolar */
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1500px) {
     .share-icon{
         display: none;
     }
@@ -264,7 +264,7 @@ dialog:hover, dialog:focus {
     }
 }
 
-@media screen and (min-width:1800px) {
+@media screen and (min-width:1500px) {
     .share-button{
         display: none;
 }
