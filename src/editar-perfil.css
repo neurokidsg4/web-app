@@ -285,13 +285,13 @@ select:invalid{
         color: #0BB3D9;
     }
 
-    #info-name-1, #info-gender-1, #info-birth-1, #info-email-1, #info-cell-1, #info-address-1{
+    #info-name-1, #info-gender-1, #info-birth-1, #info-email-1, #info-cell-1, #info-address-1, #info-state, #info-city{
 
         width: 100%;
     }
 
     #gender-select, #name, #birth, #email, #cell_phone, #cep, #state, #city{
-        width: 90%;
+        width: 100%;
     }
 
     #about{
