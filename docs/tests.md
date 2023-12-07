@@ -97,8 +97,8 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-05 - Enviar feedback *                                         |
 |---|---|
-|Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.|
-|Link do vídeo do teste realizado: |  | 
+|Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/c8c43a19-1560-48fd-a46b-d8eeb239878d| 
 
 
 ## Avaliação dos Testes de Software
