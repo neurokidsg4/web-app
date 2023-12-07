@@ -2,11 +2,10 @@
 //Se comentar as 4 linha enumeradas abaixo o jogo roda normalmente.
 
 //comentar essa linha (1)
-import { Game } from './js/entities/Jogo.js';
+// import { Game } from './js/entities/Jogo.js';
 
 //comentar essa linha(2)
-const jogo = new Game('Matematica');
-
+// const jogo = new Game('Matematica');
 
 var num1 = 0;
 var num2 = 0;
@@ -49,7 +48,7 @@ btnConfimar.addEventListener("click", function () {
     if (calculo == resposta) {
 
         //comentar essa linha(3)
-        jogo.sumPoint();
+        // jogo.sumPoint();
 
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
@@ -57,7 +56,7 @@ btnConfimar.addEventListener("click", function () {
         if (cont < 5) {
 
             //cometar essa linha(4)
-            jogo.attempt();
+            // jogo.attempt();
             
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
