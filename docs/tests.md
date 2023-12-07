@@ -78,6 +78,15 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Inserção de dados do formulário de feedback.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT07 - Sessão específica para crianças neurodiversas e atividades interativas**
+ :--------------: | ------------
+**Procedimento**  | 1a) O usuário, no desktop e estando logado, deve clicar na palavra "Área Infantil" onde será redirecionado para uma tela específica para crianças neurodiversas, contendo as atividades interativas.<br>1b) O usuário, no mobile e estando logado, deve clicar no ícone "Infantil" onde será redirecionado para uma tela específica para crianças neurodiversas, contendo as atividades interativas.<br>2) O usuário tendo acessado a sessão infantil pode escolher umas das três atividades disponíveis em "cards" e clicar em "jogue".
+**Requisitos associados** | RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.
+**Artefatos associados** | area_infantil.html, atividade_cores.html, jogo-matematica.html, jogo-matematica-fase2.html, jogo-matematica-fase3.html, jogo-matematica-fase4.html
+**Resultado esperado** | Acesso área infantil e conseguir realizar as atividades interativas.
+**Dados de entrada** | Realizar login previamente.
+**Resultado obtido** | Sucesso.
+
 
 ## Registro dos Testes de Software
 
@@ -114,6 +123,11 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |---|---|
 |Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/c8c43a19-1560-48fd-a46b-d8eeb239878d| 
+
+|*Caso de Teste*                                 |*TC-07 - Sessão específica para crianças neurodiversas e atividades interativas *                                         |
+|---|---|
+|Requisito Associado |RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/20673b8c-66ad-42fe-ab94-ff9ead8f4733| 
 
 
 ## Avaliação dos Testes de Software
