@@ -63,7 +63,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT5 - Enviar feedback**
  :--------------: | ------------
 **Procedimento**  | 1a) Pelo desktop o usuário deve clicar na palavra "feedback" no menu de navegação superior para ser redirecionado para a página de feedback. <br>1b) Pelo mobile o usuário deve clicar no menu hamburguer e depois clicar no ícone de feedback para ser redirecionado para a página de feedback. <br>2) Estando na página de feedback, o usuário pode preencher o campo "nome" com o próprio nome e o campo "e-mail" com seu próprio e-mail, esses dois campos são opcionais. <br>3) O usuário deve selecionar um dos 03 emojis disponíveis para relatar sua satisfação/experiência com a aplicação. <br> O usuário deve inserir uma mensagem sobre a aplicação no campo "mensagem". <br>4) O usuário deve selecionar o tipo do feedback fornecido, selecionando uma das opções disponíveis (bug, sugestão ou outro). <br>5) Após todos os passos acima terem sido executados o usuário pode escolher enviar e o feedback será direcionado para a equipe desenvolvedora.
-**Requisitos associados** | RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email específica para isso, exclusiva própria dela.
+**Requisitos associados** | RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email específica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.
 **Artefatos associados** | feedback.js
 **Resultado esperado** | Feedback enviado.
 **Dados de entrada** | Inserção de dados do formulário de feedback.
