@@ -27,7 +27,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT01 - Acesso página principal**
  :--------------: | ------------
 **Procedimento**  | 1) O usuário deve acessar o link infomado em dados de entrada e ter acesso a página principal de conteúdo.
-**Requisitos associados** | A aplicação deve conter uma página principal de apresentação dos conteúdos.
+**Requisitos associados** | RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.
 **Artefatos associados** | index.html
 **Resultado esperado** | Carregamento de página bem executado.
 **Dados de entrada** | [NeuroKids - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/)
@@ -82,6 +82,12 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 ## Registro dos Testes de Software
 
 Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
+
+|*Caso de Teste*                                 |*TC-01 - Acesso página principal *                                    |
+|---|---|
+|Requisito Associado |RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2410b8a9-c681-413b-b46c-e82352c29ad5| 
+
 
 |*Caso de Teste*                                 |*TC-02 - Cadastrar usuário *                                         |
 |---|---|
