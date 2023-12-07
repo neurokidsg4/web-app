@@ -82,7 +82,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-02 - Logar Usuário *                                         |
 |---|---|
 |Requisito Associado |  RF-003 A aplicação deve permitir que o usuário faça login.|
-|Link do vídeo do teste realizado: | | 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/88bd8883-c1ed-483b-98aa-76410ae79249| 
 
 
 |*Caso de Teste*                                 |*TC-03 - Criptografar Dados *                                         |
