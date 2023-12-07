@@ -8,3 +8,5 @@ document.getElementById("info-email-1").innerHTML = usuario.email;
 document.getElementById("info-cell-1").innerHTML = usuario.celular;
 document.getElementById("info-add-1").innerHTML = usuario.cep;
 document.getElementById("iabout-me").innerHTML = usuario.sobreMin;
+document.getElementById("info-add-estado").innerHTML = usuario.estado;
+document.getElementById("info-add-cidade").innerHTML = usuario.cidade;

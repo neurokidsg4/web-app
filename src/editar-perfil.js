@@ -21,6 +21,8 @@ btnSave.addEventListener("click", function(){
     usuario.celular = document.getElementById("cell_phone").value;
     usuario.cep = document.getElementById("address").value;
     usuario.sobre = document.getElementById("about").value;
+    usuario.estado = document.getElementById("state").value;
+    usuario.cidade = document.getElementById("city").value;
 
     localStorage.setItem("usuario", JSON.stringify(usuario));
 });
