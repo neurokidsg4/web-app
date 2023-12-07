@@ -96,6 +96,15 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT09 - Descrição da aplicação**
+ :--------------: | ------------
+**Procedimento**  | 1a) O usuário, via desktop, deve, no menu de navegação superior, clicar em "sobre nós" para ser redirecionado para a página onde se encontram as descrições da aplicação, tais como: quem somos, nossa missão, visão e valores.<br>1b) O usuário, via mobile, deve, clicar no menu hamburguer, e em sequência, clicar no ícone "sobre nós" e ser redirecionado para a página onde se encontram as descrições da aplicação, tais como: quem somos, nossa missão, visão e valores.
+**Requisitos associados** | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.
+**Artefatos associados** | sobre_nos.html
+**Resultado esperado** | Acesso sem problemas à página Sobre Nós
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso.
+
 
 
 ## Registro dos Testes de Software
@@ -145,6 +154,11 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4121cedf-e4ab-480e-9a18-7d36da60d9ab| 
 |Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/32ed9ef9-5e45-47e4-b110-4c3198a73272| 
 |Link do vídeo do teste realizado - parte 03: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/b676ed30-5860-45da-a494-10e50221097a| 
+
+|*Caso de Teste*                                 |*TC-09 - Descrição da aplicação *                                         |
+|---|---|
+|Requisito Associado | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6f89b14f-fd47-4df6-8523-9a817811f610| 
 
 
 
