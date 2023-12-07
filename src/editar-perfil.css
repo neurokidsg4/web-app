@@ -290,12 +290,12 @@ select:invalid{
         width: 100%;
     }
 
-    #gender, #name, #birth, #email, #cell_phone, #address{
-        width: 350px;
+    #gender-select, #name, #birth, #email, #cell_phone, #cep, #state, #city{
+        width: 90%;
     }
 
     #about{
-        width: 350px;
+        width: 90%;
         resize: none;
     }
     
