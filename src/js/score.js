@@ -1,7 +1,7 @@
 
 const gameHistory = JSON.parse(localStorage.getItem('jogos')) || {};
 
-const catalogPeformance = document.getElementById('catalog_game_peformance');
+const catalogPerformance = document.getElementById('catalog_game_performance');
 for(let i = 0; i < gameHistory.length; i++) {
 
     const fragment = new DocumentFragment();
@@ -30,22 +30,16 @@ for(let i = 0; i < gameHistory.length; i++) {
     divPerformanceField.classList.add('field');
     divPerformanceField.classList.add('group__field');
 
-    const pPeformanceText =  document.createElement('p');
-    pPeformanceText.classList.add('group__text');
+    const pPerformanceText =  document.createElement('p');
+    pPerformanceText.classList.add('group__text');
 
     let totalScore = 0;
     let expectedScore = 0;
     let percentage = 0;
 
     for(let t = 0; t < gameHistory[i].length; t++) {
-        
-        gameHistory[i][t].gameName;
-
         totalScore += gameHistory[i][t].punctuation;
         expectedScore += gameHistory[i][t].attempt;
-
-        gameHistory[i][t].peformance;
-        gameHistory[i][t].data;
     }
 
     percentage = (totalScore * 100) / expectedScore;
@@ -56,14 +50,16 @@ for(let i = 0; i < gameHistory.length; i++) {
     
     divGroup.append(spanArrow);
     
-    pPeformanceText.innerHTML = `Desempenho: ${percentage.toFixed(0)}%`;
-    divPerformanceField.append(pPeformanceText);
+    pPerformanceText.innerHTML = `Desempenho: ${percentage.toFixed(0)}%`;
+    divPerformanceField.append(pPerformanceText);
     divGroup.append(divPerformanceField);
 
     divRow.append(divGroup);
 
+    console.log(catalogPerformance);
+    
     fragment.appendChild(divRow);
-    catalogPeformance.append(fragment);
+    catalogPerformance.appendChild(fragment);
 };
 
 const ul = document.getElementById('list');
@@ -84,7 +80,7 @@ for(let j = 0; j < gameHistory.length; j++) {
         pGameName.classList.add('game_name');
     
         const divPerformance = document.createElement('div');
-        divPerformance.classList.add('item__peformance');
+        divPerformance.classList.add('item__performance');
     
         const pPerformance = document.createElement('p');
         pPerformance.classList.add('item__text');
@@ -96,7 +92,7 @@ for(let j = 0; j < gameHistory.length; j++) {
         pDate.classList.add('item__text');
 
         pGameName.textContent = gameHistory[j][k].gameName;
-        pPerformance.textContent = gameHistory[j][k].peformance;
+        pPerformance.textContent = gameHistory[j][k].performance;
         pDate.textContent = gameHistory[j][k].data;
         
         divGameName.append(pGameName);

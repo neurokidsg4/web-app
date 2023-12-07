@@ -59,7 +59,7 @@ dialog {
     cursor: pointer;
 }
 
-#catalog_game_peformance {
+#catalog_game_performance {
     background-color: #C7D941;
     border-radius: 10px;
     padding: 20px;
@@ -178,7 +178,7 @@ dialog {
     font-size: large;
 }
 
-.item__peformance .item__text {
+.item__performance .item__text {
     text-align: center;
 
 }
