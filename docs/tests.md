@@ -24,7 +24,16 @@ Nesta seção, apresentamos a documentação dos testes realizados pelo grupo pa
 
 Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não funcional, que está sendo verificado. Além disso, indicaremos o artefato (página) onde o teste será executado, juntamente com sua descrição.
 
-**Caso de Teste** | **CT01 - Cadastrar Usuário**
+**Caso de Teste** | **CT01 - Acesso página principal**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário deve acessar o link infomado em dados de entrada e ter acesso a página principal de conteúdo.
+**Requisitos associados** | A aplicação deve conter uma página principal de apresentação dos conteúdos.
+**Artefatos associados** | index.html
+**Resultado esperado** | Carregamento de página bem executado.
+**Dados de entrada** | [Link de acesso.](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/)
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT02 - Cadastrar Usuário**
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar", então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e em sequência clicar no ícone de entrar, então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>2) O usuário estando na página de cadastro pode escolher sua foto de perfil, deve informar seu nome no campo "nome", deve selecionar o gênero dentro das opções disponíveis no campo "gênero", deve selecionar uma área de atuação dentro das disponíveis no campo "atuação", deve informar seu e-mail, em formato válido, no campo "e-mail", pode informar o número de telefone móvel para contato no campo "celular" (opcional), deve digitar uma senha que tenha entre 4 e 8 dígitos, seguindo as recomendações de caractéres especiais no momento de digitação, no campo "senha", deve preencher o campo "nascimento" com sua data de nascimento, deve digitar novamente a senha no campo "confirmar senha" e deve preencher o campo "CEP" com o CEP da sua residência/trabalho, os campos "cidade" e "estado" são preenchidos automaticamente após a verificação do CEP, o usuário é livre para deixar um pouco sobre ele no campo "nos conte um pouco sobre você".<br>3) Após todos os campos terem sido preenchidos corretamente o usuário deve clicar em cadastrar para finalizar o processo de cadastro, tendo sucesso uma mensagem de confirmação irá aparecer informando ao usuário o próximo passo.
 **Requisitos associados** | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.
@@ -33,7 +42,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Logar Usuário**
+**Caso de Teste** | **CT03 - Logar Usuário**
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar" no menu de navegação superior, então será redirecionado para a página de login, já tendo feito um cadastro previamente, ele deve informar o e-mail cadastrado e a senha cadastrada. Caso os dados informados sejam iguais aos informados no momento do cadastro o usuário será redirecionado a página principal, contudo, estando agora logado, no menu de navegação superior onde estava "entrar" agora irá estar escrito "sair".<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e no ícone de "entrar", então será redirecionado para a página de login, ja tendo feito um cadastro previamente, ele deve informar o e-mail e senha cadastrados. Caso os dados informados sejam iguais aos informado no momento do cadastro o usuário será redirecionado a página principal, contudo, estando agora logado, no menu hamburguer onde existia o ícone de "entrar" agora será exibido o ícone de "sair".<br>2) Após estar logado o usuário terá acesso às seções restritas de acesso ao perfil e área infantil.
 **Requisitos associados** | RF-003 A aplicação deve permitir que o usuário faça login.
@@ -42,7 +51,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Criptografar Dados**
+**Caso de Teste** | **CT04 - Criptografar Dados**
  :--------------: | ------------
 **Procedimento**  | 1) A aplicação deve criptografar dados sensíveis.
 **Requisitos associados** | RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).
@@ -51,7 +60,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Inserção de dados sensíveis.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT04 - Persistir Dados**
+**Caso de Teste** | **CT05 - Persistir Dados**
  :--------------: | ------------
 **Procedimento**  | 1) A aplicação deve persistir dados cadastrais em json server e/ou localStorage.
 **Requisitos associados** | RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.
@@ -60,7 +69,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Inserção de dados cadastrais e de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT5 - Enviar feedback**
+**Caso de Teste** | **CT6 - Enviar feedback**
  :--------------: | ------------
 **Procedimento**  | 1a) Pelo desktop o usuário deve clicar na palavra "feedback" no menu de navegação superior para ser redirecionado para a página de feedback. <br>1b) Pelo mobile o usuário deve clicar no menu hamburguer e depois clicar no ícone de feedback para ser redirecionado para a página de feedback. <br>2) Estando na página de feedback, o usuário pode preencher o campo "nome" com o próprio nome e o campo "e-mail" com seu próprio e-mail, esses dois campos são opcionais. <br>3) O usuário deve selecionar um dos 03 emojis disponíveis para relatar sua satisfação/experiência com a aplicação. <br> O usuário deve inserir uma mensagem sobre a aplicação no campo "mensagem". <br>4) O usuário deve selecionar o tipo do feedback fornecido, selecionando uma das opções disponíveis (bug, sugestão ou outro). <br>5) Após todos os passos acima terem sido executados o usuário pode escolher enviar e o feedback será direcionado para a equipe desenvolvedora.
 **Requisitos associados** | RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email específica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.
@@ -74,28 +83,28 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
 
-|*Caso de Teste*                                 |*TC-01 - Cadastrar usuário *                                         |
+|*Caso de Teste*                                 |*TC-02 - Cadastrar usuário *                                         |
 |---|---|
 |Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/0ad687ec-098d-4c38-8449-65ed06268101| 
 
-|*Caso de Teste*                                 |*TC-02 - Logar Usuário *                                         |
+|*Caso de Teste*                                 |*TC-03 - Logar Usuário *                                         |
 |---|---|
 |Requisito Associado |  RF-003 A aplicação deve permitir que o usuário faça login.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6e4f10f3-004a-443b-bb51-f4c8949d315e| 
 
 
-|*Caso de Teste*                                 |*TC-03 - Criptografar Dados *                                         |
+|*Caso de Teste*                                 |*TC-04 - Criptografar Dados *                                         |
 |---|---|
 |Requisito Associado | RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).|
 |Link do vídeo do teste realizado: | | 
 
-|*Caso de Teste*                                 |*TC-04 - Persistir Dados *                                         |
+|*Caso de Teste*                                 |*TC-05 - Persistir Dados *                                         |
 |---|---|
 |Requisito Associado |RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
 |Link do vídeo do teste realizado: | | 
 
-|*Caso de Teste*                                 |*TC-05 - Enviar feedback *                                         |
+|*Caso de Teste*                                 |*TC-06 - Enviar feedback *                                         |
 |---|---|
 |Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/c8c43a19-1560-48fd-a46b-d8eeb239878d| 
