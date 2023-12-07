@@ -119,15 +119,20 @@ height: 100%;
 
 /*Dados do perfil*/
 
-.data-1, .data-2{
+.data-1, .data-2, .data-3{
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-#data-name-1, #data-gender-1, #data-birth-1, #data-email-1, #data-cell-1, #data-address-1{
+#data-name-1, #data-gender-1, #data-birth-1, #data-email-1, #data-cell-1, #data-address-1, #data-state, #data-city{
     color:#0BB3D9;
     font-weight: 640;
+}
+
+.data-city{
+    position: absolute;
+    margin-left: 360px;
 }
 
 .data-gender{
@@ -140,7 +145,7 @@ height: 100%;
     margin-right: -32px;
 }
 
-#info-name-1, #info-gender-1, #info-birth-1, #info-email-1, #info-cell-1, #info-address-1{
+#info-name-1, #info-gender-1, #info-birth-1, #info-email-1, #info-cell-1, #info-address-1, #info-state{
     width: 200px;
     padding: 2px;
 }
@@ -196,7 +201,7 @@ height: 100%;
     box-shadow: 0px 1px 10px 1px rgb(212, 212, 212);
 }
 
-.data-1 input, .data-2 input, #gender-select{
+.data-1 input, .data-2 input, #gender-select, .data-3 input{
     border-color: transparent;
     outline: none;
     background-color: white;
