@@ -27,7 +27,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Caso de Teste** | **CT01 - Cadastrar Usuário**
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar", então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e em sequência clicar no ícone de entrar, então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>2) O usuário estando na página de cadastro pode escolher sua foto de perfil, deve informar seu nome no campo "nome", deve selecionar o gênero dentro das opções disponíveis no campo "gênero", deve selecionar uma área de atuação dentro das disponíveis no campo "atuação", deve informar seu e-mail, em formato válido, no campo "e-mail", pode informar o número de telefone móvel para contato no campo "celular" (opcional), deve digitar uma senha que tenha entre 4 e 8 dígitos, seguindo as recomendações de caractéres especiais no momento de digitação, no campo "senha", deve preencher o campo "nascimento" com sua data de nascimento, deve digitar novamente a senha no campo "confirmar senha" e deve preencher o campo "CEP" com o CEP da sua residência/trabalho, os campos "cidade" e "estado" são preenchidos automaticamente após a verificação do CEP, o usuário é livre para deixar um pouco sobre ele no campo "nos conte um pouco sobre você".<br>3) Após todos os campos terem sido preenchidos corretamente o usuário deve clicar em cadastrar para finalizar o processo de cadastro, tendo sucesso uma mensagem de confirmação irá aparecer informando ao usuário o próximo passo.
-**Requisitos associados** | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso. RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.
+**Requisitos associados** | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.
 **Artefatos associados** | cadastro.html
 **Resultado esperado** | Criação de cadastro.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
@@ -76,8 +76,8 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-01 - Cadastrar usuário *                                         |
 |---|---|
-|Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso. RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|
-|Link do vídeo do teste realizado: || 
+|Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/0ad687ec-098d-4c38-8449-65ed06268101| 
 
 |*Caso de Teste*                                 |*TC-02 - Logar Usuário *                                         |
 |---|---|
