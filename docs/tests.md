@@ -30,7 +30,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Requisitos associados** | A aplicação deve conter uma página principal de apresentação dos conteúdos.
 **Artefatos associados** | index.html
 **Resultado esperado** | Carregamento de página bem executado.
-**Dados de entrada** | [Link de acesso.](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/)
+**Dados de entrada** | [NeuroKids - Link de Acesso](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/)
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT02 - Cadastrar Usuário**
