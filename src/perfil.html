@@ -86,7 +86,7 @@
 
     <nav id="nav-cabecalho">
       <ul>
-        <li><a class=" area__infantil childish_redirect_if">Área infantil</a></li>
+        <li><a class="area__infantil childish_redirect_if">Área infantil</a></li>
         <li><a class="area__infantil profile_redirect_if">Perfil</a></li>
         <li><a href="feedback.html">Feedback</a></li>
         <li><a href="sobre_nos.html">Sobre nós</a></li>
@@ -121,6 +121,51 @@
       </ul>
     </nav>
   </header>
+
+  <dialog>
+    <div id="box">
+      <h4 class="main_title">Score</h4>
+      <span class="close material-symbols-outlined">close</span>
+
+      <div id="catalog_game_peformance"></div>
+
+      <div>
+          <div class="filter">
+              <p class="filter__text">Filtrar por:</p>
+              <select class="filter__selection" name="filter" id="filter">
+                  <option value="Todos" selected>Todos os jogos</option>
+                  <option value="Matematica">Matematica</option>
+                  <option value="Acerte as Cores">Acerte as Cores</option>
+                  <option value="Contagem dos Objetos Coloridos">Contagem de Objetos Coloridos</option>
+              </select>
+          </div>
+
+          <div>
+              <div id="head--table">
+                  <div class="field">
+                      <p class="head--table__text">Jogo</p>
+                  </div>
+                  
+                  <div class="field">
+                      <p class="head--table__text">Desempenho</p>
+                  </div>
+                  
+                  <div class="field">
+                      <p class="head--table__text">Data</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container--list">
+          <ul id="list"><li class="message--not_history">Você não possui histórico deste jogo!</li></ul>
+      </div>
+      
+      <div class="btn--fechar">
+          <button class="close btn">Fechar</button>
+      </div>
+    </div>
+  </dialog>
 
   <!--Corpo do perfil-->
   <main>

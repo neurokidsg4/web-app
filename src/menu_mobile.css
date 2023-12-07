@@ -30,7 +30,7 @@
 .cabecalho__menu___item {
     padding: 20px 0 20px 0;
 }
-
+    
 .cabecalho--grupo__icone-menu button, .cabecalho--grupo__icone-menu, .cabecalho--grupo__icone-menu a {
     display: flex;
     align-items: center;

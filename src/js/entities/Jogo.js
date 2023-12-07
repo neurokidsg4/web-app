@@ -46,8 +46,7 @@ export class Game {
         return peformance;
     }
 
-    gameSaves(keyGame) {
-        // const gameResult = this.gameHistory[] || [];
+    gameSaves() {
 
         const jogo = {
             peformance: this.returnPeformance(),
@@ -57,34 +56,22 @@ export class Game {
             data: new Date(),
         };
 
-        let isOk = false;
-
-        if(this.gameHistory.length) {
+        if(this.gameHistory.length > 0) {
 
             for(let i = 0; i < this.gameHistory.length; i++) {
-    
-                console.log(this.gameHistory[i][i].gameName);
-    
+        
                 if(this.gameName === this.gameHistory[i][0].gameName) {
-    
-                    console.log(this.gameHistory[i][0].gameName);
-    
+
                     this.gameHistory[i].push(jogo);
-                    isOk = true;
+                    localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
                     return;
                 };
             };
 
-            if(!isOk) this.gameHistory.push([jogo]);
-
         } else {
 
-            this.gameHistory.push([jogo]);
-        }
-        
-        // gameResult.push(jogo)
-        // this.gameHistory[keyGame] = gameResult;
-
-        localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
+            this.gameHistory.push([jogo]);  
+            localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
+        };
     }
 }

@@ -30,16 +30,15 @@ function startGame() {
     // Verificar se atingiu o limite de tentativas
     if (numAttempts > 5) {
 
-        objGame.gameSaves('acerteAsCores');
+        objGame.gameSaves();
 
         // Limpar a mensagem e exibir apenas o botão de voltar
         message.textContent = '';
         continueButton.style.display = 'none';
         backButton.style.display = 'block';
         backButton.addEventListener('click', handleBackButtonClick);
-        classifyPerformance();
-        saveCorrectGuessesPerAttempt();
-        return
+        // saveCorrectGuessesPerAttempt();
+        return;
     }
 
     // Escolher uma cor aleatória para adivinhar
@@ -138,24 +137,24 @@ function handleBackButtonClick() {
     window.location.href = '/src/area_infantil.html';
 }
 
-// Função para salvar a lista de acertos por tentativa no localStorage
-function saveCorrectGuessesPerAttempt() {
-    // Obter as tentativas anteriores do localStorage
-    const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
+// // Função para salvar a lista de acertos por tentativa no localStorage
+// function saveCorrectGuessesPerAttempt() {
+//     // Obter as tentativas anteriores do localStorage
+//     const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
 
-    // Adicionar a lista atual à lista de tentativas anteriores
-    previousAttempts.push({ 
-        attempt: numAttempts - 1 , 
-        correct: correctGuessesPerAttempt, 
-        gameName: gameName, 
-        performance: performance,
-        date: actualDate,
-    });
+//     // Adicionar a lista atual à lista de tentativas anteriores
+//     previousAttempts.push({ 
+//         attempt: numAttempts - 1 , 
+//         correct: correctGuessesPerAttempt, 
+//         gameName: gameName, 
+//         performance: performance,
+//         date: actualDate,
+//     });
 
-    // Salvar a lista completa no localStorage
-    localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
+//     // Salvar a lista completa no localStorage
+//     localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
 
-}
+// }
 
 // Iniciar o jogo quando a página carregar
 window.addEventListener('load', startGame);
