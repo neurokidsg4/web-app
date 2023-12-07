@@ -35,7 +35,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 **Caso de Teste** | **CT02 - Logar Usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa email e senha e clica no botão "Entrar".<br>2) A aplicação verifica se há uma conta registrado no banco de dados. <br>3) Se houver uma conta registrada a aplicação libera o acesso às paginas restritas. <br4) A aplicação direciona o usuário para a página de onde parou ou para onde estava navegando
+**Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar" no menu de navegação superior, então será redirecionado para a página de login, já tendo feito um cadastro previamente, ele deve informar o e-mail cadastrado e a senha cadastrada. Caso os dados informados sejam iguais aos informados no momento do cadastro o usuário será redirecionado a página principal, contudo, estando agora logado, no menu de navegação superior onde estava "entrar" agora irá estar escrito "sair".<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e no ícone de "entrar", então será redirecionado para a página de login, ja tendo feito um cadastro previamente, ele deve informar o e-mail e senha cadastrados. Caso os dados informados sejam iguais aos informado no momento do cadastro o usuário será redirecionado a página principal, contudo, estando agora logado, no menu hamburguer onde existia o ícone de "entrar" agora será exibido o ícone de "sair".
 **Requisitos associados** | RF-003 A aplicação deve permitir que o usuário faça login.
 **Artefatos associados** | login.html
 **Resultado esperado** | Logar usuario, liberando acesso às paginas restritas (perfil.html e area_infantil.html).
