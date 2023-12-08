@@ -87,7 +87,7 @@ dialog {
     padding: 0 10px;
 }
 
-.hidden {
+.hidden--score_performance {
     display: none;
 }
 
@@ -129,7 +129,7 @@ dialog {
     background-color: #f6f6f6;
 }
 
-.hidden--table {
+.hidden--score_table {
     display: none;
 }
 

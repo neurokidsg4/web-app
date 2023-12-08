@@ -17,7 +17,7 @@
         display: none !important;
     }
 
-    .hidden {
+    .hidden--score_performance {
         display: inline-block !important;
     }
 }
@@ -44,7 +44,7 @@
         width: 100%;
     }
 
-    .hidden--table {
+    .hidden--score_table {
         display: inline-block !important;
     }
 

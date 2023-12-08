@@ -29,7 +29,7 @@ for(let i = 0; i < gameHistory.length; i++) {
     const spanArrowMobile =  document.createElement('span');
     spanArrowMobile.classList.add('material-symbols-outlined');
     spanArrowMobile.classList.add('arrow--mobile');
-    spanArrowMobile.classList.add('hidden');
+    spanArrowMobile.classList.add('hidden--score_performance');
     spanArrowMobile.innerHTML = 'east';
 
     const divPerformanceField =  document.createElement('div');
@@ -42,7 +42,7 @@ for(let i = 0; i < gameHistory.length; i++) {
     
     const pPerformanceTextCopy =  document.createElement('p');
     pPerformanceTextCopy.classList.add('group__text');
-    pPerformanceTextCopy.classList.add('hidden');
+    pPerformanceTextCopy.classList.add('hidden--score_performance');
 
     let totalScore = 0;
     let expectedScore = 0;
@@ -92,7 +92,7 @@ for(let j = 0; j < gameHistory.length; j++) {
         pGameName.classList.add('game_name');
 
         const pGameNameLabel = document.createElement('p');
-        pGameNameLabel.classList.add('hidden--table');
+        pGameNameLabel.classList.add('hidden--score_table');
         pGameNameLabel.classList.add('role');
     
         const divPerformance = document.createElement('div');
@@ -102,7 +102,7 @@ for(let j = 0; j < gameHistory.length; j++) {
         pPerformance.classList.add('item__text');
         
         const pPerformanceLabel = document.createElement('p');
-        pPerformanceLabel.classList.add('hidden--table');
+        pPerformanceLabel.classList.add('hidden--score_table');
         pPerformanceLabel.classList.add('role');
     
         const divDate = document.createElement('div');
