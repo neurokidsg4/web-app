@@ -19,6 +19,13 @@ button.addEventListener('click', (e) => {
             return;
         }
     }
+    
+    const date = new Date(document.getElementById('birth').value);
+
+    const day = date.getDate() + 1;
+    const month = date.getMonth() + 1;
+    const year = date.getFullYear();
+    const birth = `${day}/${(month)}/${year}`;
 
     if(itsOk) {
 
@@ -28,15 +35,17 @@ button.addEventListener('click', (e) => {
             document.getElementById('acting').value,
             document.getElementById('gender').value,
             document.getElementById('cell_phone').value,
-            document.getElementById('birth').value,
+            birth,
             document.getElementById('password').value,
             document.getElementById('about').value,
-            document.getElementById('cep').value
+            document.getElementById('cep').value,
+            document.getElementById('state').value,
+            document.getElementById('city').value,
         );
         
         localStorage.setItem('usuario', JSON.stringify(user));
 
-        alert('Cadastro realizado com sucesso. Agora vá para a página de login e entre com sua nova conta.');
+        alert('Cadastro realizado com sucesso. Agora vá para a página de login e entre com sua nova conta.')
     } 
     else { alert('Ops! Algo deu errado. Tente novamente mais tarde. Se o problema persistir contate a gente pelo link "Contato" que se encontra no rodape do site.'); }
 });
