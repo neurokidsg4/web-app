@@ -8,10 +8,12 @@ export class User{
     celular;
     nascimento;
     senha;
-    sobreMin;
+    sobreMim;
     cep;
+    estado;
+    cidade;
 
-    constructor(nome, email, atuacao, genero, celular, nascimento, senha, sobreMin, cep) {
+    constructor(nome, email, atuacao, genero, celular, nascimento, senha, sobreMim, cep, estado, cidade) {
         this.nome = nome,
         this.email = email,
         this.atuacao = atuacao,
@@ -19,8 +21,10 @@ export class User{
         this.celular = celular,
         this.nascimento = nascimento,
         this.senha = senha,
-        this.sobreMin = sobreMin,
-        this.cep = cep
+        this.sobreMim = sobreMim,
+        this.cep = cep,
+        this.estado = estado,
+        this.cidade = cidade
     }
 
     get nome() {
@@ -51,11 +55,19 @@ export class User{
         return this.senha;
     }
 
-    get sobreMin() {
-        return this.sobreMin;
+    get sobreMim() {
+        return this.sobreMim;
     }
 
     get cep() {
         return this.cep;
+    }
+
+    get estado() {
+        return this.estado;
+    }
+
+    get cidade() {
+        return this.cidade;
     }
 }

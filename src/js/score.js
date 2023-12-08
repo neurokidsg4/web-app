@@ -112,7 +112,7 @@ for(let j = 0; j < gameHistory.length; j++) {
         pDate.classList.add('item__text');
 
         const pDateLabel = document.createElement('p');
-        pDateLabel.classList.add('hidden--table');
+        pDateLabel.classList.add('hidden--score_table');
         pDateLabel.classList.add('role');
 
         pGameName.textContent = gameHistory[j][k].gameName;
