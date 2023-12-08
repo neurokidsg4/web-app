@@ -42,6 +42,10 @@ main{
     position: absolute;
 }
 
+#uploadImage{
+    display: none;
+}
+
 #fundo-perfil{
 margin-top: 20px;
 width: 100%;
