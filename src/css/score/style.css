@@ -1,4 +1,5 @@
-@import url('./reset.css');
+@import url('../../reset.css');
+@import url('responsivo.css');
 
 * {
     box-sizing: border-box;
@@ -10,7 +11,6 @@ dialog::backdrop {
     opacity: 0.6;
     transition: background-color 0.5s ease;
     transition: opacity 0.5s ease;
-
 }
 
 dialog {
@@ -36,7 +36,6 @@ dialog {
     padding: 10px 25px 25px 25px;
     width: 100%;
     max-width: 690px;
-    min-width: 400px;
 }
 
 .main_title {
@@ -81,10 +80,20 @@ dialog {
     background-color: white;
 }
 
-.arrow {
+.arrow, .arrow--mobile {
     color: white;
     align-self: center;
     font-size: 30px;
+    padding: 0 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.arrow--mobile {
+    color: #909c2f;
+    font-size: 20px;
 }
 
 .group__field {
@@ -118,6 +127,10 @@ dialog {
     height: 30px;
     padding: 0 8px;
     background-color: #f6f6f6;
+}
+
+.hidden--table {
+    display: none;
 }
 
 #head--table {
@@ -173,6 +186,16 @@ dialog {
     padding: 10px 20px;
 }
 
+.role {
+    color: white;
+    font-size: large;    
+    padding: 0 7px 0 0;
+}
+
+#none {
+    display: none !important;
+}
+
 .item__text {
     color: white;
     font-size: large;
@@ -180,7 +203,6 @@ dialog {
 
 .item__performance .item__text {
     text-align: center;
-
 }
 
 .item__date .item__text {

@@ -16,9 +16,9 @@ for(let i = 0; i < gameHistory.length; i++) {
     const divNameGameField =  document.createElement('div');
     divNameGameField.classList.add('field');
     divNameGameField.classList.add('group__field');
+    divNameGameField.classList.add('field--game_name');
 
     const pNameGameText = document.createElement('p')
-    pNameGameText.classList.add('game-name');
     pNameGameText.classList.add('group__text');
 
     const spanArrow =  document.createElement('span');
@@ -26,12 +26,23 @@ for(let i = 0; i < gameHistory.length; i++) {
     spanArrow.classList.add('material-symbols-outlined');
     spanArrow.innerHTML = 'east';
 
+    const spanArrowMobile =  document.createElement('span');
+    spanArrowMobile.classList.add('material-symbols-outlined');
+    spanArrowMobile.classList.add('arrow--mobile');
+    spanArrowMobile.classList.add('hidden');
+    spanArrowMobile.innerHTML = 'east';
+
     const divPerformanceField =  document.createElement('div');
     divPerformanceField.classList.add('field');
     divPerformanceField.classList.add('group__field');
+    divPerformanceField.classList.add('field--performance');
 
     const pPerformanceText =  document.createElement('p');
     pPerformanceText.classList.add('group__text');
+    
+    const pPerformanceTextCopy =  document.createElement('p');
+    pPerformanceTextCopy.classList.add('group__text');
+    pPerformanceTextCopy.classList.add('hidden');
 
     let totalScore = 0;
     let expectedScore = 0;
@@ -43,9 +54,12 @@ for(let i = 0; i < gameHistory.length; i++) {
     }
 
     percentage = (totalScore * 100) / expectedScore;
-    
+
+    pPerformanceTextCopy.innerHTML = `Desempenho: ${percentage.toFixed(0)}%`;
     pNameGameText.innerHTML = gameHistory[i][0].gameName;
     divNameGameField.append(pNameGameText);
+    divNameGameField.append(spanArrowMobile);
+    divNameGameField.append(pPerformanceTextCopy);
     divGroup.append(divNameGameField);
     
     divGroup.append(spanArrow);
@@ -55,8 +69,6 @@ for(let i = 0; i < gameHistory.length; i++) {
     divGroup.append(divPerformanceField);
 
     divRow.append(divGroup);
-
-    console.log(catalogPerformance);
     
     fragment.appendChild(divRow);
     catalogPerformance.appendChild(fragment);
@@ -78,12 +90,20 @@ for(let j = 0; j < gameHistory.length; j++) {
         const pGameName = document.createElement('p');
         pGameName.classList.add('item__text');
         pGameName.classList.add('game_name');
+
+        const pGameNameLabel = document.createElement('p');
+        pGameNameLabel.classList.add('hidden--table');
+        pGameNameLabel.classList.add('role');
     
         const divPerformance = document.createElement('div');
         divPerformance.classList.add('item__performance');
     
         const pPerformance = document.createElement('p');
         pPerformance.classList.add('item__text');
+        
+        const pPerformanceLabel = document.createElement('p');
+        pPerformanceLabel.classList.add('hidden--table');
+        pPerformanceLabel.classList.add('role');
     
         const divDate = document.createElement('div');
         divDate.classList.add('item__date');
@@ -91,16 +111,27 @@ for(let j = 0; j < gameHistory.length; j++) {
         const pDate = document.createElement('p');
         pDate.classList.add('item__text');
 
+        const pDateLabel = document.createElement('p');
+        pDateLabel.classList.add('hidden--table');
+        pDateLabel.classList.add('role');
+
         pGameName.textContent = gameHistory[j][k].gameName;
         pPerformance.textContent = gameHistory[j][k].performance;
         pDate.textContent = gameHistory[j][k].data;
+
+        pGameNameLabel.textContent = 'Jogo: ';
+        pPerformanceLabel.textContent = 'Desempenho: ';
+        pDateLabel.textContent = 'Data: ';
         
+        divGameName.append(pGameNameLabel);
         divGameName.append(pGameName);
+        divPerformance.append(pPerformanceLabel);
         divPerformance.append(pPerformance);
+        divDate.append(pDateLabel);
         divDate.append(pDate);
         li.append(divGameName);    
         li.append(divPerformance);    
-        li.append(divDate);    
+        li.append(divDate);
     
         fragment.append(li);
         ul.append(fragment);
@@ -121,14 +152,14 @@ function search() {
 
             const div = item.parentNode;
             const li = div.parentNode;
-            li.style.display = 'grid';
+            li.setAttribute('id', '');
             document.querySelector('.message--not_history').style.display = 'none';
 
         } else {
 
             const div = item.parentNode;
             const li = div.parentNode;
-            li.style.display = 'none';
+            li.setAttribute('id', 'none');
             document.querySelector('.message--not_history').style.display = 'inline-block';
         }
     });
