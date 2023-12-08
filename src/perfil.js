@@ -1,7 +1,5 @@
 
 const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
-const foto = localStorage.getItem('foto') || '';
-
 const foto = localStorage.getItem("foto") || "";
 
 document.getElementById("info-name-1").innerHTML = usuario.nome;
