@@ -9,7 +9,10 @@
 
 var num1 = 0;
 var num2 = 0;
-var cont = 1;
+var cont = 0;
+var tentativa = 0;
+
+
 
 const btnContinue = document.getElementById("icontinue");
 btnContinue.style.display = "none";
@@ -43,7 +46,13 @@ btnConfimar.addEventListener("click", function () {
     var calculo = num1 + num2;
     var resposta = document.getElementById("resposta").value;
 
+
     if (calculo == resposta) {
+
+        cont++;
+        tentativa++;
+
+        document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
 
         //comentar essa linha(3)
         // jogo.sumPoint();
@@ -51,7 +60,7 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
-        if (cont < 5) {
+        if (tentativa < 5) {
 
             //cometar essa linha(4)
             // jogo.attempt();
@@ -66,17 +75,7 @@ btnConfimar.addEventListener("click", function () {
                 btnConfimar.style.display = "block";
             });
 
-            cont++;
-        }
-
-        else{
-            btnConfimar.style.display ="none";
-            btnProximaFase.style.display  = "";
-            btnVoltar.style.display = "";
-
-            btnVoltar.addEventListener("click", function(){
-                window.location.href = "/src/area_infantil.html";
-            });
+            
         }
 
     }
@@ -87,6 +86,29 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
 
+        tentativa++;
+
+        document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
+
+        document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
+
     }
 
+    if(tentativa >=5 ){
+        btnConfimar.style.display ="none";
+        btnProximaFase.style.display  = "";
+        btnVoltar.style.display = "";
+        document.getElementById("resultado").innerHTML = "";
+
+        btnVoltar.addEventListener("click", function(){
+            window.location.href = "/src/area_infantil.html";
+        });
+    }
+
+    
+
 });
+
+
+    
+

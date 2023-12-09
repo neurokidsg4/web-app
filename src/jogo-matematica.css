@@ -106,7 +106,7 @@
     margin-top: 60px;
 }
 
-#pontos{
+#pontos, #tentativa{
     font-size: 30pt;
     color: #0BB3D9;
     font-weight: 700;
@@ -167,7 +167,7 @@
     }
 
     #resposta{
-        width: 80px;
+        width: 100px;
         height: 80px;
         font-size: 50pt;
         font-weight: 700;
@@ -180,7 +180,7 @@
         margin-top: 40px;
     }
     
-    #pontos{
+    #pontos, #tentativa{
         font-size: 20pt;
         font-weight: 600;
     }
