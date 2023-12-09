@@ -200,51 +200,237 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
-## Cenários de Teste de Usabilidade
+## Cenários de Teste de Usabilidade Geral
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.|
+| 2             |Você deseja compartilhar os conteúdos encontrados.  Encontre no site uma forma de compartilhar o conteúdo desejado.|
+| 3             |Você não é cadastrado. Encontre o formulário de cadastro e realize um cadastro.|
+| 4             |Você já é cadastrado e deseja logar no site. Encontre o formulário de login e efetue a ação para logar.|
+| 5             |Você deseja editar o seu perfil. Encontre no site a sessão para editar o perfil e edite pelo menos 3 informações.|
+| 6             |Você está cadastrada (o) no site e está com dificuldades para excluir sua conta. Encontre no site a informação que te auxilia na exclusão da sua conta.|
+| 7             |Você deseja saber mais sobre o site. Encontre a sessão que fale sobre a missão, visão e valores do site.|
+| 8             |Você deseja jogar um dos jogos disponíveis na aplicação. Encontre a sessão de jogos, escolha um de sua preferência, e jogue até concluir todas as etapas do jogo.|
+| 9             |Você deseja verificar o desempenho que teve nos jogos. Encontre o histórico de desempenho dos jogos.|
+| 10            |Você gostou dos jogos do site e deseja enviar uma mensagem para a equipe por trás disso, elogiando o trabalho feito. Encontre no site a página que possibilita você enviar uma mensagem elogiando.|
+| 11            |Você deseja excluir a sua conta permanentemente. Encontre a opção de excluir a conta e execute a ação.|
 
 
 
-## Registro de Testes de Usabilidade
+## Registro de Testes de Usabilidade Geral
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
-
-
-
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 1: Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 09.39 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 07.44 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários:
 
+
+
+
+Cenário 2: Você deseja compartilhar os conteúdos encontrados.  Encontre no site uma forma de compartilhar o conteúdo desejado.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.01 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                         |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 02.95 segundos |
+
+
+    Comentários do usuários 01: Ao copiar link alguma mensagem de sucesso poderia ser exibida pra mim, fiquei sem saber se copiou ou não.
+
+
+
+Cenário 3: Você não é cadastrado. Encontre o formulário de cadastro e realize um cadastro.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4                    | 4 min 42.56 segundos            |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 54.02 segundos |
+
+
+    Comentários do usuário 01: Ao inserir minha senha eu esperava que o campo de confirmar senha estivesse ao lado ou abaixo do campo para inserir a senha, minha única dificuldade foi nessa parte do layout.
+
+
+
+
+Cenário 4: Você já é cadastrado e deseja logar no site. Encontre o formulário de login e efetue a ação para logar.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 13.30 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 11.35 segundos |
+
+
+    Comentários dos usuários:
+
+
+
+
+Cenário 5: Você deseja editar o seu perfil. Encontre no site a sessão para editar o perfil e edite pelo menos 3 informações.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 1 minuto e 24.73 segundos       |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 25.50 segundos |
+
+
+    Comentários dos usuários:
+
+
+
+
+Cenário 6: Você está cadastrada (o) no site e está com dificuldades para excluir sua conta. Encontre no site a informação que te auxilia na exclusão da sua conta.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 09.71 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                          |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 07.74 segundos |
+
+
+    Comentários dos usuários:
+
+
+
+
+Cenário 7: Você deseja saber mais sobre o site. Encontre a sessão que fale sobre a missão, visão e valores do site.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 02.97 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 02.91 segundos |
+
+
+    Comentários dos usuários:
+
+
+Cenário 8: Você deseja jogar um dos jogos disponíveis na aplicação. Encontre a sessão de jogos, escolha um de sua preferência, e jogue até concluir todas as etapas do jogo.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 34.20 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                         |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 11.94 segundos |
+
+
+    Comentários dos usuários:
+
+
+Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o histórico de desempenho dos jogos.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 10.30 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 02.50 segundos |
+
+
+    Comentários dos usuários:
+
+
+
+Cenário 10: Você gostou dos jogos do site e deseja enviar uma mensagem para a equipe por trás disso, elogiando o trabalho feito. Encontre no site a página que possibilita você enviar uma mensagem elogiando.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 2 minutos e 27.46 segundos      |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 23.48 segundos |
+
+
+    Comentários dos usuários:
+
+
+
+Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opção de excluir a conta e execute a ação.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 11.39 segundos                  |
+|         |                 |                      |                                 |
+|         |                 |                      |                                 |
+|  |  |  |  |
+| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 03.95 segundos |
+
+
+    Comentários dos usuários:
+
+## Cenários de Teste de Usabilidade Específico - Profissional Área da Saúde
+
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             |Você é um profissional da área da psicologia e deseja buscar mais informações sobre como identificar a neurodiversidade na infância. Encontre no site o card que trata sobre o assunto e acesse.|
+| 2             |Você é um profissional da área da psicologia e deseja se informar a respeito do TEA. Encontre no site o card que trata sobre o assunto e acesse.|
+
+
+## Registro de Testes de Usabilidade Específico - Profissional Área da Psicologia
+
+Cenário 1: Você é um profissional da área da psicologia e deseja buscar mais informações sobre como identificar a neurodiversidade na infância. Encontre no site o card que trata sobre o assunto e acesse.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 3                    | 2 minutos e 05.58 segundos      |
+|  |  |  |  |
+| **Média**     | 100%           | 3               | 2 minutos e 05.58 segundos      |
+
+
+    Comentários do usuário 01: Como profissional, procuro um conteúdo mais específico acerca do que está sendo discutido na comunidade científica.
+
+
+
+
+Cenário 2: Você é um profissional da área da psicologia e deseja se informar a respeito do TEA. Encontre no site o card que trata sobre o assunto e acesse.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 3                    | 59.75 segundos                  |
+|  |  |  |  |
+| **Média**     | 100%      | 0                    | 59.75 segundos                  |
+
+
+    Comentários do usuário 01: O conteúdo precisa conter citação.
 
 
 
