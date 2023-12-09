@@ -42,6 +42,10 @@
     
 }
 
+.op{
+    display: flex;
+}
+
 #num1,#num2,#operador,#igual{
     font-size: 100pt;
     padding: 0px 50px 0px 50px;
@@ -114,12 +118,80 @@
 
 /* Aplicação de responsividade para a página do jogo */
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1300px){
     .content{
-        display: flex;
+        display: block;
         grid-template-columns: repeat(1, 2fr);
         padding: 1em;
-        text-align: center;
-        justify-content: center;
     }
+
+    .content h1{
+
+        font-size: 25pt;
+        font-weight: 700;
+    }
+
+    #idesc{
+        font-size: 15pt;
+    }
+
+    .calculo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .op{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+  
+
+    #iconfirm, #icontinue, #ivoltar{
+        padding: 15px;
+        font-size: 15pt;
+        width: 120px;
+        height: 60px;
+    }
+
+    #num1,#num2,#operador,#igual{
+        font-size: 60pt;
+        padding: 8px;
+        color: rgb(231, 66, 25);
+    
+    }
+
+    #resposta{
+        width: 80px;
+        height: 80px;
+        font-size: 50pt;
+        font-weight: 700;
+    }
+
+
+    #resultado{
+        font-size: 25pt;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    
+    #pontos{
+        font-size: 20pt;
+        font-weight: 600;
+    }
+
+
+   #iproxima-fase{
+        margin-left: 0px;
+        padding: 15px;
+        font-size: 15pt;
+        width: 150px;
+        height: 60px;
+    }
+
 }
