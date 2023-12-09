@@ -4,6 +4,8 @@
 const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
 var btnSave = document.getElementById("btn-save");
 
+//const foto = localStorage.getItem("foto") || "";
+
 document.getElementById("name").value = usuario.nome;
 document.getElementById("gender-select").value = usuario.genero;
 document.getElementById("birth").value = usuario.nascimento;
@@ -28,3 +30,5 @@ btnSave.addEventListener("click", function(){
 
     localStorage.setItem("usuario", JSON.stringify(usuario));
 });
+
+//document.getElementById("foto-perfil1").setAttribute("src", `${foto}`);
