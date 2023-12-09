@@ -135,11 +135,13 @@
 
         <div class="image-upload">
 
-          <label for="uploadImage">
-              <img src="imgs/Profile.png" id="foto-perfil1" referrerpolicy="no-referrer" alt="Foto de perfil">
+        <label id="imagem-perfil" for="file__pictury">
 
-              <input id="uploadImage" type="file" name="foto" accept="image/*">
-          </label>  
+            <img id="photo" src="imgs/Profile.png" alt="Imagem ilustativa de perfil">
+
+            <input id="file__pictury" type="file" accept="image/*">
+
+        </label>
           
         </div>
 
@@ -302,6 +304,7 @@
   </footer>
 
   <script src="editar-perfil.js"></script>
+  <script type="module" src="js/services/api_imgur.js"></script>
   
   <script type="module" src="js/logar_deslogar.js"></script>
   <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
