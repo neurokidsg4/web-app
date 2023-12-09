@@ -136,7 +136,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-05 - Persistir Dados *                                         |
 |---|---|
 |Requisito Associado |RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
-|Link do vídeo do teste realizado: | | 
+|Link do vídeo do teste realizado: |https://www.loom.com/share/d7cbe3c7b52a4e35b73ca92aa4f31a9c?sid=5a848b01-4b85-495e-b3d1-2282009d5897| 
 
 |*Caso de Teste*                                 |*TC-06 - Enviar feedback *                                         |
 |---|---|
