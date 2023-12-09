@@ -15,6 +15,9 @@ document.getElementById("cep").value = usuario.cep;
 document.getElementById("about").value = usuario.sobreMim || '';
 document.getElementById("state").value = usuario.estado;
 document.getElementById("city").value = usuario.cidade;
+document.getElementById("ocupation").innerHTML = usuario.atuacao;
+document.getElementById("name_profile").innerHTML = usuario.nome;
+
 
 btnSave.addEventListener("click", function(){
 
