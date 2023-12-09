@@ -10,7 +10,7 @@ document.getElementById("birth").value = usuario.nascimento;
 document.getElementById("email").value = usuario.email;
 document.getElementById("cell_phone").value = usuario.celular;
 document.getElementById("cep").value = usuario.cep;
-document.getElementById("about").value = usuario.sobreMin || '';
+document.getElementById("about").value = usuario.sobreMim || '';
 document.getElementById("state").value = usuario.estado;
 document.getElementById("city").value = usuario.cidade;
 
@@ -22,7 +22,7 @@ btnSave.addEventListener("click", function(){
     usuario.email = document.getElementById("email").value;
     usuario.celular = document.getElementById("cell_phone").value;
     usuario.cep = document.getElementById("cep").value;
-    usuario.sobreMin = document.getElementById("about").value;
+    usuario.sobreMim = document.getElementById("about").value;
     usuario.estado = document.getElementById("state").value;
     usuario.cidade = document.getElementById("city").value;
 
