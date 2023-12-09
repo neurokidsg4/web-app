@@ -71,6 +71,10 @@ body{
     outline: none;
 }
 
+#erro{
+    display: none;
+}
+
 
 .pw p{
     padding: 0px 0px 2% 2%;

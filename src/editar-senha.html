@@ -17,7 +17,9 @@
                 <div class="pw">
                     <label for="ipw"><p>Digite a nova senha</p></label>
                     <input type="password" id="ipw" placeholder="Digite sua nova senha">
-                </div>    
+                </div> 
+                
+                <p id="erro">A senha deve conter de 5 a 8 dígitos.</p>
 
                 <!--
                 <div class="confirm-pw">
@@ -28,7 +30,7 @@
                 -->
 
                 <div class="button">
-                    <a href="perfil.html"><input type="submit" id="iconfirm" value="Confirmar"></a>
+                    <a href="perfil.html"><input type="submit" id="iconfirm" value="Confirmar" ></a>
                     <a href="perfil.html"><input type="button" id="icancel" value="Cancelar"></a>
                 </div>
             </div>
@@ -36,4 +38,5 @@
     </main>
 </body>
 <script type="module" src="editar-senha.js"></script>
+<script src="./src/js/validadores_input/senha.js"></script>
 </html>

@@ -11,3 +11,31 @@ btnConfirmar.addEventListener("click", function(){
 
 });
 
+
+//Validando o campo de senha
+
+const erro = document.getElementById("erro");
+
+document.getElementById("iconfirm").disabled = true;
+
+let senha = document.getElementById("ipw");
+
+    senha.addEventListener("input", function(){
+
+    let qtdSenha = senha.value.length;
+
+    if(qtdSenha < 5 || qtdSenha > 8){
+
+        erro.style.display = "block";
+        document.getElementById("iconfirm").disabled = true;
+    }
+    else{
+
+        erro.style.display = "none";
+        document.getElementById("iconfirm").disabled = false;
+
+    }
+
+
+});
+
