@@ -24,7 +24,7 @@ let senha = document.getElementById("ipw");
 
     let qtdSenha = senha.value.length;
 
-    if(qtdSenha < 5 || qtdSenha > 8){
+    if(qtdSenha < 4 || qtdSenha > 8){
 
         erro.style.display = "block";
         document.getElementById("iconfirm").disabled = true;
