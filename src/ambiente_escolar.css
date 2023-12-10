@@ -253,6 +253,11 @@ dialog:hover, dialog:focus {
     text-align: right;
 }
 
+.highlighted{
+    background-color: lightblue;
+  }
+
+
 /* Responsividade ambiente escolar */
 
 @media screen and (max-width: 1500px) {
