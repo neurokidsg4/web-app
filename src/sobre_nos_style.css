@@ -209,10 +209,14 @@ li {
     .container3 .section .card .content {
         height: auto;
     }
-    
+
     .container2 .section .card,
     .container3 .section .card {
         min-height: auto;
+    }
+
+    .card {
+        margin-top: 10px;
     }
 
     .content > p {
