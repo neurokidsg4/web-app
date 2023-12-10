@@ -356,6 +356,8 @@ li {
         gap: 2em;
     }
 
+    
+
     .container_cards_02 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
