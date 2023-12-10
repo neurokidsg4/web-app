@@ -9,6 +9,7 @@
     margin: 0px;
     box-sizing: border-box;
     height: 100vp;
+    list-style: none;
 }
 
 h1,
@@ -21,19 +22,6 @@ h2 {
 main {
     margin: 10px;
     flex: 1;
-}
-
-/* Estilos gerais do site */
-.site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-#nav-cabecalho {
-    list-style: none;
-    color: white;
-    
 }
 
 /* Estilos para a página de conteúdo */
@@ -132,7 +120,7 @@ footer {
         color: #0BB3D9;
         text-align: center;
     }
-
+    
     .circles-container {
         display: flex;
         flex-wrap: wrap;
