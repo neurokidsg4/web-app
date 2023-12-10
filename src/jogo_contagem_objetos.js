@@ -150,5 +150,10 @@ function handleContinueClick() {
   messageElement.textContent = '';
 }
 
+// Adiciona um evento de clique ao botão "Voltar"
+backButton.addEventListener('click', function() {
+  window.location.href = './area_infantil.html';
+});
+
 hideButtons();
 updateColors();
