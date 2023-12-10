@@ -262,6 +262,18 @@ dialog:hover, dialog:focus {
     .search-box{
         display: none;
     }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 15px;
+    }
+    
+    cite {
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width:1500px) {
