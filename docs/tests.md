@@ -225,14 +225,14 @@ Cenário 1: Seu filho apresenta comportamentos incomuns e você suspeita que pos
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 09.39 segundos                  |
-|         |                 |                      |                                 |
+|   2      |       SIM          |        4              |             1 minuto e 31 segundos                    |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 07.44 segundos |
 
 
-    Comentários dos usuários:
+    Comentários dos usuários: 
 
 
 
@@ -242,7 +242,7 @@ Cenário 2: Você deseja compartilhar os conteúdos encontrados.  Encontre no si
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 12.01 segundos                  |
-|         |                 |                      |                                 |
+|    2     |      SIM           |         5             |          50 segundos                       |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                         |
@@ -258,7 +258,7 @@ Cenário 3: Você não é cadastrado. Encontre o formulário de cadastro e reali
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 4 min 42.56 segundos            |
-|         |                 |                      |                                 |
+|    2     |      SIM           |         5             |          4 minutos e 40 segundos                       |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
@@ -275,8 +275,8 @@ Cenário 4: Você já é cadastrado e deseja logar no site. Encontre o formulár
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 13.30 segundos                  |
-|         |                 |                      |                                 |
-|         |                 |                      |                                 |
+|     2    |      SIM           |           5           |                                 |
+|         |                 |                      |                28 segundos                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.35 segundos |
@@ -292,14 +292,14 @@ Cenário 5: Você deseja editar o seu perfil. Encontre no site a sessão para ed
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 1 minuto e 24.73 segundos       |
-|         |                 |                      |                                 |
+|     2    |        SIM         |        4              |            48 segundos                     |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 25.50 segundos |
 
 
-    Comentários dos usuários:
+    Comentários do usuário 2: Consegui encontrar facilmente, porém, uma seção da informação sobre gênero estava escrito “masculino” ao invés da palavra “gênero”.
 
 
 
@@ -309,7 +309,7 @@ Cenário 6: Você está cadastrada (o) no site e está com dificuldades para exc
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 09.71 segundos                  |
-|         |                 |                      |                                 |
+|    2     |       SIM          |          5            |            29 segundos                     |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                          |
@@ -326,7 +326,7 @@ Cenário 7: Você deseja saber mais sobre o site. Encontre a sessão que fale so
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 02.97 segundos                  |
-|         |                 |                      |                                 |
+|    2     |      SIM           |          5            |            5 segundos                     |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
@@ -341,14 +341,14 @@ Cenário 8: Você deseja jogar um dos jogos disponíveis na aplicação. Encontr
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 34.20 segundos                  |
-|         |                 |                      |                                 |
+|    2     |     NÃO          |         1           |             1 minuto e10 segundos                    |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                         |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.94 segundos |
 
 
-    Comentários dos usuários:
+    Comentários do usuário: Apenas um jogo não consegui concluir, por causa que não tinha a resposta correta para marcar e finalizar, dando prosseguimento à atividade. Esse jogo se encontra no nível intermediário.
 
 
 Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o histórico de desempenho dos jogos.
@@ -356,7 +356,7 @@ Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o h
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 10.30 segundos                  |
-|         |                 |                      |                                 |
+|    2     |       SIM          |         5             |                10 segundos                 |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
@@ -372,7 +372,7 @@ Cenário 10: Você gostou dos jogos do site e deseja enviar uma mensagem para a 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 2 minutos e 27.46 segundos      |
-|         |                 |                      |                                 |
+|     2    |        SIM         |          5            |             5 minutos e 41 segundos                    |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
@@ -388,7 +388,7 @@ Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opçã
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 11.39 segundos                  |
-|         |                 |                      |                                 |
+|     2    |     SIM            |       5               |           10 segundos                      |
 |         |                 |                      |                                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
