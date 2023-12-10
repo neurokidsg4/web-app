@@ -334,16 +334,23 @@ li {
     height: 100%;
     object-fit: cover;
 }
+.card {
+    position: relative;
+}
 
-.card:hover .action-bottom-bar a {
+.card:hover .action-bottom-bar {
     opacity: 1;
 }
 
 .action-bottom-bar {
     display: flex;
+    position: absolute; 
+    bottom: 0; 
     font-size: 18px;
     height: 42px;
     width: 100%;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
 }
 
 .action-bottom-bar a {
@@ -352,9 +359,7 @@ li {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 800;
-    opacity: 0;
     padding: 0 24px;
-    transition: all 0.2s ease-in-out;
     color: #F86645;
 }
 
@@ -366,13 +371,17 @@ li {
     display: none;
 }
 
-.action-bottom-bar a:hover .arrow {
+.action-bottom-bar:hover .arrow {
     display: block;
 }
 
-.action-bottom-bar a:hover .chevron {
+.action-bottom-bar:hover .chevron {
     display: none;
 }
+
+.highlighted{
+    background-color: lightblue;
+  }
 
 @media screen and (max-width: 1000px) {
     .share-icon{
