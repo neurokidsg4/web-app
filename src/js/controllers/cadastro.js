@@ -1,5 +1,6 @@
 
 import { User } from '../entities/User.js';
+import { Cryptography } from '../services/cryptography.js';
 
 const button = document.getElementById('button');
 
@@ -36,7 +37,7 @@ button.addEventListener('click', (e) => {
             document.getElementById('gender').value,
             document.getElementById('cell_phone').value,
             birth,
-            document.getElementById('password').value,
+            Cryptography.encode(document.getElementById('password').value),
             document.getElementById('about').value,
             document.getElementById('cep').value,
             document.getElementById('state').value,
@@ -45,7 +46,7 @@ button.addEventListener('click', (e) => {
         
         localStorage.setItem('usuario', JSON.stringify(user));
 
-        alert('Cadastro realizado com sucesso. Agora vá para a página de login e entre com sua nova conta.')
+        window.location.href = 'login.html'
     } 
     else { alert('Ops! Algo deu errado. Tente novamente mais tarde. Se o problema persistir contate a gente pelo link "Contato" que se encontra no rodape do site.'); }
 });
