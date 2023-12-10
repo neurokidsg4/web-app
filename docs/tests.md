@@ -397,7 +397,7 @@ Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opçã
 
     Comentários dos usuários:
 
-## Cenários de Teste de Usabilidade Específico - Profissional Área da Saúde
+## Cenários de Teste de Usabilidade Específico - Profissional Área da Psicologia
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
