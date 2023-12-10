@@ -51,7 +51,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | email e senha do usuário válidos.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT6 - Enviar feedback**
+**Caso de Teste** | **CT4 - Enviar feedback**
  :--------------: | ------------
 **Procedimento**  | 1a) Pelo desktop o usuário deve clicar na palavra "feedback" no menu de navegação superior para ser redirecionado para a página de feedback. <br>1b) Pelo mobile o usuário deve clicar no menu hamburguer e depois clicar no ícone de feedback para ser redirecionado para a página de feedback. <br>2) Estando na página de feedback, o usuário pode preencher o campo "nome" com o próprio nome e o campo "e-mail" com seu próprio e-mail, esses dois campos são opcionais. <br>3) O usuário pode selecionar um dos 03 emojis disponíveis para relatar sua satisfação/experiência com a aplicação, sendo opcional. <br> O usuário deve inserir uma mensagem sobre o assunto desejado no campo "mensagem", sendo obrigatório para o envio. <br>4) O usuário pode selecionar o tipo do feedback fornecido, selecionando uma das opções disponíveis (bug, sugestão ou outro). <br>5) Após todos os passos acima terem sido executados o usuário pode clicar no borão enviar e o feedback será direcionado para a equipe desenvolvedora ou excluir e os campos preenchidos serão esvaziados.
 **Requisitos associados** | RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email específica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.
@@ -60,7 +60,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Inserção de dados válidos no formulário de feedback.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT07 - Sessão específica para crianças neurodiversas e atividades interativas**
+**Caso de Teste** | **CT05 - Sessão específica para crianças neurodiversas e atividades interativas**
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, no desktop e estando logado, deve clicar na palavra "Área Infantil" onde será redirecionado para uma tela específica para crianças neurodiversas, contendo as atividades interativas.<br>1b) O usuário, no mobile e estando logado, deve clicar no ícone "Infantil" onde será redirecionado para uma tela específica para crianças neurodiversas, contendo as atividades interativas.<br>2) O usuário tendo acessado a sessão infantil pode escolher umas das três atividades disponíveis em "cards" e clicar em "jogue".
 **Requisitos associados** | RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.
@@ -69,7 +69,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | Realizar login previamente.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT08 - Informações para pais e profissionais e sugestão de atividades escolares**
+**Caso de Teste** | **CT06 - Informações para pais e profissionais e sugestão de atividades escolares**
  :--------------: | ------------
 **Procedimento**  | 1) O usuário, na página principal, deve rolar a página para baixo, encontrando uma sessão com foco nos pais e profissionais que lidam com crianças neurodiversas.<br>2a) O usuário querendo ter acesso a sugestões de atividade que podem ser realizadas no ambiente escolar, deve clicar em "saiba mais" no card que corresponde às atividades escolares propostas, será redirecionado para a tela onde serão dispostas 07 atividades propostas, o usuário decide qual acessar pela sua necessidade clicando novamente em "saiba mais" no devido card.<br>2b) O usuário querendo ter acesso sobre como lidar com crianças neurodiversas em 02 diferentes contextos ou procurando saber como é possível identificar a neurodiversidade ainda na infância, pode clicar em "saiba mais" no card que for de maior interesse do usuário, então será redirecionado para a página que trata sobre o assunto correspondente.<br>3a) O usuário, tendo acessado o card de sua preferência via desktop, pode decidir buscar por uma palavra específica em todo o corpo do texto, utilizando a lupa de busca, ou pode decidir compartilhar o conteúdo disponível de 05 formas diferentes (ícone de link - copia o link da página, ícone do twitter - compartilha pelo twitter do usuário, ícone do facebook - compartilha no facebook do usuário, ícone de e-mail - permite que o usuário compartilhe o conteúdo através do seu e-mail, ícone do linkedin - compartilha no linkedin do usuário).<br>3b) O usuário, tendo acessado o card de sua preferência via mobile, não estará habilitado a buscar por palavra específica, mas, assim como no desktop, conseguirá compartilhar o link das mesmas 05 formas diferentes clicando no botão "compartilhar" ao final de cada página com essa funcionalidade.
 **Requisitos associados** | RF-009	A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.<br>RF-010	A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.<br>RF-014	A aplicação deve conter campos de pesquisa nas páginas necessárias.<br>RNF-007	A aplicação deve conter conteúdos de atividades propostas para crianças.
@@ -78,7 +78,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT09 - Descrição da aplicação**
+**Caso de Teste** | **CT07 - Descrição da aplicação**
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, via desktop, deve, no menu de navegação superior, clicar em "sobre nós" para ser redirecionado para a página onde se encontram as descrições da aplicação, tais como: quem somos, nossa missão, visão e valores.<br>1b) O usuário, via mobile, deve, clicar no menu hamburguer, e em sequência, clicar no ícone "sobre nós" e ser redirecionado para a página onde se encontram as descrições da aplicação, tais como: quem somos, nossa missão, visão e valores.
 **Requisitos associados** | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.
@@ -102,7 +102,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-02 - Cadastrar usuário *                                         |
 |---|---|
 |Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.<br> RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).<br> RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/0ad687ec-098d-4c38-8449-65ed06268101| 
+|Link do vídeo do teste realizado: | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/92484d2d-7bdc-4123-a813-641e5446fa9a| 
 
 |*Caso de Teste*                                 |*TC-03 - Logar Usuário *                                         |
 |---|---|
@@ -110,24 +110,24 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6e4f10f3-004a-443b-bb51-f4c8949d315e| 
 
 
-|*Caso de Teste*                                 |*TC-06 - Enviar feedback *                                         |
+|*Caso de Teste*                                 |*TC-04 - Enviar feedback *                                         |
 |---|---|
 |Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/c8c43a19-1560-48fd-a46b-d8eeb239878d| 
 
-|*Caso de Teste*                                 |*TC-07 - Sessão específica para crianças neurodiversas e atividades interativas *                                         |
+|*Caso de Teste*                                 |*TC-05 - Sessão específica para crianças neurodiversas e atividades interativas *                                         |
 |---|---|
 |Requisito Associado |RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/20673b8c-66ad-42fe-ab94-ff9ead8f4733| 
 
-|*Caso de Teste*                                 |*TC-08 - Informações para pais e profissionais e sugestão de atividades escolares *                                         |
+|*Caso de Teste*                                 |*TC-06 - Informações para pais e profissionais e sugestão de atividades escolares *                                         |
 |---|---|
 |Requisito Associado |RF-009	A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.<br>RF-010	A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.<br>RF-014	A aplicação deve conter campos de pesquisa nas páginas necessárias.<br>RNF-007	A aplicação deve conter conteúdos de atividades propostas para crianças.|
 |Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4121cedf-e4ab-480e-9a18-7d36da60d9ab| 
 |Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/32ed9ef9-5e45-47e4-b110-4c3198a73272| 
 |Link do vídeo do teste realizado - parte 03: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/b676ed30-5860-45da-a494-10e50221097a| 
 
-|*Caso de Teste*                                 |*TC-09 - Descrição da aplicação *                                         |
+|*Caso de Teste*                                 |*TC-07 - Descrição da aplicação *                                         |
 |---|---|
 |Requisito Associado | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6f89b14f-fd47-4df6-8523-9a817811f610| 
