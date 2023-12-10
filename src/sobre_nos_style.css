@@ -160,13 +160,12 @@ li {
 
 /* Responsividade cads */
 
-@media screen and (max-width: 1000px) {
-
-    main{
+@media screen and (max-width: 1300px) {
+    main {
         display: block;
     }
 
-    .container, .container2, .container3{
+    .container, .container2, .container3 {
         flex-direction: column;
         align-items: center;
         margin-top: 150px;
@@ -177,9 +176,10 @@ li {
     .card {
         flex-grow: 0;
         margin-right: 0;
+        flex-basis: 100%;
     }
 
-    .card + .card{
+    .card + .card {
         margin-top: 20px;
     }
 
@@ -209,8 +209,17 @@ li {
     .container3 .section .card .content {
         height: auto;
     }
+    
     .container2 .section .card,
     .container3 .section .card {
         min-height: auto;
+    }
+
+    .content > p {
+        font-size: 13px;
+        line-height: 1.40;
+        font-weight: 500;
+        margin-top: 10px;
+        padding: 18px;
     }
 }
