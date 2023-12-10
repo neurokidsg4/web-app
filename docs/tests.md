@@ -35,10 +35,10 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 **Caso de Teste** | **CT02 - Cadastrar Usuário**
  :--------------: | ------------
-**Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar", então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e em sequência clicar no ícone de entrar, então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>2) O usuário estando na página de cadastro pode escolher sua foto de perfil, deve informar seu nome no campo "nome", deve selecionar o gênero dentro das opções disponíveis no campo "gênero", deve selecionar uma área de atuação dentro das disponíveis no campo "atuação", deve informar seu e-mail, em formato válido, no campo "e-mail", pode informar o número de telefone móvel para contato no campo "celular" (opcional), deve digitar uma senha que tenha entre 4 e 8 dígitos, seguindo as recomendações de caractéres especiais no momento de digitação, no campo "senha", deve preencher o campo "nascimento" com sua data de nascimento, deve digitar novamente a senha no campo "confirmar senha" e deve preencher o campo "CEP" com o CEP da sua residência/trabalho, os campos "cidade" e "estado" são preenchidos automaticamente após a verificação do CEP, o usuário é livre para deixar um pouco sobre ele no campo "nos conte um pouco sobre você".<br>3) Após todos os campos terem sido preenchidos corretamente o usuário deve clicar em cadastrar para finalizar o processo de cadastro, tendo sucesso uma mensagem de confirmação irá aparecer informando ao usuário o próximo passo.
-**Requisitos associados** | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.
-**Artefatos associados** | cadastro.html
-**Resultado esperado** | Criação de cadastro.
+**Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar", então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e em sequência clicar no ícone de entrar, então será redirecionado para a página de login, caso não tenha conta, ele deve realizar um cadastro em "clique aqui para se cadastrar", será então redirecionado para a página de cadastro.<br>2) O usuário estando na página de cadastro pode escolher sua foto de perfil, deve informar seu nome no campo "nome", deve selecionar o gênero dentro das opções disponíveis no campo "gênero", deve selecionar uma área de atuação dentro das disponíveis no campo "atuação", deve informar seu e-mail, em formato válido, no campo "e-mail", pode informar o número de telefone móvel para contato no campo "celular" (opcional), deve digitar uma senha que tenha entre 4 e 8 dígitos, seguindo as recomendações de caractéres especiais no momento de digitação, no campo "senha", deve preencher o campo "nascimento" com sua data de nascimento, deve digitar novamente a senha no campo "confirmar senha" e deve preencher o campo "CEP" com o CEP da sua residência/trabalho, os campos "cidade" e "estado" são preenchidos automaticamente após a verificação do CEP, o usuário é livre para deixar um pouco sobre ele no campo "nos conte um pouco sobre você".<br>3) Após todos os campos terem sido preenchidos corretamente o usuário deve clicar em cadastrar para finalizar o processo de cadastro, tendo sucesso será redirecionado para a tela de login.
+**Requisitos associados** | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br> RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.<br> RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).<br> RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.
+**Artefatos associados** | cadastro.html, Cryptography.js e localStorage (navegador).
+**Resultado esperado** | Criação de cadastro, dados cadastrais criptografados persistência dos dados no localStorage
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
@@ -46,43 +46,25 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, estando no desktop e não estando logado, deve clicar na palavra "entrar" no menu de navegação superior, então será redirecionado para a página de login, já tendo feito um cadastro previamente, ele deve informar o e-mail cadastrado e a senha cadastrada. Caso os dados informados sejam iguais aos informados no momento do cadastro o usuário será redirecionado a página principal, contudo, estando agora logado, no menu de navegação superior onde estava "entrar" agora irá estar escrito "sair".<br>1b) O usuário, estando no mobile e não estando logado, deve clicar no menu hamburguer e no ícone de "entrar", então será redirecionado para a página de login, ja tendo feito um cadastro previamente, ele deve informar o e-mail e senha cadastrados. Caso os dados informados sejam iguais aos informado no momento do cadastro o usuário será redirecionado a página principal, contudo, estando agora logado, no menu hamburguer onde existia o ícone de "entrar" agora será exibido o ícone de "sair".<br>2) Após estar logado o usuário terá acesso às seções restritas de acesso ao perfil e área infantil.
 **Requisitos associados** | RF-003 A aplicação deve permitir que o usuário faça login.
-**Artefatos associados** | login.html
+**Artefatos associados** | login.html e login.js
 **Resultado esperado** | Logar usuario, liberando acesso às paginas restritas (perfil.html e area_infantil.html).
-**Dados de entrada** | Inserção de dados válidos no formulário de login.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT04 - Criptografar Dados**
- :--------------: | ------------
-**Procedimento**  | 1) A aplicação deve criptografar dados sensíveis.
-**Requisitos associados** | RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).
-**Artefatos associados** | Cryptography.js
-**Resultado esperado** | Dados criptografados.
-**Dados de entrada** | Inserção de dados sensíveis.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT05 - Persistir Dados**
- :--------------: | ------------
-**Procedimento**  | 1) A aplicação deve persistir dados cadastrais em json server e/ou localStorage.
-**Requisitos associados** | RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.
-**Artefatos associados** | LocalStorage.js, db.json
-**Resultado esperado** | Dados persistidos.
-**Dados de entrada** | Inserção de dados cadastrais e de login.
+**Dados de entrada** | email e senha do usuário válidos.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT6 - Enviar feedback**
  :--------------: | ------------
-**Procedimento**  | 1a) Pelo desktop o usuário deve clicar na palavra "feedback" no menu de navegação superior para ser redirecionado para a página de feedback. <br>1b) Pelo mobile o usuário deve clicar no menu hamburguer e depois clicar no ícone de feedback para ser redirecionado para a página de feedback. <br>2) Estando na página de feedback, o usuário pode preencher o campo "nome" com o próprio nome e o campo "e-mail" com seu próprio e-mail, esses dois campos são opcionais. <br>3) O usuário deve selecionar um dos 03 emojis disponíveis para relatar sua satisfação/experiência com a aplicação. <br> O usuário deve inserir uma mensagem sobre a aplicação no campo "mensagem". <br>4) O usuário deve selecionar o tipo do feedback fornecido, selecionando uma das opções disponíveis (bug, sugestão ou outro). <br>5) Após todos os passos acima terem sido executados o usuário pode escolher enviar e o feedback será direcionado para a equipe desenvolvedora.
+**Procedimento**  | 1a) Pelo desktop o usuário deve clicar na palavra "feedback" no menu de navegação superior para ser redirecionado para a página de feedback. <br>1b) Pelo mobile o usuário deve clicar no menu hamburguer e depois clicar no ícone de feedback para ser redirecionado para a página de feedback. <br>2) Estando na página de feedback, o usuário pode preencher o campo "nome" com o próprio nome e o campo "e-mail" com seu próprio e-mail, esses dois campos são opcionais. <br>3) O usuário pode selecionar um dos 03 emojis disponíveis para relatar sua satisfação/experiência com a aplicação, sendo opcional. <br> O usuário deve inserir uma mensagem sobre o assunto desejado no campo "mensagem", sendo obrigatório para o envio. <br>4) O usuário pode selecionar o tipo do feedback fornecido, selecionando uma das opções disponíveis (bug, sugestão ou outro). <br>5) Após todos os passos acima terem sido executados o usuário pode clicar no borão enviar e o feedback será direcionado para a equipe desenvolvedora ou excluir e os campos preenchidos serão esvaziados.
 **Requisitos associados** | RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email específica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.
-**Artefatos associados** | feedback.js
-**Resultado esperado** | Feedback enviado.
-**Dados de entrada** | Inserção de dados do formulário de feedback.
+**Artefatos associados** | feedback.html e feedback.js
+**Resultado esperado** | Feedback enviado com sucesso.
+**Dados de entrada** | Inserção de dados válidos no formulário de feedback.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT07 - Sessão específica para crianças neurodiversas e atividades interativas**
  :--------------: | ------------
 **Procedimento**  | 1a) O usuário, no desktop e estando logado, deve clicar na palavra "Área Infantil" onde será redirecionado para uma tela específica para crianças neurodiversas, contendo as atividades interativas.<br>1b) O usuário, no mobile e estando logado, deve clicar no ícone "Infantil" onde será redirecionado para uma tela específica para crianças neurodiversas, contendo as atividades interativas.<br>2) O usuário tendo acessado a sessão infantil pode escolher umas das três atividades disponíveis em "cards" e clicar em "jogue".
 **Requisitos associados** | RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.
-**Artefatos associados** | area_infantil.html, atividade_cores.html, jogo-matematica.html, jogo-matematica-fase2.html, jogo-matematica-fase3.html, jogo-matematica-fase4.html
+**Artefatos associados** | area_infantil.html, area_infantil_style.css, atividade_cores.html, atividade_cores_style.css, jogo-matematica.html, jogo-matematica.css, jogo-matematica.js, jogo-matematica-fase2.html, jogo-matematica-fase2.js, jogo-matematica-fase3.html, jogo-matematica-fase3.js, jogo-matematica-fase4.html, jogo-matematica-fase4.js, atividade_contagem_objetos.html, jogo_contagem_objetos.js
 **Resultado esperado** | Acesso área infantil e conseguir realizar as atividades interativas.
 **Dados de entrada** | Realizar login previamente.
 **Resultado obtido** | Sucesso.
@@ -119,7 +101,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-02 - Cadastrar usuário *                                         |
 |---|---|
-|Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.|
+|Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.<br> RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).<br> RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/0ad687ec-098d-4c38-8449-65ed06268101| 
 
 |*Caso de Teste*                                 |*TC-03 - Logar Usuário *                                         |
@@ -127,16 +109,6 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |Requisito Associado |  RF-003 A aplicação deve permitir que o usuário faça login.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6e4f10f3-004a-443b-bb51-f4c8949d315e| 
 
-
-|*Caso de Teste*                                 |*TC-04 - Criptografar Dados *                                         |
-|---|---|
-|Requisito Associado | RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).|
-|Link do vídeo do teste realizado: | | 
-
-|*Caso de Teste*                                 |*TC-05 - Persistir Dados *                                         |
-|---|---|
-|Requisito Associado |RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
-|Link do vídeo do teste realizado: |https://www.loom.com/share/d7cbe3c7b52a4e35b73ca92aa4f31a9c?sid=5a848b01-4b85-495e-b3d1-2282009d5897| 
 
 |*Caso de Teste*                                 |*TC-06 - Enviar feedback *                                         |
 |---|---|
