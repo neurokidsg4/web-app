@@ -1,11 +1,7 @@
 
-//Se comentar as 4 linha enumeradas abaixo o jogo roda normalmente.
+import { Game } from './js/entities/Jogo.js';
 
-//comentar essa linha (1)
-// import { Game } from './js/entities/Jogo.js';
-
-//comentar essa linha(2)
-// const jogo = new Game('Matematica');
+const game = new Game('Matematica');
 
 var num1 = 0;
 var num2 = 0;
@@ -37,34 +33,31 @@ function geraNum() {
 geraNum();
 
 //Ação ao confirmar a resposta.
-btnConfimar = document.getElementById("iconfirm");
+const btnConfimar = document.getElementById("iconfirm");
 
 btnConfimar.addEventListener("click", function () {
+
+    game.attemptCounter();
 
     btnConfimar.style.display = "none";
 
     var calculo = num1 + num2;
     var resposta = document.getElementById("resposta").value;
 
-
     if (calculo == resposta) {
+
+        game.sumPoint();
 
         cont++;
         tentativa++;
 
         document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
 
-        //comentar essa linha(3)
-        // jogo.sumPoint();
-
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
         if (tentativa < 5) {
 
-            //cometar essa linha(4)
-            // jogo.attempt();
-            
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
 
@@ -81,12 +74,12 @@ btnConfimar.addEventListener("click", function () {
     }
 
     else{
+        
+        tentativa++;
 
         document.getElementById("resultado").innerHTML = "Tente mais uma vez.";
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
-
-        tentativa++;
 
         document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
 
@@ -95,6 +88,9 @@ btnConfimar.addEventListener("click", function () {
     }
 
     if(tentativa >=5 ){
+
+        game.gameSaves();
+
         btnConfimar.style.display ="none";
         btnProximaFase.style.display  = "";
         btnVoltar.style.display = "";
