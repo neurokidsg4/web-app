@@ -36,11 +36,6 @@ main {
     
 }
 
-
-.list-hader{
-    display: inline;
-}
-
 /* Estilos para a página de conteúdo */
 .color-name {
     text-align: center;
@@ -130,20 +125,68 @@ footer {
 
 /* Responsividade atividades */
 
-@media screen and (max-width: 1000px) {
-    footer{
-        position: relative;
-        bottom: 0;
-        margin-top: 80px;
-    }
-
-    .type-error {
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 1rem;
+        padding: 5px 0px;
+        color: #0BB3D9;
         text-align: center;
-        justify-content: space-around; /* Ajuste o espaçamento entre os elementos */
-        margin-top: 10px; /* Reduza o espaço acima do grupo de elementos */
     }
 
-    .type-error span {
-        margin: 10px; /* Remova as margens internas (se houver) */
+    .circles-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-self: center;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+        background-color: whitesmoke;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .correct-color {
+        background-color: whitesmoke;
+    }
+
+    .button-container {
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #E64A1E;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-transform: uppercase;
+        border-radius: 10px;
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    footer {
+        padding: 20px 5%;
+    }
+
+    #nav-rodape ul {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
