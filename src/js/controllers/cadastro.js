@@ -1,5 +1,6 @@
 
 import { User } from '../entities/User.js';
+import { Cryptography } from '../services/cryptography.js';
 
 const button = document.getElementById('button');
 
@@ -43,9 +44,9 @@ button.addEventListener('click', (e) => {
             document.getElementById('city').value,
         );
         
-        localStorage.setItem('usuario', JSON.stringify(user));
+        localStorage.setItem('usuario', Cryptography.encode(JSON.stringify(user)));
 
-        alert('Cadastro realizado com sucesso. Agora vá para a página de login e entre com sua nova conta.')
+        window.location.href = 'login.html'
     } 
     else { alert('Ops! Algo deu errado. Tente novamente mais tarde. Se o problema persistir contate a gente pelo link "Contato" que se encontra no rodape do site.'); }
 });

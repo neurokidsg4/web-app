@@ -1,6 +1,10 @@
 
+import { Cryptography } from "../services/cryptography.js";
+
 const button = document.getElementById('button');
-const user = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+
+const user = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
+
 
 button.addEventListener('click', (e) => {
 

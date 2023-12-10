@@ -1,7 +1,10 @@
  
 /*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de editar perfil*/
 
-const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+import { Cryptography } from "./js/services/cryptography.js";
+
+const usuario = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
+
 var btnSave = document.getElementById("btn-save");
 
 //const foto = localStorage.getItem("foto") || "";
@@ -31,7 +34,7 @@ btnSave.addEventListener("click", function(){
     usuario.estado = document.getElementById("state").value;
     usuario.cidade = document.getElementById("city").value;
 
-    localStorage.setItem("usuario", JSON.stringify(usuario));
+    localStorage.setItem("usuario", Cryptography.encode(JSON.stringify(usuario)));
 });
 
 //document.getElementById("foto-perfil1").setAttribute("src", `${foto}`);

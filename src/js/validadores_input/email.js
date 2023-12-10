@@ -23,30 +23,5 @@ function inputFunction() {
         field.classList.remove('field--invalid');
         input.classList.remove('input--invalid');
         message.style.display = 'none';
-
-            // const url = `http://localhost:3000/users?email=${email}`;
-
-            // fetch(url, {
-            //     method : "GET",
-            //     headers: {'Content-Type': 'application/json'}
-            // })
-            // .then(response => response.json())
-            // .then((user) => {
-
-            //     if(user[0].email === email) {
-
-            //         field.classList.add('field--invalid');
-            //         input.classList.add('input--invalid');
-            //         messageExists.style.display = 'inline-block';
-            //         message.style.display = 'none';
-            //     };
-            // })
-            // .catch(err => {
-                
-            //     field.classList.remove('field--invalid');
-            //     input.classList.remove('input--invalid');
-            //     messageExists.style.display = 'none';
-            //     message.style.display = 'none';
-            // });
     }
 }
