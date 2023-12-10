@@ -124,7 +124,7 @@ main {
     align-items: center;
 }
 
-button {
+.btn {
     font-size: 18px;
     padding: 10px 20px;
     background-color: #E64A1E;
@@ -137,7 +137,7 @@ button {
     margin: 30px;
 }
 
-button:hover {
+.btn:hover {
     background-color: #F86645;
 }
 
