@@ -267,14 +267,14 @@ li {
 /* aplicando a responsividade para o container principal */
 @media screen and (max-width: 1500px) {
     .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: 20px;
-        margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 5em;
+            margin-left: auto;  
+            margin-right: auto;
+        }
     }
-}
-
+    
 /* aplicando responsividade para o container secundário */
 @media screen and (max-width: 1800px) {
     .container_cards_02 {
@@ -311,6 +311,7 @@ li {
 }
 
 /* Media query comum para vários tamanhos de tela */
+
 @media screen and (max-width: 900px) and (min-width: 581px) {
     .container_cards_main {
         gap: 2em;
@@ -355,8 +356,6 @@ li {
     .container_cards_main {
         gap: 2em;
     }
-
-    
 
     .container_cards_02 {
         display: grid;
@@ -403,6 +402,47 @@ li {
 }
 
 /* Media queries específicas */
+
+@media screen and (max-width: 509px) and (min-width: 367px) {
+    .container_cards_main {
+        gap: 2em;
+    }
+
+    .container_cards_02 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        margin-left: 20em;
+        margin-right: 20px;
+    }
+
+    .card_02 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .container_cards_main {
+        gap: 2em;
+    }
+
+    .container_cards_02 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        margin-left: 20em;
+        margin-right: 20px;
+    }
+
+    .card_02 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+    }
+}
+
 @media screen and (max-width: 608px) and (min-width: 601px) {
     .container_cards_02 {
         margin-left: 5px;
