@@ -138,36 +138,9 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
-
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
-
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
-
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
@@ -196,15 +169,15 @@ Cenário 1: Seu filho apresenta comportamentos incomuns e você suspeita que pos
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 09.39 segundos                  |
-|   2      |       SIM          |        4              |             1 minuto e 31 segundos                    |
+|   1     | SIM             | 5                    | 09.39 segundos                  |
+|   2     |       SIM       |        4             | 1 minuto e 31 segundos          |
+|   3     |       SIM       |        5             | 1 minuto e 1 segundos           |
 |         |                 |                      |                                 |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 07.44 segundos |
+| **Média** | 0%            | 0                    | 0.00 segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 07.44 segundos              |
 
 
-    Comentários dos usuários: 
+    Comentários do usuario 3: Adorei por ter cores chamativas indicando os topicos, com letras grandes
 
 
 
@@ -213,12 +186,12 @@ Cenário 2: Você deseja compartilhar os conteúdos encontrados.  Encontre no si
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.01 segundos                  |
-|    2     |      SIM           |         5             |          50 segundos                       |
+|    1    |      SIM        |         5            | 12.01 segundos                  |
+|    2    |      SIM        |         5            | 50 segundos                     |
+|    3    |      SIM        |         5            | 21 segundos                     |
 |         |                 |                      |                                 |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0.00 segundos                         |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 02.95 segundos |
+| **Média** | 0%            |      0               | 0.00 segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 02.95 segundos              |
 
 
     Comentários do usuários 01: Ao copiar link alguma mensagem de sucesso poderia ser exibida pra mim, fiquei sem saber se copiou ou não.
@@ -231,13 +204,14 @@ Cenário 3: Você não é cadastrado. Encontre o formulário de cadastro e reali
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 4 min 42.56 segundos            |
 |    2     |      SIM           |         5             |          4 minutos e 40 segundos                       |
-|         |                 |                      |                                 |
+|    3    |       SIM       |           4          | 41 segundos                     |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 54.02 segundos |
 
 
     Comentários do usuário 01: Ao inserir minha senha eu esperava que o campo de confirmar senha estivesse ao lado ou abaixo do campo para inserir a senha, minha única dificuldade foi nessa parte do layout.
+    Comentários do usuário 03: No campo gênero ao invés de "não binário" sugiro colocar "prefiro não me identificar". Não acho que "atuação" é o melhor nome para o campo proposto. Me confundi com a palavra caracteres de início. Seria melhor se tivesse escrito "digitos".
 
 
 
@@ -247,8 +221,8 @@ Cenário 4: Você já é cadastrado e deseja logar no site. Encontre o formulár
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 13.30 segundos                  |
-|     2    |      SIM           |           5           |                                 |
-|         |                 |                      |                28 segundos                 |
+|    2    |      SIM        | 5                    | 28 segundos                     |
+| 3       | SIM             | 5                    | 26 segundos                     |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.35 segundos |
@@ -265,7 +239,7 @@ Cenário 5: Você deseja editar o seu perfil. Encontre no site a sessão para ed
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 1 minuto e 24.73 segundos       |
 |     2    |        SIM         |        4              |            48 segundos                     |
-|         |                 |                      |                                 |
+| 3       | SIM             | 5                    | 14 segundos                     |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 25.50 segundos |
@@ -282,7 +256,7 @@ Cenário 6: Você está cadastrada (o) no site e está com dificuldades para exc
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 09.71 segundos                  |
 |    2     |       SIM          |          5            |            29 segundos                     |
-|         |                 |                      |                                 |
+| 3       | SIM             | 5                    | 7 segundos                      |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                          |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 07.74 segundos |
@@ -298,10 +272,10 @@ Cenário 7: Você deseja saber mais sobre o site. Encontre a sessão que fale so
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 02.97 segundos                  |
-|    2     |      SIM           |          5            |            5 segundos                     |
-|         |                 |                      |                                 |
+|    2     |      SIM           |          5            |            5 segundos      |
+| 3       | SIM             | 5                    | 6 segundos                      |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 0.00 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.91 segundos |
 
 
@@ -314,14 +288,14 @@ Cenário 8: Você deseja jogar um dos jogos disponíveis na aplicação. Encontr
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 34.20 segundos                  |
 |    2     |     NÃO          |         1           |             1 minuto e10 segundos                    |
-|         |                 |                      |                                 |
+| 3       | SIM             | 3                    | 52 segundos                     |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                         |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.94 segundos |
 
 
     Comentários do usuário: Apenas um jogo não consegui concluir, por causa que não tinha a resposta correta para marcar e finalizar, dando prosseguimento à atividade. Esse jogo se encontra no nível intermediário.
-
+    Comentários do usuário 3: Foi fácil achar o jogo. Dei nota 3 por não mostrar o resultado do jogo ao completar todas as rodadas, dizendo se errei ou não. Se fosse mostrar em quais errei iria querer saber em quais cores errei (no jogo acerte as cores). O objetos não está funcionando.
 
 Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o histórico de desempenho dos jogos.
 
@@ -329,13 +303,13 @@ Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o h
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 10.30 segundos                  |
 |    2     |       SIM          |         5             |                10 segundos                 |
-|         |                 |                      |                                 |
+| 3       | SIM             | 1                    | 1 minuto e 38 segundos          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.50 segundos |
 
 
-    Comentários dos usuários:
+    Comentários do usuário 3: Me confundi. O resultado deveria ficar n própria tela de jogos. Ainda entrei no menu e na telas dos jogos antes de achar.
 
 
 
@@ -345,13 +319,13 @@ Cenário 10: Você gostou dos jogos do site e deseja enviar uma mensagem para a 
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 2 minutos e 27.46 segundos      |
 |     2    |        SIM         |          5            |             5 minutos e 41 segundos                    |
-|         |                 |                      |                                 |
+| 3       | NÃO             | 1                    | 2 minutos e 38 segundos         |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 23.48 segundos |
 
 
-    Comentários dos usuários:
+    Comentários do usuário 3: Não sei falar inglês. Misturar português com inglês não faz sentido por residirmos no Brasil. Seria melhor se fosse fosse algo como "Fale conosco". Em outros sites as informações ficam todas no menu, mas este site as informações estão espalhadas. O link de contato também não funciona. No perfil também costuma ter só os dados pessoais.
 
 
 
@@ -360,10 +334,10 @@ Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opçã
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 11.39 segundos                  |
-|     2    |     SIM            |       5               |           10 segundos                      |
-|         |                 |                      |                                 |
+|     2    |     SIM            |       5               |           10 segundos      |
+| 3       | SIM             | 5                    | 16 segundos                     |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 0.00 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 03.95 segundos |
 
 
