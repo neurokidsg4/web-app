@@ -1,17 +1,15 @@
 import { Cryptography } from "./js/services/cryptography.js";
 
-const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+const usuario = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
 
 const btnConfirmar = document.getElementById("iconfirm");
 
 btnConfirmar.addEventListener("click", function(){
 
-    usuario.senha = Cryptography.encode(document.getElementById("ipw").value);
+    usuario.senha = document.getElementById("ipw").value;
 
-    localStorage.setItem("usuario", JSON.stringify(usuario));
-
+    localStorage.setItem("usuario", Cryptography.encode(JSON.stringify(usuario)));
 });
-
 
 //Validando o campo de senha
 
@@ -25,7 +23,7 @@ let senha = document.getElementById("ipw");
 
     let qtdSenha = senha.value.length;
 
-    if(qtdSenha < 5 || qtdSenha > 8){
+    if(qtdSenha < 4 || qtdSenha > 8){
 
         erro.style.display = "block";
         document.getElementById("iconfirm").disabled = true;
@@ -36,7 +34,4 @@ let senha = document.getElementById("ipw");
         document.getElementById("iconfirm").disabled = false;
 
     }
-
-
 });
-

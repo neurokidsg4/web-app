@@ -37,7 +37,6 @@ function startGame() {
         continueButton.style.display = 'none';
         backButton.style.display = 'block';
         backButton.addEventListener('click', handleBackButtonClick);
-        // saveCorrectGuessesPerAttempt();
         return;
     }
 
@@ -136,25 +135,6 @@ function handleBackButtonClick() {
     // Redireciona para a página desejada
     window.location.href = '/src/area_infantil.html';
 }
-
-// // Função para salvar a lista de acertos por tentativa no localStorage
-// function saveCorrectGuessesPerAttempt() {
-//     // Obter as tentativas anteriores do localStorage
-//     const previousAttempts = JSON.parse(localStorage.getItem('correctGuessesPerAttempt')) || [];
-
-//     // Adicionar a lista atual à lista de tentativas anteriores
-//     previousAttempts.push({ 
-//         attempt: numAttempts - 1 , 
-//         correct: correctGuessesPerAttempt, 
-//         gameName: gameName, 
-//         performance: performance,
-//         date: actualDate,
-//     });
-
-//     // Salvar a lista completa no localStorage
-//     localStorage.setItem('correctGuessesPerAttempt', JSON.stringify(previousAttempts));
-
-// }
 
 // Iniciar o jogo quando a página carregar
 window.addEventListener('load', startGame);

@@ -1,5 +1,6 @@
+import { Cryptography } from "./js/services/cryptography.js";
 
-const usuario = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+const usuario = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
 const foto = localStorage.getItem("foto") || "";
 
 document.getElementById("info-name-1").innerHTML = usuario.nome;

@@ -37,14 +37,14 @@ button.addEventListener('click', (e) => {
             document.getElementById('gender').value,
             document.getElementById('cell_phone').value,
             birth,
-            Cryptography.encode(document.getElementById('password').value),
+            document.getElementById('password').value,
             document.getElementById('about').value,
             document.getElementById('cep').value,
             document.getElementById('state').value,
             document.getElementById('city').value,
         );
         
-        localStorage.setItem('usuario', JSON.stringify(user));
+        localStorage.setItem('usuario', Cryptography.encode(JSON.stringify(user)));
 
         window.location.href = 'login.html'
     } 

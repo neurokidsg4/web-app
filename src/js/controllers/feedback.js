@@ -1,7 +1,7 @@
 const button = document.getElementById('submit-feedback');
 
 button.addEventListener('click', (e) => { 
-
+    
     e.preventDefault();
 
     const inputsRequired = document.querySelectorAll('.input--invalid');

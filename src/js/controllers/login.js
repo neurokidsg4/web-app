@@ -2,7 +2,9 @@
 import { Cryptography } from "../services/cryptography.js";
 
 const button = document.getElementById('button');
-const user = localStorage.getItem('usuario') ? JSON.parse(localStorage.getItem('usuario')) : {};
+
+const user = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
+
 
 button.addEventListener('click', (e) => {
 
@@ -11,7 +13,7 @@ button.addEventListener('click', (e) => {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
-    if(Cryptography.decode(user.senha) === password && user.email === email) {
+    if(user.senha === password && user.email === email) {
         localStorage.setItem('login', 'true');
         window.location.href = localStorage.getItem('redirect') ? localStorage.getItem('redirect') : './index.html';
         localStorage.setItem('redirect', '');
