@@ -7,7 +7,7 @@ const usuario = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode
 
 var btnSave = document.getElementById("btn-save");
 
-//const foto = localStorage.getItem("foto") || "";
+const foto = localStorage.getItem("foto") || "";
 
 document.getElementById("name").value = usuario.nome;
 document.getElementById("gender-select").value = usuario.genero;
@@ -37,4 +37,4 @@ btnSave.addEventListener("click", function(){
     localStorage.setItem("usuario", Cryptography.encode(JSON.stringify(usuario)));
 });
 
-//document.getElementById("foto-perfil1").setAttribute("src", `${foto}`);
+document.getElementById("photo").setAttribute("src", `${foto}`);
