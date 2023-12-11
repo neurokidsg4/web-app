@@ -13,7 +13,6 @@ export class Game {
 
     sumPoint() {
         this.punctuation += 1;
-        console.log("********** ESTOU SENDO CHAMADO ***********");
     }
 
     attemptCounter() {
