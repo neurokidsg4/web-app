@@ -37,18 +37,11 @@ function geraNum() {
 /*
 function geraNum() {
 
-    var num1 = parseInt(Math.floor(Math.random() * 10));
-    var num2 = parseInt(Math.floor(Math.random() * 10) + 1);
+    num1 = parseInt(Math.random() * 10);
+    num2 = parseInt(Math.random() * 10);
 
-    op1 = num1;
-    op2 = num2;
-
-    while (op1 % op2 != 0){
-        op1 = parseInt(Math.floor(Math.random() * 10));
-        op2 = parseInt(Math.floor(Math.random() * 10) + 1)
-    }
-    document.getElementById("num1").innerHTML = op1;
-    document.getElementById("num2").innerHTML = op2;
+    document.getElementById("num1").innerHTML = num1;
+    document.getElementById("num2").innerHTML = num2;
 
 }
 */
@@ -56,9 +49,11 @@ function geraNum() {
 geraNum();
 
 //Ação ao confirmar a resposta.
-btnConfimar = document.getElementById("iconfirm");
+const btnConfimar = document.getElementById("iconfirm");
 
 btnConfimar.addEventListener("click", function () {
+
+    game.attemptCounter();
 
     btnConfimar.style.display = "none";
 
@@ -100,6 +95,8 @@ btnConfimar.addEventListener("click", function () {
     }
 
     else{
+        
+        tentativa++;
 
         document.getElementById("resultado").innerHTML = "Tente mais uma vez.";
         document.getElementById("resposta").value = "";
