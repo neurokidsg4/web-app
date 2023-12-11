@@ -41,7 +41,7 @@ btnConfimar.addEventListener("click", function () {
 
     btnConfimar.style.display = "none";
 
-    var calculo = num1 + num2;
+    var calculo = num1 / num2;
     var resposta = document.getElementById("resposta").value;
 
     if (calculo == resposta) {

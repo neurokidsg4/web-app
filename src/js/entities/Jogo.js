@@ -13,6 +13,7 @@ export class Game {
 
     sumPoint() {
         this.punctuation += 1;
+        console.log("********** ESTOU SENDO CHAMADO ***********");
     }
 
     attemptCounter() {
@@ -24,6 +25,9 @@ export class Game {
         let performance = '';
         
         switch(this.punctuation) {
+            case 0: performance = 'baixo';
+                break;
+
             case 1: performance = 'baixo';
                 break;
             
@@ -54,6 +58,7 @@ export class Game {
         const year = date.getFullYear ();
         const dateFormatted = `${day}/${(month)}/${year}`;
 
+
         const jogo = {
             performance: this.returnPerformance(),
             punctuation: this.punctuation,
@@ -61,6 +66,8 @@ export class Game {
             attempt: this.attempt,
             data: dateFormatted,
         };
+
+        console.log(jogo)
 
         if(this.gameHistory.length > 0) {
 
@@ -73,6 +80,9 @@ export class Game {
                     return;
                 };
             };
+
+            this.gameHistory.push([jogo]);  
+            localStorage.setItem('jogos', JSON.stringify(this.gameHistory));
 
         } else {
 
