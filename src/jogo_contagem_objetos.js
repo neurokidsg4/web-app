@@ -19,9 +19,16 @@ const backButton = document.getElementById('back');
 const continueButton = document.getElementById('continue');
 const buttonMessageContainer = document.querySelector('.button-message-container');
 
-const maxAttemptsPerRound = 3;
+const maxAttemptsPerRound = 5;
 let currentRound = 0;
 let totalAttempts = 0;
+let countTargetColor;
+
+buttons.forEach((button) => {
+  button.addEventListener('click', function () {
+    handleButtonClick.call(this);  
+  });
+});
 
 function updateColors() {
   currentRound++;
@@ -43,7 +50,7 @@ function updateColors() {
   colorTextElement.textContent = colorsMapping[targetColor] || targetColor;
 
   // Conta a quantidade de objetos com a cor
-  const countTargetColor = objectsWithColors.filter(obj => obj.color === targetColor).length;
+  countTargetColor = objectsWithColors.filter(obj => obj.color === targetColor).length; // Mova para fora da função para torná-la global
 
   // Gera uma lista com números diferentes da quantidade correta (evitar o erro de duplicidade)
   const otherNumbers = generateUniqueNumbers(countTargetColor, buttons.length);
@@ -52,17 +59,13 @@ function updateColors() {
   const correctButtonIndex = Math.floor(Math.random() * buttons.length);
   otherNumbers[correctButtonIndex] = countTargetColor;
 
-   buttons.forEach((button, index) => {
+  buttons.forEach((button, index) => {
     button.textContent = colorsMapping[otherNumbers[index]] || otherNumbers[index];
-    button.removeEventListener('click', handleButtonClick);
-    button.addEventListener('click', function () {
-      handleButtonClick.call(this, countTargetColor);
-    });
   });
 
   // Limpa a mensagem e exibe os botões
   messageElement.textContent = '';
-  showButtons();  
+  showButtons();
 }
 
 continueButton.addEventListener('click', handleContinueClick);
@@ -96,8 +99,8 @@ function hideButtons() {
   buttonMessageContainer.style.display = 'none';
 }
 
-function handleButtonClick(countTargetColor) {
-  // Captura o texto fora do bloco if
+function handleButtonClick() { 
+ 
   const selectedText = this.textContent.trim();
 
   // Verifica se o texto não está vazio
@@ -131,11 +134,12 @@ function handleButtonClick(countTargetColor) {
   if (totalAttempts > maxAttemptsPerRound) {
     messageElement.textContent = 'Você atingiu o limite de tentativas. Deseja continuar?';
     showButtons();
-    
+
     // Reinicia o número de tentativas para a próxima rodada
     totalAttempts = 0;
   }
 }
+
 function handleContinueClick() {
   // Incrementa para a próxima rodada
   currentRound++;
@@ -151,7 +155,7 @@ function handleContinueClick() {
 }
 
 // Adiciona um evento de clique ao botão "Voltar"
-backButton.addEventListener('click', function() {
+backButton.addEventListener('click', function () {
   window.location.href = './area_infantil.html';
 });
 
