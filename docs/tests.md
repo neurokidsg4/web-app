@@ -99,10 +99,10 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 **Caso de Teste** | **CT09 - Editar Perfil**
 :--------------: | ------------
-**Procedimento** |1a) Pelo desktop o usuário deve clicar em “Perfil” no menu de navegação superior (cabeçalho). Dessa forma será direcionado para a página de perfil.<br>1b) Pelo dispositivo mobile o usuário deve clicar no ícone verde com nome identificado como “Perfil”. Dessa forma será direcionado para a página de perfil.<br>2) Na página de perfil o usuário deve clicar no botão “Editar perfil” para editar as informações que foram previamente cadastradas.<br>3) Após terminar de editar as informações o usuário deve clicar no botão “Salvar” para persistir as novas informações preenchidas.<br>
+**Procedimento** |1a) Pelo desktop o usuário deve clicar em “Perfil” no menu de navegação superior (cabeçalho). Dessa forma será direcionado para a página de perfil.<br>1b) Pelo dispositivo mobile o usuário deve clicar no ícone verde com nome identificado como “Perfil”. Dessa forma será direcionado para a página de perfil.<br>2) Na página de perfil o usuário deve clicar no botão “Editar perfil” para editar as informações que foram previamente cadastradas.<br>3) Após terminar de editar as informações o usuário deve clicar no botão “Salvar” para persistir as novas informações preenchidas.<br>4) O usuário deve clicar no botão "Editar senha" Dessa forma será direcionado para página de edição de senha. O Usuário deverá colocar sua nova senha e clicar no botão "Salvar". Assim a senha terá sido alterada.
 **Requisitos associados** | RF-004	A aplicação deve permitir a visualização do perfil.<br>RF-005	A aplicação deve permitir editar as informações do perfil.
 **Artefatos associados** | perfil.html, editar-perfil.html
-**Resultado esperado** |Preenchimento automático das informações já cadastradas nos campos da página editar perfil e a atualização dos das novas informaçoes editadas na página de perfil.
+**Resultado esperado** |Preenchimento automático das informações já cadastradas nos campos da página editar perfil e a atualização das novas informaçoes editadas na página de perfil.
 **Dados de entrada** |Opcional: Nome; Email; Gênero; Data de nascimento; CEP; Telefone; Imagem;
 **Resultado obtido** | Sucesso.
 
