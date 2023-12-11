@@ -214,7 +214,7 @@ Cenário 1: Seu filho apresenta comportamentos incomuns e você suspeita que pos
 |   2     |       SIM       |        4             | 1 minuto e 31 segundos          |
 |   3     |       SIM       |        5             | 1 minuto e 1 segundos           |
 |   4    |       SIM        |       5            |      47 segundos             |
-| **Média** | 0%            | 0                    | 0.00 segundos                   |
+| **Média** | 0%            | 0                    | 208.39 segundos                 |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 07.44 segundos              |
 
 
@@ -231,7 +231,7 @@ Cenário 2: Você deseja compartilhar os conteúdos encontrados.  Encontre no si
 |    2    |      SIM        |         5            | 50 segundos                     |
 |    3    |      SIM        |         5            | 21 segundos                     |
 |    4     |     SIM          |       5            |  8 segundos                     |
-| **Média** | 0%            |      0               | 0.00 segundos                   |
+| **Média** | 0%            |      0               |      91.01 segundos           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.95 segundos              |
 
 
@@ -248,7 +248,7 @@ Cenário 3: Você não é cadastrado. Encontre o formulário de cadastro e reali
 |    2     |      SIM           |         5             |          4 minutos e 40 segundos                       |
 |    3    |       SIM       |           4          | 41 segundos                     |
 |    4    |       SIM       |           4          |  2 minutos e 15 segundos                     |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 538.56 segundos                         |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 54.02 segundos |
 
 
@@ -265,7 +265,7 @@ Cenário 4: Você já é cadastrado e deseja logar no site. Encontre o formulár
 |    2    |      SIM        | 5                    | 28 segundos                     |
 | 3       | SIM             | 5                    | 26 segundos                     |
 | 4 | SIM | 5 | 12 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 79.30 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.35 segundos |
 
    Comentários dos usuários:
@@ -278,7 +278,7 @@ Cenário 5: Você deseja editar o seu perfil. Encontre no site a sessão para ed
 |     2    |        SIM         |        4              |            48 segundos                     |
 | 3       | SIM             | 5                    | 14 segundos                     |
 | 4 | SIM | 5 | 2 minutos e 7 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 273.73 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 25.50 segundos |
 
 
@@ -292,7 +292,7 @@ Cenário 6: Você está cadastrada (o) no site e está com dificuldades para exc
 |    2     |       SIM          |          5            |            29 segundos                     |
 | 3       | SIM             | 5                    | 7 segundos                      |
 | 4 | SIM | 5 | 9.5 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                          |
+| **Média**     | 0%           | 0                | 55.21 segundos                          |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 07.74 segundos |
 
 
@@ -309,7 +309,7 @@ Cenário 7: Você deseja saber mais sobre o site. Encontre a sessão que fale so
 |    2     |      SIM           |          5            |            5 segundos      |
 | 3       | SIM             | 5                    | 6 segundos                      |
 | 4 | SIM | 5 | 4.6 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                    |
+| **Média**     | 0%           | 0                | 18.57 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.91 segundos |
 
 
@@ -324,7 +324,7 @@ Cenário 8: Você deseja jogar um dos jogos disponíveis na aplicação. Encontr
 |    2     |     NÃO          |         1           |             1 minuto e10 segundos                    |
 | 3       | SIM             | 3                    | 52 segundos                     |
 | 4 | SIM | 4 | 1 minuto e 32 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                         |
+| **Média**     | 0%           | 0                | 248.20 segundos                         |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.94 segundos |
 
 
@@ -339,7 +339,7 @@ Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o h
 |    2     |       SIM          |         5             |                10 segundos                 |
 | 3       | SIM             | 1                    | 1 minuto e 38 segundos          |
 | 4 | SIM | 3 | 3 minutos e 10 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 308.30 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.50 segundos |
 
 
@@ -355,7 +355,7 @@ Cenário 10: Você gostou dos jogos do site e deseja enviar uma mensagem para a 
 |     2    |        SIM         |          5            |             5 minutos e 41 segundos                    |
 | 3       | NÃO             | 1                    | 2 minutos e 38 segundos         |
 | 4 | SIM | 5 | 1 minuto e 23 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                           |
+| **Média**     | 0%           | 0                | 729.46 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 23.48 segundos |
 
 
@@ -371,7 +371,7 @@ Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opçã
 |     2    |     SIM            |       5               |           10 segundos      |
 | 3       | SIM             | 5                    | 16 segundos                     |
 | 4 | SIM | 5 | 27 segundos |
-| **Média**     | 0%           | 0                | 0.00 segundos                    |
+| **Média**     | 0%           | 0                | 64.39 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 03.95 segundos |
 
 
