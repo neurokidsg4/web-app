@@ -164,6 +164,11 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |Requisito Associado | RF-012 A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13629981/teste_pagina_ajuda.-.Shortcut.zip | 
 
+|*Caso de Teste*                                 |*TC-09 - Editar perfil *                                         |
+|---|---|
+|Requisito Associado | RF-004	A aplicação deve permitir a visualização do perfil.<br>RF-005	A aplicação deve permitir editar as informações do perfil.|
+|Link do vídeo do teste realizado: | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/d70103f8-0652-4ec3-acb4-f11207859ec6| 
+
 
 ## Avaliação dos Testes de Software
 
