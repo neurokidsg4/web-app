@@ -133,30 +133,30 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |TC-03 - Logar Usuário                                        |
 |---|---|
 |Requisito Associado |  RF-003 A aplicação deve permitir que o usuário faça login.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6e4f10f3-004a-443b-bb51-f4c8949d315e| 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/a7b0e36b-9e35-4188-8d82-092022aff194| 
 
 
 |*Caso de Teste*                                 |TC-04 - Enviar feedback                                         |
 |---|---|
 |Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/c8c43a19-1560-48fd-a46b-d8eeb239878d| 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/b3d6b1d6-a89d-4a0a-9282-cfd3634a97c8| 
 
 |*Caso de Teste*                                 |TC-05 - Sessão específica para crianças neurodiversas e atividades interativas                                        |
 |---|---|
 |Requisito Associado |RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/20673b8c-66ad-42fe-ab94-ff9ead8f4733| 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/25352386-e676-4c8b-bb03-182d075adf3d| 
 
 |*Caso de Teste*                                 |TC-06 - Informações para pais e profissionais e sugestão de atividades escolares                                         |
 |---|---|
 |Requisito Associado |RF-009	A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.<br>RF-010	A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.<br>RF-014	A aplicação deve conter campos de pesquisa nas páginas necessárias.<br>RNF-007	A aplicação deve conter conteúdos de atividades propostas para crianças.|
-|Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4121cedf-e4ab-480e-9a18-7d36da60d9ab| 
-|Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/32ed9ef9-5e45-47e4-b110-4c3198a73272| 
-|Link do vídeo do teste realizado - parte 03: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/b676ed30-5860-45da-a494-10e50221097a| 
+|Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/07192065-a4b3-492b-8334-2021ae88fca4| 
+|Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2f535c88-b927-4e0a-9874-ac81c17c2d51| 
+|Link do vídeo do teste realizado - parte 03: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/94b70a10-bfe7-47e2-8d92-effc41af2c52| 
 
 |*Caso de Teste*                                 |TC-07 - Descrição da aplicação                                        |
 |---|---|
 |Requisito Associado | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6f89b14f-fd47-4df6-8523-9a817811f610| 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/69babe4f-b35b-47a2-98d2-96af9e580417| 
 
 
 |*Caso de Teste*                                 |TC-08 - Acesso à Página de Ajuda                                        |
