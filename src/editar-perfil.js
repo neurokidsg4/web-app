@@ -1,5 +1,5 @@
  
-/*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de edita perfil*/
+/*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de editar perfil*/
 
 import { Cryptography } from "./js/services/cryptography.js";
 
