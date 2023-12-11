@@ -133,7 +133,7 @@ function captureActualDate() {
 // Função para lidar com o clique no botão "Voltar"
 function handleBackButtonClick() {
     // Redireciona para a página desejada
-    window.location.href = '/src/area_infantil.html';
+    window.location.href = './src/area_infantil.html';
 }
 
 // Iniciar o jogo quando a página carregar
