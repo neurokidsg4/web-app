@@ -162,12 +162,12 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |TC-08 - Acesso à Página de Ajuda                                        |
 |---|---|
 |Requisito Associado | RF-012 A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/00373a1c-5a83-4dcd-bd8e-b2f5c99dd679 | 
+|Link do vídeo do teste realizado: | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/99176bbf-ca70-49d5-9808-0501e7d0f8ef | 
 
 |*Caso de Teste*                                 |TC-09 - Editar perfil                                        |
 |---|---|
 |Requisito Associado | RF-004	A aplicação deve permitir a visualização do perfil.<br>RF-005	A aplicação deve permitir editar as informações do perfil.|
-|Link do vídeo do teste realizado: | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/d70103f8-0652-4ec3-acb4-f11207859ec6| 
+|Link do vídeo do teste realizado: | | 
 
 
 ## Avaliação dos Testes de Software
@@ -179,7 +179,6 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
 
 <!-- - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)-->
-
 
 ## Cenários de Teste de Usabilidade Geral
 
