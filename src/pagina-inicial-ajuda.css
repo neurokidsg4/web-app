@@ -15,6 +15,8 @@ h1,h2 {
     padding: 20px 0px;
 }
 
+
+
 main {
     margin: 70px;
     display: flex;
@@ -49,6 +51,7 @@ li {
 
 /* Estilos da caixa de pesquisa */
 .search-box {
+    overflow: hidden;
     width: 100%;
     max-width: 1000px;
     margin: 50px;
@@ -72,7 +75,7 @@ li {
     opacity: 0;
     pointer-events: none;
     max-height: 280px;
-    overflow-y:auto;
+    overflow-y: hidden;
 }
 
 .list li{
@@ -277,6 +280,14 @@ li {
     
 /* aplicando responsividade para o container secundário */
 @media screen and (max-width: 1800px) {
+    .container_cards_main {
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+
     .container_cards_02 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -294,6 +305,14 @@ li {
 }
 
 @media screen and (max-width: 1500px) and (min-width: 601px) {
+
+    .container_cards_main {
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
+    }
     .container_cards_02 {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
@@ -314,7 +333,11 @@ li {
 
 @media screen and (max-width: 900px) and (min-width: 581px) {
     .container_cards_main {
-        gap: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     .container_cards_02 {
@@ -334,7 +357,11 @@ li {
 
 @media screen and (max-width: 600px) and (min-width: 501px) {
     .container_cards_main {
-        gap: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     .container_cards_02 {
@@ -354,7 +381,11 @@ li {
 
 @media screen and (max-width: 510px) {
     .container_cards_main {
-        gap: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     .container_cards_02 {
@@ -373,16 +404,12 @@ li {
 }
 
 @media screen and (max-width: 400px) {
-    main {
-        margin: 20px;
-    }
-
     .container_cards_main {
         display: flex;
         flex-direction: column;
-        gap: 2em;
-        margin-left: 20px;
-        margin-right: 20px;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     .container_cards_02 {
@@ -405,7 +432,11 @@ li {
 
 @media screen and (max-width: 509px) and (min-width: 367px) {
     .container_cards_main {
-        gap: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     .container_cards_02 {
@@ -425,7 +456,11 @@ li {
 
 @media screen and (max-width: 368px) {
     .container_cards_main {
-        gap: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     .container_cards_02 {
@@ -444,6 +479,14 @@ li {
 }
 
 @media screen and (max-width: 608px) and (min-width: 601px) {
+    .container_cards_main {
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+
     .container_cards_02 {
         margin-left: 5px;
     }
@@ -454,6 +497,13 @@ li {
 }
 
 @media screen and (max-width: 580px) and (min-width: 510px) {
+
+    .container_cards_main {
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+    }
+
     .container_cards_02 {
         margin-left: 10px;
     }
