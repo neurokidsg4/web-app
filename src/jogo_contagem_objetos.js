@@ -24,7 +24,7 @@ const backButton = document.getElementById('back');
 const continueButton = document.getElementById('continue');
 const buttonMessageContainer = document.querySelector('.button-message-container');
 
-const maxAttemptsPerRound = 3;
+const maxAttemptsPerRound = 5;
 let currentRound = 0;
 let totalAttempts = 0;
 let countTargetColor;
@@ -106,8 +106,8 @@ function hideButtons() {
   buttonMessageContainer.style.display = 'none';
 }
 
-function handleButtonClick(countTargetColor) {
-  // Captura o texto fora do bloco if
+function handleButtonClick() { 
+ 
   const selectedText = this.textContent.trim();
 
   // Verifica se o texto não está vazio
