@@ -4,7 +4,7 @@ Neste projeto serão realizados dois tipos de testes:
 
  - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
  - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
-
+<!--
 Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
 
 A documentação dos testes é dividida nas seguintes seções:
@@ -15,6 +15,7 @@ A documentação dos testes é dividida nas seguintes seções:
  - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
  - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
+  -->
 
 # Teste de Software
 
@@ -94,6 +95,15 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Artefatos associados** | ajuda_acesso_aplicacao.html; ajuda_atividades_aplicacao.html; ajuda_configuracao_conta.html; guia-alterarconfiguracoes-perfil.html; guia-avaliacao-desempenho.html; guia-como-excluir-conta.html; guia-compartilhamento-conteudos.html; guia-interacao-conteudos.html; guia-mudanca-email-e-senha.html; guia-niveis-dificuldade.html; guia-realizar-atividades.html; guia-verificar-problemas-conexao.html.
 **Resultado esperado** | A página de ajuda ser carregada corretamente, exibindo informações relevantes e recursos de suporte ao usuário.
 **Dados de entrada** | N/A
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT09 - Editar Perfil**
+:--------------: | ------------
+**Procedimento** |1a) Pelo desktop o usuário deve clicar em “Perfil” no menu de navegação superior (cabeçalho). Dessa forma será direcionado para a página de perfil.<br>1b) Pelo dispositivo mobile o usuário deve clicar no ícone verde com nome identificado como “Perfil”. Dessa forma será direcionado para a página de perfil.<br>2) Na página de perfil o usuário deve clicar no botão “Editar perfil” para editar as informações que foram previamente cadastradas.<br>3) Após terminar de editar as informações o usuário deve clicar no botão “Salvar” para persistir as novas informações preenchidas.<br>
+**Requisitos associados** | RF-004	A aplicação deve permitir a visualização do perfil.<br>RF-005	A aplicação deve permitir editar as informações do perfil.
+**Artefatos associados** | perfil.html, editar-perfil.html
+**Resultado esperado** |Preenchimento automático das informações já cadastradas nos campos da página editar perfil e a atualização dos das novas informaçoes editadas na página de perfil.
+**Dados de entrada** |Opcional: Nome; Email; Gênero; Data de nascimento; CEP; Telefone; Imagem;
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
