@@ -190,8 +190,7 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-
-| 1             | Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.|
+| 1             |Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.|
 | 2             |Você deseja compartilhar os conteúdos encontrados.  Encontre no site uma forma de compartilhar o conteúdo desejado.|
 | 3             |Você não é cadastrado. Encontre o formulário de cadastro e realize um cadastro.|
 | 4             |Você já é cadastrado e deseja logar no site. Encontre o formulário de login e efetue a ação para logar.|
