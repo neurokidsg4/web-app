@@ -167,7 +167,13 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |TC-09 - Editar perfil                                        |
 |---|---|
 |Requisito Associado | RF-004	A aplicação deve permitir a visualização do perfil.<br>RF-005	A aplicação deve permitir editar as informações do perfil.|
-|Link do vídeo do teste realizado: | | 
+|Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/35479de7-e377-456d-b245-9869eb2df2b5 |
+|Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/80cfb2cb-a818-4b7c-8717-1c4d6cd7dafc | 
+
+|*Caso de Teste*                                 |TC-10 - Excluir conta                                        |
+|---|---|
+|Requisito Associado | RF-006	A aplicação deve permiti que o usuário exclua sua conta.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/80669bf0-cd67-41d2-83a5-c3dc0b7bc8fb| 
 
 
 ## Avaliação dos Testes de Software
