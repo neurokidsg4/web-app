@@ -90,7 +90,7 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 **Caso de Teste** | **CT08 - Acesso à Página de Ajuda**
  :--------------: | ------------
-**Procedimento**  | 1a) Para usuários utilizando desktop, basta clicar na opção "Ajuda" no menu de navegação superior para ser redirecionado à página que apresenta os cards de conteúdo.<br> 1b) Em dispositivos móveis, basta clicar sobre o ícone do menu hambúrguer e, em seguida, selecionar a opção "Ajuda" para ser direcionado aos cards.<br>2b) Na página inicial, encontram-se cards informativos abrangendo tópicos como configurações de conta, solução de problemas ao acessar ou utilizar o Neurokids, além de orientações sobre como explorar a guia de atividades infantis. Destaca-se ainda a seção de "Artigos Mais Visualizados", permitindo que os usuários acessem diretamente os conteúdos mais acessados.<br>
+**Procedimento**  | 1a) Para usuários utilizando desktop, basta clicar na opção "Ajuda" no menu de navegação superior para ser redirecionado à página que apresenta os cards de conteúdo.<br> 1b) Em dispositivos móveis, basta clicar sobre o ícone de "Ajuda" localizado no topo, para ser direcionado aos cards.<br>2b) Na página inicial, encontram-se cards informativos abrangendo tópicos como configurações de conta, solução de problemas ao acessar ou utilizar o Neurokids, além de orientações sobre como explorar a guia de atividades infantis. Destaca-se ainda a seção de "Artigos Mais Visualizados", permitindo que os usuários acessem diretamente os conteúdos mais acessados.<br>
 **Requisitos associados** | RF-012	A aplicação deve deve conter uma página de ajuda ao usuário.
 **Artefatos associados** | ajuda_acesso_aplicacao.html; ajuda_atividades_aplicacao.html; ajuda_configuracao_conta.html; guia-alterarconfiguracoes-perfil.html; guia-avaliacao-desempenho.html; guia-como-excluir-conta.html; guia-compartilhamento-conteudos.html; guia-interacao-conteudos.html; guia-mudanca-email-e-senha.html; guia-niveis-dificuldade.html; guia-realizar-atividades.html; guia-verificar-problemas-conexao.html.
 **Resultado esperado** | A página de ajuda ser carregada corretamente, exibindo informações relevantes e recursos de suporte ao usuário.
@@ -158,6 +158,11 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |Requisito Associado | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6f89b14f-fd47-4df6-8523-9a817811f610| 
 
+
+|*Caso de Teste*                                 |*TC-08 - Acesso à Página de Ajuda *                                         |
+|---|---|
+|Requisito Associado | RF-012 A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
+|Link do vídeo do teste realizado: || 
 
 
 ## Avaliação dos Testes de Software
