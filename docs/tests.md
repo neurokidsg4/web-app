@@ -106,6 +106,15 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 **Dados de entrada** |Opcional: Nome; Email; Gênero; Data de nascimento; CEP; Telefone; Imagem;
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT10 - Excluir conta**
+:--------------: | ------------
+**Procedimento** | 1a) Pelo desktop o usuário deve clicar em “Perfil” no menu de navegação superior (cabeçalho). Dessa forma será direcionado para a página de perfil.<br>1b) Pelo dispositivo mobile o usuário deve clicar no ícone verde com nome identificado com nome “Perfil”. Dessa forma será direcionado para a página de perfil.<br>2) Na página de perfil o usuário deve clicar em “Excluir conta”. O usuário será direcionado para uma página onde terá que confirmar se realmente deseja excluir a conta permanentemente. Se sim, o usuário deve clicar no botão “Confirmar”. Dessa forma a conta será excluída permanentemente.<br>3) Caso o usuário desista de excluir a conta deve clicar no botão “Cancelar”. Dessa forma será direcionado para a página de perfil.<br>
+**Requisitos associados** | RF-006	A aplicação deve permiti que o usuário exclua sua conta.
+**Artefatos associados** | excluir-conta.html
+**Resultado esperado** | Exclusão permanente da conta.
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso.
+
 ## Registro dos Testes de Software
 
 Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
