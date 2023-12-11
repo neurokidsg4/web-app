@@ -119,52 +119,52 @@ Para cada caso de teste (CT), associaremos o requisito, seja funcional ou não f
 
 Apresentamos, a seguir, o relatório contendo as evidências dos testes de software conduzidos no sistema, seguindo o plano de testes previamente definido. Cada caso de teste está documentado e é acompanhado por vídeos que validam o correto funcionamento das funcionalidades. A seguir, compartilhamos alguns exemplos.
 
-|*Caso de Teste*                                 |*TC-01 - Acesso página principal *                                    |
+|*Caso de Teste*                                 |TC-01 - Acesso página principal                                   |
 |---|---|
 |Requisito Associado |RF-001	A aplicação deve conter uma página principal de apresentação dos conteúdos.<br>RNF-006	A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2410b8a9-c681-413b-b46c-e82352c29ad5| 
 
 
-|*Caso de Teste*                                 |*TC-02 - Cadastrar usuário *                                         |
+|*Caso de Teste*                                 |TC-02 - Cadastrar usuário                                        |
 |---|---|
 |Requisito Associado | RF-002 A aplicação deve permitir que o usuário crie uma conta de acesso.<br>RNF-009 A aplicação deve informar o usuário caso tente inserir um dado inválido no formulário de cadastro.<br> RNF-005 A aplicação deve armazenar os dados de forma segura em conformidade com a LGPD (Lei Geral de Proteção dos Dados).<br> RNF-004 A aplicação deve persistir os dados em JSON Server ou LocalStorage.|
 |Link do vídeo do teste realizado: | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/92484d2d-7bdc-4123-a813-641e5446fa9a| 
 
-|*Caso de Teste*                                 |*TC-03 - Logar Usuário *                                         |
+|*Caso de Teste*                                 |TC-03 - Logar Usuário                                        |
 |---|---|
 |Requisito Associado |  RF-003 A aplicação deve permitir que o usuário faça login.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6e4f10f3-004a-443b-bb51-f4c8949d315e| 
 
 
-|*Caso de Teste*                                 |*TC-04 - Enviar feedback *                                         |
+|*Caso de Teste*                                 |TC-04 - Enviar feedback                                         |
 |---|---|
 |Requisito Associado |RNF-012 A aplicação deve enviar o feedback do usuário para uma conta de email especìfica para isso, exclusiva própria dela.<br> RF-011	A aplicação deve conter uma página de feedback.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/c8c43a19-1560-48fd-a46b-d8eeb239878d| 
 
-|*Caso de Teste*                                 |*TC-05 - Sessão específica para crianças neurodiversas e atividades interativas *                                         |
+|*Caso de Teste*                                 |TC-05 - Sessão específica para crianças neurodiversas e atividades interativas                                        |
 |---|---|
 |Requisito Associado |RF-007	A aplicação deve conter uma sessão específica para crianças neurodiversas.<br>RF-008	A aplicação deve conter jogos interativos para crianças neurodiversas.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/20673b8c-66ad-42fe-ab94-ff9ead8f4733| 
 
-|*Caso de Teste*                                 |*TC-06 - Informações para pais e profissionais e sugestão de atividades escolares *                                         |
+|*Caso de Teste*                                 |TC-06 - Informações para pais e profissionais e sugestão de atividades escolares                                         |
 |---|---|
 |Requisito Associado |RF-009	A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.<br>RF-010	A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.<br>RF-014	A aplicação deve conter campos de pesquisa nas páginas necessárias.<br>RNF-007	A aplicação deve conter conteúdos de atividades propostas para crianças.|
 |Link do vídeo do teste realizado - parte 01: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/4121cedf-e4ab-480e-9a18-7d36da60d9ab| 
 |Link do vídeo do teste realizado - parte 02: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/32ed9ef9-5e45-47e4-b110-4c3198a73272| 
 |Link do vídeo do teste realizado - parte 03: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/b676ed30-5860-45da-a494-10e50221097a| 
 
-|*Caso de Teste*                                 |*TC-07 - Descrição da aplicação *                                         |
+|*Caso de Teste*                                 |TC-07 - Descrição da aplicação                                        |
 |---|---|
 |Requisito Associado | RF-013	A aplicação deve conter uma página onde descreva sobre a aplicação.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/6f89b14f-fd47-4df6-8523-9a817811f610| 
 
 
-|*Caso de Teste*                                 |*TC-08 - Acesso à Página de Ajuda *                                         |
+|*Caso de Teste*                                 |TC-08 - Acesso à Página de Ajuda                                        |
 |---|---|
 |Requisito Associado | RF-012 A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13629981/teste_pagina_ajuda.-.Shortcut.zip | 
 
-|*Caso de Teste*                                 |*TC-09 - Editar perfil *                                         |
+|*Caso de Teste*                                 |TC-09 - Editar perfil                                        |
 |---|---|
 |Requisito Associado | RF-004	A aplicação deve permitir a visualização do perfil.<br>RF-005	A aplicação deve permitir editar as informações do perfil.|
 |Link do vídeo do teste realizado: | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/d70103f8-0652-4ec3-acb4-f11207859ec6| 
