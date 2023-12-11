@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon"> <!-- Favicon da página -->
+  <link rel="stylesheet" href="css/atividades_escolares_tdah/style.css">
+  
+  <title>NeuroKids</title>
+</head>
+
+<body class="site">
+  <input id="abre__menu--checkbox__cabecalho" type="checkbox">
+
+  <ul id="cabecalho__menu" class="cabecalho__menu">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <div class="cabecalho__grupo--icones">
+        
+        <label for="abre__menu--checkbox__cabecalho">
+          <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
+        </label>
+        <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
+
+      </div>
+      <p class="cabecalho__menu___texto--principal">Menu</p>
+    </li>
+
+    <li>
+      <ul class="cabecalho__menu--sub">
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="index.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">home</span>
+            <p class="cabecalho__menu___texto">Home</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="feedback.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">feedback</span>
+            <p class="cabecalho__menu___texto">Feedback</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="sobre_nos.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">group</span>
+            <p class="cabecalho__menu___texto">Sobre nós</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
+        <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
+        <p class="cabecalho__menu___texto">Entrar</p>
+      </button>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
+        <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
+        <p class="cabecalho__menu___texto">Sair</p>
+      </button>
+    </li>
+  </ul>
+
+  <header>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
+    <label for="abre__menu--checkbox__cabecalho">
+      <div class="group--hamburgue__logo">
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
+      </div>
+    </label>
+
+    <nav id="nav-cabecalho">
+      <ul>
+        <li><a class=" area__infantil childish_redirect_if">Área infantil</a></li>
+        <li><a class="area__infantil profile_redirect_if">Perfil</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
+      </ul>
+    </nav>
+
+    <nav id="nav-cabecalho--mobile">
+      <ul>
+        <li>
+          <button class="area__infantil childish_redirect_if">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </button>
+        </li>
+        
+        <li>
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </button>
+        </li>
+
+        <li>
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="container">
+        <div class="section">
+          <h1 id="primary_title" class="title primary_title">Atividades escolares e recreativas para alunos com TDAH</h1>
+
+          <figure id="main_image" class="main_image" role="img" aria-describedby="alt--main_image">
+          </figure>
+
+          <p id="alt--main_image" class="hidden2" aria-hidden="true">Contém vários alunos em uma sala de aula e uma professora explicando uma atividade.</p>
+        </div>
+        
+        <div class="section">
+          <h2 class="title secondary_title">O que é TDAH?</h2>
+
+          <div class="description">
+              <p>
+                O transtorno do déficit de atenção com hiperatividade (TDAH) é um transtorno neurobiológico 
+                caracterizado pela combinação de sintomas de desatenção, hiperatividade (inquietude motora) 
+                e impulsividade. O TDAH aparece na infância e, na maioria dos casos, acompanha o indivíduo 
+                por toda a vida. O tratamento precoce é essencial para que o paciente consiga ter uma vida 
+                saudável e produtiva.
+              </p>
+          </div>
+
+          <a href="https://www.minhavida.com.br/saude/temas/tdah">
+            Leia mais sobre TDAH: o que é, 27 sintomas, tratamentos e medicamento - Minha Vida
+          </a>
+
+          <a href="https://www.minhavida.com.br/materias/materia-10531">
+            Saiba mais: Déficit de atenção ou distração? Entenda a diferença 
+            (https://www.minhavida.com.br/materias/materia-10531)
+          </a>
+        </div>
+
+        <div class="section">
+          <h2 class="title secondary_title">Atividades com brincadeiras para crianças com TDAH</h2>
+
+          <div class="description">
+              <p>
+                Essas atividades buscam estimular o aluno com TDAH, a fim de transformar seu modo de interação com o 
+                mundo. Por serem agitados e dispersos, em muitos casos, atividades que desafiam seu comportamento os 
+                fazem adaptarem suas relações e os ajudam a lidar com suas emoções.
+              </p>
+          </div>
+        </div>
+        
+        <div class="container--lists">
+          <div>
+              <h4 class="list_legend">Veja algumas atividades a seguir:</h4>
+              
+              <ol class="list numeric_list plus_gap">
+                  <li>
+                      <span>Pintar com os dedos</span>
+  
+                      Nada de usar pincéis, prefira deixar que a criança possa colocar a tinta nas mãos ou só nos dedos e possa colorir um desenho ou mesmo fazer um desenho livre com os dedos.
+                  </li>
+  
+                  <li>
+                      <span>Balões com pasta de dente</span>
+  
+                      Colocar um tubo de pasta de dente dentro de um balão de festa ao invés de ar é uma boa ideia para que a criança possa brincar. A sensação da pasta de dente dentro do balão é macia e as crianças vão gostar de ficar apertando esse balão tão macio.
+                  </li>
+      
+                  <li>
+                      <span>Bolinhas de sabão</span>
+                      
+                      Colocar um pouco de sabão líquido e água dentro de um copo e usar um canudinho para soprar é uma das atividades mais antigas, que as crianças adoram.
+                  </li>
+                  
+                  <li>
+                      <span>Desenhos na caixa de areia</span>
+  
+                      Encha uma caixa de sapato com areia e deixe a criança brincar fazendo desenhos, com os dedos ou um pedacinho de pau. Se não gostar do desenho é só espalhar a areia e começar novamente!
+                  </li>
+                  
+                  <li>
+                      <span>Slime</span>
+  
+                    Toda criança apreciar brincar com slime, e estes encontram-se à venda em todo lado! Praticamente todo supermercado e lojas de brinquedos vendem slime, mas você também pode fazer o seu próprio slime caseiro misturando bem:
+                          
+                      <ul class="list sub_list">
+                        <li>
+                          Corantes alimentícios;
+                        </li>
+                        
+                        <li>
+                          1 colher (sopa) de amaciante;
+                        </li>
+                        
+                        <li>
+                          1 xícara (chá) de cola branca;
+                        </li>
+                        
+                        <li>
+                          1 colher (sopa) de água boricada;
+                        </li>
+                        
+                        <li>
+                          ½ colher (sopa) de bicarbonato de sódio.
+                        </li>
+                        
+                        <li>
+                          Espuma de barbear (o triplo da quantidade de cola);
+                        </li>
+                      </ul>
+                  </li>
+                  
+                  <li>
+                      <span>Jogo da memória</span>
+  
+                      Esse é um jogo tradicional que pode ser encontrado em toda loja de brinquedos. Mas, sabia que você pode fazer seu próprio jogo da memória? Basta imprimir os desenhos que a criança gosta, colar numa caixa de papelão e depois recortar. Vire tudo ao contrário e comece o jogo! Para iniciar você pode usar 8 a 10 imagens diferentes. À medida que a criança vai alcançando melhor desempenho, você pode ir adicionando mais peças ao jogo.
+                  </li>
+  
+                  <li>
+                      <span>Jogar bola</span>
+  
+                      Os meninos normalmente são fãs de futebol, mas você pode deixar jogar outros jogos como basquete ou voleibol. Jogar em equipes é bom, mas se isso é sempre um problema, deixe a criança jogar sozinha uma vez ou outra e só depois estimule os jogos com outras crianças.
+                  </li>
+  
+                  <li>
+                      <span>Pista de obstáculos</span>
+  
+                      Toda criança gosta de uma pista de obstáculos e você pode criar uma dentro de casa, na sala ou no corredor. Basta colocar algumas almofadas, brinquedos e fios no chão, formando um circuito por onde a criança vai ter que passar. Pode ser um bom jogo para ensinar a respeitar regras.
+                  </li>
+  
+                  <li>
+                      <span>Jogos de encaixe</span>
+  
+                      Você pode comprar pequenas peças de encaixe, com diversas cores e oferecer para a criança. Você pode pedir para que ela faça um quadrado, por exemplo, encaixando as peças umas nas outras, ou pode deixar a criança usar sua imaginação para criar algo à sua maneira.
+                  </li>
+  
+                  <li>
+                      <span>Tocar um instrumento</span>
+  
+                      Seu filho pode aprender a tocar um instrumento! Você pode começar com algo mais simples, que não envolva muito dinheiro e se a criança apresentar algum gosto por um instrumento, realmente investir em algo melhor. Piano e violão são os instrumentos mais clássicos e que podem produzir sons mais calmos que podem ajudar a tranquilizar a criança, mas instrumentos como tambor, maracas e xilofones infantis também são boas opções.
+                  </li>
+  
+                  <li>
+                      <span>Morto-vivo</span>
+  
+                      O jogo do vivo-morto-morto-vivo é bastante conhecido e ajuda a criança a obedecer ordens, mas ela pode se entediar rápido, se não conseguir seguir as instruções, por isso avalie a aceitação da criança com essa brincadeira, se não estiver dando certo, salte para a próxima brincadeira.
+                  </li>
+  
+                  <li>
+                      <span>Dança da cadeira</span>
+  
+                      Para a tradicional dança da cadeira você vai precisar de, pelo menos, 2 crianças e 1 cadeira, mas se tiver umas 4 ou 5 crianças a brincadeira fica mais divertida. Escolha uma música mais lenta, para que as crianças não fiquem muito agitadas nessa brincadeira.
+                  </li>
+  
+                  <li>
+                      <span>Andar sobre um fio</span>
+  
+                      Andar na corda bamba, de forma mais segura, é o máximo. Não precisa colocar a criança em risco para se divertir! Você pode colocar um fio ou uma corda no chão e pedir a criança para andar por cima, sem vacilar. Não pode colocar os pés fora da corda. Essa também é uma ótima brincadeira para estimular a atenção, concentração e a obedecer às regras.
+                  </li>
+  
+                  <li>
+                      <span>Vide jogos</span>
+  
+                      Ok, esse é controverso! Você pode deixar a criança jogar videojogos por um período programado de 1 ou 2 horas, mas se você sabe que a criança ficará muito agitada e depois terá dificuldade em desligar o jogo, talvez seja melhor, não deixar jogar. Avalie a situação a cada dia. Recompensar a criança com mais uma brincadeira ou um presente ou bolacha por ter obedecido a regra do horário, pode fazer com que ela obedeça mais rápido da próxima vez.
+                  </li>
+  
+                  <li>
+                      <span>Descobrindo a Calma Interior (Meditação Guiada)</span>
+  
+                      A meditação guiada é uma das atividades para crianças com TDAH, permitindo que elas descubram sua calma interior e desenvolvam habilidades de autorregulação. Reserve um tempo diário para praticar a meditação com seu filho, fornecendo instruções claras e orientação suave. Comece com sessões curtas e, gradualmente, aumente o tempo. A meditação pode ajudar a criança a aprender a focar sua atenção e a gerenciar os impulsos, reduzindo a agitação mental associada ao TDAH.
+                  </li>
+  
+                  <li>
+                      <span>Conexão com a Natureza (Caça ao Tesouro ao Ar Livre)</span>
+  
+                    Levar a criança com TDAH para explorar a natureza através de uma divertida caça ao tesouro ao ar livre é uma excelente maneira de combinar movimento, aprendizado e foco. Crie uma lista de itens para procurar, como folhas de diferentes formas, pedras coloridas ou sementes. Incentive a criança a usar sua atenção e habilidades de observação para encontrar esses tesouros na natureza. Essa atividade estimula o interesse pela exploração e ajuda a canalizar a energia em um ambiente ao ar livre.
+                  </li>
+  
+                  <li>
+                      <span>Atividades Artísticas (Pintura com os Sentidos)</span>
+  
+                      Entre as atividades para crianças com TDAH as atividades artísticas são uma maneira maravilhosa de estimular a criatividade e a concentração em crianças com TDAH. Experimente a pintura com os sentidos, utilizando diferentes materiais e texturas. Incentive a criança a usar os dedos, pincéis, esponjas e até mesmo objetos incomuns para pintar. Essa abordagem tátil ajuda a envolver múltiplos sentidos e melhora a concentração, permitindo que a criança se expresse de forma artística.
+                  </li>
+  
+                  <li>
+                      <span>Jogos de Tabuleiro (Desafios Estratégicos)</span>
+  
+                      Os jogos de tabuleiro podem ser uma ótima maneira de promover o foco e o pensamento estratégico em crianças com TDAH. Opte por jogos que envolvam desafios estratégicos, como xadrez, damas, Carcassonne ou Ticket to Ride. Esses jogos incentivam a criança a planejar, pensar à frente e tomar decisões com cuidado. Além disso, eles proporcionam interação social e desenvolvimento de habilidades sociais importantes.
+                  </li>
+  
+                  <li>
+                      <span>Movimento e Diversão (Dança Criativa)</span>
+  
+                      A dança criativa é uma das atividades para crianças com TDAH, energética e divertida que permite que as crianças canalizem sua energia de forma positiva. Crie um espaço amplo para a dança, coloque músicas animadas e encoraje a criança a explorar movimentos livres e expressivos. A dança estimula o desenvolvimento físico, melhora a coordenação motora e ajuda a liberar endorfinas, promovendo uma sensação de bem-estar.
+                  </li>
+  
+                  <li>
+                      <span>Horticultura Terapêutica (Cultivo de Plantas e Ervas)</span>
+  
+                      A horticultura terapêutica oferece inúmeros benefícios para crianças com TDAH. Cultivar plantas e ervas proporciona uma conexão com a natureza e ajuda a desenvolver habilidades de responsabilidade e paciência. Incentive a criança a plantar sementes, regar as plantas e observar seu crescimento. Essa atividade prática ensina sobre ciclo de vida, nutrição e respeito pelo meio ambiente, ao mesmo tempo em que oferece uma experiência calmante.
+                  </li>
+  
+                  <li>
+                      <span>Aventura Literária (Contação de Histórias)</span>
+  
+                      A contação de histórias é uma atividade que estimula a imaginação e a criatividade em crianças com TDAH. Leia histórias interessantes e cativantes para a criança, incentivando-a a participar da narração. Após a leitura, encoraje-a a criar suas próprias histórias, desenvolvendo suas habilidades de escrita e expressão verbal. Essa atividade também ajuda a melhorar a atenção, concentração e compreensão da linguagem.
+                  </li>
+  
+                  <li>
+                      <span>Jogos Sensoriais (Caixa de Areia Mágica)</span>
+  
+                      Os jogos sensoriais são ideais para crianças com TDAH, pois proporcionam uma experiência tátil e relaxante. Crie uma caixa de areia mágica, adicionando itens sensoriais, como conchas, pedras coloridas e brinquedos pequenos. Incentive a criança a explorar a caixa de areia com as mãos, observando as texturas, formas e cores dos objetos. Essa atividade ajuda a acalmar a mente e a desenvolver habilidades sensoriais.
+                  </li>
+  
+                  <li>
+                      <span>Hora do Yoga (Equilíbrio e Serenidade)</span>
+  
+                      O yoga oferece uma combinação única de movimento, respiração e foco mental, tornando-se uma atividade benéfica para crianças com TDAH. Realize sessões de yoga adaptadas à idade da criança, ensinando posturas simples e técnicas de respiração consciente. O yoga promove o equilíbrio, a flexibilidade e a serenidade interior, ajudando a criança a encontrar um estado de tranquilidade.
+                  </li>
+  
+                  <li>
+                      <span>Oficinas Criativas (Construção e Montagem)</span>
+  
+                      As oficinas criativas, como construção e montagem, estimulam a criatividade, a concentração e as habilidades motoras em crianças com TDAH. Proporcione materiais de construção, como blocos de montar, Legos ou kits de modelagem. Incentive a criança a criar estruturas, veículos ou personagens usando sua imaginação. Essa atividade envolvente ajuda a canalizar a energia de forma construtiva.
+                  </li>
+              </ol>
+            </div>
+        </div>
+
+        <div class="credits">
+          <h2 class="list_legend">Os créditos pelo conteúdo desta página vão para as seguintes referências:</h2>
+
+          <ul class="disc_list">
+            <li>
+              <i></i>
+              <a href="https://paulinhapsicoinfantil.com.br/blog/atividades-para-criancas-com-tdah/">
+                10 Atividades para Crianças com TDAH (paulinhapsicoinfantil.com.br)
+              </a>
+            </li>
+
+            <li>
+              <i></i>
+              <a href="https://educamais.com/atividades-para-tdah/#:~:text=15%20Atividades%20L%C3%BAdicas%20para%20estimular%20alunos%20com%20TDAH,...%208%208.%20Jogar%20bola%20...%20Mais%20itens">
+                15 Atividades Lúdicas para estimular alunos com TDAH - Educamais
+              </a>
+            </li>
+
+            <li>
+              <i></i>
+              <a href="https://www.minhavida.com.br/saude/temas/tdah">
+                TDAH: o que é, 27 sintomas, tratamentos e medicamento - Minha Vida
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="share">
+          <button class="share-button" id="openmodal" onclick="openModal()">
+          Compartilhar
+          </button>
+        </div>
+        <dialog id="modal">
+          <div class="window-container">
+              <div class="buttons-share-icons">
+                  <button type="button" id="home_link_button">
+                      <img src="imgs/link_icon.png" alt="Link da página inicial">
+                      <h3>Link</h3>
+                  </button>
+                  
+                  <button type="button" id="twitter_link_button">
+                      <img src="imgs/twitter_icon.png" alt="Compartilhar no Twitter">
+                      <h3>Twitter</h3>
+                  </button>
+                  
+                  <button type="button" id="facebook_link_button">
+                      <img src="imgs/facebook_icon.png" alt="Compartilhar no Facebook">
+                      <h3>Facebook</h3>
+                  </button>
+                  
+                  <button type="button" id="gmail_link_button">
+                      <img src="imgs/email_icon.png" alt="Compartilhar por E-mail">
+                      <h3>Gmail</h3>
+                  </button>
+                  
+                  <button type="button" id="linkedln_link_button">
+                      <img src="imgs/linkedln_icon.png" alt="Compartilhar no LinkedIn">
+                      <h3>LinkedIn</h3>
+                  </button>
+              </div>
+          <img class="close-img" src="imgs/icone_fechar.svg" alt="Ícone para fechar janela" id="closemodal">
+          </div>
+      </dialog>
+        <script src="botoes_compartilhamento.js"></script>
+        <script src="modal_compartilhamento.js"></script>
+        </div>
+  </main>
+
+  <footer>
+    <nav id="nav-rodape">
+      <ul>
+        <li class="rodape__item___1"><p>© 2023 Projeto NeuroKids</p></li>
+        <li class="rodape__item___2"><a href="#">Contato</a></li>
+        <li class="rodape__item___3"><a href="#">Privacidade</a></li>
+        <li class="rodape__item___4"><a href="#">Termos de uso</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+</body>
+</html>
