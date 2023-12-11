@@ -73,8 +73,6 @@
   </ul>
 
   <header>
-    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
-
     <label for="abre__menu--checkbox__cabecalho">
       <div class="group--hamburgue__logo">
           <span class="material-icons hamburgue">menu</span>
@@ -124,22 +122,21 @@
 
   <div class="content">
     <h1>Realize as operações!</h1>
-    <p id="idesc">Acerte 5 operações de soma e passe para a próxima fase.</p>
+    <p id="idesc">Acerte 5 operações de soma e passe para a próxima fase</p>
 
     <div class="calculo">
 
       <div class="op">
+          <P id="num1">2</P>
 
-        <P id="num1">2</P>
+          <p id="operador">-</p>
 
-        <p id="operador">-</p>
+          <p id="num2">3</p>
 
-        <p id="num2">3</p>
+          <p id="igual">=</p>
 
-        <p id="igual">=</p>
-
-        <input type="number" id="resposta">
-      </div>
+          <input type="number" id="resposta">
+        </div>
 
         <button id="iconfirm">Confirmar</button>
 
@@ -152,16 +149,23 @@
       <p id="resultado"></p>
 
       <p id="pontos"></p>
+      <p id="tentativa"></p>
 
     </div>
 
 
     <div class="button">
+      
 
-      <button id="iproxima-fase">Próxima fase</button>
+      <a href="jogo-matematica-fase2.html"><button id="iproxima-fase">Próxima fase</button></a>
+
       <button id="ivoltar">Sair</button>
 
+
     </div>
+
+
+
 
   </div>
 
@@ -179,10 +183,11 @@
     </nav>
   </footer>
 
-  <script type="module" src="jogo-matematica-fase2.js"></script>
-
+  <script src="jogo-matematica-fase2.js"></script>
+  
   <script type="module" src="js/logar_deslogar.js"></script>
   <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+  <script type="module" src="js/entities/Jogo.js"></script>
 </body>
 
 </html>

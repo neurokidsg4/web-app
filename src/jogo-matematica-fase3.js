@@ -1,7 +1,18 @@
 
+//Se comentar as 4 linha enumeradas abaixo o jogo roda normalmente.
+
+//comentar essa linha (1)
+// import { Game } from './js/entities/Jogo.js';
+
+//comentar essa linha(2)
+// const jogo = new Game('Matematica');
+
 var num1 = 0;
 var num2 = 0;
-var cont = 1;
+var cont = 0;
+var tentativa = 0;
+
+
 
 const btnContinue = document.getElementById("icontinue");
 btnContinue.style.display = "none";
@@ -11,8 +22,6 @@ btnProximaFase.style.display = "none";
 
 const btnVoltar = document.getElementById("ivoltar");
 btnVoltar.style.display = "none";
-
-
 
 //Gera dois número aleatório de 0 a 10.
 function geraNum() {
@@ -38,14 +47,24 @@ btnConfimar.addEventListener("click", function () {
     var resposta = document.getElementById("resposta").value;
 
 
-
     if (calculo == resposta) {
+
+        cont++;
+        tentativa++;
+
+        document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
+
+        //comentar essa linha(3)
+        // jogo.sumPoint();
 
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
-        if (cont < 5) {
+        if (tentativa < 5) {
 
+            //cometar essa linha(4)
+            // jogo.attempt();
+            
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
 
@@ -56,17 +75,7 @@ btnConfimar.addEventListener("click", function () {
                 btnConfimar.style.display = "block";
             });
 
-            cont++;
-        }
-
-        else{
-            btnConfimar.style.display ="none";
-            btnProximaFase.style.display  = "";
-            btnVoltar.style.display = "";
-
-            btnVoltar.addEventListener("click", function(){
-                window.location.href = "/src/area_infantil.html";
-            });
+            
         }
 
     }
@@ -77,6 +86,29 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
 
+        tentativa++;
+
+        document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
+
+        document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
+
     }
 
+    if(tentativa >=5 ){
+        btnConfimar.style.display ="none";
+        btnProximaFase.style.display  = "";
+        btnVoltar.style.display = "";
+        document.getElementById("resultado").innerHTML = "";
+
+        btnVoltar.addEventListener("click", function(){
+            window.location.href = "/src/area_infantil.html";
+        });
+    }
+
+    
+
 });
+
+
+    
+
