@@ -1,3 +1,8 @@
+
+import { Game } from './js/entities/Jogo.js';
+
+const game = new Game('Contagem de Objetos coloridos');
+
 function getRandomColor() {
   const colors = ['green', 'yellow', 'blue', 'red'];
   const randomIndex = Math.floor(Math.random() * colors.length);
@@ -31,6 +36,9 @@ buttons.forEach((button) => {
 });
 
 function updateColors() {
+
+  game.attemptCounter();
+
   currentRound++;
 
   // Mapeia os objetos da página com suas cores
@@ -121,8 +129,11 @@ function handleButtonClick() {
 
   // Verifica se o número selecionado é o mesmo da cor escolhida
   if (selectedNumber === countTargetColor) {
+
     messageElement.textContent = 'Parabéns! Você acertou!';
     showButtons();
+    game.sumPoint();
+
   } else {
     messageElement.textContent = 'Ops! Tente novamente.';
     showButtons();
@@ -131,6 +142,9 @@ function handleButtonClick() {
   totalAttempts++;
 
   if (totalAttempts > maxAttemptsPerRound) {
+
+    game.gameSaves();
+
     messageElement.textContent = 'Você atingiu o limite de tentativas. Deseja continuar?';
     showButtons();
 
@@ -142,6 +156,7 @@ function handleButtonClick() {
 function handleContinueClick() {
   // Incrementa para a próxima rodada
   currentRound++;
+
 
   // Reinicia o número de tentativas e oculta os botões
   totalAttempts = 0;
