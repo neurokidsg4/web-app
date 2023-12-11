@@ -1,0 +1,9 @@
+
+.numeric_list {
+    list-style: decimal;
+}
+
+.numeric_list > li,
+.numeric_list > p {
+    margin-left: 25px;
+}

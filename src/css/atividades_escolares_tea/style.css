@@ -1,0 +1,13 @@
+
+@import url('../componentes_comuns/list.css');
+@import url('responsivo.css');
+@import url('../componentes_comuns/plus_gap.css');
+@import url('../componentes_comuns/disc_list.css');
+@import url('../componentes_comuns/numeric_list.css');
+@import url('../componentes_comuns/container_lists.css');
+@import url('../componentes_comuns/base_atividades_escolares.css');
+@import url('../componentes_comuns/base_responsivo_atividades_escolares.css');
+
+.main_image {
+    background: no-repeat center url('../../imgs/atividades_tea/principal_atividades.png');
+}
