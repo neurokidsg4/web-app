@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/cadastro/style.css">
+  <title>NeuroKids</title>
+</head>
+<body id="corpo">
+    <a href="index.html" class="arrow_back">
+        <span class="material-symbols-outlined">arrow_back_ios_new</span>
+        <p>Home</p>
+    </a>
+
+    <main class="principal">
+        <div id="container-imagem">
+            <label id="imagem-perfil" for="file__pictury">
+                <img id="photo" src="imgs/Profile.png" alt="Imagem ilustativa de perfil">
+                <input id="file__pictury" type="file" accept="image/*">
+            </label>
+
+            <figure id="logo">
+              <img src="imgs/logo.png" alt="logo">
+            </figure>
+        </div>
+        
+        <form id="form">
+            <div id='container'>    
+                <fieldset id="fieldset">
+                    <label id="field--name" class="field" for="name">* Nome
+                        <div>
+                            <div>
+                                <input class="aux">
+                                <input id="name" class="input input--required" name="name" type="text" title="Digite seu nome" placeholder="Qual é o seu nome?" required>
+                            </div>
+    
+                            <p id="message--name" class="message--invalid">Este campo deve conter apenas letras. Evite usar caracteres especiais, números e outros</p>
+                        </div>
+                    </label>
+                    
+                    <label id="field--gender" class="field" for="gender">* Gênero
+                        <div class="group">
+                            <span class="material-symbols-outlined expand__more">expand_more</span>
+                            <select id="gender" class="input input--required" title="Digite seu genero" name="gender" required>
+                            
+                                <option value="" selected disabled>Qual o seu genero?</option>
+                                <option value="Não binario">Não binario</option>
+                                <option value="Mulher">Mulher</option>
+                                <option value="Homem">Homem</option>
+                                
+                            </select>
+                        </div>
+                    </label>
+                    
+                    <label id="field--acting" class="field" for="acting">* Atuacao
+                        <div class="group">
+                            <span class="material-symbols-outlined expand__more">expand_more</span>
+                            <select id="acting" class="input input--required" title="Digite sua atuacao" name="acting" required>
+
+                                <option value="" selected disabled>Como você se define?</option>
+                                <option value="mae">Mãe</option>
+                                <option value="pai">Pai</option>
+                                <option value="responsavel_tutelar">Responsável tutelar</option>
+                                <option value="cuidador">Cuidador</option>
+                                <option value="acompanhante">Acompanhante</option>
+                                <option value="educador">Educador(a)</option>
+                                <option value="pediatra">Pediatra</option>
+                                <option value="pscicologo">Pscicologo(a)</option>
+                                <option value="outro">Outro</option>
+                                <option value="nenhum">Nenhuma das opções</option>
+
+                            </select>
+                        </div>
+                    </label>
+                    
+                    <label id="field--email" class="field" for="email">* Email
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined email">email</span>
+                                <input id="email" class="input input--required" title="Digite seu email" type="email" name="email" placeholder="exemplo@gmail.com" required>
+                            </div>
+
+                            <p id="message--email" class="message--invalid">Preencha corretamente este campo usando @</p>
+                            <p id="message--email_exists" class="message--invalid">Este email já está em uso. Escolha outro e tente novamente</p>
+                        </div>
+                    </label>
+
+                    <label id="field--cell_phone" class="field" for="cell_phone">Celular
+                        <div>
+                            <div id="group--cell_phone">
+                                <label id="group--cell_phone__icon">
+                                    <div>
+                                        <div class="custom_select_selected"><img src="imgs/brasil.png" alt=""></div>
+                                    </div>
+                                </label>
+                                
+                                <input id="cell_phone" class="input" title="Digite seu celular" type="tel" name="cell_phone" placeholder="(DDD)9XXXXYYYY">
+                            </div>
+
+                            <p id="message--cell_phone" class="message--invalid">Digita apenas números sem exeder a quantidade padrão: (DDD)9XXXXYYYY. Evite usar caracteres especiais, letras e outros</p>
+                        </div>
+                    </label>
+
+                    <label id="field--password" class="field" for="password">* senha
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined lock">lock</span>
+    
+                                <label for="checkbox__visibility___password">
+                                    <input id="checkbox__visibility___password" type="checkbox">
+                                    <span class="material-symbols-outlined eye_open">visibility</span>
+                                    <span class="material-symbols-outlined eye_closed">visibility_off</span>
+                                </label>
+                                
+                                <input id="password" class="input input--required" title="Digite uma senha" type="password" name="password" placeholder="Digite sua confirma senha" required>
+                            </div>
+
+                            <p id="message--password" class="message--invalid">A senha deve ter de 4 a 8 caracteres. Os caracteres especiais permitidos são: @!&#._-</p>
+                        </div>
+                    </label>
+
+                    <label id="field--birth" class="field" for="birth">* Nascimento
+                        <div>
+                            <input id="birth" class="input input--required" title="Digite seu nascimento" type="date" name="nascimento" placeholder="Quando você nasceu?" required>
+                        </div>
+                    </label>
+
+                    <label id="field--confirm_password" class="field" for="confirm_password">* Confirma senha
+                        <div>
+                            <div class="group">
+                                <span class="material-symbols-outlined lock">lock</span>
+                                
+                                <label for="checkbox__visibility___confirm_password">
+                                    <input id="checkbox__visibility___confirm_password" type="checkbox">
+                                    <span class="material-symbols-outlined eye_open">visibility</span>
+                                    <span class="material-symbols-outlined eye_closed">visibility_off</span>
+                                </label>
+                                
+                                <input id="confirm_password" class="input input--required" title="Digite a confirmação da sua senha" type="password" name="confirm_password" placeholder="Digite sua confirma senha" required>
+                            </div>
+
+                            <p id="message--confirm_password" class="message--invalid">As duas senhas não são iguais. Verifique e tente novamente</p>
+                        </div>
+                    </label>
+
+                    <label id="field--cep" class="field" for="cep">* CEP
+                        <div>
+                            <div>
+                                <input id="cep" class="input input--required" title="Digite seu CEP" type="text" name="cep" placeholder="Qual o seu CEP?" required>
+                            </div>
+
+                            <p id="message--cep" class="message--invalid">O capmpo CEP deve conter apenas 8 (oito) dígitos numéricos</p>
+                        </div>
+                    </label>
+
+                    <label id="field--city" class="field" for="city">Cidade
+                        <input id="city" class="input input--required" title="Preenchimento automático" type="text" name="city" placeholder="Preenchimento automático" disabled>
+                    </label>
+
+                    <label id="field--state" class="field" for="state">Estado
+                        <input id="state" class="input input--required" title="Preenchimento automático" type="text" name="state" placeholder="Preenchimento automático" disabled>
+                    </label>
+
+                    <label id="field--about" class="field" for="about">Nos conte um pouco <br> sobre você.
+                            <textarea id="about" class="input" title="Digite seu sobre você" type="textarea" name="about" cols="100" rows="100" wrap="hard"></textarea>
+                    </label>
+
+                    <input id="button" title="Click para enviar" type="submit" name="button" value="Cadastrar">
+                </fieldset>
+            </div>
+        </form>
+    </main>
+
+    <div id="button_enter">
+        <button>
+            <label id="button_enter__label" tabindex="0" role="button" for="button">
+            Cadastrar
+            <div id="button_enter__seta"><span class="material-symbols-outlined">arrow_forward</span></div>
+            </label>
+        </button>
+    </div>
+
+    <p id="redirect_login">Já possui uma conta? <a href="login.html">Click aqui para entrar</a></p>
+
+    <footer>
+        <nav id="nav-rodape">
+            <ul>
+            <li class="rodape__item___1"><p>© 2023 Projeto NeuroKids</p></li>
+            <li class="rodape__item___2"><a href="#">Contato</a></li>
+            <li class="rodape__item___3"><a href="#">Privacidade</a></li>
+            <li class="rodape__item___4"><a href="#">Termos de uso</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script type="module" src="js/services/api_cep.js"></script>
+    <script type="module" src="js/services/api_imgur.js"></script>
+    <script type="module" src="js/exibe_oculta_senha.js"></script>
+    <script type="module" src="js/controllers/cadastro.js"></script>
+    <script type="module" src="js/validadores_input/celular.js"></script>
+    <script type="module" src="js/validadores_input/confirma_senha.js"></script>
+    <script type="module" src="js/validadores_input/email.js"></script>
+    <script type="module" src="js/validadores_input/nome.js"></script>
+    <script type="module" src="js/validadores_input/senha.js"></script>
+</body>
+</html>

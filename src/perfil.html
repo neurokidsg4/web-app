@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="perfil.css">
+
+  <title>NeuroKids</title>
+</head>
+
+<body>
+  <input id="abre__menu--checkbox__cabecalho" type="checkbox">
+
+  <ul id="cabecalho__menu" class="cabecalho__menu">
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item">
+      <div class="cabecalho__grupo--icones">
+        
+        <label for="abre__menu--checkbox__cabecalho">
+          <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--arrow">arrow_back_ios_new</span>
+        </label>
+        <span class="material-symbols-outlined cabecalho__menu___icone cabecalho--notification">notifications</span>
+
+      </div>
+      <p class="cabecalho__menu___texto--principal">Menu</p>
+    </li>
+
+    <li>
+      <ul class="cabecalho__menu--sub">
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="index.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">home</span>
+            <p class="cabecalho__menu___texto">Home</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="feedback.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">feedback</span>
+            <p class="cabecalho__menu___texto">Feedback</p>
+          </a>
+        </li>
+
+        <li class="cabecalho--grupo__icone-menu">
+          <a href="sobre_nos.html">
+            <span class="material-symbols-outlined cabecalho__menu___icone">group</span>
+            <p class="cabecalho__menu___texto">Sobre nós</p>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_login">
+      <button class="btn_action_login">
+        <span class="material-symbols-outlined cabecalho__menu___icone">login</span>
+        <p class="cabecalho__menu___texto">Entrar</p>
+      </button>
+    </li>
+
+    <li class="cabecalho--grupo__icone-menu cabecalho__menu___item btn_logout">
+      <button class="btn_action_logout">
+        <span class="material-symbols-outlined cabecalho__menu___icone">logout</span>
+        <p class="cabecalho__menu___texto">Sair</p>
+      </button>
+    </li>
+  </ul>
+
+  <header>
+    <a class="hidden" href="#primary_title" role="button" aria-label="Ir para conteúdo principal" aria-hidden="false"></a>
+
+    <label for="abre__menu--checkbox__cabecalho">
+      <div class="group--hamburgue__logo">
+          <span class="material-icons hamburgue">menu</span>
+          <div class="logo">
+            <a href="index.html"><img src="imgs/logo.png" alt="Logo NeuroKids"></a>
+          </div>
+      </div>
+    </label>
+
+    <nav id="nav-cabecalho">
+      <ul>
+        <li><a class="area__infantil childish_redirect_if">Área infantil</a></li>
+        <li><a class="area__infantil profile_redirect_if">Perfil</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+        <li class="btn_logout"><a class="btn_action_logout" role="button">Sair</a></li>
+        <li class="btn_login"><a class="btn_action_login" role="button">Entrar</a></li>
+      </ul>
+    </nav>
+
+    <nav id="nav-cabecalho--mobile">
+      <ul>
+        <li>
+          <button class="area__infantil childish_redirect_if">
+            <span class="material-symbols-outlined">stadia_controller</span>
+            <p>Infantil</p>
+          </button>
+        </li>
+        
+        <li>
+          <button id="infantil__2" class="area__infantil profile_redirect_if">
+            <span class="material-symbols-outlined">account_circle</span>
+            <p>Perfil</p>
+          </button>
+        </li>
+
+        <li>
+          <a  id="infantil__3" class="area__infantil" href="ajuda.html">
+            <span class="material-symbols-outlined">info</span>
+            <p>Ajuda</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <dialog>
+    <div id="box">
+      <h4 class="main_title">Score</h4>
+      <span class="close material-symbols-outlined">close</span>
+
+      <div id="catalog_game_performance"></div>
+
+      <div>
+          <div class="filter">
+              <p class="filter__text">Filtrar por:</p>
+              <select class="filter__selection" name="filter" id="filter">
+                  <option value="Todos" selected>Todos os jogos</option>
+                  <option value="Matematica">Matematica</option>
+                  <option value="Acerte as Cores">Acerte as Cores</option>
+                  <option value="Contagem dos Objetos Coloridos">Contagem de Objetos Coloridos</option>
+              </select>
+          </div>
+
+          <div>
+              <div id="head--table">
+                  <div class="field">
+                      <p class="head--table__text">Jogo</p>
+                  </div>
+                  
+                  <div class="field">
+                      <p class="head--table__text">Desempenho</p>
+                  </div>
+                  
+                  <div class="field">
+                      <p class="head--table__text">Data</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container--list">
+          <ul id="list"><li class="message--not_history">Você não possui histórico deste jogo!</li></ul>
+      </div>
+      
+      <div class="btn--fechar">
+          <button class="close btn">Fechar</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!--Corpo do perfil-->
+  <main>
+    <div class="content">
+
+      <!--Imagme de peril e de fundo-->
+      <div class="image-perfil">
+        
+
+        <img id="foto-perfil1" src="imgs/Profile.png" referrerpolicy="no-referrer" alt="Foto de perfil">
+
+        <img id="fundo-perfil" src="imgs/fundo-perfil.jpg" alt="Imagem de fundo do perfil">
+
+      </div>
+
+      <!--Botões, nome e ocupação-->
+      <div class="name-button">
+
+        <div class="name-ocupation">
+          <ul>
+            <li id="name">Charles Deo</li>
+            <li id="ocupation">Pediátra</li>
+          </ul>
+        </div>
+
+        <a href="#" target="_self">
+          <li id="btn-historico">Histórico dos jogos</li>
+        </a>
+
+        <div class="button">
+          <ul>
+
+            <!--
+              <li>
+                <button id="btn-historico">Historico dos jogos</button>
+              </li>
+              -->
+
+            <a href="editar-perfil.html" target="_self">
+              <li id="btn-edit">Editar perfil</li>
+            </a>
+
+            <a href="editar-senha.html">
+              <li id="btn-edit-pw">Editar senha</li>
+            </a>
+
+            <a href="excluir-conta.html">
+              <li id="btn-del-acount">Excluir conta</li>
+            </a>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <!--Dado do perfil-->
+      <div class="data">
+        <!--Primeira linha de dados-->
+        <div class="data-1">
+          <div class="data-name">
+            <ul>
+              <li id="data-name-1">Nome</li>
+              <li id="info-name-1"></li>
+            </ul>
+          </div>
+
+          <div class="data-gender">
+            <ul>
+              <li id="data-gender-1">Gênero</li>
+              <li id="info-gender-1"></li>
+            </ul>
+          </div>
+
+          <div class="data-birth">
+            <ul>
+              <li id="data-birth-1">Nascimento</li>
+              <li id="info-birth-1"></li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Segunda linha de dados-->
+        <div class="data-2">
+          <div class="data-email">
+            <ul>
+              <li id="data-email-1">Email</li>
+              <li id="info-email-1"></li>
+            </ul>
+          </div>
+
+          <div class="data-cell">
+            <ul>
+              <li id="data-cell-1">Celular</li>
+              <li id="info-cell-1"></li>
+            </ul>
+          </div>
+
+          <div class="data-add">
+            <ul>
+              <li id="data-add-1">CEP</li>
+              <li id="info-add-1"></li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="data-3">
+
+          <div class="data-estado">
+              <ul>
+                <li id="data-add-estado">Estado</li>
+                <li id="info-add-estado"></li>
+              </ul>
+          </div> 
+
+          <div class="data-cidade">
+            <ul>
+              <li id="data-add-cidade">Cidade</li>
+              <li id="info-add-cidade"></li>
+            </ul>
+          </div>
+
+          <div class="data-nulo">
+            <ul>
+              <li id="data-add-nulo"></li>
+              <li id="info-add-nulo"></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!--Sobre mim-->
+      <div class="about-me">
+
+        <h2>Sobre mim</h2>
+
+        <p id="iabout-me"></p>
+
+      </div>
+
+    </div>
+  </main>
+  <!--Rodapé-->
+  <footer>
+    <nav id="nav-rodape">
+      <ul>
+        <li class="rodape__item___1">
+          <p>© 2023 Projeto NeuroKids</p>
+        </li>
+        <li class="rodape__item___2"><a href="#">Contato</a></li>
+        <li class="rodape__item___3"><a href="#">Privacidade</a></li>
+        <li class="rodape__item___4"><a href="#">Termos de uso</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script type="module" src="perfil.js"></script>
+  <script type="module" src="js/services/api_cep.js"></script>
+  <script type="module" src="js/logar_deslogar.js"></script>
+  <script type="module" src="js/redireciona_login_se_deslogado.js"></script>
+  <script type="module" src="js/verifica_login.js"></script>
+  <script type="module" src="js/dialog_score.js"></script>
+  <script type="module" src="js/score.js"></script>
+</body>
+</html>
