@@ -168,7 +168,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
 
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<!-- - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)-->
 
 
 ## Cenários de Teste de Usabilidade Geral
