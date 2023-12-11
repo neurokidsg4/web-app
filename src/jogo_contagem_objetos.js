@@ -50,9 +50,8 @@ function updateColors() {
   colorTextElement.textContent = colorsMapping[targetColor] || targetColor;
 
   // Conta a quantidade de objetos com a cor
-  countTargetColor = objectsWithColors.filter(obj => obj.color === targetColor).length; // Mova para fora da função para torná-la global
+  countTargetColor = objectsWithColors.filter(obj => obj.color === targetColor).length; 
 
-  // Gera uma lista com números diferentes da quantidade correta (evitar o erro de duplicidade)
   const otherNumbers = generateUniqueNumbers(countTargetColor, buttons.length);
 
   // Escolhe aleatoriamente um índice para o botão correto
@@ -154,7 +153,6 @@ function handleContinueClick() {
   messageElement.textContent = '';
 }
 
-// Adiciona um evento de clique ao botão "Voltar"
 backButton.addEventListener('click', function () {
   window.location.href = './area_infantil.html';
 });
