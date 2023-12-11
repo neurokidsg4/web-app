@@ -1,7 +1,7 @@
  
 /*Pegando os dados atuais do perfil já armazenados no localstorage e preenchendo automaticamente no campos de edita perfil*/
 
-import { Cryptography } from "./js/services/cryptography.js";
+import { Cryptography } from "./js/services/Cryptography.js";
 
 const usuario = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
 
