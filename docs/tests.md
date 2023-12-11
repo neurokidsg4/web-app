@@ -162,7 +162,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-08 - Acesso à Página de Ajuda *                                         |
 |---|---|
 |Requisito Associado | RF-012 A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
-|Link do vídeo do teste realizado: || 
+|Link do vídeo do teste realizado: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13629981/teste_pagina_ajuda.-.Shortcut.zip | 
 
 
 ## Avaliação dos Testes de Software
@@ -180,6 +180,7 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
+
 | 1             | Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.|
 | 2             |Você deseja compartilhar os conteúdos encontrados.  Encontre no site uma forma de compartilhar o conteúdo desejado.|
 | 3             |Você não é cadastrado. Encontre o formulário de cadastro e realize um cadastro.|
