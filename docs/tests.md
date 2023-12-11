@@ -175,7 +175,6 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |Requisito Associado | RF-006	A aplicação deve permiti que o usuário exclua sua conta.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/80669bf0-cd67-41d2-83a5-c3dc0b7bc8fb| 
 
-
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
@@ -190,7 +189,8 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             |Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.|
+
+| 1             | Seu filho apresenta comportamentos incomuns e você suspeita que possa estar relacionado com autismo. Encontre no site a pagina que trata desse assunto.|
 | 2             |Você deseja compartilhar os conteúdos encontrados.  Encontre no site uma forma de compartilhar o conteúdo desejado.|
 | 3             |Você não é cadastrado. Encontre o formulário de cadastro e realize um cadastro.|
 | 4             |Você já é cadastrado e deseja logar no site. Encontre o formulário de login e efetue a ação para logar.|
@@ -213,13 +213,13 @@ Cenário 1: Seu filho apresenta comportamentos incomuns e você suspeita que pos
 |   1     | SIM             | 5                    | 09.39 segundos                  |
 |   2     |       SIM       |        4             | 1 minuto e 31 segundos          |
 |   3     |       SIM       |        5             | 1 minuto e 1 segundos           |
-|         |                 |                      |                                 |
+|   4    |       SIM        |       5            |      47 segundos             |
 | **Média** | 0%            | 0                    | 0.00 segundos                   |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 07.44 segundos              |
 
 
     Comentários do usuario 3: Adorei por ter cores chamativas indicando os topicos, com letras grandes
-
+ 
 
 
 
@@ -230,13 +230,14 @@ Cenário 2: Você deseja compartilhar os conteúdos encontrados.  Encontre no si
 |    1    |      SIM        |         5            | 12.01 segundos                  |
 |    2    |      SIM        |         5            | 50 segundos                     |
 |    3    |      SIM        |         5            | 21 segundos                     |
-|         |                 |                      |                                 |
+|    4     |     SIM          |       5            |  8 segundos                     |
 | **Média** | 0%            |      0               | 0.00 segundos                   |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.95 segundos              |
 
 
     Comentários do usuários 01: Ao copiar link alguma mensagem de sucesso poderia ser exibida pra mim, fiquei sem saber se copiou ou não.
-
+    Comentários do usuários 04: Achei legal poder compartilhar em redes sociais diferentes, como Linkedln.
+ 
 
 
 Cenário 3: Você não é cadastrado. Encontre o formulário de cadastro e realize um cadastro.
@@ -246,16 +247,15 @@ Cenário 3: Você não é cadastrado. Encontre o formulário de cadastro e reali
 | 1       | SIM             | 4                    | 4 min 42.56 segundos            |
 |    2     |      SIM           |         5             |          4 minutos e 40 segundos                       |
 |    3    |       SIM       |           4          | 41 segundos                     |
-|  |  |  |  |
+|    4    |       SIM       |           4          |  2 minutos e 15 segundos                     |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 54.02 segundos |
 
 
     Comentários do usuário 01: Ao inserir minha senha eu esperava que o campo de confirmar senha estivesse ao lado ou abaixo do campo para inserir a senha, minha única dificuldade foi nessa parte do layout.
     Comentários do usuário 03: No campo gênero ao invés de "não binário" sugiro colocar "prefiro não me identificar". Não acho que "atuação" é o melhor nome para o campo proposto. Me confundi com a palavra caracteres de início. Seria melhor se tivesse escrito "digitos".
-
-
-
+     Comentários do usuário 04: O link para cadastro está muito escurecido e pequeno, poderia ser maior.
+    
 
 Cenário 4: Você já é cadastrado e deseja logar no site. Encontre o formulário de login e efetue a ação para logar.
 
@@ -264,15 +264,11 @@ Cenário 4: Você já é cadastrado e deseja logar no site. Encontre o formulár
 | 1       | SIM             | 5                    | 13.30 segundos                  |
 |    2    |      SIM        | 5                    | 28 segundos                     |
 | 3       | SIM             | 5                    | 26 segundos                     |
-|  |  |  |  |
+| 4 | SIM | 5 | 12 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.35 segundos |
 
-
-    Comentários dos usuários:
-
-
-
+   Comentários dos usuários:
 
 Cenário 5: Você deseja editar o seu perfil. Encontre no site a sessão para editar o perfil e edite pelo menos 3 informações.
 
@@ -281,16 +277,13 @@ Cenário 5: Você deseja editar o seu perfil. Encontre no site a sessão para ed
 | 1       | SIM             | 5                    | 1 minuto e 24.73 segundos       |
 |     2    |        SIM         |        4              |            48 segundos                     |
 | 3       | SIM             | 5                    | 14 segundos                     |
-|  |  |  |  |
+| 4 | SIM | 5 | 2 minutos e 7 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 25.50 segundos |
 
 
     Comentários do usuário 2: Consegui encontrar facilmente, porém, uma seção da informação sobre gênero estava escrito “masculino” ao invés da palavra “gênero”.
-
-
-
-
+  
 Cenário 6: Você está cadastrada (o) no site e está com dificuldades para excluir sua conta. Encontre no site a informação que te auxilia na exclusão da sua conta.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
@@ -298,12 +291,12 @@ Cenário 6: Você está cadastrada (o) no site e está com dificuldades para exc
 | 1       | SIM             | 5                    | 09.71 segundos                  |
 |    2     |       SIM          |          5            |            29 segundos                     |
 | 3       | SIM             | 5                    | 7 segundos                      |
-|  |  |  |  |
+| 4 | SIM | 5 | 9.5 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                          |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 07.74 segundos |
 
 
-    Comentários dos usuários:
+    Comentários do usuário 4: Bem simples de fazer, está fácil de ser encontrado.
 
 
 
@@ -315,7 +308,7 @@ Cenário 7: Você deseja saber mais sobre o site. Encontre a sessão que fale so
 | 1       | SIM             | 5                    | 02.97 segundos                  |
 |    2     |      SIM           |          5            |            5 segundos      |
 | 3       | SIM             | 5                    | 6 segundos                      |
-|  |  |  |  |
+| 4 | SIM | 5 | 4.6 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.91 segundos |
 
@@ -330,7 +323,7 @@ Cenário 8: Você deseja jogar um dos jogos disponíveis na aplicação. Encontr
 | 1       | SIM             | 5                    | 34.20 segundos                  |
 |    2     |     NÃO          |         1           |             1 minuto e10 segundos                    |
 | 3       | SIM             | 3                    | 52 segundos                     |
-|  |  |  |  |
+| 4 | SIM | 4 | 1 minuto e 32 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                         |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11.94 segundos |
 
@@ -345,7 +338,7 @@ Cenário 9: Você deseja verificar o desempenho que teve nos jogos. Encontre o h
 | 1       | SIM             | 5                    | 10.30 segundos                  |
 |    2     |       SIM          |         5             |                10 segundos                 |
 | 3       | SIM             | 1                    | 1 minuto e 38 segundos          |
-|  |  |  |  |
+| 4 | SIM | 3 | 3 minutos e 10 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 02.50 segundos |
 
@@ -361,13 +354,13 @@ Cenário 10: Você gostou dos jogos do site e deseja enviar uma mensagem para a 
 | 1       | SIM             | 5                    | 2 minutos e 27.46 segundos      |
 |     2    |        SIM         |          5            |             5 minutos e 41 segundos                    |
 | 3       | NÃO             | 1                    | 2 minutos e 38 segundos         |
-|  |  |  |  |
+| 4 | SIM | 5 | 1 minuto e 23 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 23.48 segundos |
 
 
     Comentários do usuário 3: Não sei falar inglês. Misturar português com inglês não faz sentido por residirmos no Brasil. Seria melhor se fosse fosse algo como "Fale conosco". Em outros sites as informações ficam todas no menu, mas este site as informações estão espalhadas. O link de contato também não funciona. No perfil também costuma ter só os dados pessoais.
-
+    Comentários do usuário 4: Achei muito bacana o design, bem intuitivo e simples de usar.
 
 
 Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opção de excluir a conta e execute a ação.
@@ -377,7 +370,7 @@ Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opçã
 | 1       | SIM             | 5                    | 11.39 segundos                  |
 |     2    |     SIM            |       5               |           10 segundos      |
 | 3       | SIM             | 5                    | 16 segundos                     |
-|  |  |  |  |
+| 4 | SIM | 5 | 27 segundos |
 | **Média**     | 0%           | 0                | 0.00 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 03.95 segundos |
 
@@ -390,6 +383,7 @@ Cenário 11: Você deseja excluir a sua conta permanentemente. Encontre a opçã
 |---------------|----------------------|
 | 1             |Você é um profissional da área da psicologia e deseja buscar mais informações sobre como identificar a neurodiversidade na infância. Encontre no site o card que trata sobre o assunto e acesse.|
 | 2             |Você é um profissional da área da psicologia e deseja se informar a respeito do TEA. Encontre no site o card que trata sobre o assunto e acesse.|
+| 3             |Você é o responsável de uma criança com TDAH e busca atividades para realizar com a criança neurodiversa. Encontre a seção dedicada para atividades recomendadas.|
 
 
 ## Registro de Testes de Usabilidade Específico - Profissional Área da Psicologia
@@ -419,6 +413,16 @@ Cenário 2: Você é um profissional da área da psicologia e deseja se informar
 
     Comentários do usuário 01: O conteúdo precisa conter citação.
 
+
+Cenário 3: Você é o responsável de uma criança com TDAH e busca atividades para realizar com a criança neurodiversa. Encontre a seção dedicada para atividades recomendadas.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 4       | SIM             | 5                    | 1 minuto e 12 segundos                 |
+|  |  |  |  |
+| **Média**     | 100%      | 0                    | 1 minuto e 12 segundos                |
+
+    Comentários do usuário 04: Gostei bastante das atividades para o meu filho, vou imprimi-lás para fazer junto com ele. 
 
 
 ## Avaliação dos Testes de Usabilidade
