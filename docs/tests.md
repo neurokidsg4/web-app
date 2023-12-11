@@ -162,7 +162,7 @@ Apresentamos, a seguir, o relatório contendo as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-08 - Acesso à Página de Ajuda *                                         |
 |---|---|
 |Requisito Associado | RF-012 A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|
-|Link do vídeo do teste realizado: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13629981/teste_pagina_ajuda.-.Shortcut.zip | 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13629981/teste_pagina_ajuda.-.Shortcut.zip | 
 
 
 ## Avaliação dos Testes de Software
