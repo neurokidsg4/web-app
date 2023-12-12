@@ -1,5 +1,5 @@
 
-import { Game } from './js/entities/Jogo.js';
+import { Game } from './js/entities/Game.js';
 
 const game = new Game('Matematica');
 

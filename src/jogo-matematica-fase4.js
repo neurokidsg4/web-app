@@ -1,50 +1,33 @@
 
-//Se comentar as 4 linha enumeradas abaixo o jogo roda normalmente.
+import { Game } from './js/entities/Game.js';
 
-//comentar essa linha (1)
-// import { Game } from './js/entities/Jogo.js';
-
-//comentar essa linha(2)
-// const jogo = new Game('Matematica');
+const game = new Game('Matematica');
 
 var num1 = 0;
 var num2 = 0;
 var cont = 0;
 var tentativa = 0;
 
-
-
 const btnContinue = document.getElementById("icontinue");
 btnContinue.style.display = "none";
-
-const btnProximaFase = document.getElementById("iproxima-fase");
-btnProximaFase.style.display = "none";
 
 const btnVoltar = document.getElementById("ivoltar");
 btnVoltar.style.display = "none";
 
 //Gera dois número aleatório de 0 a 10.
-
 function geraNum() {
+    
+    do {
+        
+        num1 = parseInt(Math.random() * 6);
+        num2 = parseInt(Math.random() * 6);
 
-    num1 = parseInt(Math.random() * 10);
-    num2 = parseInt(Math.random() * 10);
-
+    } while ((num1 / num2) > 0 && (num1 / num2) < 1 || num1 % num2 ==! 0 || num2 === 0);
+    
     document.getElementById("num1").innerHTML = num1;
     document.getElementById("num2").innerHTML = num2;
 
 }
-/*
-function geraNum() {
-
-    num1 = parseInt(Math.random() * 10);
-    num2 = parseInt(Math.random() * 10);
-
-    document.getElementById("num1").innerHTML = num1;
-    document.getElementById("num2").innerHTML = num2;
-
-}
-*/
 
 geraNum();
 
@@ -60,25 +43,20 @@ btnConfimar.addEventListener("click", function () {
     var calculo = num1 / num2;
     var resposta = document.getElementById("resposta").value;
 
-
     if (calculo == resposta) {
+
+        game.sumPoint();
 
         cont++;
         tentativa++;
 
         document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
 
-        //comentar essa linha(3)
-        // jogo.sumPoint();
-
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
         if (tentativa < 5) {
 
-            //cometar essa linha(4)
-            // jogo.attempt();
-            
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
 
@@ -102,8 +80,6 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
 
-        tentativa++;
-
         document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
 
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
@@ -111,8 +87,10 @@ btnConfimar.addEventListener("click", function () {
     }
 
     if(tentativa >=5 ){
+
+        game.gameSaves();
+
         btnConfimar.style.display ="none";
-        btnProximaFase.style.display  = "";
         btnVoltar.style.display = "";
         document.getElementById("resultado").innerHTML = "";
 
@@ -124,7 +102,3 @@ btnConfimar.addEventListener("click", function () {
     
 
 });
-
-
-    
-

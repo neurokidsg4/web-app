@@ -1,4 +1,8 @@
 
+import { Game } from './js/entities/Game.js';
+
+const game = new Game('Matematica');
+
 var num1 = 0;
 var num2 = 0;
 var cont = 0;
@@ -18,12 +22,11 @@ btnVoltar.style.display = "none";
 //Gera dois número aleatório de 0 a 10.
 function geraNum() {
 
-    num1 = parseInt(Math.random() * 10);
-    num2 = parseInt(Math.random() * 10);
-
+    num1 = parseInt(Math.random() * 6);
+    num2 = parseInt(Math.random() * 6);
+        
     document.getElementById("num1").innerHTML = num1;
     document.getElementById("num2").innerHTML = num2;
-
 }
 
 geraNum();
@@ -37,17 +40,22 @@ btnConfimar.addEventListener("click", function () {
 
     btnConfimar.style.display = "none";
 
-    var calculo = num1 * num2;
+    var calculo = num1 / num2;
     var resposta = document.getElementById("resposta").value;
 
-
-
     if (calculo == resposta) {
+
+        game.sumPoint();
+
+        cont++;
+        tentativa++;
+
+        document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
 
         document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
         document.getElementById("resultado").innerHTML = `Parabéns! Você acertou`;
 
-        if (cont < 5) {
+        if (tentativa < 5) {
 
             btnContinue.style.display = "block";
             btnContinue.addEventListener("click", function () {
@@ -72,6 +80,26 @@ btnConfimar.addEventListener("click", function () {
         document.getElementById("resposta").value = "";
         btnConfimar.style.display = "block";
 
+        document.getElementById("tentativa").innerHTML = `Tentativas: ${tentativa}`;
+
+        document.getElementById("pontos").innerHTML = `Acertos: ${cont}`;
+
     }
+
+    if(tentativa >=5 ){
+
+        game.gameSaves();
+
+        btnConfimar.style.display ="none";
+        btnProximaFase.style.display  = "";
+        btnVoltar.style.display = "";
+        document.getElementById("resultado").innerHTML = "";
+
+        btnVoltar.addEventListener("click", function(){
+            window.location.href = "/src/area_infantil.html";
+        });
+    }
+
+    
 
 });
