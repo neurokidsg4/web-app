@@ -6,6 +6,8 @@
 
 `SEMESTRE: 2º`
 
+> - [Link de Acesso - NeuroKids] (https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/index.html)
+
 ## Integrantes
 
 * Gustavo da Silva Novaes
