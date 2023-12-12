@@ -15,8 +15,6 @@ h1,h2 {
     padding: 20px 0px;
 }
 
-
-
 main {
     margin: 70px;
     display: flex;
@@ -51,7 +49,7 @@ li {
 
 /* Estilos da caixa de pesquisa */
 .search-box {
-    overflow: hidden;
+
     width: 100%;
     max-width: 1000px;
     margin: 50px;
@@ -74,8 +72,6 @@ li {
     padding: 0;
     opacity: 0;
     pointer-events: none;
-    max-height: 280px;
-    overflow-y: hidden;
 }
 
 .list li{
@@ -165,14 +161,14 @@ li {
     justify-content: center;
     color: #505050;
     text-align: center;
-    font-size: 32px;
+    font-size: clamp(1em, 1.0em + 2vw, 2.0em);
     font-style: normal;
     line-height: 33px;
 }
 
 .description_cards_01 {
     width: 100%;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: center;
     color: #505050;
@@ -199,7 +195,8 @@ li {
 
 .card-background {
     width: auto; 
-    height: 400px; 
+    max-width: 100%;
+    height: auto; 
     box-shadow: 0px 6.1902px 6.1902px 0px #F86645;
 }
 
@@ -240,7 +237,7 @@ li {
 
 .description_cards_02 {
     width: auto;
-    height: 20.000px;
+    height: auto;
     display: flex;
     justify-content: center;
     color: #505050;
@@ -267,248 +264,85 @@ li {
     transform: scale(1.1); 
 }
 
-/* aplicando a responsividade para o container principal */
-@media screen and (max-width: 1500px) {
-    .container_cards_main {
-            display: flex;
-            flex-direction: column;
-            gap: 5em;
-            margin-left: auto;  
-            margin-right: auto;
-        }
-    }
-    
-/* aplicando responsividade para o container secundário */
+/* Aplicando responsividade para o container principal e secundário */
+
 @media screen and (max-width: 1800px) {
     .container_cards_main {
         display: flex;
         flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
+        gap: 3em;
+        margin-left: auto;
         margin-right: auto;
     }
-
-    .container_cards_02 {
+    .container_cards_02 { 
+        margin-left: auto;
+        margin-right: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2em;
-        padding: 2em;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     .card_02 {
         display: flex;
         flex-direction: column;
-        margin-left: 2em;
     }
 }
 
 @media screen and (max-width: 1500px) and (min-width: 601px) {
-
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
     .container_cards_02 {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        gap: 1em;
-        padding: 1em;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 4em;
-    }
-}
-
-/* Media query comum para vários tamanhos de tela */
-
-@media screen and (max-width: 900px) and (min-width: 581px) {
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
-
-    .container_cards_02 {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1em;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
     }
 
-    .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
+    .card_02{
+        width: auto;
     }
 }
 
-@media screen and (max-width: 600px) and (min-width: 501px) {
+@media screen and (max-width: 600px) and (min-width: 360px) {
     .container_cards_main {
         display: flex;
         flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
+        margin-left: 9em;
+        margin-right: 5em;
+    }
+
+    .title_cards_01{
+        font-size: clamp(1em, 0.8em + 2vw, 1.5em);
+    }
+
+    .description_cards_01{
+        font-size: clamp(1em, 0.8em + 2vw, 1.5em);
+    }
+
+    .search-box{
+        background: none;
+        box-shadow: none;
+    }
+
+    
+    .search-box:hover > .search-text {
+    width: 300px;
+    padding: 0 20px;
     }
 
     .container_cards_02 {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 1em;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5em;
+        margin-right: 5em;
+        width: auto;
+    }
+
+    .description_cards_02{
+        font-size: clamp(1em, 0.3em + 2vw, 1.5em);
+        margin-bottom: 2em;
     }
 
     .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
-    }
-}
-
-@media screen and (max-width: 510px) {
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
-
-    .container_cards_02 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1em;
-        margin-left: 2em;
-        margin-right: 20px;
-    }
-
-    .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
-
-    .container_cards_02 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1em;
-        padding: 1em;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 2em;
-    }
-}
-
-/* Media queries específicas */
-
-@media screen and (max-width: 509px) and (min-width: 367px) {
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
-
-    .container_cards_02 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1em;
-        margin-left: 20em;
-        margin-right: 20px;
-    }
-
-    .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
-    }
-}
-
-@media screen and (max-width: 368px) {
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
-
-    .container_cards_02 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1em;
-        margin-left: 20em;
-        margin-right: 20px;
-    }
-
-    .card_02 {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
-    }
-}
-
-@media screen and (max-width: 608px) and (min-width: 601px) {
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-        margin-left: auto;  
-        margin-right: auto;
-    }
-
-    .container_cards_02 {
-        margin-left: 5px;
-    }
-
-    .card_02 {
-        margin-left: 1em;
-    }
-}
-
-@media screen and (max-width: 580px) and (min-width: 510px) {
-
-    .container_cards_main {
-        display: flex;
-        flex-direction: column;
-        gap: 5em;
-    }
-
-    .container_cards_02 {
-        margin-left: 10px;
-    }
-
-    .card_02 {
-        margin-left: 10em;
+       width: auto;
+       height: 18em;
     }
 }
