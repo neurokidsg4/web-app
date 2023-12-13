@@ -1,4 +1,4 @@
-import { Cryptography } from "./js/services/cryptography.js";
+import { Cryptography } from "./js/services/Cryptography.js";
 
 const usuario = localStorage.getItem('usuario') ? JSON.parse(Cryptography.decode(localStorage.getItem('usuario'))) : {};
 

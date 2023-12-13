@@ -1,6 +1,6 @@
 
 import { User } from '../entities/User.js';
-import { Cryptography } from '../services/cryptography.js';
+import { Cryptography } from '../services/Cryptography.js';
 
 const button = document.getElementById('button');
 

@@ -41,6 +41,8 @@ btnConfimar = document.getElementById("iconfirm");
 
 btnConfimar.addEventListener("click", function () {
 
+    game.attemptCounter();
+
     btnConfimar.style.display = "none";
 
     var calculo = num1 - num2;
@@ -81,6 +83,8 @@ btnConfimar.addEventListener("click", function () {
     }
 
     else{
+
+        tentativa++;
 
         document.getElementById("resultado").innerHTML = "Tente mais uma vez.";
         document.getElementById("resposta").value = "";
