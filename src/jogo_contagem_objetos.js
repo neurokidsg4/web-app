@@ -25,7 +25,7 @@ const continueButton = document.getElementById('continue');
 const buttonMessageContainer = document.querySelector('.button-message-container');
 
 const maxAttemptsPerRound = 5;
-let currentRound = 1;
+let currentRound = 0;
 let countTargetColor;
 
 buttons.forEach((button) => {
