@@ -1,7 +1,7 @@
 
-import { Game } from './js/entities/Jogo.js';
+import { Game } from './js/entities/Game.js';
 
-const game = new Game('Contagem de Objetos coloridos');
+const game = new Game('Contagem de Objetos Coloridos');
 
 function getRandomColor() {
   const colors = ['green', 'yellow', 'blue', 'red'];
@@ -24,7 +24,7 @@ const backButton = document.getElementById('back');
 const continueButton = document.getElementById('continue');
 const buttonMessageContainer = document.querySelector('.button-message-container');
 
-const maxAttemptsPerRound = 5;
+const maxAttemptsPerRound = 4;
 let currentRound = 1;
 let countTargetColor;
 
@@ -140,6 +140,7 @@ function handleButtonClick() {
   if (currentRound > maxAttemptsPerRound) {
     messageElement.textContent = 'Você atingiu o limite de tentativas. Deseja continuar?';
     showButtons();
+    game.gameSaves();
 
     // Reinicia o número de tentativas para a próxima rodada
     currentRound = 0;
