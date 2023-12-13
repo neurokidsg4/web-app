@@ -1,5 +1,4 @@
 # NEUROKIDS
- `web-dev-server --node-resolve --open --watch` 'Estava no script do start no package.json'
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Aplicações Web`
