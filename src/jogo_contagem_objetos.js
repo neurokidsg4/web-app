@@ -25,7 +25,7 @@ const continueButton = document.getElementById('continue');
 const buttonMessageContainer = document.querySelector('.button-message-container');
 
 const maxAttemptsPerRound = 5;
-let currentRound = 0;
+let currentRound = 1;
 let countTargetColor;
 
 buttons.forEach((button) => {
@@ -137,7 +137,7 @@ function handleButtonClick() {
     showButtons();
   }
 
-  if (currentRound >= maxAttemptsPerRound) {
+  if (currentRound > maxAttemptsPerRound) {
     messageElement.textContent = 'Você atingiu o limite de tentativas. Deseja continuar?';
     showButtons();
 
