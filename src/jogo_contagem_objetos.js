@@ -137,7 +137,7 @@ function handleButtonClick() {
     showButtons();
   }
 
-  if (currentRound > maxAttemptsPerRound) {
+  if (currentRound >= maxAttemptsPerRound) {
     messageElement.textContent = 'Você atingiu o limite de tentativas. Deseja continuar?';
     showButtons();
 
