@@ -149,6 +149,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-010|A aplicação deve usar como referência o site Expressia.com. |BAIXA|
 |RNF-011|A aplicação deve ser desenvolvida usando a metodologia Scrum|ALTA|
 |RNF-012|A aplicação deve direcionar o feedback feito pelo usuário, para uma conta de email da própria aplicação, exclusiva e própria para isso.|ALTA|
+|RNF-013|A aplicação deve restringir o acesso às paáginas de perfil e area infantil apenas a usuários logados.|ALTA|
 <!--
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
