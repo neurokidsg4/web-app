@@ -36,7 +36,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| Wesley Bruno | atividades_escolares_tdah.html atividades_escolares_tea.html atividades_escolares_tod.html atividades_imprimir_tdah.html atividades_imprimir_tea.html orientacoes_pedagogicas.html plano_escolar_tod.html |
 |RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar.|ALTA| Pedro Rodrigues | ambiente_familiar.html |
 |RF-005|A aplicação deve conter uma sessão específica para pessoas adultas.|ALTA| Todos os Integrantes | index.html
-|RF-006|A aplicação deve conter uma sessão específicas para crianças interagir com o conteúdo dinâmico e jogos especializados no desenvolvimento cognitivo, armazenando o resultado de cada jogo concluído.|ALTA| Pedro Rodrigues | area_infantil.html |
+|RF-006|A aplicação deve conter uma sessão específicas para crianças interagir com o conteúdo dinâmico e jogos especializados no desenvolvimento cognitivo, armazenando o resultado de cada jogo concluído.|ALTA| Pedro Rodrigues | arZZea_infantil.html |
 |RF-007|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA| Todos os Integrantes | atividade_cores.html |
 |RF-008|A aplicação deve permitir a busca por atividades específicas.|MÉDIA| Martha Beatriz | index.html
 |RF-009|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA| Pedro Rodrigues | feedback.html |
