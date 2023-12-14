@@ -77,7 +77,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ## Resultado Do Jogo
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| id             | Numero (inteiro)  | Identificador único do registro do resultado | 1                                           |
-| userId         | Numero (inteiro)  | Identificador único do usuário            | 1                                              |
-| name           | Texto             | Nome do jogo, o qual pertence o resultado | jogo-das-cores                                 |
-| result      | Numero (inteiro)  | Evidencia o resultado do usuário no jogo numa escala que vai de 0% até 100% | 100          |
+| gameName       | Texto             | Identificar o jogo registrado             | Acerte as cores                                |
+| punctuation    | Numero            | Pontuação máxima do jogador               | 5                                              |
+| attempt        | Numero            | Número total tentativas                   | 5                                              |
+| performance    | Texto             | Evidencia o desempenho do jogador         | Alto                                           |
+| date           | Texto             | Evidencia a data do resultado registrado  | 1/6/2023                                       |
