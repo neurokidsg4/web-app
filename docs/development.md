@@ -52,6 +52,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado |
 |------|-----------------------------------------|----| ----|-----------------|
 |RNF-009|A aplicação deve informar o usuário caso tente inserir algum dado inválido no formulário de cadastro e de editar o perfil. |MÉDIA| Wesley Bruno | input_invalid.css / celular.js, confirma_senha.js, email.js, nome.js, senha.js |
+|RNF-006|A aplicação deve adotar um design visual amigável para o público-alvo, evitando layouts escuros que possam prejudicar a leitura. |ALTA| Wesley Bruno | Cryptography.js
 
 
 ## Descrição das estruturas:
