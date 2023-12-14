@@ -68,6 +68,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | gender         | Texto             | Evidencia o gênero de quem está usando a aplicação | mulher                                |
 | birth     | Texto             | Evidencia a idade de quem está usando a aplicação  | 14-04-1999                                 |
 | cep       | Texto             | Evidencia a região do usuário             | 00111222                                            |
+| cidade    | Texto             | Evidencia a cidade do usuário             | Belo Horizonte                                      |
+| estado    | Texto             | Evidencia o estado do usuário             | MG                                                  |
 | acting        | Texto             | Evidencia qual a relação do usuário com pessoas neurodivergentes, podendo ser, o próprio usuário, neurodivergente também | Pedagoga |
 | about          | Texto             | Descreve um pouco sobre o usuário, seus interes entre outras coisas, as quais deseja relatar | Me chamo Angelica. Tenho 39 anos e trabalho com crianças. Meu interesse é aprender mais sobre transtornos para antender melhor as crianças com quem trabalho, caso sejam neuro divergentes |
 
