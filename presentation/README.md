@@ -5,7 +5,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
+* [Pitch inicial](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13679348/Apresentacao.Projeto.NeuroKids.-.INICIAL.pdf) - arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
@@ -29,6 +29,7 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
  
 > **Links Úteis**:
+
 > - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
 > - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
 > - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
