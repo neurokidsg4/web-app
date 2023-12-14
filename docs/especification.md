@@ -128,7 +128,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008|A aplicação deve conter jogos interativos para crianças neurodiversas.|ALTA|
 |RF-009|A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.|ALTA|
 |RF-010|A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.|ALTA|
-|RF-011|A aplicação deve conter uma página de feedback.|ALTA|
+|RF-011|A aplicação deve conter uma página de feedback. Não é preciso estar logado.|ALTA|
 |RF-012|A aplicação deve deve conter uma página de ajuda ao usuário.|ALTA|
 |RF-013|A aplicação deve conter uma página onde descreva sobre a aplicação.|ALTA|
 |RF-014|A aplicação deve conter campos de pesquisa nas páginas necessárias.|ALTA|
