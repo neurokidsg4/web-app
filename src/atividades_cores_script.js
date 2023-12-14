@@ -1,4 +1,4 @@
-import { Game } from './js/entities/Jogo.js'
+import { Game } from './js/entities/Game.js'
 
 const objGame = new Game('Acerte as Cores');
 

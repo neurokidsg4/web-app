@@ -140,27 +140,45 @@ for(let j = 0; j < gameHistory.length; j++) {
 
 const filter = document.querySelector('.filter__selection');
 filter.addEventListener('change', search);
+const results = document.querySelectorAll('.game_name');
+
+// results.forEach( gn => {
+//     console.log(gn);
+// })
+
 
 function search() {
 
-    const results = document.querySelectorAll('.game_name');
     const value = filter.value;
+    let finded = false;
     
-    results.forEach(item => {
+    results.forEach(gameName => {
 
-        if(item.innerText.includes(value) || value.includes('Todos')) {
+        console.log(gameName.innerText)
 
-            const div = item.parentNode;
+        if(gameName.innerText === value || value === 'Todos') {
+
+            console.log('entrei if')
+
+            const div = gameName.parentNode;
             const li = div.parentNode;
             li.setAttribute('id', '');
-            document.querySelector('.message--not_history').style.display = 'none';
+            finded = true;
 
         } else {
+            console.log('entrei else')
 
-            const div = item.parentNode;
+            const div = gameName.parentNode;
             const li = div.parentNode;
             li.setAttribute('id', 'none');
-            document.querySelector('.message--not_history').style.display = 'inline-block';
-        }
+        };
     });
+
+    if (finded) {
+        document.querySelector('.message--not_history').style.display = 'none';
+    } else {
+        document.querySelector('.message--not_history').style.display = 'inline-block';
+    }
+
+
 };
