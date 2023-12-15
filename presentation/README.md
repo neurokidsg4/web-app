@@ -11,7 +11,7 @@
 [Vídeo de demonstração](./sample-video.mp4)
 
 # NeuroKids
-> Identidade Visual (Marca, Design)
+##Identidade Visual (Marca, Design)
 
 ![logo NeuroKids](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/56904b9f-7b77-405e-b6ca-62befb573b5b)
 
