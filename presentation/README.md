@@ -1,17 +1,18 @@
 # Apresentação
-
 > Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
-## Arquivo com os slides da apresentação inicial
+### Arquivo com os slides da apresentação inicial
 [Pitch inicial](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13679348/Apresentacao.Projeto.NeuroKids.-.INICIAL.pdf) 
 
-## Arquivo com os slides da apresentação final
+### Arquivo com os slides da apresentação final
 [Apresentação final]()
 
-## Arquivo com a demonstração do funcionamento do sistema
+### Arquivo com a demonstração do funcionamento do sistema
 [Vídeo de demonstração](./sample-video.mp4)
 
+
 > O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
+
 
 ## Título do Projeto
 
