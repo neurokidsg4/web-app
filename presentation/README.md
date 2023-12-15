@@ -1,5 +1,5 @@
 # Apresentação
-> Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
+> Liste os arquivos produzidos e postados nesta pasta, com suas localizações e descrição do conteúdo neste arquivo Readme.md.
 
 ### Arquivo com os slides da apresentação inicial
 [Pitch inicial](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13679348/Apresentacao.Projeto.NeuroKids.-.INICIAL.pdf) 
@@ -10,16 +10,16 @@
 ### Arquivo com a demonstração do funcionamento do sistema
 [Vídeo de demonstração](./sample-video.mp4)
 
-## NeuroKids
+# NeuroKids
 > Identidade Visual (Marca, Design)
 
 ![logo NeuroKids](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/56904b9f-7b77-405e-b6ca-62befb573b5b)
 
-## Conjunto de Slides (Estrutura)
+# Conjunto de Slides (Estrutura)
 
 O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
 
-## Vídeo de demonstração
+# Vídeo de demonstração
 
 Abaixo, encontra-se o vídeo da aplicação NeuroKids, abrangendo os objetivos do projeto, uma narração clara sobre o que está sendo apresentado e as principais telas do sistema.
 
