@@ -10,14 +10,14 @@
 ### O projeto NeuroKids tem como principal objetivo oferecer uma plataforma abrangente direcionada não apenas a crianças, mas também a profissionais, pais e outras pessoas interessadas em aprimorar seus conhecimentos sobre o tema.
 > [Link de Acesso - NeuroKids] (https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-neurodiversidade/src/index.html)
 
-## Integrantes
+# Integrantes
 
 * Gustavo da Silva Novaes
 * Martha Beatriz Siqueira da Silva
 * Pedro Lopes Rodrigues
 * Wesley Bruno de Souza
 
-## Orientador
+# Orientador
 
 * Luciana de Nardin
 
