@@ -1,29 +1,29 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: NeuroKids
 authors:
-  - family-names:
+  - family-names: Gustavo da Silva Novaes
     given-names:
-  - family-names:
+  - family-names: Martha Beatriz Siqueira da Silva
     given-names:
-  - family-names:
+  - family-names: Pedro Lopes Rodrigues
     given-names:
-  - family-names:
+  - family-names: Wesley Bruno de Souza
     given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - name-suffix: Professor(a) Luciana de Nardin
     affiliation: PUC Minas
-    family-names:
-    given-names:
 keywords:
-  -
-  -
-repository-code:
+  - transtornos
+  - neurokids
+  - neurodiversidade
+  - tdah
+  - tea
+  - tod
+  - autista
+  - autismo
+  - hiperatividade
+  - crianças com transtornos
+repository-code: ?
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
