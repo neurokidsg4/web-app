@@ -48,7 +48,7 @@ Clicando em "Editar perfil", o usuário pode alterar as informações de cadastr
 
 ### Área Infantil
 
-Por meio do cabeçalho, os usuários têm a opção de acessar a Área Infantil [RF-007], que também está disponível no menu de navegação. Nesta seção, estão disponíveis diversas atividades interativas que podem ser filtradas utilizando o campo de busca.
+Por meio do cabeçalho, os usuários têm a opção de acessar a Área Infantil [RF-007], que também está disponível no menu de navegação. Nesta seção, estão disponíveis diversas atividades interativas.
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/112666344/9aa7c1dc-e61c-43d1-b276-492b02147157">
 
@@ -76,7 +76,7 @@ Os usuários têm a opção de escolher algumas atividades recomendadas pela apl
 
 ### Feedback
 
-Através do cabeçalho, é possível acessar a página de Feedback [RF-011], também disponível no menu de navegação. Nessa seção, os usuários têm a oportunidade de descrever eventuais problemas na aplicação ou oferecer sugestões. Essa funcionalidade visa coletar feedback valioso para aprimorar constantemente a aplicação, melhorando a experiência geral dos usuários [RF-009].
+Através do cabeçalho, é possível acessar a página de Feedback [RF-011], também disponível no menu de navegação. Nessa seção, os usuários têm a oportunidade de descrever eventuais problemas na aplicação ou oferecer sugestões. Essa funcionalidade visa coletar feedback valioso para aprimorar constantemente a aplicação, melhorando a experiência geral dos usuários [RF-011].
 
 ![Desktop Feedback](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/99815953/2a6799cf-01fd-4bd0-9e2d-b64ae42de179)
 
