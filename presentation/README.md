@@ -8,7 +8,7 @@
 [Apresentação final](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/files/13691154/Apresentacao.NeuroKids.-.Etapa.5.pdf)
 
 ### Arquivo com a demonstração do funcionamento do sistema
-[Vídeo de demonstração]([./sample-video.mp4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/7fa47fd1-974d-4e1f-934c-0d4d0b377b23))
+[Vídeo de demonstração](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/109616789/7fa47fd1-974d-4e1f-934c-0d4d0b377b23)
 
 # NeuroKids
 ## Identidade Visual (Marca, Design)
