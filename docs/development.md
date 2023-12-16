@@ -31,21 +31,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefato Criado |
 |------|-----------------------------------------|----| ----|-----------------|
-|RF-001|A aplicação deve fornecer informações sobre como lidar com crianças neurodiversas no ambiente escolar.| ALTA | Pedro Rodrigues | ambiente_escolar.html |
-|RF-002|A aplicação deve fornecer informações que ajudem a identificar possíveis crianças neurodiversas.| ALTA | Pedro Rodrigues | identificar_na_infancia.html |
-|RF-003|A aplicação deve conter sugestões de atividades escolares para crianças neurodiversas.|ALTA| Wesley Bruno | atividades_escolares_tdah.html atividades_escolares_tea.html atividades_escolares_tod.html atividades_imprimir_tdah.html atividades_imprimir_tea.html orientacoes_pedagogicas.html plano_escolar_tod.html |
-|RF-004|A aplicação deve fornecer informações sobre como lidar com crianças neurodivegentes no ambiente familiar.|ALTA| Pedro Rodrigues | ambiente_familiar.html |
-|RF-005|A aplicação deve conter uma sessão específica para pessoas adultas.|ALTA| Todos os Integrantes | index.html
-|RF-006|A aplicação deve conter uma sessão específicas para crianças interagir com o conteúdo dinâmico e jogos especializados no desenvolvimento cognitivo, armazenando o resultado de cada jogo concluído.|ALTA| Pedro Rodrigues | arZZea_infantil.html |
-|RF-007|A aplicação deve oferecer diferentes níveis de dificuldade e progressão flexível para acomodar diversas habilidades e estilos de aprendizado.|MÉDIA| Todos os Integrantes | atividade_cores.html |
-|RF-008|A aplicação deve permitir a busca por atividades específicas.|MÉDIA| Martha Beatriz | index.html
-|RF-009|A aplicação deve ter um seção de formulário para coletar feedback de pais e crianças, podendo assim continuar sempre atendendo melhor seus usuários.|MÉDIA| Pedro Rodrigues | feedback.html |
-|RF-010|A aplicação deve permitir que os usuários efetuem o login em contas previamente criadas. |ALTA| Wesley Bruno | login.html |
-|RF-011|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo, permitindo que os usuários compartilhem artigos e atividades nas redes sociais.|BAIXA| Martha Beatriz |index.html|
-|RF-012|A aplicação deve fornecer recursos de documentação acessíveis para ajudar os usuários a aproveitar ao máximo a aplicação.|MÉDIA| Martha Beatriz | ajuda_acesso_aplicacao.html; ajuda_atividades_aplicacao.html; ajuda_configuracao_conta.html; guia-alterarconfiguracoes-perfil.html; guia-avaliacao-desempenho.html; guia-como-excluir-conta.html; guia-compartilhamento-conteudos.html; guia-interacao-conteudos.html; guia-mudanca-email-e-senha.html; guia-niveis-dificuldade.html; guia-realizar-atividades.html; guia-verificar-problemas-conexao.html. |
-|RF-013|A aplicação deve permitir que os usuários criem novas contas durante a etapa de acesso ao site. |ALTA| Wesley Bruno | cadastro.html|
-|RF-014|A aplicação deve ter uma página onde seja possível visualizar as informações pessoais e oferecer um botão para editar as informações.|ALTA|Gustavo Novaes|perfil.html|
-|RF-015|A aplicação deve ter uma subtela, dentro da própria tela de perfil, contendo um formulário que permita o usuário editar suas informações cadastrais, alterar senha e excluir conta.|ALTA|Gustavo Novaes|editar-perfil.html; alterar-senha.html; excluir-conta.html;|
+|RF-009|A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.| ALTA | Pedro Rodrigues | ambiente_escolar.html |
+|RF-009|A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.| ALTA | Pedro Rodrigues | identificar_na_infancia.html |
+|RF-010|A aplicação deve indicar atividades para crianças neurodiversas no ambiente escolar.|ALTA| Wesley Bruno | atividades_escolares_tdah.html atividades_escolares_tea.html atividades_escolares_tod.html atividades_imprimir_tdah.html atividades_imprimir_tea.html orientacoes_pedagogicas.html plano_escolar_tod.html |
+|RF-009|A aplicação deve fornecer informações que ajudem a pais e profissionais a lidarem com crianças neurodiversas.|ALTA| Pedro Rodrigues | ambiente_familiar.html |
+|RF-001|A aplicação deve conter uma página principal de apresentação dos conteúdos.|ALTA| Martha Beatriz | index.html
+|RF-007|A aplicação deve conter uma sessão específica para crianças neurodiversas.|ALTA| Pedro Rodrigues | area_infantil.html |
+|RF-008|A aplicação deve conter jogos interativos para crianças neurodiversas.|MÉDIA| Pedro Rodrigues | atividade_cores.html |
+|RF-014|A aplicação deve conter campos de pesquisa nas páginas necessárias.|MÉDIA| Martha Beatriz | index.html
+|RF-011|A aplicação deve conter uma página de feedback. Não é preciso estar logado.|MÉDIA| Pedro Rodrigues | feedback.html |
+|RF-003|A aplicação deve permitir que o usuário faça login. |ALTA| Wesley Bruno | login.html |
+|RF-015|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo nas redes sociais.|BAIXA| Martha Beatriz |index.html|
+|RF-012|A aplicação deve deve conter uma página de ajuda ao usuário.|MÉDIA| Martha Beatriz | ajuda_acesso_aplicacao.html; ajuda_atividades_aplicacao.html; ajuda_configuracao_conta.html; guia-alterarconfiguracoes-perfil.html; guia-avaliacao-desempenho.html; guia-como-excluir-conta.html; guia-compartilhamento-conteudos.html; guia-interacao-conteudos.html; guia-mudanca-email-e-senha.html; guia-niveis-dificuldade.html; guia-realizar-atividades.html; guia-verificar-problemas-conexao.html. |
+|RF-002|A aplicação deve permitir que o usuário crie uma conta de acesso. |ALTA| Wesley Bruno | cadastro.html|
+|RF-004|A aplicação deve permitir a visualização do perfil.|ALTA|Gustavo Novaes|perfil.html|
+|RF-005|A aplicação deve permitir editar as informações do perfil.|editar-perfil.html; alterar-senha.html; excluir-conta.html;|
+|RF-006|A aplicação deve permiti que o usuário exclua sua conta.|excluir-conta.html;|
 
 ### Requisitos não Funcionais
 
