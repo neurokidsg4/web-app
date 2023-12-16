@@ -3,13 +3,13 @@ message: Please cite this software using these metadata.
 title: NeuroKids
 authors:
   - family-names: Gustavo da Silva Novaes
-    given-names:
+    given-names: Gustavo da Silva Novaes
   - family-names: Martha Beatriz Siqueira da Silva
-    given-names:
+    given-names: Martha Beatriz Siqueira da Silva
   - family-names: Pedro Lopes Rodrigues
-    given-names:
+    given-names: Pedro Lopes Rodrigues
   - family-names: Wesley Bruno de Souza
-    given-names:
+    given-names: Wesley Bruno de Souza
   - name-suffix: Professor(a) Luciana de Nardin
     affiliation: PUC Minas
 keywords:
