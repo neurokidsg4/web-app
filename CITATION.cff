@@ -2,7 +2,7 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: NeuroKids
 authors:
-  - family-names: Silva
+  - family-names: Da Silva
     given-names: Gustavo
   - family-names: Beatriz
     given-names: Martha
@@ -10,8 +10,10 @@ authors:
     given-names: Pedro
   - family-names: Bruno
     given-names: Wesley
-  - name-suffix: Professor(a) Luciana de Nardin
+  - name-suffix: Professora
     affiliation: PUC Minas
+  - family-names: De Nardin
+    given-names: Luciana
 keywords:
   - transtornos
   - neurokids
