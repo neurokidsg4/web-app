@@ -132,6 +132,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012|A aplicação deve deve conter uma página de ajuda ao usuário.|ALTA|
 |RF-013|A aplicação deve conter uma página onde descreva sobre a aplicação.|ALTA|
 |RF-014|A aplicação deve conter campos de pesquisa nas páginas necessárias.|ALTA|
+|RF-015|A aplicação deve oferecer a funcionalidade de compartilhamento de conteúdo nas redes sociais.|ALTA|
 
 ### Requisitos não Funcionais
 
