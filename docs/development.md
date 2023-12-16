@@ -45,8 +45,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-012|A aplicação deve deve conter uma página de ajuda ao usuário.|MÉDIA| Martha Beatriz | ajuda_acesso_aplicacao.html; ajuda_atividades_aplicacao.html; ajuda_configuracao_conta.html; guia-alterarconfiguracoes-perfil.html; guia-avaliacao-desempenho.html; guia-como-excluir-conta.html; guia-compartilhamento-conteudos.html; guia-interacao-conteudos.html; guia-mudanca-email-e-senha.html; guia-niveis-dificuldade.html; guia-realizar-atividades.html; guia-verificar-problemas-conexao.html. |
 |RF-002|A aplicação deve permitir que o usuário crie uma conta de acesso. |ALTA| Wesley Bruno | cadastro.html|
 |RF-004|A aplicação deve permitir a visualização do perfil.|ALTA|Gustavo Novaes|perfil.html|
-|RF-005|A aplicação deve permitir editar as informações do perfil.|editar-perfil.html; alterar-senha.html; excluir-conta.html;|
-|RF-006|A aplicação deve permiti que o usuário exclua sua conta.|excluir-conta.html;|
+|RF-005|A aplicação deve permitir editar as informações do perfil.|ALTA|Gustavo Novaes|editar-perfil.html; alterar-senha.html|
+|RF-006|A aplicação deve permiti que o usuário exclua sua conta.|ALTA|Gustavo Novaes|excluir-conta.html|
 
 ### Requisitos não Funcionais
 
