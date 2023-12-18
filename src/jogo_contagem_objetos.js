@@ -1,7 +1,7 @@
 
-import { Game } from './js/entities/Jogo.js';
+import { Game } from './js/entities/Game.js';
 
-const game = new Game('Contagem de Objetos coloridos');
+const game = new Game('Contagem de Objetos Coloridos');
 
 function getRandomColor() {
   const colors = ['green', 'yellow', 'blue', 'red'];
@@ -24,9 +24,8 @@ const backButton = document.getElementById('back');
 const continueButton = document.getElementById('continue');
 const buttonMessageContainer = document.querySelector('.button-message-container');
 
-const maxAttemptsPerRound = 5;
-let currentRound = 0;
-let totalAttempts = 0;
+const maxAttemptsPerRound = 4;
+let currentRound = 1;
 let countTargetColor;
 
 buttons.forEach((button) => {
@@ -39,7 +38,6 @@ function updateColors() {
 
   game.attemptCounter();
 
-  currentRound++;
 
   // Mapeia os objetos da página com suas cores
   const objectsWithColors = Array.from(icons).map(icon => {
@@ -77,7 +75,7 @@ function updateColors() {
 
 continueButton.addEventListener('click', handleContinueClick);
 
-function generateUniqueNumbers(exclude, count) {
+function generateUniqueNumbers(exclude, count) { // gerar números únicos nas alternativas
   const uniqueNumbers = [];
 
   while (uniqueNumbers.length < count) {
@@ -139,17 +137,13 @@ function handleButtonClick() {
     showButtons();
   }
 
-  totalAttempts++;
-
-  if (totalAttempts > maxAttemptsPerRound) {
-
-    game.gameSaves();
-
+  if (currentRound > maxAttemptsPerRound) {
     messageElement.textContent = 'Você atingiu o limite de tentativas. Deseja continuar?';
     showButtons();
+    game.gameSaves();
 
     // Reinicia o número de tentativas para a próxima rodada
-    totalAttempts = 0;
+    currentRound = 0;
   }
 }
 
@@ -158,11 +152,7 @@ function handleContinueClick() {
   currentRound++;
 
 
-  // Reinicia o número de tentativas e oculta os botões
-  totalAttempts = 0;
   hideButtons();
-
-  // Atualiza as cores para a próxima rodada
   updateColors();
 
   messageElement.textContent = '';

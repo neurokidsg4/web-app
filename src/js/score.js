@@ -117,7 +117,7 @@ for(let j = 0; j < gameHistory.length; j++) {
 
         pGameName.textContent = gameHistory[j][k].gameName;
         pPerformance.textContent = gameHistory[j][k].performance;
-        pDate.textContent = gameHistory[j][k].data;
+        pDate.textContent = gameHistory[j][k].date;
 
         pGameNameLabel.textContent = 'Jogo: ';
         pPerformanceLabel.textContent = 'Desempenho: ';
@@ -140,27 +140,35 @@ for(let j = 0; j < gameHistory.length; j++) {
 
 const filter = document.querySelector('.filter__selection');
 filter.addEventListener('change', search);
+const results = document.querySelectorAll('.game_name');
 
 function search() {
 
-    const results = document.querySelectorAll('.game_name');
     const value = filter.value;
+    let finded = false;
     
-    results.forEach(item => {
+    results.forEach(gameName => {
 
-        if(item.innerText.includes(value) || value.includes('Todos')) {
+        if(gameName.innerText === value || value === 'Todos') {
 
-            const div = item.parentNode;
+            const div = gameName.parentNode;
             const li = div.parentNode;
             li.setAttribute('id', '');
-            document.querySelector('.message--not_history').style.display = 'none';
+            finded = true;
 
         } else {
 
-            const div = item.parentNode;
+            const div = gameName.parentNode;
             const li = div.parentNode;
             li.setAttribute('id', 'none');
-            document.querySelector('.message--not_history').style.display = 'inline-block';
-        }
+        };
     });
+
+    if (finded) {
+        document.querySelector('.message--not_history').style.display = 'none';
+    } else {
+        document.querySelector('.message--not_history').style.display = 'inline-block';
+    }
+
+
 };
