@@ -117,7 +117,7 @@ for(let j = 0; j < gameHistory.length; j++) {
 
         pGameName.textContent = gameHistory[j][k].gameName;
         pPerformance.textContent = gameHistory[j][k].performance;
-        pDate.textContent = gameHistory[j][k].data;
+        pDate.textContent = gameHistory[j][k].date;
 
         pGameNameLabel.textContent = 'Jogo: ';
         pPerformanceLabel.textContent = 'Desempenho: ';
@@ -142,11 +142,6 @@ const filter = document.querySelector('.filter__selection');
 filter.addEventListener('change', search);
 const results = document.querySelectorAll('.game_name');
 
-// results.forEach( gn => {
-//     console.log(gn);
-// })
-
-
 function search() {
 
     const value = filter.value;
@@ -154,11 +149,7 @@ function search() {
     
     results.forEach(gameName => {
 
-        console.log(gameName.innerText)
-
         if(gameName.innerText === value || value === 'Todos') {
-
-            console.log('entrei if')
 
             const div = gameName.parentNode;
             const li = div.parentNode;
@@ -166,7 +157,6 @@ function search() {
             finded = true;
 
         } else {
-            console.log('entrei else')
 
             const div = gameName.parentNode;
             const li = div.parentNode;
