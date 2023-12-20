@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade.git"
+    "url": "git+https://github.com/neurokidsg4/web-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/issues"
+    "url": "https://github.com/neurokidsg4/web-app/issues"
   },
-  "homepage": "https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade#readme",
+  "homepage": "https://github.com/neurokidsg4/web-app#readme",
   "devDependencies": {
     "@web/dev-server": "^0.4.0"
   },
