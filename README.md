@@ -1,9 +1,4 @@
 # NEUROKIDS
-`CURSO: Sistemas de Informação`
-
-`DISCIPLINA: Projeto - Aplicações Web`
-
-`SEMESTRE: 2º`
 
 ![logo NeuroKids projeto](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-neurodiversidade/assets/89950149/2bbc6656-0a24-4d17-9a02-5d3eddd9fc36)
 
@@ -17,11 +12,7 @@ O projeto NeuroKids tem como principal objetivo oferecer uma plataforma abrangen
 * Pedro Lopes Rodrigues
 * Wesley Bruno de Souza
 
-# Orientador
-
-* Luciana de Nardin
-
-# Planejamento
+# Planejamento do projeto
 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
@@ -30,6 +21,15 @@ O projeto NeuroKids tem como principal objetivo oferecer uma plataforma abrangen
 | ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/development.md) |
 | ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
 | ETAPA 5         | [Apresentação](presentation/README.md) |
+
+<b>O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas: </b>
+
+
+- [ ] Melhorar o design da aplicação.
+- [ ] 
+- [ ] 
+- [ ] 
+
 
 # Código
 
