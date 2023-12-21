@@ -26,9 +26,9 @@ O projeto NeuroKids tem como principal objetivo oferecer uma plataforma abrangen
 
 
 - [ ] Melhorar o design da aplicação.
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Teste
+- [ ] A
+- [ ] B
 
 
 # Código
